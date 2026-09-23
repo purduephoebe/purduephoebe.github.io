@@ -1,8 +1,39 @@
 {
-  "last_updated": "2026-09-22T10:36:10+08:00",
+  "last_updated": "2026-09-23T10:36:23+08:00",
   "new_in_latest_scan": 4,
   "scope": "All-domain Google AI Overviews / SGE research with multi-label application-domain classification.",
   "papers": [
+    {
+      "id": "doi-10.5281/zenodo.22884341",
+      "title": "AI Visibility Solutions — AI Knowledge Package",
+      "authors": [
+        "AI Visibility Solutions"
+      ],
+      "date": "2026-09-21",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Dataset",
+      "doi": "10.5281/zenodo.22884341",
+      "record": "https://doi.org/10.5281/zenodo.22884341",
+      "pdf": "",
+      "abstract": "Structured AI knowledge package for AI Visibility Solutions: FAQs, help articles, researched Q&As, services, organization and location data, testimonials, case studies and team profiles published as Schema.org JSON-LD. The deposit also contains LLM context files (llms.txt, llms-full.txt, full-context.md), a knowledge graph, a publishing manifest, and per-category JSONL indexes for direct machine loading. Canonical website: https://data.aiovisibility.com Services: Website Audit for AI Search, Website Optimization for AI Visibility, AI-Optimized Website, AI Search Optimization, AI Search Visibility, Answer Engine Optimization for small business, AI Search Content Strategy, AI Website Optimization, AI Search Content Writing, Customer Query Research, People Also Ask Content Creation, Topic Cluster Creation, Schema Markup Implementation, Website Crawlability Fixes, Website AI Discovery Files, Website Entity Optimization, AI-Ready Website, Business Website Optimization, Local AI Optimization, Google Business Profile Optimization, Google Maps Optimization, Service Area Optimization, AI SEO for Law Firms, Law Firm AI Audit, Law Firm Schema Markup, Personal Injury Lawyer AI SEO, AEO for personal injury lawyers, GEO for personal injury lawyers, Family Law AI SEO, AEO for family law attorneys, GEO for family law lawyers, Criminal Defense Lawyer AI SEO, AEO for criminal defense attorney, GEO for criminal defense lawyers, Employment Lawyer AI SEO, Business Lawyer AI SEO, AI SEO for Contractors, Contractor AI SEO, AEO for Contractors, GEO for contractors, AI Search for Contractors, AEO for Construction Companies, GEO for construction companies, AI SEO for Construction Companies, answer engine optimization for construction companies, Plumber AI SEO, AEO for Plumbers, GEO for Plumbers, answer engine optimization for plumbers, Remodeling Contractor AI SEO, AEO for Remodelers, GOE for contractors, answer engine optimization for contractors, General Contractor AI SEO, AEO for general contractors, GEO for general contractors, Answer engine optimization for general contractors, Restoration Company AI SEO, AEO for Restoration Company, answer engine optimization for restoration companies, GEO for dentists, AEO for dentists, answer engine optimization for dentists, generative engine optimization for dentists, AI SEO for Dentists, AI SEO for Medical Practices, AEO for medical practice, GEO for medical practices, Website Optimization for AI, Answer Engine Optimization, generative engine optimization, AEO for Small Businesses, answer engine optimization for small businesses, generative engine optimization for small businesses, AI search optimization for small businesses, AEO for Law Firms, answer engine optimization for law firms, generative engine optimization for law firms, AI Search optimization for law firms, AEO for lawyers, answer engine optimization for lawyers, generative engine optimization for lawyers, AI search optimization for lawyers, AEO for Home Service Businesses, answer engine optimization for home service businesses, AEO for Medical Practices, answer engine optimization for medical practices, AEO for plastic surgeons, GEO for plastic surgeons, answer engine optimization for plastic surgeons, AI SEO for plastic surgeons, AI overviews optimization for plastic surgeons, AEO for Dental Practices, GEO for dental practices, answer engine optimization for dental practices, AI SEO for dental practices, AEO for Real Estate Agents, GEO for real estate agents, AEO for real estate brokers, answer engine optimization for real estate agents, AI SEO for real estate agents, AEO for Financial Advisors, GEO for financial advisors, answer engine optimization for financial advisors, AI SEO for financial advisors, AEO for Med Spas, AEO for Beauty Spas, GEO for Med Spas, answer engine optimization for med spas, AI SEO for med spas, AEO for Accountants, AEO for CPAs, GEO for accountants, GEO for CPAs, answer engine optimization for accountants, answer engine optimization for CPAs, AI SEO for accountants, AI SEO for cpas, AEO for Insurance Agencies, AEO for insurance agents, GEO for insurance agencies, GEO for insurance agents, answer engine optimization for insurance agents, AI SEO for insurance agencies, AI SEO for insurance agents, AEO Website Audit, GEO website audit, AI SEO website audit, AEO Content Strategy, GEO content strategy, AI SEO content strategy, AEO Implementation, answer engine optimization content strategy, AEO for Local Businesses, answer engine optimization for local businesses, generative engine optimization for local businesses, AI SEO for local businesses, AI overviews optimization for local businesses, website optimization for local businesses, AEO for Multi-Location Businesses, GEO for Small Businesses, GEO for Law Firms, GEO for Home Service Businesses, GEO Implementation, GEO for Service Pages, GEO for Practice Area Pages, GEO for FAQ Pages, GEO for Help Articles, GEO for Knowledge Bases, GEO for Local Businesses, GEO for Multi-Location Businesses, AI Citation Optimization, FAQ Content for AI, ai citable content , AI Technical Audit, AI-Ready Website Build, ai ready website optimization, Business Website Creation, business website optimization for AI, answer engine optimization for remodelers, generative engine optimization for remodelers, AI SEO for remodelers, AI overviews optimization for remodelers, website optimization for remodelers, AEO for roofers, answer engine optimization for roofers, generative engine optimization for roofers, AI SEO for roofers, website optimization for roofers, AEO for roofing contractors, answer engine optimization for roofing contractors, generative engine optimization for roofing contractors, AI SEO for roofing contractors, website optimization for roofing contractors, AEO for chiropractors, answer engine optimization for chiropractors, generative engine optimization for chiropractors, AI SEO for chiropractors, website optimization for chiropractors, AEO for veterinarians, answer engine optimization for veterinarians, generative engine optimization for veterinarians, AI SEO for veterinarians, website optimization for veterinarians, AEO for local marketing agencies, answer engine optimization for local marketing agencies, generative engine optimization for local marketing agencies, AI SEO for local marketing agencies, website optimization for local marketing agencies, AEO for automotive dealerships, answer engine optimization for automotive dealerships, generative engine optimization for automotive dealerships, AI SEO for automotive dealerships, website optimization for automotive dealerships, AEO for pediatricians, answer engine optimization for pediatricians, generative engine optimization for pediatricians, AI SEO for pediatricians, website optimization for pediatricians, AEO for pool contractors, answer engine optimization for pool contractors, generative engine optimization for pool contractors, AI SEO for pool contractors, website optimization for pool contractors, AEO for optometrists, answer engine optimization for optometrists, generative engine optimization for optometrists, AI SEO for optometrists, AI overviews optimization for optometrists, website optimization for optometrists, AEO for cosmetic surgeons, answer engine optimization for cosmetic surgeons, generative engine optimization for cosmetic surgeons, AI SEO for cosmetic surgeons, website optimization for cosmetic surgeons, AEO for electricians, answer engine optimization for electricians, generative engine optimization for electricians, AI SEO for electricians, website optimization for electricians, AEO for pest control, answer engine optimization for pest control, generative engine optimization for pest control, AI SEO for pest control, website optimization for pest control, AEO for weight loss clinics, answer engine optimization for weight loss clinics, generative engine optimization for weight loss clinics, AI SEO for weight loss clinics, AI overviews optimization for weight loss clinics, website optimization for weight loss clinics, Electrician AI SEO, HVAC AI SEO, Roofer AI SEO, Landscaper AI SEO, Pest Control AI SEO, Garage Door Company AI SEO, Website Audit for AEO, Website Audit for GEO, Website Audit for AI SEO, Website Audit for Google AI Overviews, Website Optimization for AEO, Website Optimization for GEO, Website Optimization for AI SEO, Website Optimization for Google AI Overviews, AI-Optimized Website for AEO, AI-Optimized Website for GEO, AI-Optimized Website for AI SEO, AI Search Optimization for AEO, AI Search Optimization for GEO, AI Search Optimization for AI SEO, Generative Engine Optimization for Contractors, Generative Engine Optimization for Home Service Businesses, Generative Engine Optimization for Medical Practices, Generative Engine Optimization for Dental Practices, Generative Engine Optimization for Real Estate Agents, Generative Engine Optimization for Financial Advisors, Generative Engine Optimization for Med Spas, Generative Engine Optimization for Accountants, Generative Engine Optimization for Insurance Agencies, AI SEO for Small Businesses, AI SEO for Home Service Businesses, AI Search Content Strategy for AEO, AI Search Content Strategy for GEO, AI Search Content Strategy for AI SEO, AI Website Optimization for AEO, AI Website Optimization for GEO, AI Website Optimization for AI SEO, FAQ Content Writing for AI, FAQ Content Writing for AEO, FAQ Content Writing for GEO, FAQ Content Writing for AI SEO, AI Search Content Writing for AEO, AI Search Content Writing for GEO, AI Search Content Writing for AI SEO, Customer Query Research for AEO, Customer Query Research for GEO, Customer Query Research for AI SEO, People Also Ask Content Creation for AEO, People Also Ask Content Creation for GEO, People Also Ask Content Creation for AI SEO, Topic Cluster Creation for AI, Topic Cluster Creation for AEO, Topic Cluster Creation for GEO, Topic Cluster Creation for AI SEO, Schema Markup I",
+      "levels": [
+        "Query",
+        "Citation",
+        "Presentation"
+      ],
+      "domains": [
+        "Health & Medicine",
+        "Finance & Economics",
+        "Science & Technology",
+        "Law & Public Policy"
+      ],
+      "topics": [
+        "SEO & Publishers",
+        "Citation & Provenance"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-09-23"
+    },
     {
       "id": "doi-10.5281/zenodo.22856034",
       "title": "E089 Quantified-Chunk New-Post Cohort: Pre-registration with In-Flight Amendments (v1.2). Primary analysis re-scoped to P3; primary contribution a query-validity and namespace-drift taxonomy.",
@@ -29,33 +60,37 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-09-22"
+      "first_detected": "2026-09-23"
     },
     {
-      "id": "doi-10.5281/zenodo.22825645",
-      "title": "Google's AI Search Revolution: What Minnesota Businesses and Outdoor Brands Need to Know",
+      "id": "doi-10.5281/zenodo.22863149",
+      "title": "The AI Citation Gap: How Brand Demand, Authority, and Knowledge Panels Decide Which of 1,000 US Personal Injury Law Firms AI Assistants Cite",
       "authors": [
-        "David Ohnstad"
+        "Husain Bahzad"
       ],
-      "date": "2026-09-18",
+      "date": "2026-09-20",
       "venue": "Zenodo (CERN European Organization for Nuclear Research)",
       "type": "Article",
-      "doi": "10.5281/zenodo.22825645",
-      "record": "https://doi.org/10.5281/zenodo.22825645",
+      "doi": "10.5281/zenodo.22863149",
+      "record": "https://doi.org/10.5281/zenodo.22863149",
       "pdf": "",
-      "abstract": "Google's AI Search Revolution: What Minnesota Businesses and Outdoor Brands Need to Know If you run a Minnesota business—especially in outdoor recreation, tourism, or local services—you've probably noticed something shift in how Google Search works over the past year. Google's new generative AI search features, particularly AI Overviews (formerly called SGE, or Search Generative Experience),… Continue reading Google's AI Search Revolution: What Minnesota Businesses and Outdoor Brands Need to Know Full article: https://davidohnstadminnesota.com/googles-new-generative-ai-search/",
+      "abstract": "When a US consumer asks an AI assistant a legal question, the assistant answers with a synthesized paragraph and a short list of named entities and cited pages. Which law firms appear in those answers, and whose web pages host the citations, is rapidly becoming the discoverability question of the decade for the personal injury (PI) vertical, where a single signed case can be worth six or seven figures and a single head-term click transacts for hundreds of dollars. This paper is the eighth in a series on entity-completeness signals in the top-ranking US PI vertical. It presents, to our knowledge, the first large-N per-assistant AI citation audit of the vertical: for the same 1,000 top-ranking US personal injury law firm sample used throughout the series, we join per-firm mention and cited-page counts across four AI answer surfaces (ChatGPT, Gemini, Google AI Overview, and Google AI Mode) to the brand-search-demand, Person Entity Panel, Google Business Panel, domain-authority, and schema-completeness signals established in the prior papers. Three findings define what we name the AI Citation Gap. First, AI visibility is extremely concentrated: the median firm receives just 22 AI mentions across all four surfaces combined, the top 100 firms absorb 51.6% of all mentions, the bottom 500 firms share 9.6%, and the Gini coefficient of the mention distribution is 0.65. Second, the four assistants agree on who matters (pairwise Spearman rho = 0.70 to 0.88) but not symmetrically: 126 firms that are visible on Google's AI surfaces are completely absent from ChatGPT, while only 14 firms show the reverse pattern. Third, the citations are mostly not on the firm's own website. We introduce the Citation Intermediation Ratio (CIR), the share of a firm's AI citation footprint hosted by domains other than its own, and report a median CIR of 0.72: for the median firm, roughly 72% of its AI citations are hosted by third parties, with legal directories alone hosting 23%, and 99% of firms fall below 50% own-site share. Domain authority is the dominant correlate of AI mentions (rho = 0.80), brand search demand is the strongest firm-controllable second lever (firm brand rho = 0.44, significant in regression net of authority), the Person Entity Panel is citation-neutral, and the Google Business Panel is again associated with a citation deficit (median 19 vs 36 mentions, p < 0.001; OLS coefficient negative and significant), extending the zero-click cannibalization pattern documented in the Brand Demand Flywheel paper into the AI answer layer. An OLS model on log mentions reaches R-squared = 0.64. The paper closes with Citation Surface Optimization (CSO), a practitioner framework for managing owned versus rented AI citation surfaces.",
       "levels": [
-        "Content"
+        "Citation",
+        "Presentation"
       ],
       "domains": [
         "Commerce & Consumer",
-        "Travel, Local & Lifestyle"
+        "Law & Public Policy"
       ],
       "topics": [
-        "General AIO"
+        "SEO & Publishers",
+        "User Behavior",
+        "Citation & Provenance",
+        "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-09-22"
+      "first_detected": "2026-09-23"
     },
     {
       "id": "doi-10.5281/zenodo.22826019",
@@ -83,6 +118,37 @@
       "first_detected": "2026-09-22"
     },
     {
+      "id": "doi-10.6084/m9.figshare.33868474.v1",
+      "title": "Measuring AI Visibility: A Method for Tracking Brand Mentions and Citations in LLM Answers",
+      "authors": [
+        "Chase Allen B.A."
+      ],
+      "date": "2026-09-16",
+      "venue": "Figshare",
+      "type": "Other",
+      "doi": "10.6084/m9.figshare.33868474.v1",
+      "record": "https://doi.org/10.6084/m9.figshare.33868474.v1",
+      "pdf": "",
+      "abstract": "Generative answer engines summarise rather than list, so a brand's presence in AI search is no longer a ranking position but a mention or a citation inside a generated answer. This report sets out a repeatable measurement method for that: how to assemble a buyer-prompt set, how to sample ChatGPT, Gemini, Claude and Google AI Overviews across repeated runs, and how to score mention rate, citation rate, sentiment and share of voice against named competitors. It also discusses sampling variance, why single-run screenshots are not evidence, and what makes an AI visibility result reproducible. Published as a reference work by Suparank, a chat-first AI visibility and GEO platform: https://suparank.io/ . Author: Chase Allen, SEO/GEO Specialist. Contact: marketing@suparank.io",
+      "levels": [
+        "Query",
+        "Content",
+        "Citation",
+        "Presentation"
+      ],
+      "domains": [
+        "Finance & Economics",
+        "Commerce & Consumer"
+      ],
+      "topics": [
+        "SEO & Publishers",
+        "Citation & Provenance",
+        "Technical Evaluation"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-09-23"
+    },
+    {
       "id": "doi-10.5281/zenodo.22707850",
       "title": "CLINICAL PROTOCOL FOR PRECISION FERTILITY MANAGEMENT",
       "authors": [
@@ -108,7 +174,63 @@
         "User Behavior"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-09-22"
+      "first_detected": "2026-09-23"
+    },
+    {
+      "id": "doi-10.17605/osf.io/pzeur",
+      "title": "Technical AI-Discoverability Signals Among Agencies Identified Through Public AI-SEO Recommendation Sources",
+      "authors": [
+        "Joshua R. Gutierrez"
+      ],
+      "date": "2026-09-11",
+      "venue": "Open Science Framework",
+      "type": "Other",
+      "doi": "10.17605/osf.io/pzeur",
+      "record": "https://doi.org/10.17605/osf.io/pzeur",
+      "pdf": "",
+      "abstract": "A cross-sectional audit of 48 marketing agencies identified across seven public AI-SEO recommendation sources: six roundup articles and one Google AI Overview. Several of the roundup publishers included their own agencies, so inclusion is treated as sampling-frame membership rather than independent validation of expertise. Each agency website was measured on three layers: crawler-specific rules in robots.txt, publication of a Markdown-like llms.txt, and schema.org structured data exposed in the homepage's raw HTML. The study reuses the parsing and classification code from a previously published study of 1,629 general-population business websites, supporting a descriptive comparison with that historical cohort under disclosed differences in transport and collection time. This is an exploratory discovery study registered after data collection and analysis. It does not establish that AI-search specialization caused the observed adoption difference, nor does it measure whether any signal affects citation or recommendation by AI systems. The record includes a corrections log. Two eligible agencies were initially misclassified as unreachable because of a size limit in the author's fetcher. Several claims in an earlier draft were also withdrawn following an external LLM methodological review. Both the superseded and corrected datasets are included.",
+      "levels": [
+        "Content",
+        "Citation",
+        "Presentation"
+      ],
+      "domains": [
+        "Finance & Economics",
+        "Commerce & Consumer",
+        "Science & Technology"
+      ],
+      "topics": [
+        "SEO & Publishers",
+        "Citation & Provenance"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-09-23"
+    },
+    {
+      "id": "doi-10.5281/zenodo.21783755",
+      "title": "Google's AI Search Revolution: What Minnesota Businesses and Outdoor Brands Need to Know",
+      "authors": [
+        "David Ohnstad"
+      ],
+      "date": "2026-08-04",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Article",
+      "doi": "10.5281/zenodo.21783755",
+      "record": "https://doi.org/10.5281/zenodo.21783755",
+      "pdf": "",
+      "abstract": "Google's AI Search Revolution: What Minnesota Businesses and Outdoor Brands Need to Know If you run a Minnesota business—especially in outdoor recreation, tourism, or local services—you've probably noticed something shift in how Google Search works over the past year. Google's new generative AI search features, particularly AI Overviews (formerly called SGE, or Search Generative Experience),… Continue reading Google's AI Search Revolution: What Minnesota Businesses and Outdoor Brands Need to Know Full article: https://davidohnstadminnesota.com/googles-new-generative-ai-search/",
+      "levels": [
+        "Content"
+      ],
+      "domains": [
+        "Commerce & Consumer",
+        "Travel, Local & Lifestyle"
+      ],
+      "topics": [
+        "General AIO"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-09-23"
     },
     {
       "id": "pmlr-kakimov26a",
