@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-23T10:36:23+08:00",
+  "last_updated": "2026-09-24T10:26:00+08:00",
   "new_in_latest_scan": 4,
   "scope": "All-domain Google AI Overviews / SGE research with multi-label application-domain classification.",
   "papers": [
@@ -32,7 +32,40 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-09-23"
+      "first_detected": "2026-09-24"
+    },
+    {
+      "id": "doi-10.48550/arxiv.2609.24407",
+      "title": "Auditing Source Exposure in Baidu and Google AI Search",
+      "authors": [
+        "Yibo Li",
+        "Enci Guan",
+        "Yuedan Cai",
+        "Geng Liu",
+        "Francesco Pierri"
+      ],
+      "date": "2026-09-21",
+      "venue": "arXiv (Cornell University)",
+      "type": "Preprint",
+      "doi": "10.48550/arxiv.2609.24407",
+      "record": "https://doi.org/10.48550/arxiv.2609.24407",
+      "pdf": "",
+      "abstract": "AI-generated overviews are becoming an increasingly prominent layer of search interfaces, yet their behavior in Chinese-language search remains underexplored. We conduct a cross-lingual audit of AI overview behavior on Baidu and Google using English queries sampled from MS MARCO and their translated Chinese counterparts. Our analysis examines when overviews are triggered across platform-language settings, which host domains receive visible exposure in Chinese-language overviews, how concentrated that exposure is, and how source overlap varies across settings. We also compare the embedding-based semantic similarity of generated answers for matched query intents. The results reveal substantial differences across platform-language settings in overview availability and visible source exposure. At the aggregate level, the settings exhibit low overlap in visible host-domain inventories, while matched-query answers yield median cosine similarities ranging from 0.701 to 0.813. These findings indicate that answer-level semantic similarity and aggregate source exposure capture distinct dimensions of AI-mediated search. Evaluations of AI search should therefore consider not only the content of generated answers but also how source visibility is distributed across platforms, languages, and information environments.",
+      "levels": [
+        "Query",
+        "Citation",
+        "Presentation"
+      ],
+      "domains": [
+        "General / Cross-domain"
+      ],
+      "topics": [
+        "Citation & Provenance",
+        "Technical Evaluation",
+        "Platform & Interface"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-09-24"
     },
     {
       "id": "doi-10.5281/zenodo.22856034",
@@ -60,7 +93,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-09-23"
+      "first_detected": "2026-09-24"
     },
     {
       "id": "doi-10.5281/zenodo.22863149",
@@ -90,7 +123,34 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-09-23"
+      "first_detected": "2026-09-24"
+    },
+    {
+      "id": "doi-10.5281/zenodo.22852307",
+      "title": "Who does Google's AI cite when readers ask what to read next? A citation study of 95 sources in AI Overviews for book discovery",
+      "authors": [
+        "Jacob Ezra Gerrish"
+      ],
+      "date": "2026-09-20",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Dataset",
+      "doi": "10.5281/zenodo.22852307",
+      "record": "https://doi.org/10.5281/zenodo.22852307",
+      "pdf": "",
+      "abstract": "A citation study of Google AI Overviews for book-discovery queries. Sixteen reader buying-intent queries were run through Google with AI Overview capture on 13 August 2026 (US). Eleven returned an AI Overview, carrying 95 citations between them across 38 unique domains. Headline finding. Not one of the 95 citations went to a website controlled by an author. Every cited domain was assigned to a category by hand, and the full mapping ships with the data so any call can be disputed and the totals re-tallied. Where the citations went. Community and social platforms: 31 of 95, led by YouTube (11) and Reddit (10). Press and magazines: 16. Retailers: 13. Reader platforms and discovery services: 13. Independent book blogs: 10, which makes blogger outreach a real citation path. Publishers: 4. Libraries: 2. Author-owned websites: 0. Niche queries surface niche gatekeepers. The cluster about books set in the Catskills cited hadassahmagazine.org, jewishbookcouncil.org and kveller.com, none of which appear anywhere else in the sample. Contents. Every query with whether an AI Overview appeared, every citation with its URL, position and assigned category, the hand-built domain mapping, the raw collection including full answer text, and the collection and tally code. Read the limitations first. Sixteen queries collected on a single day is a probe, not a census. AI Overviews are volatile, the query set was chosen around one author's niche rather than sampled at random, and citations are counted per reference rather than per unique domain. The defensible reading of the headline is that author websites are not a meaningful citation surface for these queries, not that an author site can never be cited. Write-up: sempite.com/research/ai-answers-book-discovery/. Data CC BY 4.0, code MIT.",
+      "levels": [
+        "Query",
+        "Citation"
+      ],
+      "domains": [
+        "Commerce & Consumer"
+      ],
+      "topics": [
+        "SEO & Publishers",
+        "Citation & Provenance"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-09-24"
     },
     {
       "id": "doi-10.5281/zenodo.22826019",
@@ -146,7 +206,44 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-09-23"
+      "first_detected": "2026-09-24"
+    },
+    {
+      "id": "doi-10.48550/arxiv.2609.18729",
+      "title": "\"If I Had to Buy Just ONE: Galaxy S26 Ultra\": Auditing AI-Generated Product Recommendations",
+      "authors": [
+        "Lucas G. Uberti-Bona Marin",
+        "Thales Bertaglia",
+        "Giovanni Astante",
+        "Bram Rijsbosch",
+        "Gijs van Dijck",
+        "Anikó Hannák",
+        "Gerasimos Spanakis",
+        "Konrad Kollnig"
+      ],
+      "date": "2026-09-16",
+      "venue": "arXiv (Cornell University)",
+      "type": "Preprint",
+      "doi": "10.48550/arxiv.2609.18729",
+      "record": "https://doi.org/10.48550/arxiv.2609.18729",
+      "pdf": "https://arxiv.org/pdf/2609.18729",
+      "abstract": "Consumers increasingly use AI chatbots for advice on what to buy. With companies like OpenAI and Google monetising their AI through advertising, this raises difficult questions about the bias and impartiality of such advice. In response, we conduct an AI audit of popular chatbots using real commercial-advice queries. First, we curate a dataset of 2,528 real commercial-advice queries (ConsumerQ). Then, we evaluate 1,536 responses to product queries from popular AI chatbots: ChatGPT (chatbot and API), Google Gemini (chatbot and API), and Google Search (AI Overviews). We find that ChatGPT expresses a first-person product preference in 79% of product-recommending responses, compared with 7% for Gemini and 2% for AI Overviews, while the products recommended often change across repeated requests. Displayed sources vary strongly: for the same query, the ChatGPT and Gemini interfaces share only 5.4% of domains on average, with no domain in common in 76.7% of comparisons. APIs provide a different view from their corresponding interfaces, with mean domain overlaps of 12.0% for ChatGPT and 14.8% for Gemini, and also differ in the types and layers of source information they expose. Our findings show that neither isolated responses nor API observations can be assumed to represent the commercial advice consumers encounter. Independent audits of AI-mediated commercial advice should therefore account for repeated responses, consumer-facing conditions, and the source layer being observed.",
+      "levels": [
+        "Query",
+        "Content",
+        "Citation",
+        "Presentation"
+      ],
+      "domains": [
+        "Commerce & Consumer"
+      ],
+      "topics": [
+        "Bias & Fairness",
+        "Citation & Provenance",
+        "Platform & Interface"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-09-24"
     },
     {
       "id": "doi-10.5281/zenodo.22707850",
@@ -174,7 +271,7 @@
         "User Behavior"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-09-23"
+      "first_detected": "2026-09-24"
     },
     {
       "id": "doi-10.17605/osf.io/pzeur",
@@ -204,7 +301,45 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-09-23"
+      "first_detected": "2026-09-24"
+    },
+    {
+      "id": "doi-10.65150/ep-jsshrs/v2e9/2026-04",
+      "title": "Generative Engine Optimization in Pharmaceutical Marketing: Benchmarking AI Search Visibility Across Commercial Therapeutics",
+      "authors": [
+        "Isaac Awulu",
+        "Valentina Ochuko Obukadata",
+        "Imoiboho Williams"
+      ],
+      "date": "2026-09-05",
+      "venue": "Journal of Social Science and Human Research Studies",
+      "type": "Article",
+      "doi": "10.65150/ep-jsshrs/v2e9/2026-04",
+      "record": "https://doi.org/10.65150/ep-jsshrs/v2e9/2026-04",
+      "pdf": "https://jsshrs.ep-journals.org/index.php/jsshrs/article/download/342/276",
+      "abstract": "Background. Generative search interfaces have become a primary channel through which patients and healthcare professionals obtain drug information. Unlike the ranked-link paradigm that governed twenty years of pharmaceutical search marketing, generative engines synthesize a single answer, name a small number of brands, and cite a narrow set of sources. A therapeutic brand that does not appear in that answer is functionally absent from the channel, regardless of its organic search position. Objective. This paper has three aims: to characterize the 2026 state of AI search visibility in health and pharmaceutical contexts using published empirical evidence; to specify a reproducible benchmarking framework for measuring the AI search visibility of commercial therapeutics across engines, languages, and therapeutic areas; and to identify the regulatory and methodological constraints that distinguish pharmaceutical Generative Engine Optimization (GEO) from GEO in unregulated commercial categories. Methods. This is a synthesis and framework paper. No primary data collection was performed. Empirical figures are drawn from published academic literature, industry citation studies, and vendor benchmark indices, each attributed in the reference list. Because pharmaceutical GEO has no mature native literature, the measurement apparatus is assembled from six adjacent fields, and Section 2.4 states those debts explicitly so that the strength of each transfer can be judged. The proposed benchmark protocol is specified at a level of detail sufficient for independent replication. Key findings from the reviewed evidence. (1) Authoritative medical sources account for a minority of AI health citations; one large-scale analysis of roughly 825,000 citations found that about 17.3 percent went to government, academic, medical-publisher, or hospital sources, while roughly three quarters went to commercial and platform domains. (2) Engines diverge sharply. The same analysis found ChatGPT directed about 24.1 percent of health citations to authoritative medical sources against about 15.1 percent for Google AI Mode, and Google's search-integrated products cited social and user-generated content four to five times more often than ChatGPT. (3) Brand-level visibility is engine-specific and language-specific to a degree that invalidates single-number reporting; one published pharmaceutical index reported a 33-percentage-point Answer Rate gap for a single dermatology brand between two engines in the same week and query set. (4) Generative engines are non-deterministic, and published bootstrap analyses show that apparent differences in citation share of fewer than roughly five to seven percentage points frequently fall inside the noise floor of single-run measurement. Conclusion. AI search visibility is measurable for pharmaceutical brands, but only as a distribution rather than a point estimate, and only when stratified by engine, language, audience, and query intent. Because generative answers routinely surface safety and off-label content outside any promotional review process, pharmaceutical GEO measurement should be treated as a pharmacovigilance and medical-legal-regulatory monitoring function as much as a marketing one.",
+      "levels": [
+        "Query",
+        "Citation",
+        "Presentation"
+      ],
+      "domains": [
+        "Health & Medicine",
+        "Finance & Economics",
+        "Politics, Government & News",
+        "Commerce & Consumer",
+        "Education & Academia",
+        "Law & Public Policy"
+      ],
+      "topics": [
+        "SEO & Publishers",
+        "Citation & Provenance",
+        "Technical Evaluation",
+        "Safety & Risk",
+        "Platform & Interface"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-09-24"
     },
     {
       "id": "doi-10.5281/zenodo.21783755",
@@ -230,7 +365,7 @@
         "General AIO"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-09-23"
+      "first_detected": "2026-09-24"
     },
     {
       "id": "pmlr-kakimov26a",
