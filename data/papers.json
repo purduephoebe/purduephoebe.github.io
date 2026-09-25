@@ -1,8 +1,34 @@
 {
-  "last_updated": "2026-09-24T10:26:00+08:00",
-  "new_in_latest_scan": 4,
+  "last_updated": "2026-09-25T10:42:38+08:00",
+  "new_in_latest_scan": 1,
   "scope": "All-domain Google AI Overviews / SGE research with multi-label application-domain classification.",
   "papers": [
+    {
+      "id": "doi-10.5281/zenodo.22907695",
+      "title": "The Absence Index: September 2026 Release",
+      "authors": [
+        "Broadcastwell"
+      ],
+      "date": "2026-09-23",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Dataset",
+      "doi": "10.5281/zenodo.22907695",
+      "record": "https://doi.org/10.5281/zenodo.22907695",
+      "pdf": "",
+      "abstract": "This data set contains the public machine-readable release files for The Absence Index, September 2026, published by Broadcastwell. It covers 14 software categories and 286 checked vendors and includes release metadata, fixed question sets, source-capture dates, aggregate vendor and per-question counts, Wilson 95% intervals, and 14 category CSV files. Method v1.1 uses ChatGPT, Claude, Perplexity, Google AI Overviews and Google AI Mode, with three scheduled repeats for each of ten target questions per category. Five controls were run only for CRM and construction project management and are excluded from public standings. The 2,250 observations contain 2,100 targets and 150 controls; five excluded target answers leave 2,095 valid target answers. Observations were captured from 22 to 23 September 2026 UTC. Each exclusion is recorded with its exact reason. The 19 files include verbatim answer text and cited URLs for reproducibility, a control-question dictionary, README data dictionary and SHA-256 integrity manifest. Operational identifiers, model strings and cost fields are omitted. Names and aliases use word-boundary matching; plain-word names require a category-appropriate nearby qualifier or the canonical domain among cited URLs. Vendor-domain citations require a qualifying named verdict in the same answer. This release reports standings only. Each release states its own engines and configuration; no change between releases is asserted. Data are licensed CC BY 4.0 with attribution to Broadcastwell. Third-party material quoted in model answers retains its original rights. The historical corrected August version remains available at DOI 10.5281/zenodo.22721962.",
+      "levels": [
+        "Citation"
+      ],
+      "domains": [
+        "Science & Technology",
+        "Law & Public Policy"
+      ],
+      "topics": [
+        "Citation & Provenance"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-09-25"
+    },
     {
       "id": "doi-10.5281/zenodo.22884341",
       "title": "AI Visibility Solutions — AI Knowledge Package",
@@ -32,7 +58,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-09-24"
+      "first_detected": "2026-09-25"
     },
     {
       "id": "doi-10.48550/arxiv.2609.24407",
@@ -49,7 +75,7 @@
       "type": "Preprint",
       "doi": "10.48550/arxiv.2609.24407",
       "record": "https://doi.org/10.48550/arxiv.2609.24407",
-      "pdf": "",
+      "pdf": "https://arxiv.org/pdf/2609.24407",
       "abstract": "AI-generated overviews are becoming an increasingly prominent layer of search interfaces, yet their behavior in Chinese-language search remains underexplored. We conduct a cross-lingual audit of AI overview behavior on Baidu and Google using English queries sampled from MS MARCO and their translated Chinese counterparts. Our analysis examines when overviews are triggered across platform-language settings, which host domains receive visible exposure in Chinese-language overviews, how concentrated that exposure is, and how source overlap varies across settings. We also compare the embedding-based semantic similarity of generated answers for matched query intents. The results reveal substantial differences across platform-language settings in overview availability and visible source exposure. At the aggregate level, the settings exhibit low overlap in visible host-domain inventories, while matched-query answers yield median cosine similarities ranging from 0.701 to 0.813. These findings indicate that answer-level semantic similarity and aggregate source exposure capture distinct dimensions of AI-mediated search. Evaluations of AI search should therefore consider not only the content of generated answers but also how source visibility is distributed across platforms, languages, and information environments.",
       "levels": [
         "Query",
@@ -65,7 +91,7 @@
         "Platform & Interface"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-09-24"
+      "first_detected": "2026-09-25"
     },
     {
       "id": "doi-10.5281/zenodo.22856034",
@@ -93,7 +119,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-09-24"
+      "first_detected": "2026-09-25"
     },
     {
       "id": "doi-10.5281/zenodo.22863149",
@@ -123,7 +149,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-09-24"
+      "first_detected": "2026-09-25"
     },
     {
       "id": "doi-10.5281/zenodo.22852307",
@@ -150,7 +176,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-09-24"
+      "first_detected": "2026-09-25"
     },
     {
       "id": "doi-10.5281/zenodo.22826019",
@@ -206,7 +232,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-09-24"
+      "first_detected": "2026-09-25"
     },
     {
       "id": "doi-10.48550/arxiv.2609.18729",
@@ -243,7 +269,7 @@
         "Platform & Interface"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-09-24"
+      "first_detected": "2026-09-25"
     },
     {
       "id": "doi-10.5281/zenodo.22707850",
@@ -271,7 +297,7 @@
         "User Behavior"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-09-24"
+      "first_detected": "2026-09-25"
     },
     {
       "id": "doi-10.17605/osf.io/pzeur",
@@ -301,7 +327,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-09-24"
+      "first_detected": "2026-09-25"
     },
     {
       "id": "doi-10.65150/ep-jsshrs/v2e9/2026-04",
@@ -339,7 +365,7 @@
         "Platform & Interface"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-09-24"
+      "first_detected": "2026-09-25"
     },
     {
       "id": "doi-10.5281/zenodo.21783755",
@@ -365,7 +391,7 @@
         "General AIO"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-09-24"
+      "first_detected": "2026-09-25"
     },
     {
       "id": "pmlr-kakimov26a",
