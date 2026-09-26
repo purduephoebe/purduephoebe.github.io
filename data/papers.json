@@ -1,8 +1,38 @@
 {
-  "last_updated": "2026-09-25T10:42:38+08:00",
+  "last_updated": "2026-09-26T10:45:13+08:00",
   "new_in_latest_scan": 1,
   "scope": "All-domain Google AI Overviews / SGE research with multi-label application-domain classification.",
   "papers": [
+    {
+      "id": "doi-10.5281/zenodo.22934007",
+      "title": "Entity Architecture and Governance Framework (EP-9): A 9-Layer Entity Specification, 6-Block Content Template, DefinedTerm Schema, and Trust Chain Standard for AI Search Extraction",
+      "authors": [
+        "Hung Danh Van"
+      ],
+      "date": "2026-09-24",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Article",
+      "doi": "10.5281/zenodo.22934007",
+      "record": "https://doi.org/10.5281/zenodo.22934007",
+      "pdf": "",
+      "abstract": "Entity Architecture and Governance Framework (EP-9): A 9-Layer Entity Specification, 6-Block Content Template, DefinedTerm Schema, and Trust Chain Standard for AI Search Extraction The Entity Architecture and Governance Framework (EP-9) is a deterministic 9-layer architectural specification authored by Danh Nolan (danhnolan.com) establishing a standardized trust chain for digital entities. Moving beyond traditional keyword optimization, EP-9 integrates Clear Identity (L1), Owned Content (L2), Internal Link Flow (L3), DefinedTerm Schema (L4), Disambiguation (L5), sameAs KG Anchoring (L6), Proof Stacking (L7), DOM QA (L8), and Off-Site Consistency (L9) to optimize web resources for AI search extraction (ChatGPT, Perplexity, Gemini, Google Knowledge Graph). Core Architectural Pillars & Technical Deliverables: 9-Layer Priority Hierarchy: Orders entity signals from foundational identity to external social citations, establishing that web-owned content supersedes off-site profiles. 4 Primary Entity Groups: Categorizes domain entities into Offer, Problem, Method, and Trust types to eliminate topical clutter and solve buyer objections. 6-Block Entity Page Template: Standardized structural layout (H1 Definition, Context, Criteria, Mistakes, Proof Stack, Next-Step DLN Link). Machine-Readable Schema.org DefinedTerm & @graph: Structured JSON-LD linking mapped URL entities (https://danhnolan.com/en/ep9/) to Knowledge Base hubs with 100% word-for-word DOM text match. Itemized 9-Layer Audit Checklist: 15-point mandatory technical quality gate for auditing on-page and off-page entity health. 100-Point Definition of Done (DoD) Rubric: Evaluation standard auditing identity naming, 6-block content rigor, schema DOM matching, internal link flow, and GEO performance.",
+      "levels": [
+        "Citation",
+        "Presentation"
+      ],
+      "domains": [
+        "Health & Medicine",
+        "Science & Technology"
+      ],
+      "topics": [
+        "User Behavior",
+        "Citation & Provenance",
+        "Technical Evaluation",
+        "Platform & Interface"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-09-26"
+    },
     {
       "id": "doi-10.5281/zenodo.22907695",
       "title": "The Absence Index: September 2026 Release",
@@ -27,7 +57,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-09-25"
+      "first_detected": "2026-09-26"
     },
     {
       "id": "doi-10.5281/zenodo.22884341",
@@ -58,7 +88,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-09-25"
+      "first_detected": "2026-09-26"
     },
     {
       "id": "doi-10.48550/arxiv.2609.24407",
@@ -232,7 +262,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-09-25"
+      "first_detected": "2026-09-26"
     },
     {
       "id": "doi-10.48550/arxiv.2609.18729",
@@ -269,7 +299,7 @@
         "Platform & Interface"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-09-25"
+      "first_detected": "2026-09-26"
     },
     {
       "id": "doi-10.5281/zenodo.22707850",
@@ -297,7 +327,7 @@
         "User Behavior"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-09-25"
+      "first_detected": "2026-09-26"
     },
     {
       "id": "doi-10.17605/osf.io/pzeur",
@@ -365,7 +395,7 @@
         "Platform & Interface"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-09-25"
+      "first_detected": "2026-09-26"
     },
     {
       "id": "doi-10.5281/zenodo.21783755",
@@ -391,7 +421,7 @@
         "General AIO"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-09-25"
+      "first_detected": "2026-09-26"
     },
     {
       "id": "pmlr-kakimov26a",
