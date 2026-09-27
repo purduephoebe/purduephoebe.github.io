@@ -1,8 +1,91 @@
 {
-  "last_updated": "2026-09-26T10:45:13+08:00",
+  "last_updated": "2026-09-27T10:45:44+08:00",
   "new_in_latest_scan": 1,
   "scope": "All-domain Google AI Overviews / SGE research with multi-label application-domain classification.",
   "papers": [
+    {
+      "id": "doi-10.5281/zenodo.22954070",
+      "title": "Google's Generative AI Search Revolution: What Enterprise Software Companies Must Do Now",
+      "authors": [
+        "David Ohnstad"
+      ],
+      "date": "2026-09-25",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Article",
+      "doi": "10.5281/zenodo.22954070",
+      "record": "https://doi.org/10.5281/zenodo.22954070",
+      "pdf": "",
+      "abstract": "Artificial Intelligence has certainly gained attention in recent years and shows no sign of attracting any less as multiple applications and uses for the digital marvel increase! The question is, how well does AI do in information retrieval? According to Full article: https://davidohnstad.net/googles-new-generative-ai-search/",
+      "levels": [
+        "Content"
+      ],
+      "domains": [
+        "Science & Technology"
+      ],
+      "topics": [
+        "Technical Evaluation"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-09-27"
+    },
+    {
+      "id": "doi-10.5281/zenodo.22953745",
+      "title": "Google's AI Search Revolution: What Minnesota Businesses and Outdoor Brands Need to Know",
+      "authors": [
+        "David Ohnstad"
+      ],
+      "date": "2026-09-25",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Article",
+      "doi": "10.5281/zenodo.22953745",
+      "record": "https://doi.org/10.5281/zenodo.22953745",
+      "pdf": "",
+      "abstract": "Google's AI Search Revolution: What Minnesota Businesses and Outdoor Brands Need to Know If you run a Minnesota business—especially in outdoor recreation, tourism, or local services—you've probably noticed something shift in how Google Search works over the past year. Google's new generative AI search features, particularly AI Overviews (formerly called SGE, or Search Generative Experience),… Continue reading Google's AI Search Revolution: What Minnesota Businesses and Outdoor Brands Need to Know Full article: https://davidohnstadminnesota.com/googles-new-generative-ai-search/",
+      "levels": [
+        "Content"
+      ],
+      "domains": [
+        "Commerce & Consumer",
+        "Travel, Local & Lifestyle"
+      ],
+      "topics": [
+        "General AIO"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-09-27"
+    },
+    {
+      "id": "doi-10.5281/zenodo.22957279",
+      "title": "Visibility of Ukrainian brands in generative AI answers: audit data and code (Видимість українських брендів у відповідях генеративних систем: дані й код аудиту)",
+      "authors": [
+        "В.В. Ходак"
+      ],
+      "date": "2026-09-25",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Dataset",
+      "doi": "10.5281/zenodo.22957279",
+      "record": "https://doi.org/10.5281/zenodo.22957279",
+      "pdf": "",
+      "abstract": "Data and code for an audit of how generative AI systems mention Ukrainian brands in answers to unbranded consumer queries: 42 brands in five industries (banks, e-commerce, pharmacies, postal logistics, food delivery), 80 queries in Ukrainian and English, five consumer intents. The record contains 4,000 answers from five systems collected via OpenRouter (GPT-5.6, Claude Sonnet 5, Gemini 3.8 Flash, DeepSeek V4 Pro without web search; Perplexity Sonar Pro with web search; five repeats), 800 Google AI Overviews collected in five runs, control collections without explicit geographic context, LLM-judge and annotator labels, market benchmarks (National Bank of Ukraine, SimilarWeb), the full query list (data/queries.csv) and scripts that reproduce every number, table and figure of the accompanying article. Collected in September 2026. Дані та код аудиту згадувань українських брендів у відповідях генеративних ШІ-систем на небрендовані споживчі запити: 42 бренди п'яти галузей (банки, інтернет-торгівля, аптеки, поштова логістика, доставка їжі), 80 запитів українською та англійською, п'ять типів споживчого наміру. Запис містить 4 000 відповідей п'яти систем, зібраних через OpenRouter, 800 відповідей Google AI Overviews у п'яти зрізах, контрольні збори без явного географічного контексту, розмітку LLM-суддів і анотаторів, ринкові показники (НБУ, SimilarWeb), повний перелік запитів (data/queries.csv) і скрипти, що відтворюють усі числа, таблиці й рисунки статті. Зібрано у вересні 2026 р. Licenses: data under CC BY 4.0 (data/LICENSE); code under MIT (LICENSE). Texts of generative AI answers are licensed only to the extent of the author's rights and are also subject to the providers' terms; market data belong to their sources.",
+      "levels": [
+        "Query",
+        "Citation"
+      ],
+      "domains": [
+        "Finance & Economics",
+        "Commerce & Consumer",
+        "Science & Technology",
+        "Law & Public Policy",
+        "Travel, Local & Lifestyle"
+      ],
+      "topics": [
+        "Citation & Provenance",
+        "Technical Evaluation",
+        "Safety & Risk"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-09-27"
+    },
     {
       "id": "doi-10.5281/zenodo.22934007",
       "title": "Entity Architecture and Governance Framework (EP-9): A 9-Layer Entity Specification, 6-Block Content Template, DefinedTerm Schema, and Trust Chain Standard for AI Search Extraction",
@@ -209,31 +292,6 @@
       "first_detected": "2026-09-25"
     },
     {
-      "id": "doi-10.5281/zenodo.22826019",
-      "title": "Google's Generative AI Search Revolution: What Enterprise Software Companies Must Do Now",
-      "authors": [
-        "David Ohnstad"
-      ],
-      "date": "2026-09-18",
-      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
-      "type": "Article",
-      "doi": "10.5281/zenodo.22826019",
-      "record": "https://doi.org/10.5281/zenodo.22826019",
-      "pdf": "",
-      "abstract": "Artificial Intelligence has certainly gained attention in recent years and shows no sign of attracting any less as multiple applications and uses for the digital marvel increase! The question is, how well does AI do in information retrieval? According to Full article: https://davidohnstad.net/googles-new-generative-ai-search/",
-      "levels": [
-        "Content"
-      ],
-      "domains": [
-        "Science & Technology"
-      ],
-      "topics": [
-        "Technical Evaluation"
-      ],
-      "source": "OpenAlex",
-      "first_detected": "2026-09-22"
-    },
-    {
       "id": "doi-10.6084/m9.figshare.33868474.v1",
       "title": "Measuring AI Visibility: A Method for Tracking Brand Mentions and Citations in LLM Answers",
       "authors": [
@@ -393,32 +451,6 @@
         "Technical Evaluation",
         "Safety & Risk",
         "Platform & Interface"
-      ],
-      "source": "OpenAlex",
-      "first_detected": "2026-09-26"
-    },
-    {
-      "id": "doi-10.5281/zenodo.21783755",
-      "title": "Google's AI Search Revolution: What Minnesota Businesses and Outdoor Brands Need to Know",
-      "authors": [
-        "David Ohnstad"
-      ],
-      "date": "2026-08-04",
-      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
-      "type": "Article",
-      "doi": "10.5281/zenodo.21783755",
-      "record": "https://doi.org/10.5281/zenodo.21783755",
-      "pdf": "",
-      "abstract": "Google's AI Search Revolution: What Minnesota Businesses and Outdoor Brands Need to Know If you run a Minnesota business—especially in outdoor recreation, tourism, or local services—you've probably noticed something shift in how Google Search works over the past year. Google's new generative AI search features, particularly AI Overviews (formerly called SGE, or Search Generative Experience),… Continue reading Google's AI Search Revolution: What Minnesota Businesses and Outdoor Brands Need to Know Full article: https://davidohnstadminnesota.com/googles-new-generative-ai-search/",
-      "levels": [
-        "Content"
-      ],
-      "domains": [
-        "Commerce & Consumer",
-        "Travel, Local & Lifestyle"
-      ],
-      "topics": [
-        "General AIO"
       ],
       "source": "OpenAlex",
       "first_detected": "2026-09-26"
