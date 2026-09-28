@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-27T10:45:44+08:00",
+  "last_updated": "2026-09-28T10:47:15+08:00",
   "new_in_latest_scan": 1,
   "scope": "All-domain Google AI Overviews / SGE research with multi-label application-domain classification.",
   "papers": [
@@ -87,6 +87,38 @@
       "first_detected": "2026-09-27"
     },
     {
+      "id": "doi-10.5281/zenodo.22979107",
+      "title": "Who Does AI Cite? Reconciling Conflicting Evidence on the Sources Behind Generative Search Answers (2024–2026)",
+      "authors": [
+        "Rohit Kunal"
+      ],
+      "date": "2026-09-25",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Preprint",
+      "doi": "10.5281/zenodo.22979107",
+      "record": "https://doi.org/10.5281/zenodo.22979107",
+      "pdf": "",
+      "abstract": "Published studies disagree sharply about which websites generative AI search engines cite. One widely shared figure places Reddit at about 40% of citations, another reports that the most-cited domain rarely exceeds 5%, and a third claims that YouTube has overtaken Reddit. This paper asks why. It reports a structured secondary review of 30 studies and statements published between 2025 and September 2026, covering ChatGPT, Google AI Overviews, AI Mode, Gemini, Perplexity, Copilot and Claude. Each headline figure was traced to its original publisher and coded for metric definition, selection stage, engine, prompt universe, time window, collection method, counting unit and sponsor. Most of the disagreement comes from measurement choices. The same Profound dataset gives Wikipedia 7.8% of all ChatGPT citations and 47.9% of the top ten. Semrush's widely quoted Reddit values sum to 208%, so they cannot be shares of citations. YouTube's rise was measured within social citations, which formed only about 4% to 7% of all citations. Estimates of overlap with Google's rankings range from 12% to 91% depending on whether URLs or domains are compared. After these corrections, three findings hold. Engines differ in source mix, query type changes the mix, and citation shares move in steps after access and retrieval changes. Two conflicts remain unresolved. The paper offers a reconciliation checklist, a brand investment framework, six testable propositions and a design for a pre-registered panel study.",
+      "levels": [
+        "Query",
+        "Content",
+        "Citation"
+      ],
+      "domains": [
+        "Finance & Economics",
+        "Politics, Government & News",
+        "Commerce & Consumer"
+      ],
+      "topics": [
+        "SEO & Publishers",
+        "Bias & Fairness",
+        "Citation & Provenance",
+        "Technical Evaluation"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-09-28"
+    },
+    {
       "id": "doi-10.5281/zenodo.22934007",
       "title": "Entity Architecture and Governance Framework (EP-9): A 9-Layer Entity Specification, 6-Block Content Template, DefinedTerm Schema, and Trust Chain Standard for AI Search Extraction",
       "authors": [
@@ -114,7 +146,7 @@
         "Platform & Interface"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-09-26"
+      "first_detected": "2026-09-28"
     },
     {
       "id": "doi-10.5281/zenodo.22907695",
