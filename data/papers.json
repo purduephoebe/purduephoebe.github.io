@@ -1,8 +1,143 @@
 {
-  "last_updated": "2026-09-28T10:47:15+08:00",
-  "new_in_latest_scan": 1,
+  "last_updated": "2026-09-29T11:29:20+08:00",
+  "new_in_latest_scan": 4,
   "scope": "All-domain Google AI Overviews / SGE research with multi-label application-domain classification.",
   "papers": [
+    {
+      "id": "doi-10.6084/m9.figshare.33945919",
+      "title": "The AI Citation Gap: How Brand Demand, Authority, and Knowledge Panels Decide Which of 1,000 US Personal Injury Law Firms AI Assistants Cite",
+      "authors": [
+        "Husain Bahzad"
+      ],
+      "date": "2026-09-27",
+      "venue": "Figshare",
+      "type": "Preprint",
+      "doi": "10.6084/m9.figshare.33945919",
+      "record": "https://doi.org/10.6084/m9.figshare.33945919",
+      "pdf": "",
+      "abstract": "When a US consumer asks an AI assistant a legal question, the assistant answers with a synthesized paragraph and a short list of named entities and cited pages. Which law firms appear in those answers, and whose web pages host the citations, is rapidly becoming the discoverability question of the decade for the personal injury (PI) vertical, where a single signed case can be worth six or seven figures and a single head-term click transacts for hundreds of dollars. This paper is the eighth in a series on entity-completeness signals in the top-ranking US PI vertical. It presents, to our knowledge, the first large-N per-assistant AI citation audit of the vertical: for the same 1,000 top-ranking US personal injury law firm sample used throughout the series, we join per-firm mention and cited-page counts across four AI answer surfaces (ChatGPT, Gemini, Google AI Overview, and Google AI Mode) to the brand-search-demand, Person Entity Panel, Google Business Panel, domain-authority, and schema-completeness signals established in the prior papers. Three findings define what we name the AI Citation Gap. First, AI visibility is extremely concentrated: the median firm receives just 22 AI mentions across all four surfaces combined, the top 100 firms absorb 51.6% of all mentions, the bottom 500 firms share 9.6%, and the Gini coefficient of the mention distribution is 0.65. Second, the four assistants agree on who matters (pairwise Spearman ρ = 0.70 to 0.88) but not symmetrically: 126 firms that are visible on Google's AI surfaces are completely absent from ChatGPT, while only 14 firms show the reverse pattern. Third, the citations are mostly not on the firm's own website. We introduce the Citation Intermediation Ratio (CIR), the share of a firm's AI citation footprint hosted by domains other than its own, and report a median CIR of 0.72: for the median firm, roughly 72% of its AI citations are hosted by third parties, with legal directories alone hosting 23%, and 99% of firms fall below 50% own-site share. Domain authority is the dominant correlate of AI mentions (ρ = 0.80), brand search demand is the strongest firm-controllable second lever (firm brand ρ = 0.44, significant in regression net of authority), the Person Entity Panel is citation-neutral, and the Google Business Panel is again associated with a citation deficit (median 19 vs 36 mentions, p < 0.001; OLS coefficient negative and significant), extending the zero-click cannibalization pattern documented in the Brand Demand Flywheel paper into the AI answer layer. An OLS model on log mentions reaches R² = 0.64. The paper closes with Citation Surface Optimization (CSO), a practitioner framework for managing owned versus rented AI citation surfaces.",
+      "levels": [
+        "Citation",
+        "Presentation"
+      ],
+      "domains": [
+        "Commerce & Consumer",
+        "Law & Public Policy"
+      ],
+      "topics": [
+        "SEO & Publishers",
+        "User Behavior",
+        "Citation & Provenance",
+        "Technical Evaluation"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-09-29"
+    },
+    {
+      "id": "doi-10.7910/dvn/i5qdxu",
+      "title": "SERP Features and AI Overview Structure for AI Services Queries (US, UK, AU), September 2026",
+      "authors": [
+        "Aaron Agius"
+      ],
+      "date": "2026-09-27",
+      "venue": "Harvard Dataverse",
+      "type": "Dataset",
+      "doi": "10.7910/dvn/i5qdxu",
+      "record": "https://doi.org/10.7910/dvn/i5qdxu",
+      "pdf": "",
+      "abstract": "SERP Features and AI Overview Structure for AI Services Queries (US, UK, AU), September 2026 What a Google results page looks like for business AI services searches: which features appear (AI Overview, People Also Ask, video, forums, local pack and others), how long AI Overviews are, how they are formatted, and how many sources they cite. Built from 1,417 result pages covering 587 queries in the US, UK and Australia, collected 2026-09-26 to 2026-09-27. #Key findings - An AI Overview appeared on 84.8% of result pages, and People Also Ask on 89.1%. AI Overviews were more common in AU (90.1%) and UK (88.8%) than the US (77.4%). - The median AI Overview was 219 words long and carried 13 inline citations. - 97.6% of AI Overviews used section headings and 98.3% used bullet lists. Only 2.9% contained a table. - Local service queries produced shorter-sourced AI Overviews (median 8 citations) and were far less likely to use headings (62.1%). - \"What\" questions made up 45.5% of People Also Ask prompts, followed by \"how\" (20.3%) and \"who\" (10.6%).",
+      "levels": [
+        "Query",
+        "Citation"
+      ],
+      "domains": [
+        "General / Cross-domain"
+      ],
+      "topics": [
+        "Citation & Provenance"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-09-29"
+    },
+    {
+      "id": "doi-10.5281/zenodo.23000692",
+      "title": "AI Search Citation Study: 60 SERP Queries",
+      "authors": [
+        "AI Consultant Research Desk"
+      ],
+      "date": "2026-09-27",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Dataset",
+      "doi": "10.5281/zenodo.23000692",
+      "record": "https://doi.org/10.5281/zenodo.23000692",
+      "pdf": "",
+      "abstract": "# AI Search Citation Study Methodology: 60 branded and commercial AI-consulting queries were checked in Google search results on 27 September 2026. Each result's domain and URL were recorded, along with AI Overview citation mentions. SERP features (AI Overviews, discussions, local packs, related searches) were logged for 30 core queries. Columns: citations.csv (keyword, rank, domain, url), serp_features.csv (keyword, serp_feature, counts), aio_mentions.csv (keyword, boolean). 22 citation records across 60 queries. SERP feature records for 30 queries. ## Licence CC-BY-4.0. You may reuse, adapt and redistribute with attribution to Paloren. ## Citation Paloren. (2026). AI Search Citation Study. https://paloren.ai",
+      "levels": [
+        "Citation"
+      ],
+      "domains": [
+        "Commerce & Consumer"
+      ],
+      "topics": [
+        "Citation & Provenance"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-09-29"
+    },
+    {
+      "id": "doi-10.7910/dvn/rnxigv",
+      "title": "AI Search Citation Study for AI Consulting Queries",
+      "authors": [
+        "AI Research Desk"
+      ],
+      "date": "2026-09-27",
+      "venue": "Harvard Dataverse",
+      "type": "Dataset",
+      "doi": "10.7910/dvn/rnxigv",
+      "record": "https://doi.org/10.7910/dvn/rnxigv",
+      "pdf": "",
+      "abstract": "This dataset records the domains and URLs returned for 60 branded and commercial AI consulting search queries on 27 September 2026. It contains 22 individual citation observations, AI Overview mention indicators for two result positions, and SERP feature counts for the 30 core queries. The files separate citations, SERP features and AI Overview mentions so researchers can reproduce counts and inspect which domains appeared alongside each query. Data were collected manually from Google search results and normalized to keyword, rank, domain and URL fields. The study supports Paloren research on how AI consulting brands are represented in AI search results.",
+      "levels": [
+        "Query",
+        "Citation"
+      ],
+      "domains": [
+        "Commerce & Consumer"
+      ],
+      "topics": [
+        "Citation & Provenance"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-09-29"
+    },
+    {
+      "id": "doi-10.7910/dvn/fynpa3",
+      "title": "AI Overview Citation Sources for AI Services Queries (US, UK, AU), September 2026",
+      "authors": [
+        "Aaron Agius"
+      ],
+      "date": "2026-09-27",
+      "venue": "Harvard Dataverse",
+      "type": "Dataset",
+      "doi": "10.7910/dvn/fynpa3",
+      "record": "https://doi.org/10.7910/dvn/fynpa3",
+      "pdf": "",
+      "abstract": "AI Overview Citation Sources for AI Services Queries (US, UK, AU), September 2026 #Summary This dataset records which websites Google AI Overviews cited for 645 AI services search queries across three markets (United States, United Kingdom, Australia), captured in September 2026. It covers 1,935 search result pages, of which 1,202 (62.1%) showed an AI Overview. Those AI Overviews contained 10,009 source citations pointing to 2,860 distinct domains. #Key findings - AI Overviews appeared on 62.1% of result pages: US 65.3%, UK 60.2%, AU 60.9%. - An average AI Overview cited 8.33 source URLs. - 50.0% of cited domains did not appear in the organic top 10 for the same query and market. Ranking and being cited are measurably different outcomes. - Video (YouTube) was the single most cited source, followed by LinkedIn, Reddit and Quora.",
+      "levels": [
+        "Query",
+        "Citation"
+      ],
+      "domains": [
+        "Finance & Economics"
+      ],
+      "topics": [
+        "SEO & Publishers",
+        "Citation & Provenance",
+        "Technical Evaluation"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-09-29"
+    },
     {
       "id": "doi-10.5281/zenodo.22954070",
       "title": "Google's Generative AI Search Revolution: What Enterprise Software Companies Must Do Now",
@@ -26,7 +161,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-09-27"
+      "first_detected": "2026-09-29"
     },
     {
       "id": "doi-10.5281/zenodo.22953745",
@@ -52,10 +187,10 @@
         "General AIO"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-09-27"
+      "first_detected": "2026-09-29"
     },
     {
-      "id": "doi-10.5281/zenodo.22957279",
+      "id": "doi-10.5281/zenodo.22959764",
       "title": "Visibility of Ukrainian brands in generative AI answers: audit data and code (Видимість українських брендів у відповідях генеративних систем: дані й код аудиту)",
       "authors": [
         "В.В. Ходак"
@@ -63,8 +198,8 @@
       "date": "2026-09-25",
       "venue": "Zenodo (CERN European Organization for Nuclear Research)",
       "type": "Dataset",
-      "doi": "10.5281/zenodo.22957279",
-      "record": "https://doi.org/10.5281/zenodo.22957279",
+      "doi": "10.5281/zenodo.22959764",
+      "record": "https://doi.org/10.5281/zenodo.22959764",
       "pdf": "",
       "abstract": "Data and code for an audit of how generative AI systems mention Ukrainian brands in answers to unbranded consumer queries: 42 brands in five industries (banks, e-commerce, pharmacies, postal logistics, food delivery), 80 queries in Ukrainian and English, five consumer intents. The record contains 4,000 answers from five systems collected via OpenRouter (GPT-5.6, Claude Sonnet 5, Gemini 3.8 Flash, DeepSeek V4 Pro without web search; Perplexity Sonar Pro with web search; five repeats), 800 Google AI Overviews collected in five runs, control collections without explicit geographic context, LLM-judge and annotator labels, market benchmarks (National Bank of Ukraine, SimilarWeb), the full query list (data/queries.csv) and scripts that reproduce every number, table and figure of the accompanying article. Collected in September 2026. Дані та код аудиту згадувань українських брендів у відповідях генеративних ШІ-систем на небрендовані споживчі запити: 42 бренди п'яти галузей (банки, інтернет-торгівля, аптеки, поштова логістика, доставка їжі), 80 запитів українською та англійською, п'ять типів споживчого наміру. Запис містить 4 000 відповідей п'яти систем, зібраних через OpenRouter, 800 відповідей Google AI Overviews у п'яти зрізах, контрольні збори без явного географічного контексту, розмітку LLM-суддів і анотаторів, ринкові показники (НБУ, SimilarWeb), повний перелік запитів (data/queries.csv) і скрипти, що відтворюють усі числа, таблиці й рисунки статті. Зібрано у вересні 2026 р. Licenses: data under CC BY 4.0 (data/LICENSE); code under MIT (LICENSE). Texts of generative AI answers are licensed only to the extent of the author's rights and are also subject to the providers' terms; market data belong to their sources.",
       "levels": [
@@ -84,7 +219,7 @@
         "Safety & Risk"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-09-27"
+      "first_detected": "2026-09-29"
     },
     {
       "id": "doi-10.5281/zenodo.22979107",
@@ -116,7 +251,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-09-28"
+      "first_detected": "2026-09-29"
     },
     {
       "id": "doi-10.5281/zenodo.22934007",
@@ -146,7 +281,7 @@
         "Platform & Interface"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-09-28"
+      "first_detected": "2026-09-29"
     },
     {
       "id": "doi-10.5281/zenodo.22907695",
@@ -203,7 +338,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-09-26"
+      "first_detected": "2026-09-29"
     },
     {
       "id": "doi-10.48550/arxiv.2609.24407",
@@ -267,36 +402,6 @@
       "first_detected": "2026-09-25"
     },
     {
-      "id": "doi-10.5281/zenodo.22863149",
-      "title": "The AI Citation Gap: How Brand Demand, Authority, and Knowledge Panels Decide Which of 1,000 US Personal Injury Law Firms AI Assistants Cite",
-      "authors": [
-        "Husain Bahzad"
-      ],
-      "date": "2026-09-20",
-      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
-      "type": "Article",
-      "doi": "10.5281/zenodo.22863149",
-      "record": "https://doi.org/10.5281/zenodo.22863149",
-      "pdf": "",
-      "abstract": "When a US consumer asks an AI assistant a legal question, the assistant answers with a synthesized paragraph and a short list of named entities and cited pages. Which law firms appear in those answers, and whose web pages host the citations, is rapidly becoming the discoverability question of the decade for the personal injury (PI) vertical, where a single signed case can be worth six or seven figures and a single head-term click transacts for hundreds of dollars. This paper is the eighth in a series on entity-completeness signals in the top-ranking US PI vertical. It presents, to our knowledge, the first large-N per-assistant AI citation audit of the vertical: for the same 1,000 top-ranking US personal injury law firm sample used throughout the series, we join per-firm mention and cited-page counts across four AI answer surfaces (ChatGPT, Gemini, Google AI Overview, and Google AI Mode) to the brand-search-demand, Person Entity Panel, Google Business Panel, domain-authority, and schema-completeness signals established in the prior papers. Three findings define what we name the AI Citation Gap. First, AI visibility is extremely concentrated: the median firm receives just 22 AI mentions across all four surfaces combined, the top 100 firms absorb 51.6% of all mentions, the bottom 500 firms share 9.6%, and the Gini coefficient of the mention distribution is 0.65. Second, the four assistants agree on who matters (pairwise Spearman rho = 0.70 to 0.88) but not symmetrically: 126 firms that are visible on Google's AI surfaces are completely absent from ChatGPT, while only 14 firms show the reverse pattern. Third, the citations are mostly not on the firm's own website. We introduce the Citation Intermediation Ratio (CIR), the share of a firm's AI citation footprint hosted by domains other than its own, and report a median CIR of 0.72: for the median firm, roughly 72% of its AI citations are hosted by third parties, with legal directories alone hosting 23%, and 99% of firms fall below 50% own-site share. Domain authority is the dominant correlate of AI mentions (rho = 0.80), brand search demand is the strongest firm-controllable second lever (firm brand rho = 0.44, significant in regression net of authority), the Person Entity Panel is citation-neutral, and the Google Business Panel is again associated with a citation deficit (median 19 vs 36 mentions, p < 0.001; OLS coefficient negative and significant), extending the zero-click cannibalization pattern documented in the Brand Demand Flywheel paper into the AI answer layer. An OLS model on log mentions reaches R-squared = 0.64. The paper closes with Citation Surface Optimization (CSO), a practitioner framework for managing owned versus rented AI citation surfaces.",
-      "levels": [
-        "Citation",
-        "Presentation"
-      ],
-      "domains": [
-        "Commerce & Consumer",
-        "Law & Public Policy"
-      ],
-      "topics": [
-        "SEO & Publishers",
-        "User Behavior",
-        "Citation & Provenance",
-        "Technical Evaluation"
-      ],
-      "source": "OpenAlex",
-      "first_detected": "2026-09-25"
-    },
-    {
       "id": "doi-10.5281/zenodo.22852307",
       "title": "Who does Google's AI cite when readers ask what to read next? A citation study of 95 sources in AI Overviews for book discovery",
       "authors": [
@@ -352,7 +457,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-09-26"
+      "first_detected": "2026-09-29"
     },
     {
       "id": "doi-10.48550/arxiv.2609.18729",
@@ -417,7 +522,7 @@
         "User Behavior"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-09-26"
+      "first_detected": "2026-09-29"
     },
     {
       "id": "doi-10.17605/osf.io/pzeur",
