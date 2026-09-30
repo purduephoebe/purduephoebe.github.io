@@ -1,8 +1,68 @@
 {
-  "last_updated": "2026-09-29T11:29:20+08:00",
-  "new_in_latest_scan": 4,
+  "last_updated": "2026-09-30T11:13:10+08:00",
+  "new_in_latest_scan": 1,
   "scope": "All-domain Google AI Overviews / SGE research with multi-label application-domain classification.",
   "papers": [
+    {
+      "id": "doi-10.1145/3777912.3839818",
+      "title": "Measuring Google AI Overviews: Activation, Source Quality, Claim Fidelity, and Publisher Impact",
+      "authors": [
+        "Haofei Xu",
+        "Umar Iqbal",
+        "Jacob Montgomery"
+      ],
+      "date": "2026-09-29",
+      "venue": "OpenAlex indexed work",
+      "type": "Conference-Paper",
+      "doi": "10.1145/3777912.3839818",
+      "record": "https://doi.org/10.1145/3777912.3839818",
+      "pdf": "https://arxiv.org/pdf/2605.14021",
+      "abstract": "Google AI Overviews (AIOs) are arguably the most widely encountered deployment of generative AI, reaching over 2 billion users who may not realize the answers they see are AI-generated. Where search engines have traditionally surfaced ranked sources and left users to evaluate them, AIOs synthesize and deliver a single answer - giving Google unprecedented editorial control over what users read and know. We present a large-scale longitudinal measurement study, issuing 55,393 trending queries across 19 topical categories over a 40-day window (March 13 - April 21, 2026). We report four main findings. First, overall AIO activation is 13.7%, rising to 64.7% for question-form queries, while politically sensitive topics see markedly lower rates. Second, AIO-cited domains are more credible than co-displayed first-page results, yet nearly 30% do not appear in those results at all, indicating a source selection mechanism distinct from Google's ranking algorithm. Third, decomposing responses into 98,020 atomic claims, 11.0% are unsupported by the cited pages - with omission the dominant failure mode - and source quality and claim fidelity are largely independent. Fourth, well over half of AIO-cited pages carry display advertising, meaning publishers lose revenue when AIOs suppress the click-through, even as Google's own sponsored ads continue to appear on the same page. Together, these findings document a rapid transformation of the online information ecosystem whose consequences for epistemic security remain poorly understood.",
+      "levels": [
+        "Query",
+        "Content",
+        "Citation",
+        "Presentation"
+      ],
+      "topics": [
+        "SEO & Publishers",
+        "User Behavior",
+        "Citation & Provenance",
+        "Technical Evaluation"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-09-30",
+      "domains": [
+        "Politics, Government & News",
+        "Commerce & Consumer"
+      ]
+    },
+    {
+      "id": "doi-10.5281/zenodo.23008646",
+      "title": "Before the Citation: replication data and code (machine-written queries and engine-specific retrieval layers in generative search)",
+      "authors": [
+        "Sejeong Oh"
+      ],
+      "date": "2026-09-28",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Dataset",
+      "doi": "10.5281/zenodo.23008646",
+      "record": "https://doi.org/10.5281/zenodo.23008646",
+      "pdf": "",
+      "abstract": "Replication data and code for the article \"Before the Citation: Machine-Written Queries and Engine-Specific Retrieval Layers in Generative Search\". Korean consumer questions were sent through the vendors' APIs in September 2026 to Claude (claude-sonnet-5), ChatGPT (gpt-5.6-sol) and Gemini (gemini-3.6-flash). For each call we recorded the search queries the engine executed and the pages it retrieved or cited, and compared them with the top 20 results of Brave Search, Google and Korean Bing. reproduce.py recomputes every value in Tables 2, 3 and 6 from the four CSV files. Search-result URLs are shared as hashed normalized URLs (32-bit FNV-1a) to respect providers' terms on redistribution; questions and executed queries are shared in full, except that the domain in any site: operator is replaced by its hash. See README.md.",
+      "levels": [
+        "Citation"
+      ],
+      "domains": [
+        "Commerce & Consumer"
+      ],
+      "topics": [
+        "Citation & Provenance",
+        "Technical Evaluation"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-09-30"
+    },
     {
       "id": "doi-10.6084/m9.figshare.33945919",
       "title": "The AI Citation Gap: How Brand Demand, Authority, and Knowledge Panels Decide Which of 1,000 US Personal Injury Law Firms AI Assistants Cite",
@@ -31,7 +91,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-09-29"
+      "first_detected": "2026-09-30"
     },
     {
       "id": "doi-10.7910/dvn/i5qdxu",
@@ -57,7 +117,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-09-29"
+      "first_detected": "2026-09-30"
     },
     {
       "id": "doi-10.5281/zenodo.23000692",
@@ -82,7 +142,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-09-29"
+      "first_detected": "2026-09-30"
     },
     {
       "id": "doi-10.7910/dvn/rnxigv",
@@ -108,7 +168,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-09-29"
+      "first_detected": "2026-09-30"
     },
     {
       "id": "doi-10.7910/dvn/fynpa3",
@@ -136,7 +196,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-09-29"
+      "first_detected": "2026-09-30"
     },
     {
       "id": "doi-10.5281/zenodo.22954070",
@@ -159,32 +219,6 @@
       ],
       "topics": [
         "Technical Evaluation"
-      ],
-      "source": "OpenAlex",
-      "first_detected": "2026-09-29"
-    },
-    {
-      "id": "doi-10.5281/zenodo.22953745",
-      "title": "Google's AI Search Revolution: What Minnesota Businesses and Outdoor Brands Need to Know",
-      "authors": [
-        "David Ohnstad"
-      ],
-      "date": "2026-09-25",
-      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
-      "type": "Article",
-      "doi": "10.5281/zenodo.22953745",
-      "record": "https://doi.org/10.5281/zenodo.22953745",
-      "pdf": "",
-      "abstract": "Google's AI Search Revolution: What Minnesota Businesses and Outdoor Brands Need to Know If you run a Minnesota business—especially in outdoor recreation, tourism, or local services—you've probably noticed something shift in how Google Search works over the past year. Google's new generative AI search features, particularly AI Overviews (formerly called SGE, or Search Generative Experience),… Continue reading Google's AI Search Revolution: What Minnesota Businesses and Outdoor Brands Need to Know Full article: https://davidohnstadminnesota.com/googles-new-generative-ai-search/",
-      "levels": [
-        "Content"
-      ],
-      "domains": [
-        "Commerce & Consumer",
-        "Travel, Local & Lifestyle"
-      ],
-      "topics": [
-        "General AIO"
       ],
       "source": "OpenAlex",
       "first_detected": "2026-09-29"
@@ -467,7 +501,7 @@
         "Thales Bertaglia",
         "Giovanni Astante",
         "Bram Rijsbosch",
-        "Gijs van Dijck",
+        "Gijs VAN DIJCK",
         "Anikó Hannák",
         "Gerasimos Spanakis",
         "Konrad Kollnig"
@@ -494,7 +528,7 @@
         "Platform & Interface"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-09-26"
+      "first_detected": "2026-09-30"
     },
     {
       "id": "doi-10.5281/zenodo.22707850",
@@ -522,7 +556,7 @@
         "User Behavior"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-09-29"
+      "first_detected": "2026-09-30"
     },
     {
       "id": "doi-10.17605/osf.io/pzeur",
@@ -590,7 +624,33 @@
         "Platform & Interface"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-09-26"
+      "first_detected": "2026-09-30"
+    },
+    {
+      "id": "doi-10.5281/zenodo.21783755",
+      "title": "Google's AI Search Revolution: What Minnesota Businesses and Outdoor Brands Need to Know",
+      "authors": [
+        "David Ohnstad"
+      ],
+      "date": "2026-08-04",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Article",
+      "doi": "10.5281/zenodo.21783755",
+      "record": "https://doi.org/10.5281/zenodo.21783755",
+      "pdf": "",
+      "abstract": "Google's AI Search Revolution: What Minnesota Businesses and Outdoor Brands Need to Know If you run a Minnesota business—especially in outdoor recreation, tourism, or local services—you've probably noticed something shift in how Google Search works over the past year. Google's new generative AI search features, particularly AI Overviews (formerly called SGE, or Search Generative Experience),… Continue reading Google's AI Search Revolution: What Minnesota Businesses and Outdoor Brands Need to Know Full article: https://davidohnstadminnesota.com/googles-new-generative-ai-search/",
+      "levels": [
+        "Content"
+      ],
+      "domains": [
+        "Commerce & Consumer",
+        "Travel, Local & Lifestyle"
+      ],
+      "topics": [
+        "General AIO"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-09-30"
     },
     {
       "id": "pmlr-kakimov26a",
@@ -615,38 +675,6 @@
         "Citation behavior",
         "Provenance",
         "YMYL"
-      ],
-      "source": "Seed",
-      "first_detected": "2026-09-21",
-      "domains": [
-        "General / Cross-domain"
-      ]
-    },
-    {
-      "id": "arxiv-2605.14021",
-      "title": "Measuring Google AI Overviews: Activation, Source Quality, Claim Fidelity, and Publisher Impact",
-      "authors": [
-        "Haofei Xu",
-        "Umar Iqbal",
-        "Jacob M. Montgomery"
-      ],
-      "date": "2026-05-13",
-      "venue": "arXiv",
-      "type": "Preprint",
-      "doi": "",
-      "record": "https://arxiv.org/abs/2605.14021",
-      "pdf": "https://arxiv.org/pdf/2605.14021",
-      "abstract": "Large-scale longitudinal measurement of Google AI Overviews covering activation, source quality, atomic claim support, and publisher impact.",
-      "levels": [
-        "Query",
-        "Content",
-        "Citation"
-      ],
-      "topics": [
-        "Activation",
-        "Source quality",
-        "Claim fidelity",
-        "Publisher impact"
       ],
       "source": "Seed",
       "first_detected": "2026-09-21",
