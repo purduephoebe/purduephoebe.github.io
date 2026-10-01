@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-30T11:13:10+08:00",
+  "last_updated": "2026-10-01T11:19:44+08:00",
   "new_in_latest_scan": 1,
   "scope": "All-domain Google AI Overviews / SGE research with multi-label application-domain classification.",
   "papers": [
@@ -17,7 +17,7 @@
       "doi": "10.1145/3777912.3839818",
       "record": "https://doi.org/10.1145/3777912.3839818",
       "pdf": "https://arxiv.org/pdf/2605.14021",
-      "abstract": "Google AI Overviews (AIOs) are arguably the most widely encountered deployment of generative AI, reaching over 2 billion users who may not realize the answers they see are AI-generated. Where search engines have traditionally surfaced ranked sources and left users to evaluate them, AIOs synthesize and deliver a single answer - giving Google unprecedented editorial control over what users read and know. We present a large-scale longitudinal measurement study, issuing 55,393 trending queries across 19 topical categories over a 40-day window (March 13 - April 21, 2026). We report four main findings. First, overall AIO activation is 13.7%, rising to 64.7% for question-form queries, while politically sensitive topics see markedly lower rates. Second, AIO-cited domains are more credible than co-displayed first-page results, yet nearly 30% do not appear in those results at all, indicating a source selection mechanism distinct from Google's ranking algorithm. Third, decomposing responses into 98,020 atomic claims, 11.0% are unsupported by the cited pages - with omission the dominant failure mode - and source quality and claim fidelity are largely independent. Fourth, well over half of AIO-cited pages carry display advertising, meaning publishers lose revenue when AIOs suppress the click-through, even as Google's own sponsored ads continue to appear on the same page. Together, these findings document a rapid transformation of the online information ecosystem whose consequences for epistemic security remain poorly understood.",
+      "abstract": "Google AI Overviews (AIOs) are arguably the most widely encountered deployment of generative AI, reaching over 2 billion users who may not realize the answers they see are AI-generated. Where search engines have traditionally surfaced ranked sources and left users to evaluate them, AIOs synthesize and deliver a single answer — giving Google unprecedented editorial control over what users read and know. We present a large-scale longitudinal measurement study, issuing 55,393 trending queries across 19 topical categories over a 40-day window (March 13–April 21, 2026). We report four main findings. First, overall AIO activation is 13.7%, rising to 64.7% for question-form queries, while politically sensitive topics see markedly lower rates. Second, AIO-cited domains are more credible than co-displayed first-page results, yet nearly 30% do not appear in those results at all, indicating a source selection mechanism distinct from Google's ranking algorithm. Third, decomposing responses into 98,020 atomic claims, 11.0% are unsupported by the cited pages — with omission the dominant failure mode — and source quality and claim fidelity are largely independent. Fourth, well over half of AIO-cited pages carry display advertising, meaning publishers lose revenue when AIOs suppress the click-through, even as Google's own sponsored ads continue to appear on the same page. Together, these findings document a rapid transformation of the online information ecosystem whose consequences for epistemic security remain poorly understood.",
       "levels": [
         "Query",
         "Content",
@@ -31,37 +31,66 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-09-30",
+      "first_detected": "2026-10-01",
       "domains": [
         "Politics, Government & News",
         "Commerce & Consumer"
       ]
     },
     {
-      "id": "doi-10.5281/zenodo.23008646",
+      "id": "doi-10.5281/zenodo.23028277",
       "title": "Before the Citation: replication data and code (machine-written queries and engine-specific retrieval layers in generative search)",
       "authors": [
         "Sejeong Oh"
       ],
-      "date": "2026-09-28",
+      "date": "2026-09-29",
       "venue": "Zenodo (CERN European Organization for Nuclear Research)",
       "type": "Dataset",
-      "doi": "10.5281/zenodo.23008646",
-      "record": "https://doi.org/10.5281/zenodo.23008646",
+      "doi": "10.5281/zenodo.23028277",
+      "record": "https://doi.org/10.5281/zenodo.23028277",
       "pdf": "",
-      "abstract": "Replication data and code for the article \"Before the Citation: Machine-Written Queries and Engine-Specific Retrieval Layers in Generative Search\". Korean consumer questions were sent through the vendors' APIs in September 2026 to Claude (claude-sonnet-5), ChatGPT (gpt-5.6-sol) and Gemini (gemini-3.6-flash). For each call we recorded the search queries the engine executed and the pages it retrieved or cited, and compared them with the top 20 results of Brave Search, Google and Korean Bing. reproduce.py recomputes every value in Tables 2, 3 and 6 from the four CSV files. Search-result URLs are shared as hashed normalized URLs (32-bit FNV-1a) to respect providers' terms on redistribution; questions and executed queries are shared in full, except that the domain in any site: operator is replaced by its hash. See README.md.",
+      "abstract": "Replication data and code for the article \"Before the Citation: Machine-Written Queries and Engine-Specific Retrieval Layers in Generative Search\". Korean consumer questions were sent through the vendors' APIs in September 2026 to Claude (claude-sonnet-5), ChatGPT (gpt-5.6-sol) and Gemini (gemini-3.6-flash). For each call we recorded the search queries the engine executed and the pages it retrieved or cited, and compared them with the top 20 results of Brave Search, Google and Korean Bing. reproduce.py recomputes every value in Tables 2, 3 and 6 from the four CSV files. Search-result URLs are shared as hashed normalized URLs (32-bit FNV-1a) to respect providers' terms on redistribution; questions and executed queries are shared in full, except that the domain in any site: operator is replaced by its hash. See README.md. Version 2 (29 September 2026) adds Naver and Brave-with-Korean-locale index results, a ChatGPT replication without a system prompt, rank-biased overlap and original-run-versus-fixed-rerun columns, the timestamped decision-rule documents (decision_rules.zip), and Appendices D–E. Version 1 values are unchanged.",
       "levels": [
+        "Query",
+        "Content",
         "Citation"
       ],
       "domains": [
         "Commerce & Consumer"
       ],
       "topics": [
+        "Bias & Fairness",
         "Citation & Provenance",
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-09-30"
+      "first_detected": "2026-10-01"
+    },
+    {
+      "id": "doi-10.17632/yk4wn7hftg.1",
+      "title": "AI Search Citation Study",
+      "authors": [
+        "Paloren Research Desk"
+      ],
+      "date": "2026-09-29",
+      "venue": "Mendeley Data",
+      "type": "Dataset",
+      "doi": "10.17632/yk4wn7hftg.1",
+      "record": "https://doi.org/10.17632/yk4wn7hftg.1",
+      "pdf": "",
+      "abstract": "This dataset records the public AI search visibility results behind Paloren's citation study. It contains 60 branded and commercial AI-consulting queries checked in Google search on 27 September 2026, with 22 citation records from the result set. The files separate domain and URL observations, boolean AI Overview mentions, and SERP feature counts for 30 core queries. Analysts can use the files to review source diversity, citation patterns, and feature mix without collecting search results again. The package includes a README describing the method, column definitions, licence and suggested citation. Attribution must credit Paloren under CC BY 4.0.",
+      "levels": [
+        "Citation"
+      ],
+      "domains": [
+        "Finance & Economics",
+        "Commerce & Consumer"
+      ],
+      "topics": [
+        "Citation & Provenance"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-10-01"
     },
     {
       "id": "doi-10.6084/m9.figshare.33945919",
@@ -91,7 +120,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-09-30"
+      "first_detected": "2026-10-01"
     },
     {
       "id": "doi-10.7910/dvn/i5qdxu",
@@ -117,7 +146,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-09-30"
+      "first_detected": "2026-10-01"
     },
     {
       "id": "doi-10.5281/zenodo.23000692",
@@ -142,7 +171,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-09-30"
+      "first_detected": "2026-10-01"
     },
     {
       "id": "doi-10.7910/dvn/rnxigv",
@@ -168,7 +197,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-09-30"
+      "first_detected": "2026-10-01"
     },
     {
       "id": "doi-10.7910/dvn/fynpa3",
@@ -196,7 +225,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-09-30"
+      "first_detected": "2026-10-01"
     },
     {
       "id": "doi-10.5281/zenodo.22954070",
@@ -372,7 +401,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-09-29"
+      "first_detected": "2026-10-01"
     },
     {
       "id": "doi-10.48550/arxiv.2609.24407",
@@ -528,7 +557,7 @@
         "Platform & Interface"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-09-30"
+      "first_detected": "2026-10-01"
     },
     {
       "id": "doi-10.5281/zenodo.22707850",
@@ -556,7 +585,7 @@
         "User Behavior"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-09-30"
+      "first_detected": "2026-10-01"
     },
     {
       "id": "doi-10.17605/osf.io/pzeur",
@@ -624,7 +653,7 @@
         "Platform & Interface"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-09-30"
+      "first_detected": "2026-10-01"
     },
     {
       "id": "doi-10.5281/zenodo.21783755",
@@ -650,7 +679,7 @@
         "General AIO"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-09-30"
+      "first_detected": "2026-10-01"
     },
     {
       "id": "pmlr-kakimov26a",
