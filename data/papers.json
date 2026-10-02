@@ -1,8 +1,38 @@
 {
-  "last_updated": "2026-10-01T11:19:44+08:00",
-  "new_in_latest_scan": 1,
+  "last_updated": "2026-10-02T11:20:27+08:00",
+  "new_in_latest_scan": 23,
   "scope": "All-domain Google AI Overviews / SGE research with multi-label application-domain classification.",
   "papers": [
+    {
+      "id": "arxiv-2609.38946v1",
+      "title": "Breaking News Out of the Filter Bubble: Generative AI Search Diversifies Collective Attention and Raises Shared Information Consumption",
+      "authors": [
+        "Heeseung Andrew Lee",
+        "Dokyun Lee",
+        "Gwanhoo Lee",
+        "Dongwon Lee"
+      ],
+      "date": "2026-09-30",
+      "venue": "arXiv",
+      "type": "Preprint",
+      "doi": "",
+      "record": "http://arxiv.org/abs/2609.38946v1",
+      "pdf": "https://arxiv.org/pdf/2609.38946v1",
+      "abstract": "Generative AI search and AI overviews are transforming access to information and news, renewing concerns that readers will encounter a narrower range of topics and have less in common. We examine these concerns via a randomized field experiment with 37,561 readers at The Washington Post. Both groups searched the same archive, but treatment readers also received AI answers with article citations above conventional results. Measuring consumption across displayed answers and opened articles, we find that AI search expands the reach of widely read topics and increases overlap in readers' topic consumption. At the same time, consumption becomes less concentrated and shifts toward less-popular topics, both within readers and across the audience. AI answers account for most of the increase in shared information, delivering it without requiring article clicks and broadening exposure beyond the articles readers open. Cited articles also contribute to the shift toward less-popular topics. Readers shift from conventional-result clicks and browsing toward cited articles and follow-up searches. More frequent searching offsets lower article consumption per search, producing a small increase in article consumption per reader. Total information consumption per minute also rises. Generative AI search can thus diversify collective attention while strengthening the information readers have in common.",
+      "levels": [
+        "Citation",
+        "Presentation"
+      ],
+      "domains": [
+        "Politics, Government & News"
+      ],
+      "topics": [
+        "User Behavior",
+        "Citation & Provenance"
+      ],
+      "source": "arXiv",
+      "first_detected": "2026-10-02"
+    },
     {
       "id": "doi-10.1145/3777912.3839818",
       "title": "Measuring Google AI Overviews: Activation, Source Quality, Claim Fidelity, and Publisher Impact",
@@ -16,7 +46,7 @@
       "type": "Conference-Paper",
       "doi": "10.1145/3777912.3839818",
       "record": "https://doi.org/10.1145/3777912.3839818",
-      "pdf": "https://arxiv.org/pdf/2605.14021",
+      "pdf": "https://arxiv.org/pdf/2605.14021v1",
       "abstract": "Google AI Overviews (AIOs) are arguably the most widely encountered deployment of generative AI, reaching over 2 billion users who may not realize the answers they see are AI-generated. Where search engines have traditionally surfaced ranked sources and left users to evaluate them, AIOs synthesize and deliver a single answer — giving Google unprecedented editorial control over what users read and know. We present a large-scale longitudinal measurement study, issuing 55,393 trending queries across 19 topical categories over a 40-day window (March 13–April 21, 2026). We report four main findings. First, overall AIO activation is 13.7%, rising to 64.7% for question-form queries, while politically sensitive topics see markedly lower rates. Second, AIO-cited domains are more credible than co-displayed first-page results, yet nearly 30% do not appear in those results at all, indicating a source selection mechanism distinct from Google's ranking algorithm. Third, decomposing responses into 98,020 atomic claims, 11.0% are unsupported by the cited pages — with omission the dominant failure mode — and source quality and claim fidelity are largely independent. Fourth, well over half of AIO-cited pages carry display advertising, meaning publishers lose revenue when AIOs suppress the click-through, even as Google's own sponsored ads continue to appear on the same page. Together, these findings document a rapid transformation of the online information ecosystem whose consequences for epistemic security remain poorly understood.",
       "levels": [
         "Query",
@@ -31,7 +61,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-01",
+      "first_detected": "2026-10-02",
       "domains": [
         "Politics, Government & News",
         "Commerce & Consumer"
@@ -64,7 +94,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-01"
+      "first_detected": "2026-10-02"
     },
     {
       "id": "doi-10.17632/yk4wn7hftg.1",
@@ -90,7 +120,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-01"
+      "first_detected": "2026-10-02"
     },
     {
       "id": "doi-10.6084/m9.figshare.33945919",
@@ -120,7 +150,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-01"
+      "first_detected": "2026-10-02"
     },
     {
       "id": "doi-10.7910/dvn/i5qdxu",
@@ -146,7 +176,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-01"
+      "first_detected": "2026-10-02"
     },
     {
       "id": "doi-10.5281/zenodo.23000692",
@@ -171,7 +201,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-01"
+      "first_detected": "2026-10-02"
     },
     {
       "id": "doi-10.7910/dvn/rnxigv",
@@ -197,7 +227,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-01"
+      "first_detected": "2026-10-02"
     },
     {
       "id": "doi-10.7910/dvn/fynpa3",
@@ -401,10 +431,10 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-01"
+      "first_detected": "2026-10-02"
     },
     {
-      "id": "doi-10.48550/arxiv.2609.24407",
+      "id": "arxiv-2609.24407v1",
       "title": "Auditing Source Exposure in Baidu and Google AI Search",
       "authors": [
         "Yibo Li",
@@ -414,11 +444,11 @@
         "Francesco Pierri"
       ],
       "date": "2026-09-21",
-      "venue": "arXiv (Cornell University)",
+      "venue": "arXiv",
       "type": "Preprint",
       "doi": "10.48550/arxiv.2609.24407",
-      "record": "https://doi.org/10.48550/arxiv.2609.24407",
-      "pdf": "https://arxiv.org/pdf/2609.24407",
+      "record": "http://arxiv.org/abs/2609.24407v1",
+      "pdf": "https://arxiv.org/pdf/2609.24407v1",
       "abstract": "AI-generated overviews are becoming an increasingly prominent layer of search interfaces, yet their behavior in Chinese-language search remains underexplored. We conduct a cross-lingual audit of AI overview behavior on Baidu and Google using English queries sampled from MS MARCO and their translated Chinese counterparts. Our analysis examines when overviews are triggered across platform-language settings, which host domains receive visible exposure in Chinese-language overviews, how concentrated that exposure is, and how source overlap varies across settings. We also compare the embedding-based semantic similarity of generated answers for matched query intents. The results reveal substantial differences across platform-language settings in overview availability and visible source exposure. At the aggregate level, the settings exhibit low overlap in visible host-domain inventories, while matched-query answers yield median cosine similarities ranging from 0.701 to 0.813. These findings indicate that answer-level semantic similarity and aggregate source exposure capture distinct dimensions of AI-mediated search. Evaluations of AI search should therefore consider not only the content of generated answers but also how source visibility is distributed across platforms, languages, and information environments.",
       "levels": [
         "Query",
@@ -433,8 +463,8 @@
         "Technical Evaluation",
         "Platform & Interface"
       ],
-      "source": "OpenAlex",
-      "first_detected": "2026-09-25"
+      "source": "arXiv",
+      "first_detected": "2026-10-02"
     },
     {
       "id": "doi-10.5281/zenodo.22856034",
@@ -557,7 +587,7 @@
         "Platform & Interface"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-01"
+      "first_detected": "2026-10-02"
     },
     {
       "id": "doi-10.5281/zenodo.22707850",
@@ -585,7 +615,7 @@
         "User Behavior"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-01"
+      "first_detected": "2026-10-02"
     },
     {
       "id": "doi-10.17605/osf.io/pzeur",
@@ -616,6 +646,35 @@
       ],
       "source": "OpenAlex",
       "first_detected": "2026-09-25"
+    },
+    {
+      "id": "arxiv-2609.06798v1",
+      "title": "Who Anchors AI Overviews in Health? Baidu, Google, and the Geography of Authority",
+      "authors": [
+        "Mingyue Zha",
+        "Ho-Chun Herbert Chang"
+      ],
+      "date": "2026-09-06",
+      "venue": "arXiv",
+      "type": "Preprint",
+      "doi": "",
+      "record": "http://arxiv.org/abs/2609.06798v1",
+      "pdf": "https://arxiv.org/pdf/2609.06798v1",
+      "abstract": "Artificial intelligence is being rapidly incorporated into traditional search systems, yet scant work audits the information disparities across platforms, geography, and languages. We address this gap by comparing Google and Baidu's AI Overview systems for health queries, and measure informational anchors that emerge. Auditing 1,920 health queries across 12 countries and 4 languages, we find that Google and Baidu exhibit vertical integration, routing users toward their own company platforms in AI Overviews rather than a diverse set of primary sources. Smaller, lower-localization countries receive fewer domestically sourced references for health queries. Issuing the same query in a country's official language rather than English raises the share of locally sourced citations approximately 3.5- to 13.5-fold. Comparing queries across health topics of varying severity and controversy, including Traditional Chinese Medicine as an example, we also show that health disclaimers are multidimensional and vary across language and culture. We discuss how generative search influences access to health information, and the urgent need for culturally-aware oversight of these systems that influence critical health decisions.",
+      "levels": [
+        "Query",
+        "Content",
+        "Citation"
+      ],
+      "domains": [
+        "Health & Medicine",
+        "Science & Technology"
+      ],
+      "topics": [
+        "Citation & Provenance"
+      ],
+      "source": "arXiv",
+      "first_detected": "2026-10-02"
     },
     {
       "id": "doi-10.65150/ep-jsshrs/v2e9/2026-04",
@@ -653,7 +712,170 @@
         "Platform & Interface"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-01"
+      "first_detected": "2026-10-02"
+    },
+    {
+      "id": "arxiv-2609.00319v1",
+      "title": "Sources of Truth: A Multi-Platform, Multilingual Audit of Citations in AI Mental Health Information Queries",
+      "authors": [
+        "Phuong Anh Nguyen",
+        "Jill Noorily",
+        "Matthew Flathers",
+        "Haruka Notsu",
+        "Laura Ospina-Pinillos",
+        "Tommy Nguyen",
+        "Samantha Clark",
+        "Aoife Keane",
+        "Grace Thompson",
+        "John Torous"
+      ],
+      "date": "2026-08-31",
+      "venue": "arXiv",
+      "type": "Preprint",
+      "doi": "",
+      "record": "http://arxiv.org/abs/2609.00319v1",
+      "pdf": "https://arxiv.org/pdf/2609.00319v1",
+      "abstract": "Online health information seeking is shifting from keyword search, where users consider a ranked list of links, to conversational systems that compose a single answer and curate its citations. Source evaluation therefore passes from user to platform, yet what these systems surface is poorly characterized. We audited three free consumer products (ChatGPT, Perplexity, Google AI Overview) on twenty English mental health questions under two prompt conditions, with a subset of three also translated into six further languages of varying resource tiers. We recorded 15,942 citations across 1,140 responses and 1,713 unique domains, then classified every citation with a nine-category organizational typology applied by a deterministic classifier validated against human coding. Citations were heavily concentrated: the ten most-cited domains accounted for 43.6% of English citations, and government, commercial health, and academic sources were closely matched at roughly 22% each. Platforms differed little in typical citation volume but sharply in consistency and in the source types they favored. Explicitly requesting sources shifted composition only modestly. Non-English queries surfaced fewer citations and were routed to language-appropriate resources at significantly lower rates. We release the typology, classifier, and annotated corpus as reusable instruments for auditing generative health search.",
+      "levels": [
+        "Query",
+        "Citation"
+      ],
+      "domains": [
+        "Health & Medicine",
+        "Politics, Government & News",
+        "Commerce & Consumer",
+        "Education & Academia"
+      ],
+      "topics": [
+        "User Behavior",
+        "Information Literacy",
+        "Citation & Provenance",
+        "Technical Evaluation"
+      ],
+      "source": "arXiv",
+      "first_detected": "2026-10-02"
+    },
+    {
+      "id": "arxiv-2608.29063v1",
+      "title": "Agent2UCB: Agentic System for Generative Engine Optimization",
+      "authors": [
+        "Sheldon Yu",
+        "Rui Wang",
+        "Tong Yu",
+        "Sungchul Kim",
+        "Doga Dogan",
+        "Junda Wu",
+        "Julian McAuley"
+      ],
+      "date": "2026-08-29",
+      "venue": "arXiv",
+      "type": "Preprint",
+      "doi": "",
+      "record": "http://arxiv.org/abs/2608.29063v1",
+      "pdf": "https://arxiv.org/pdf/2608.29063v1",
+      "abstract": "Large language model driven search engines such as Google AI Overviews and Perplexity have created new opportunities for Generative Engine Optimization (GEO) the practice of refining content to increase its likelihood of being cited or summarized by generative systems. We demonstrate Agent2UCB, an agentic GEO system that autonomously improves content visibility through customized, feedback-driven optimization. For each content item, the system evaluates nine GEO strategies, identifies the most effective method, and accelerates selection using a bandit-based Agent2UCB policy that integrates LLM priors with online reward signals. To monitor side effects, the system also provides a lightweight, text-only SEO readiness evaluation covering readability, topical coverage, and EEAT-style credibility. Experiments on GEO-Bench show consistent visibility gains while preserving SEO quality. The demo allows users to choose the websites of interest, observe the optimization workflow, and compare GEO/SEO outcomes across methods.",
+      "levels": [
+        "Presentation"
+      ],
+      "domains": [
+        "Politics, Government & News"
+      ],
+      "topics": [
+        "SEO & Publishers",
+        "Technical Evaluation"
+      ],
+      "source": "arXiv",
+      "first_detected": "2026-10-02"
+    },
+    {
+      "id": "arxiv-2608.18352v1",
+      "title": "AI in Search Reduces Publisher Referrals Without Improving User Experience: Experimental Evidence",
+      "authors": [
+        "Stephanie T. Wang",
+        "Jeffrey Gleason",
+        "Yakov Bart",
+        "Christo Wilson",
+        "Danaé Metaxa"
+      ],
+      "date": "2026-08-18",
+      "venue": "arXiv",
+      "type": "Preprint",
+      "doi": "",
+      "record": "http://arxiv.org/abs/2608.18352v1",
+      "pdf": "https://arxiv.org/pdf/2608.18352v1",
+      "abstract": "The integration of generative AI into web search delivers synthesized answers to user queries, changing how people navigate and assess information, while raising concerns about the downstream impacts on publishers who supply the underlying content. We conduct a preregistered field experiment (N=1,100) on Google Search, the dominant online search platform, to estimate the causal effects of AI Overviews and AI Mode on user behavior, perceptions, and publisher traffic. We show that removing AI Overviews and AI Mode increases click-through rates to publishers, while an AI Mode-only experience reduces click-through rates and erodes user experience and trust in information found on Google. These findings show that integrating generative AI into web search reshapes online attention, with economic consequences for the online publishers that sustain both search platforms and the overall information ecosystem.",
+      "levels": [
+        "Citation",
+        "Presentation"
+      ],
+      "domains": [
+        "Finance & Economics"
+      ],
+      "topics": [
+        "SEO & Publishers",
+        "User Behavior"
+      ],
+      "source": "arXiv",
+      "first_detected": "2026-10-02"
+    },
+    {
+      "id": "arxiv-2609.05463v1",
+      "title": "A Three-Layer Caching Architecture for Low-Latency LLM Web Search on Commodity CPU Hardware",
+      "authors": [
+        "Ayushman Bhattacharya",
+        "Nihal Gazi"
+      ],
+      "date": "2026-08-12",
+      "venue": "arXiv",
+      "type": "Preprint",
+      "doi": "",
+      "record": "http://arxiv.org/abs/2609.05463v1",
+      "pdf": "https://arxiv.org/pdf/2609.05463v1",
+      "abstract": "AI-powered search products such as ChatGPT search, Google's AI Overviews, and Perplexity provide LLM-synthesized answers grounded in live web results. We developed OreoLook (formerly lixSearch), an open-source answer engine using automated browser agents and provider-routed LLM inference. Its local search, caching, session-management, and embedding stack runs on commodity CPU hardware; answer synthesis is performed by a remote inference provider. As usage grew, sessions lost context, equivalent queries triggered redundant work, and URLs were repeatedly embedded across sessions. We present a three-layer caching architecture: (1) a Session Context Window maintaining a rolling window of recent messages in Redis with automatic overflow to Huffman-compressed disk archives; (2) a Semantic Query Cache catches rephrasings via cosine similarity on embedding vectors, eliminating redundant LLM invocations; and (3) a URL Embedding Cache that deduplicates embedding computations across sessions. Deployed on a single 8-vCPU Intel Cascade Lake server (2 GHz, 32 GB RAM) running 30 Hypercorn worker processes across three containerized replicas, the evaluated system reported an 89.3% aggregate Redis keyspace hit rate with 0.1 ms read latency and just 1.38 MB of memory overhead. A background LRU eviction daemon migrates idle sessions from Redis to disk and re-hydrates them on demand, enabling conversations that can be resumed hours or days later under the configured retention policy.",
+      "levels": [
+        "Query",
+        "Citation"
+      ],
+      "domains": [
+        "Commerce & Consumer",
+        "Travel, Local & Lifestyle"
+      ],
+      "topics": [
+        "Citation & Provenance"
+      ],
+      "source": "arXiv",
+      "first_detected": "2026-10-02"
+    },
+    {
+      "id": "arxiv-2608.04831v1",
+      "title": "Investigating Click Behaviors On Google Search Result Pages That Produce an AI Overview",
+      "authors": [
+        "Athena Chapekis",
+        "Anna Lieb",
+        "Sono Shah",
+        "Aaron Smith"
+      ],
+      "date": "2026-08-05",
+      "venue": "arXiv",
+      "type": "Preprint",
+      "doi": "",
+      "record": "http://arxiv.org/abs/2608.04831v1",
+      "pdf": "https://arxiv.org/pdf/2608.04831v1",
+      "abstract": "In 2024, Google introduced \"AI Overviews,\" a feature that displays an AI-generated result summary at the top of many Google search pages. This study investigates the role of AI in Google search using one month of web browsing data from a representative panel of 900 U.S. adults. Our analysis of the panelists' Google searches sheds light on AI Overviews, when they appear in Google search results, and what user behaviors are associated with AI Overviews. We identify several attributes that make a search query more likely to generate an AI Overview, including the length of a query, whether the query begins with a question word, and whether the query contains both a noun and verb. When it comes to user behavior, we find that clicks to sources cited in AI Overviews are very rare, occurring in only about 1% of visits to AI Overviews. We also find that AI Overviews are associated with fewer clicks and higher rates of ending browsing sessions. Importantly, results from a mixed-effects logistic regression model indicate that these associations hold when controlling for random effects by panelist and query attributes that make AI Overviews more likely to appear.",
+      "levels": [
+        "Query",
+        "Citation",
+        "Presentation"
+      ],
+      "domains": [
+        "General / Cross-domain"
+      ],
+      "topics": [
+        "User Behavior",
+        "Citation & Provenance"
+      ],
+      "source": "arXiv",
+      "first_detected": "2026-10-02"
     },
     {
       "id": "doi-10.5281/zenodo.21783755",
@@ -679,7 +901,106 @@
         "General AIO"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-01"
+      "first_detected": "2026-10-02"
+    },
+    {
+      "id": "arxiv-2607.04282v3",
+      "title": "The New Shape of Search: How Conversational AI Recomposes Information Seeking",
+      "authors": [
+        "Michael Iannelli",
+        "Alan Ai"
+      ],
+      "date": "2026-07-05",
+      "venue": "arXiv",
+      "type": "Preprint",
+      "doi": "",
+      "record": "http://arxiv.org/abs/2607.04282v3",
+      "pdf": "https://arxiv.org/pdf/2607.04282v3",
+      "abstract": "The familiar search journey begins with a query and moves outward into documents, and conversational AI is commonly imagined at its mouth: ask first, then click out. Linking captured prompts and responses to the same panelists' observed searches and pageviews, and reconstructing inactivity-defined cross-surface temporal sessions (standalone assistant surfaces; search-embedded AI such as AI Overviews and AI Mode is out of scope, since it co-occurs with the results page), we find the observed journeys more often run the other way. Content usually follows search but more often precedes assistant use. Within the same panelist, the paired difference-of-directions between the two anchors is +20.6 [19.9, 21.3] percentage points; it persists within every coarse destination-domain stratum we can observe (semantic task and task-stage matching remain unresolved), and every headline result replicates in a second, adjacent month. Search tends to anchor the front of the observed journey; assistants sit deeper inside it. Assistant sessions are also far more often self-contained. User-weighted, 34.1% [33.5, 34.7] of assistant-containing sessions show no observed external web step (AI-first 10.5% [10.2, 10.9], AI-last 18.3% [17.8, 18.7], bridge/interleaved 37.1% [36.5, 37.7]), against 19.5% [19.2, 19.8] contained for search-centered sessions of the same users, a within-user contrast of +13.0 [12.5, 13.6] percentage points. We call this difference recomposition: activity is distributed differently across dialogue, search, and browsing, without implying that assistant use caused the difference. Assistant-contained also does not mean resolved: timestamps alone cannot establish one task, satisfaction, or completion. The result is a cross-surface topology of the emerging search journey and a discipline for distinguishing observed containment from inferred resolution.",
+      "levels": [
+        "Query",
+        "Citation",
+        "Presentation"
+      ],
+      "domains": [
+        "Travel, Local & Lifestyle"
+      ],
+      "topics": [
+        "User Behavior"
+      ],
+      "source": "arXiv",
+      "first_detected": "2026-10-02"
+    },
+    {
+      "id": "arxiv-2607.03421v1",
+      "title": "AI Overviews in Academic Search: Evaluating AI-generated Summaries of Search Results in a Domain-specific Search Engine",
+      "authors": [
+        "Kevin Schott",
+        "Kanishka Silva",
+        "Ingo Frommholz",
+        "Philipp Mayr",
+        "Dagmar Kern",
+        "Daniel Hienert"
+      ],
+      "date": "2026-07-03",
+      "venue": "arXiv",
+      "type": "Preprint",
+      "doi": "",
+      "record": "http://arxiv.org/abs/2607.03421v1",
+      "pdf": "https://arxiv.org/pdf/2607.03421v1",
+      "abstract": "Evaluating search engine results pages (SERPs) to assess result relevance is a demanding step in academic search. In a formative mixed-methods design study, we examine AI-generated SERP-level summaries as a support feature in an academic search engine for social science information. First, we manually evaluated summaries of the top five results for 10 queries using two general-purpose models, one commercial and one open, deriving an exploratory six-category error taxonomy and five safeguards for scholarly deployment. We then conducted a within-subjects user study (n = 30) comparing interfaces with and without AI summaries. Confirmatory analyses showed consistent but non-significant trends favoring AI summaries for subjective workload, perceived usefulness, satisfaction, and decision-making confidence. Exploratory analyses suggested lower mental demand, with frustration also tending to be lower. Behaviorally, participants rarely expanded the summaries and descriptively made slightly fewer result clicks and query reformulations when summaries were available. Drawing on Information Foraging Theory and participant feedback, we suggest that AI summaries may concentrate SERP-level information scent to support early triage. Overall, the findings indicate that SERP-level AI summaries are a context- and user-dependent aid rather than a universal improvement, while contributing an error taxonomy, safeguard-aware deployment guidance, and concrete design implications for scholarly search.",
+      "levels": [
+        "Query",
+        "Content",
+        "Citation",
+        "Presentation"
+      ],
+      "domains": [
+        "Finance & Economics",
+        "Education & Academia",
+        "Science & Technology"
+      ],
+      "topics": [
+        "User Behavior",
+        "Safety & Risk",
+        "Platform & Interface"
+      ],
+      "source": "arXiv",
+      "first_detected": "2026-10-02"
+    },
+    {
+      "id": "arxiv-2606.11337v1",
+      "title": "Can AI Agents Synthesize Scientific Conclusions?",
+      "authors": [
+        "Hayoung Jung",
+        "Pedro Viana Diniz",
+        "José Reinaldo Corrêa Roveda",
+        "Abner Fernandes da Silva",
+        "Haeun Jung",
+        "Enoch Tsai",
+        "Aleksandra Korolova",
+        "Manoel Horta Ribeiro"
+      ],
+      "date": "2026-06-09",
+      "venue": "arXiv",
+      "type": "Preprint",
+      "doi": "",
+      "record": "http://arxiv.org/abs/2606.11337v1",
+      "pdf": "https://arxiv.org/pdf/2606.11337v1",
+      "abstract": "Scientific AI agents increasingly retrieve evidence, reason across sources, and synthesize conclusions used in consequential decisions. Yet, their ability to do so in high-stakes domains such as health remains unclear. We introduce SciConBench, a large-scale live benchmark of 9.11K questions and expert-written conclusions from systematic reviews to evaluate open-domain scientific conclusion synthesis. The benchmark draws on an expert-validated automated evaluation pipeline that decomposes conclusions into atomic facts and measures correctness and comprehensiveness via factual precision and recall. To mitigate data leakage, we further introduce SciConHarness, a clean-room evaluation harness that equips agents with controlled web interaction to ensure valid measurement. Evaluating 8 frontier models and deep research agents, we find that factual quality remains low: under clean-room settings, the best agent achieves only a factual F1 of 0.337. Our clean-room setting consistently reduces performance relative to unconstrained evaluation, suggesting that leakage inflates estimates of models' true synthesis capabilities. Finally, we audit consumer-facing agents (e.g., Google AI Overview, OpenEvidence) and find they frequently generate incomplete and sometimes contradictory conclusions, even when the ground-truth answer is available. Overall, our results show that reliable synthesis of scientific conclusions remains an open challenge, and that clean-room evaluation is essential for assessing open-domain AI agents.",
+      "levels": [
+        "Citation"
+      ],
+      "domains": [
+        "Health & Medicine",
+        "Commerce & Consumer"
+      ],
+      "topics": [
+        "Citation & Provenance",
+        "Technical Evaluation"
+      ],
+      "source": "arXiv",
+      "first_detected": "2026-10-02"
     },
     {
       "id": "pmlr-kakimov26a",
@@ -712,7 +1033,184 @@
       ]
     },
     {
-      "id": "arxiv-2603.16138",
+      "id": "arxiv-2605.16428v3",
+      "title": "The Impact of AI Search on the Online Content Ecosystem: Evidence from Google and Reddit",
+      "authors": [
+        "Peibo Zhang",
+        "Ruomeng Cui",
+        "Dennis J. Zhang"
+      ],
+      "date": "2026-05-14",
+      "venue": "arXiv",
+      "type": "Preprint",
+      "doi": "",
+      "record": "http://arxiv.org/abs/2605.16428v3",
+      "pdf": "https://arxiv.org/pdf/2605.16428v3",
+      "abstract": "Search engines traditionally complement online content platforms by directing users seeking information to external websites. The emergence of generative AI search tools that summarize answers directly on the results page may disrupt this relationship by making visits to source platforms optional. We study this question using Google AI Overviews and Reddit, one of the largest online discussion platforms. Our identification exploits Google's content moderation policy: Safe-for-Work (SFW) Reddit communities are indexed by Google organic search and surfaced in Google AI Overviews, while Not-Safe-for-Work (NSFW) communities, though indexed by organic search, are prohibited from being referenced in AI Overview summaries. Using a difference-in-differences design, we find that AI Overviews increase engagement in SFW communities: daily comments rise by 12.0 percent and the number of commenting users by 12.4 percent relative to NSFW communities. The effects are concentrated in experience-based discussions (opinions, advice, and personal experiences) rather than fact-based information. However, the subsequent introduction of Google AI Mode, which allows users to interact conversationally with the AI summary, largely eliminates these gains in experience-based content. These results suggest that the effects of AI search depend critically on interface design and types of content.",
+      "levels": [
+        "Citation",
+        "Presentation"
+      ],
+      "domains": [
+        "General / Cross-domain"
+      ],
+      "topics": [
+        "SEO & Publishers",
+        "Citation & Provenance",
+        "Platform & Interface"
+      ],
+      "source": "arXiv",
+      "first_detected": "2026-10-02"
+    },
+    {
+      "id": "arxiv-2605.04949v3",
+      "title": "AllSERP: Exhaustive Per-Element Enrichment of the Versatile AdSERP Dataset",
+      "authors": [
+        "K. Andrew Edmonds"
+      ],
+      "date": "2026-05-06",
+      "venue": "arXiv",
+      "type": "Preprint",
+      "doi": "",
+      "record": "http://arxiv.org/abs/2605.04949v3",
+      "pdf": "https://arxiv.org/pdf/2605.04949v3",
+      "abstract": "We release AllSERP, a typed AOI and per-element behavioral enrichment of the AdSERP commercial-intent SERP corpus [4]. AdSERP ships 2,776 trials of full-page screenshots, captured SERP HTML, 150 Hz Gazepoint eye tracking, evtrack mouse telemetry, scroll, and pupil signals against real Google SERPs collected before AI Overviews -- but its bounding boxes cover only ad surfaces (15.5 % of attributable clicks). AllSERP adds pixel-accurate organic and widget bboxes via screenshot-anchored CV, semantic types across thirteen element types via an HTML parser, an inter-result gap-fill flavor (typed_gapfill), and X+Y click attribution that reaches 91.7 % of the corpus while flagging the rest at trial level. The Phase C ad-vs-non-ad partition is internally consistent with the shipped ad rectangles (0 disagreements across 38,250 classifications). We ship the pipeline, per-trial JSONs, a corpus CSV, and a browser-based replay viewer; everything is reproducible from the AdSERP Zenodo volume. The release enables per-element click, fixation, regression, and above-fold analyses that the shipped ads-vs-organic split could not resolve.",
+      "levels": [
+        "Citation",
+        "Presentation"
+      ],
+      "domains": [
+        "General / Cross-domain"
+      ],
+      "topics": [
+        "User Behavior",
+        "Citation & Provenance"
+      ],
+      "source": "arXiv",
+      "first_detected": "2026-10-02"
+    },
+    {
+      "id": "arxiv-2605.01077v1",
+      "title": "Teaching LLMs Brazilian Healthcare: Injecting Knowledge from Official Clinical Guidelines",
+      "authors": [
+        "Hugo Abonizio",
+        "Filipe Rocha Lopes",
+        "Roberto Lotufo",
+        "Rodrigo Nogueira"
+      ],
+      "date": "2026-05-01",
+      "venue": "arXiv",
+      "type": "Preprint",
+      "doi": "",
+      "record": "http://arxiv.org/abs/2605.01077v1",
+      "pdf": "https://arxiv.org/pdf/2605.01077v1",
+      "abstract": "Brazil's Unified Health System (SUS) relies on official clinical guidelines that define diagnostic criteria, treatments, dosages, and monitoring procedures for over 200 million citizens. Yet current LLMs perform poorly on this guideline-specific knowledge, and no benchmark evaluates clinical recall grounded in Brazilian Portuguese protocols. We address this gap by adapting Qwen2.5-14B-Instruct to the Brazilian clinical domain. From 178 official guidelines (~5.4M tokens), we generate ~70M tokens of synthetic data in three formats -- rephrases, wiki-style articles, and question-answer pairs -- using four generator LLMs. We then apply continual pre-training followed by Group Relative Policy Optimization (GRPO). We introduce HealthBench-BR, with 1,780 balanced true/false clinical assertions, and PCDT-QA, with 890 open-ended clinical questions scored by an LLM judge. Our best model achieves 83.9% on HealthBench-BR and 85.4% on PCDT-QA, outperforming GPT-5.2, Claude Sonnet 4.6, Gemini 3.1 Pro, and Google AI Overview's web-grounded RAG despite having only 14B parameters. Ablations show that generator diversity and reinforcement learning are critical to these gains. We release all datasets, benchmarks, and model weights to support reproducible clinical NLP research for Brazilian Portuguese. Code, data, and model weights are available at https://github.com/hugoabonizio/clinical-protocols-br",
+      "levels": [
+        "Citation"
+      ],
+      "domains": [
+        "Health & Medicine",
+        "Education & Academia"
+      ],
+      "topics": [
+        "Technical Evaluation"
+      ],
+      "source": "arXiv",
+      "first_detected": "2026-10-02"
+    },
+    {
+      "id": "arxiv-2604.27790v1",
+      "title": "How Generative AI Disrupts Search: An Empirical Study of Google Search, Gemini, and AI Overviews",
+      "authors": [
+        "Riley Grossman",
+        "Songjiang Liu",
+        "Michael K. Chen",
+        "Mike Smith",
+        "Cristian Borcea",
+        "Yi Chen"
+      ],
+      "date": "2026-04-30",
+      "venue": "arXiv",
+      "type": "Preprint",
+      "doi": "",
+      "record": "http://arxiv.org/abs/2604.27790v1",
+      "pdf": "https://arxiv.org/pdf/2604.27790v1",
+      "abstract": "Generative AI is being increasingly integrated into web search for the convenience it provides users. In this work, we aim to understand how generative AI disrupts web search by retrieving and presenting the information and sources differently from traditional search engines. We introduce a public benchmark dataset of 11,500 user queries to support our study and future research of generative search. We compare the search results returned by Google's search engine, the accompanying AI Overview (AIO), and Gemini Flash 2.5 for each query. We have made several key findings. First, we find that for 51.5\\% of representative, real-user queries, AIOs are generated, and are displayed above the organic search results. Controversial questions frequently result in an AIO. Second, we show that the retrieved sources are substantially different for each search engine (<0.2 average Jaccard similarity). Traditional Google search is significantly more likely to retrieve information from popular or institutional websites in government or education, while generative search engines are significantly more likely to retrieve Google-owned content. Third, we observe that websites that block Google's AI crawler are significantly less likely to be retrieved by AIOs, despite having access to the content. Finally, AIOs are less consistent when processing two runs of the same query, and are less robust to minor query edits. Our findings have important implications for understanding how generative search impacts website visibility, the effectiveness of generative engine optimization techniques, and the information users receive. We call for revenue frameworks to foster a sustainable and mutually beneficial ecosystem for publishers and generative search providers.",
+      "levels": [
+        "Query",
+        "Citation"
+      ],
+      "domains": [
+        "Politics, Government & News",
+        "Education & Academia"
+      ],
+      "topics": [
+        "SEO & Publishers",
+        "Citation & Provenance",
+        "Technical Evaluation"
+      ],
+      "source": "arXiv",
+      "first_detected": "2026-10-02"
+    },
+    {
+      "id": "arxiv-2604.25707v2",
+      "title": "From Citation Selection to Citation Absorption: A Measurement Framework for Generative Engine Optimization Across AI Search Platforms",
+      "authors": [
+        "Zhang Kai",
+        "He Xinyue",
+        "Yao Jingang"
+      ],
+      "date": "2026-04-28",
+      "venue": "arXiv",
+      "type": "Preprint",
+      "doi": "",
+      "record": "http://arxiv.org/abs/2604.25707v2",
+      "pdf": "https://arxiv.org/pdf/2604.25707v2",
+      "abstract": "Generative search engines increasingly determine whether online information is merely discoverable, cited as a source, or actually absorbed into generated answers. This paper proposes a two-stage measurement framework for Generative Engine Optimization (GEO): citation selection, where a platform triggers search and chooses sources, and citation absorption, where a cited page contributes language, evidence, structure, or factual support to the final answer. We analyze the public geo-citation-lab dataset covering 602 controlled prompts across ChatGPT, Google AI Overview/Gemini, and Perplexity; 21,143 valid search-layer citations; 23,745 citation-level feature records; 18,151 successfully fetched pages; and 72 extracted features. The central descriptive finding is that citation breadth and citation depth diverge. Perplexity and Google cite more sources on average, while ChatGPT cites fewer sources but shows substantially higher average citation influence among fetched pages. High-influence pages tend to be longer, more structured, semantically aligned, and richer in extractable evidence such as definitions, numerical facts, comparisons, and procedural steps. The results suggest that GEO should be measured beyond citation counts, with answer-level absorption treated as a separate outcome.",
+      "levels": [
+        "Query",
+        "Citation"
+      ],
+      "domains": [
+        "Politics, Government & News"
+      ],
+      "topics": [
+        "Citation & Provenance"
+      ],
+      "source": "arXiv",
+      "first_detected": "2026-10-02"
+    },
+    {
+      "id": "arxiv-2603.29071v1",
+      "title": "An Economic Framework for Generative Engines: Advertising or Subscription?",
+      "authors": [
+        "Luyang Zhang",
+        "Cathy Jiao",
+        "Beibei Li",
+        "Chenyan Xiong"
+      ],
+      "date": "2026-03-30",
+      "venue": "arXiv",
+      "type": "Preprint",
+      "doi": "",
+      "record": "http://arxiv.org/abs/2603.29071v1",
+      "pdf": "https://arxiv.org/pdf/2603.29071v1",
+      "abstract": "Generative Engines (GEs) such as ChatGPT and Google's AI Overviews are rapidly reshaping search economics by delivering synthesized responses that allow users to bypass third-party websites, cutting those sites' advertising revenue. Yet this shift also leaves GEs facing their own monetization problem: whether to insert ads into synthesized responses or keep them ad-free to drive subscription conversions. In this paper, we introduce a dynamic framework to study this problem, which captures how query-level design choices shape user engagement, retention, and subscription conversion over time. Using this framework, we show that the optimal policy follows a cutoff rule: ads should only be shown to users only when the immediate ad payoff exceeds the long-term value of providing ad-free responses. This cutoff shifts toward with-ad responses when i) ad revenue is high or ii) users are less sensitive to ads, and toward ad-free responses when iii) subscription conversion becomes relatively more valuable. In addition, the presence of rival GEs shifts the optimal policy further toward ad-free responses, as ad-heavy monetization becomes less sustainable when users can freely switch to alternatives. Our findings reveal incentives for real-life generative engine providers to adopt designs that enhance user experience and long-term sustainability.",
+      "levels": [
+        "Query"
+      ],
+      "domains": [
+        "Finance & Economics",
+        "Commerce & Consumer"
+      ],
+      "topics": [
+        "SEO & Publishers"
+      ],
+      "source": "arXiv",
+      "first_detected": "2026-10-02"
+    },
+    {
+      "id": "arxiv-2603.16138v2",
       "title": "Answer Bubbles: Information Exposure in AI-Mediated Search",
       "authors": [
         "Michelle Huang",
@@ -724,28 +1222,181 @@
       "venue": "arXiv",
       "type": "Preprint",
       "doi": "",
-      "record": "https://arxiv.org/abs/2603.16138",
-      "pdf": "https://arxiv.org/pdf/2603.16138",
-      "abstract": "Cross-system audit of information exposure, source diversity, summary language, and source-summary fidelity in AI-mediated search.",
+      "record": "http://arxiv.org/abs/2603.16138v2",
+      "pdf": "https://arxiv.org/pdf/2603.16138v2",
+      "abstract": "Generative search systems are increasingly replacing link-based retrieval with AI-generated summaries, yet little is known about how these systems differ in sources, language, and fidelity to cited material. We examine responses to 11,000 real search queries across five systems---vanilla GPT, Search GPT, Perplexity Search with Grok, Google AI Overviews, and traditional Google Search---at three levels: source diversity, linguistic characterization of the generated summary, and source-summary fidelity. We find that generative search systems exhibit significant \\textit{source-selection} biases in their citations, favoring certain sources over others. Incorporating search also selectively attenuates epistemic markers, reducing hedging by up to 60\\% while preserving confidence language in the AI-generated summaries. At the same time, AI summaries further compound the citation biases: Wikipedia and longer sources are disproportionately overrepresented, whereas cited social media content and negatively framed sources are substantially underrepresented. Our findings highlight the potential for \\textit{answer bubbles}, in which identical queries yield structurally different information realities across systems, with implications for user trust, source visibility, and the transparency of AI-mediated information access.",
       "levels": [
         "Content",
         "Citation",
         "Presentation"
       ],
       "topics": [
-        "Information exposure",
-        "Source diversity",
-        "Fidelity",
-        "Answer bubbles"
+        "User Behavior",
+        "Bias & Fairness",
+        "Citation & Provenance",
+        "Technical Evaluation"
       ],
-      "source": "Seed",
-      "first_detected": "2026-09-21",
+      "source": "arXiv",
+      "first_detected": "2026-10-02",
       "domains": [
-        "General / Cross-domain"
+        "Politics, Government & News"
       ]
     },
     {
-      "id": "arxiv-2511.12920",
+      "id": "arxiv-2602.13415v2",
+      "title": "The Rise of AI Search: Implications for Information Markets and Human Judgement at Scale",
+      "authors": [
+        "Sinan Aral",
+        "Haiwen Li",
+        "Rui Zuo"
+      ],
+      "date": "2026-02-13",
+      "venue": "arXiv",
+      "type": "Preprint",
+      "doi": "",
+      "record": "http://arxiv.org/abs/2602.13415v2",
+      "pdf": "https://arxiv.org/pdf/2602.13415v2",
+      "abstract": "We executed 24,000 search queries in 243 countries, generating 2.8 million AI and traditional search results in 2024 and 2025. We found a rapid global expansion of AI search and key trends that reflect important, previously hidden, policy decisions by AI companies that impact human exposure to AI search worldwide. From 2024 to 2025, overall exposure to Google AI Overviews (AIO) expanded from 7 to 229 countries, with surprising exclusions like France, Turkey, China and Cuba, which do not receive AI search results, even today. While only 1% of Covid search queries were answered by AI in 2024, over 66% of Covid queries were answered by AI in 2025 -- a 5600% increase signaling a clear policy shift on this critical health topic. Our results also show AI search surfaces significantly fewer long tail information sources, lower response variety, and significantly more low credibility and right- and center-leaning information sources, compared to traditional search, impacting the economic incentives to produce new information, market concentration in information production, and human judgment and decision-making at scale. The social and economic implications of these rapid changes in our information ecosystem necessitate a global debate about corporate and governmental policy related to AI search.",
+      "levels": [
+        "Citation",
+        "Presentation"
+      ],
+      "domains": [
+        "Health & Medicine",
+        "Finance & Economics",
+        "Politics, Government & News",
+        "Commerce & Consumer"
+      ],
+      "topics": [
+        "Citation & Provenance"
+      ],
+      "source": "arXiv",
+      "first_detected": "2026-10-02"
+    },
+    {
+      "id": "arxiv-2602.18455v6",
+      "title": "Impact of AI Search Summaries on Website Traffic: Evidence from Google AI Overviews and Wikipedia",
+      "authors": [
+        "Mehrzad Khosravi",
+        "Hema Yoganarasimhan"
+      ],
+      "date": "2026-02-05",
+      "venue": "arXiv",
+      "type": "Preprint",
+      "doi": "",
+      "record": "http://arxiv.org/abs/2602.18455v6",
+      "pdf": "https://arxiv.org/pdf/2602.18455v6",
+      "abstract": "Search engines increasingly display AI-generated answers above organic links, potentially displacing traffic to upstream publishers. We estimate the impact of Google's AI Overviews (AIO) on Wikipedia's search traffic using AIO's staggered geographic rollout and Wikipedia's multilingual structure. Our difference-in-differences design compares monthly external-search referrals to English Wikipedia articles with referrals to the same articles in German and French, and finds that default AIO availability reduced English search traffic by 5.45% and 4.82%, respectively. Our results suggest that answer-producing digital intermediaries can materially reallocate attention away from informational publishers, with implications for content monetization, search platform design, and policy.",
+      "levels": [
+        "Citation",
+        "Presentation"
+      ],
+      "domains": [
+        "General / Cross-domain"
+      ],
+      "topics": [
+        "SEO & Publishers"
+      ],
+      "source": "arXiv",
+      "first_detected": "2026-10-02"
+    },
+    {
+      "id": "arxiv-2601.22493v2",
+      "title": "Mechanism Design for AI Overviews: Creator Incentives and Long-Term Profit",
+      "authors": [
+        "Yihang Wu",
+        "Jiajun Tang",
+        "Jinfei Liu",
+        "Haifeng Xu",
+        "Fan Yao"
+      ],
+      "date": "2026-01-30",
+      "venue": "arXiv",
+      "type": "Preprint",
+      "doi": "",
+      "record": "http://arxiv.org/abs/2601.22493v2",
+      "pdf": "https://arxiv.org/pdf/2601.22493v2",
+      "abstract": "The integration of AI Overviews into search engines enhances user experience but diverts traffic from content creators, potentially discouraging high-quality content creation and causing user attrition that undermines long-term search engine profit. To address this issue, we propose a game-theoretic model of creator competition with costly effort, characterize equilibrium behavior, and design two incentive mechanisms: a citation mechanism that references sources within an AI Overview, and a compensation mechanism that offers monetary rewards to creators. For both cases, we provide structural insights for profit-maximizing mechanisms. Evaluations parameterized by real click data show that although AI Overviews harm long-term search engine profit, interventions based on our proposed mechanisms can increase long-term profit across a range of realistic scenarios, pointing toward a more sustainable trajectory for AI-enhanced search ecosystems.",
+      "levels": [
+        "Citation",
+        "Presentation"
+      ],
+      "domains": [
+        "General / Cross-domain"
+      ],
+      "topics": [
+        "SEO & Publishers",
+        "User Behavior",
+        "Citation & Provenance",
+        "Technical Evaluation",
+        "Safety & Risk"
+      ],
+      "source": "arXiv",
+      "first_detected": "2026-10-02"
+    },
+    {
+      "id": "arxiv-2602.22221v2",
+      "title": "Evaluating Reliability Asymmetries in Chinese Factual Search and AI Answers",
+      "authors": [
+        "Geng Liu",
+        "Li Feng",
+        "Mengxiao Zhu",
+        "Francesco Pierri"
+      ],
+      "date": "2025-12-15",
+      "venue": "arXiv",
+      "type": "Preprint",
+      "doi": "",
+      "record": "http://arxiv.org/abs/2602.22221v2",
+      "pdf": "https://arxiv.org/pdf/2602.22221v2",
+      "abstract": "Search engines and AI-powered systems increasingly mediate access to factual information, yet their reliability remains difficult to evaluate in realistic information-seeking settings. We study this problem in the Chinese web ecosystem by constructing a query-based fact-checking dataset from real Chinese search logs and comparing nine systems across traditional search engines, standalone large language models, and search-integrated AI Overviews. Focusing on factual Chinese-language factual Yes/No questions, we evaluate whether systems provide correct, incorrect, or uncertain decisions against evidence-derived ground truth. We find that systems are similarly accurate when they provide definitive answers, but differ sharply in how often they do so. Conditional accuracy ranges from 73.2% to 78.9%, yet search engines answer definitively on over 83% of queries, while Qwen-Max does so on fewer than half. We also find a consistent polarity gap: all systems perform better on yes-labeled queries than on no-labeled queries. We also use Baidu Index data to identify Chinese provinces with higher health-related search attention, which may indicate greater potential exposure to misinformation. Overall, our results show that reliability depends not only on whether systems are correct when they answer, but also on how often they answer, how they handle negative claims, and where information demand may increase exposure risks.",
+      "levels": [
+        "Query",
+        "Content",
+        "Presentation"
+      ],
+      "domains": [
+        "Health & Medicine",
+        "Politics, Government & News"
+      ],
+      "topics": [
+        "Technical Evaluation",
+        "Safety & Risk"
+      ],
+      "source": "arXiv",
+      "first_detected": "2026-10-02"
+    },
+    {
+      "id": "arxiv-2512.02665v1",
+      "title": "Input Order Shapes LLM Semantic Alignment in Multi-Document Summarization",
+      "authors": [
+        "Jing Ma"
+      ],
+      "date": "2025-12-02",
+      "venue": "arXiv",
+      "type": "Preprint",
+      "doi": "",
+      "record": "http://arxiv.org/abs/2512.02665v1",
+      "pdf": "https://arxiv.org/pdf/2512.02665v1",
+      "abstract": "Large language models (LLMs) are now used in settings such as Google's AI Overviews, where it summarizes multiple long documents. However, it remains unclear whether they weight all inputs equally. Focusing on abortion-related news, we construct 40 pro-neutral-con article triplets, permute each triplet into six input orders, and prompt Gemini 2.5 Flash to generate a neutral overview. We evaluate each summary against its source articles using ROUGE-L (lexical overlap), BERTScore (semantic similarity), and SummaC (factual consistency). One-way ANOVA reveals a significant primacy effect for BERTScore across all stances, indicating that summaries are more semantically aligned with the first-seen article. Pairwise comparisons further show that Position 1 differs significantly from Positions 2 and 3, while the latter two do not differ from each other, confirming a selective preference for the first document. The findings present risks for applications that rely on LLM-generated overviews and for agentic AI systems, where the steps involving LLMs can disproportionately influence downstream actions.",
+      "levels": [
+        "Query",
+        "Content",
+        "Citation"
+      ],
+      "domains": [
+        "Politics, Government & News",
+        "Science & Technology"
+      ],
+      "topics": [
+        "Citation & Provenance",
+        "Safety & Risk"
+      ],
+      "source": "arXiv",
+      "first_detected": "2026-10-02"
+    },
+    {
+      "id": "arxiv-2511.12920v4",
       "title": "Auditing Google's AI Overviews and Featured Snippets: A Case Study on Baby Care and Pregnancy",
       "authors": [
         "Desheng Hu",
@@ -760,28 +1411,56 @@
       "venue": "arXiv",
       "type": "Preprint",
       "doi": "",
-      "record": "https://arxiv.org/abs/2511.12920",
-      "pdf": "https://arxiv.org/pdf/2511.12920",
-      "abstract": "Systematic audit of 1,508 real baby-care and pregnancy queries comparing AI Overviews with Featured Snippets across consistency, relevance, medical safeguards, source categories, and sentiment alignment.",
+      "record": "http://arxiv.org/abs/2511.12920v4",
+      "pdf": "https://arxiv.org/pdf/2511.12920v4",
+      "abstract": "Google Search increasingly surfaces AI-generated content through features like AI Overviews (AIO) and Featured Snippets (FS), which users frequently rely on despite having no control over their presentation. Through a systematic algorithm audit of 1,508 real baby care and pregnancy-related queries, we evaluate the quality and consistency of these information displays. Our robust evaluation framework assesses multiple quality dimensions, including answer consistency, relevance, presence of medical safeguards, source categories, and sentiment alignment. Our results reveal concerning gaps in information consistency, with information in AIO and FS displayed on the same search result page being inconsistent with each other in 33% of cases. Despite high relevance scores, both features critically lack medical safeguards (present in just 11% of AIO and 7% of FS responses). While health and wellness websites dominate source categories for both, AIO and FS, FS also often link to commercial sources. These findings have important implications for public health information access and demonstrate the need for stronger quality controls in AI-mediated health information. Our methodology provides a transferable framework for auditing AI systems across high-stakes domains where information quality directly impacts user well-being.",
       "levels": [
-        "Query",
         "Content",
         "Citation",
         "Presentation"
       ],
       "topics": [
-        "Health",
-        "Pregnancy",
-        "Baby care",
-        "Medical safeguards",
-        "Source categories",
-        "Consistency"
+        "SEO & Publishers",
+        "Citation & Provenance",
+        "Technical Evaluation",
+        "Safety & Risk",
+        "Platform & Interface"
       ],
-      "source": "Historical baseline",
-      "first_detected": "2026-09-21",
+      "source": "arXiv",
+      "first_detected": "2026-10-02",
       "domains": [
-        "Health & Medicine"
+        "Health & Medicine",
+        "Science & Technology"
       ]
+    },
+    {
+      "id": "arxiv-2510.11438v1",
+      "title": "What Generative Search Engines Like and How to Optimize Web Content Cooperatively",
+      "authors": [
+        "Yujiang Wu",
+        "Shanshan Zhong",
+        "Yubin Kim",
+        "Chenyan Xiong"
+      ],
+      "date": "2025-10-13",
+      "venue": "arXiv",
+      "type": "Preprint",
+      "doi": "",
+      "record": "http://arxiv.org/abs/2510.11438v1",
+      "pdf": "https://arxiv.org/pdf/2510.11438v1",
+      "abstract": "By employing large language models (LLMs) to retrieve documents and generate natural language responses, Generative Engines, such as Google AI overview and ChatGPT, provide significantly enhanced user experiences and have rapidly become the new form of search. Their rapid adoption also drives the needs of Generative Engine Optimization (GEO), as content providers are eager to gain more traction from them. In this paper, we introduce AutoGEO, a framework to automatically learn generative engine preferences when using retrieved contents for response generation, and rewrite web contents for more such traction. AutoGEO first prompts frontier LLMs to explain generative engine preferences and extract meaningful preference rules from these explanations. Then it uses preference rules as context engineering for AutoGEO$_\\text{API}$, a prompt-based GEO system, and as rule-based rewards to train AutoGEO$_\\text{Mini}$, a cost-effective GEO model. Experiments on the standard GEO-Bench and two newly constructed benchmarks using real user queries demonstrate the effectiveness of AutoGEO in enhancing content traction while preserving search utility. Analyses confirm the learned rules' robustness and abilities to capture unique preferences in variant domains, and AutoGEO systems' ability to embed them in content optimization. The code is released at https://github.com/cxcscmu/AutoGEO.",
+      "levels": [
+        "Query",
+        "Citation"
+      ],
+      "domains": [
+        "Science & Technology"
+      ],
+      "topics": [
+        "Technical Evaluation"
+      ],
+      "source": "arXiv",
+      "first_detected": "2026-10-02"
     },
     {
       "id": "doi-10.2196-79961",
@@ -815,6 +1494,34 @@
       "domains": [
         "Health & Medicine"
       ]
+    },
+    {
+      "id": "arxiv-2509.10762v1",
+      "title": "AI Answer Engine Citation Behavior An Empirical Analysis of the GEO16 Framework",
+      "authors": [
+        "Arlen Kumar",
+        "Leanid Palkhouski"
+      ],
+      "date": "2025-09-13",
+      "venue": "arXiv",
+      "type": "Preprint",
+      "doi": "",
+      "record": "http://arxiv.org/abs/2509.10762v1",
+      "pdf": "https://arxiv.org/pdf/2509.10762v1",
+      "abstract": "AI answer engines increasingly mediate access to domain knowledge by generating responses and citing web sources. We introduce GEO-16, a 16 pillar auditing framework that converts on page quality signals into banded pillar scores and a normalized GEO score G that ranges from 0 to 1. Using 70 product intent prompts, we collected 1,702 citations across three engines (Brave Summary, Google AI Overviews, and Perplexity) and audited 1,100 unique URLs. In our corpus, the engines differed in the GEO quality of the pages they cited, and pillars related to Metadata and Freshness, Semantic HTML, and Structured Data showed the strongest associations with citation. Logistic models with domain clustered standard errors indicate that overall page quality is a strong predictor of citation, and simple operating points (for example, G at least 0.70 combined with at least 12 pillar hits) align with substantially higher citation rates in our data. We report per engine contrasts, vertical effects, threshold analysis, and diagnostics, then translate findings into a practical playbook for publishers. The study is observational and focuses on English language B2B SaaS pages; we discuss limitations, threats to validity, and reproducibility considerations.",
+      "levels": [
+        "Query",
+        "Citation"
+      ],
+      "domains": [
+        "Commerce & Consumer"
+      ],
+      "topics": [
+        "SEO & Publishers",
+        "Citation & Provenance"
+      ],
+      "source": "arXiv",
+      "first_detected": "2026-10-02"
     },
     {
       "id": "doi-10.3145-thinkepi.2025.e19a08",
