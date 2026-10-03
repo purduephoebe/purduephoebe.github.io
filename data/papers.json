@@ -1,8 +1,42 @@
 {
-  "last_updated": "2026-10-02T11:20:27+08:00",
-  "new_in_latest_scan": 23,
+  "last_updated": "2026-10-03T11:06:11+08:00",
+  "new_in_latest_scan": 1,
   "scope": "All-domain Google AI Overviews / SGE research with multi-label application-domain classification.",
   "papers": [
+    {
+      "id": "doi-10.5281/zenodo.23085929",
+      "title": "Between resistance and negotiation. Intellectual property as a survival strategy for media facing AI and digital platforms",
+      "authors": [
+        "Javier Díaz-Noci",
+        "Javier Odriozola-Chéné",
+        "Rosa Pérez Arozamena",
+        "Koldobika Meso Ayerdi",
+        "Simón Peña-Fernández"
+      ],
+      "date": "2026-10-01",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Report",
+      "doi": "10.5281/zenodo.23085929",
+      "record": "https://doi.org/10.5281/zenodo.23085929",
+      "pdf": "",
+      "abstract": "Introduction. Generative AI has intensified tensions between news organisations and technology platforms over intellectual property, audience traffic and journalism’s economic sustainability. The report examines how leading Spanish digital media have framed AI since ChatGPT’s emergence, while considering the subsequent disruption caused by Google AI Overviews and AI Mode. Methods. The study combines quantitative content analysis with legal and industry analysis. It examines 242 AI-related articles published between January 2022 and December 2024 by leading Spanish digital-native and legacy outlets, selected according to GfK DAM audience data. Frequency distributions and contingency tables assess thematic frames and editorial positions. Results. Intellectual property emerges as the central underlying conflict. Coverage concentrates on authorship (68%), ethics and legal liability (45%), business models and licensing (32%), and employment (21%). Legacy media generally frame AI as a threat to journalistic assets, whereas digital-native outlets emphasise efficiency and commercial opportunities. Civil society and journalists themselves remain marginal in the debate. Google’s AI-generated summaries further intensify concerns by retaining users within the platform and reducing referral traffic. Discussion. Intellectual property is becoming both a defensive right and a bargaining asset. The sector is consequently shifting from litigation towards licensing, collective negotiation and technological adaptation, although confidential agreements may strengthen major publishers while marginalising smaller outlets.",
+      "levels": [
+        "Content",
+        "Citation",
+        "Presentation"
+      ],
+      "domains": [
+        "Finance & Economics",
+        "Politics, Government & News",
+        "Science & Technology",
+        "Law & Public Policy"
+      ],
+      "topics": [
+        "SEO & Publishers"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-10-03"
+    },
     {
       "id": "arxiv-2609.38946v1",
       "title": "Breaking News Out of the Filter Bubble: Generative AI Search Diversifies Collective Attention and Raises Shared Information Consumption",
@@ -61,7 +95,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-02",
+      "first_detected": "2026-10-03",
       "domains": [
         "Politics, Government & News",
         "Commerce & Consumer"
@@ -94,7 +128,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-02"
+      "first_detected": "2026-10-03"
     },
     {
       "id": "doi-10.17632/yk4wn7hftg.1",
@@ -120,19 +154,19 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-02"
+      "first_detected": "2026-10-03"
     },
     {
-      "id": "doi-10.6084/m9.figshare.33945919",
+      "id": "doi-10.6084/m9.figshare.33945919.v1",
       "title": "The AI Citation Gap: How Brand Demand, Authority, and Knowledge Panels Decide Which of 1,000 US Personal Injury Law Firms AI Assistants Cite",
       "authors": [
-        "Husain Bahzad"
+        "Bahzad Hussain"
       ],
       "date": "2026-09-27",
       "venue": "Figshare",
       "type": "Preprint",
-      "doi": "10.6084/m9.figshare.33945919",
-      "record": "https://doi.org/10.6084/m9.figshare.33945919",
+      "doi": "10.6084/m9.figshare.33945919.v1",
+      "record": "https://doi.org/10.6084/m9.figshare.33945919.v1",
       "pdf": "",
       "abstract": "When a US consumer asks an AI assistant a legal question, the assistant answers with a synthesized paragraph and a short list of named entities and cited pages. Which law firms appear in those answers, and whose web pages host the citations, is rapidly becoming the discoverability question of the decade for the personal injury (PI) vertical, where a single signed case can be worth six or seven figures and a single head-term click transacts for hundreds of dollars. This paper is the eighth in a series on entity-completeness signals in the top-ranking US PI vertical. It presents, to our knowledge, the first large-N per-assistant AI citation audit of the vertical: for the same 1,000 top-ranking US personal injury law firm sample used throughout the series, we join per-firm mention and cited-page counts across four AI answer surfaces (ChatGPT, Gemini, Google AI Overview, and Google AI Mode) to the brand-search-demand, Person Entity Panel, Google Business Panel, domain-authority, and schema-completeness signals established in the prior papers. Three findings define what we name the AI Citation Gap. First, AI visibility is extremely concentrated: the median firm receives just 22 AI mentions across all four surfaces combined, the top 100 firms absorb 51.6% of all mentions, the bottom 500 firms share 9.6%, and the Gini coefficient of the mention distribution is 0.65. Second, the four assistants agree on who matters (pairwise Spearman ρ = 0.70 to 0.88) but not symmetrically: 126 firms that are visible on Google's AI surfaces are completely absent from ChatGPT, while only 14 firms show the reverse pattern. Third, the citations are mostly not on the firm's own website. We introduce the Citation Intermediation Ratio (CIR), the share of a firm's AI citation footprint hosted by domains other than its own, and report a median CIR of 0.72: for the median firm, roughly 72% of its AI citations are hosted by third parties, with legal directories alone hosting 23%, and 99% of firms fall below 50% own-site share. Domain authority is the dominant correlate of AI mentions (ρ = 0.80), brand search demand is the strongest firm-controllable second lever (firm brand ρ = 0.44, significant in regression net of authority), the Person Entity Panel is citation-neutral, and the Google Business Panel is again associated with a citation deficit (median 19 vs 36 mentions, p < 0.001; OLS coefficient negative and significant), extending the zero-click cannibalization pattern documented in the Brand Demand Flywheel paper into the AI answer layer. An OLS model on log mentions reaches R² = 0.64. The paper closes with Citation Surface Optimization (CSO), a practitioner framework for managing owned versus rented AI citation surfaces.",
       "levels": [
@@ -150,7 +184,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-02"
+      "first_detected": "2026-10-03"
     },
     {
       "id": "doi-10.7910/dvn/i5qdxu",
@@ -176,10 +210,10 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-02"
+      "first_detected": "2026-10-03"
     },
     {
-      "id": "doi-10.5281/zenodo.23000692",
+      "id": "doi-10.5281/zenodo.23000693",
       "title": "AI Search Citation Study: 60 SERP Queries",
       "authors": [
         "AI Consultant Research Desk"
@@ -187,8 +221,8 @@
       "date": "2026-09-27",
       "venue": "Zenodo (CERN European Organization for Nuclear Research)",
       "type": "Dataset",
-      "doi": "10.5281/zenodo.23000692",
-      "record": "https://doi.org/10.5281/zenodo.23000692",
+      "doi": "10.5281/zenodo.23000693",
+      "record": "https://doi.org/10.5281/zenodo.23000693",
       "pdf": "",
       "abstract": "# AI Search Citation Study Methodology: 60 branded and commercial AI-consulting queries were checked in Google search results on 27 September 2026. Each result's domain and URL were recorded, along with AI Overview citation mentions. SERP features (AI Overviews, discussions, local packs, related searches) were logged for 30 core queries. Columns: citations.csv (keyword, rank, domain, url), serp_features.csv (keyword, serp_feature, counts), aio_mentions.csv (keyword, boolean). 22 citation records across 60 queries. SERP feature records for 30 queries. ## Licence CC-BY-4.0. You may reuse, adapt and redistribute with attribution to Paloren. ## Citation Paloren. (2026). AI Search Citation Study. https://paloren.ai",
       "levels": [
@@ -201,7 +235,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-02"
+      "first_detected": "2026-10-03"
     },
     {
       "id": "doi-10.7910/dvn/rnxigv",
@@ -227,7 +261,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-02"
+      "first_detected": "2026-10-03"
     },
     {
       "id": "doi-10.7910/dvn/fynpa3",
@@ -431,7 +465,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-02"
+      "first_detected": "2026-10-03"
     },
     {
       "id": "arxiv-2609.24407v1",
@@ -587,7 +621,7 @@
         "Platform & Interface"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-02"
+      "first_detected": "2026-10-03"
     },
     {
       "id": "doi-10.5281/zenodo.22707850",
@@ -615,7 +649,7 @@
         "User Behavior"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-02"
+      "first_detected": "2026-10-03"
     },
     {
       "id": "doi-10.17605/osf.io/pzeur",
@@ -712,7 +746,7 @@
         "Platform & Interface"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-02"
+      "first_detected": "2026-10-03"
     },
     {
       "id": "arxiv-2609.00319v1",
@@ -901,7 +935,7 @@
         "General AIO"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-02"
+      "first_detected": "2026-10-03"
     },
     {
       "id": "arxiv-2607.04282v3",
