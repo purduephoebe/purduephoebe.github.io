@@ -1,8 +1,118 @@
 {
-  "last_updated": "2026-10-03T11:06:11+08:00",
-  "new_in_latest_scan": 1,
+  "last_updated": "2026-10-04T11:34:39+08:00",
+  "new_in_latest_scan": 2,
   "scope": "All-domain Google AI Overviews / SGE research with multi-label application-domain classification.",
   "papers": [
+    {
+      "id": "doi-10.5281/zenodo.23098528",
+      "title": "Google's Generative AI Search Revolution: What Enterprise Software Companies Must Do Now",
+      "authors": [
+        "David Ohnstad"
+      ],
+      "date": "2026-10-02",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Article",
+      "doi": "10.5281/zenodo.23098528",
+      "record": "https://doi.org/10.5281/zenodo.23098528",
+      "pdf": "",
+      "abstract": "Artificial Intelligence has certainly gained attention in recent years and shows no sign of attracting any less as multiple applications and uses for the digital marvel increase! The question is, how well does AI do in information retrieval? According to Full article: https://davidohnstad.net/googles-new-generative-ai-search/",
+      "levels": [
+        "Content"
+      ],
+      "domains": [
+        "Science & Technology"
+      ],
+      "topics": [
+        "Technical Evaluation"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-10-04"
+    },
+    {
+      "id": "doi-10.5281/zenodo.23098324",
+      "title": "Google's AI Search Revolution: What Minnesota Businesses and Outdoor Brands Need to Know",
+      "authors": [
+        "David Ohnstad"
+      ],
+      "date": "2026-10-02",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Article",
+      "doi": "10.5281/zenodo.23098324",
+      "record": "https://doi.org/10.5281/zenodo.23098324",
+      "pdf": "",
+      "abstract": "Google's AI Search Revolution: What Minnesota Businesses and Outdoor Brands Need to Know If you run a Minnesota business—especially in outdoor recreation, tourism, or local services—you've probably noticed something shift in how Google Search works over the past year. Google's new generative AI search features, particularly AI Overviews (formerly called SGE, or Search Generative Experience),… Continue reading Google's AI Search Revolution: What Minnesota Businesses and Outdoor Brands Need to Know Full article: https://davidohnstadminnesota.com/googles-new-generative-ai-search/",
+      "levels": [
+        "Content"
+      ],
+      "domains": [
+        "Commerce & Consumer",
+        "Travel, Local & Lifestyle"
+      ],
+      "topics": [
+        "General AIO"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-10-04"
+    },
+    {
+      "id": "doi-10.26118/2782-4586-2026-588-593",
+      "title": "SEO as a tool for managing the company's digital presence",
+      "authors": [
+        "Maksim Shman",
+        "Oksana Kniazeva"
+      ],
+      "date": "2026-10-02",
+      "venue": "Journal of Monetary Economics and Management",
+      "type": "Article",
+      "doi": "10.26118/2782-4586-2026-588-593",
+      "record": "https://doi.org/10.26118/2782-4586-2026-588-593",
+      "pdf": "",
+      "abstract": "This article explores the role of search engine optimization (SEO) as a strategic management tool for a company's digital presence. Using a comparative analysis of industry data, it examines the dynamics of the global SEO software market and the bipolar structure of the Russian search market: Yandex relies on behavioral factors, while Google prioritizes content quality and reputation. This divergence requires Russian companies to pursue two coordinated, yet distinct, optimization strategies. The ROI of digital channels is analyzed: SEO delivers the highest long-term returns, although the payback period ranges from nine to sixteen months. The impact of AI Overviews blocks is also examined: their proliferation has led to a significant drop in organic click-through rates and has brought GEO (Generative Response Evaluation) to the forefront: a strategy aimed at reaching cited sources of generative responses. The results are intended for digital marketing and corporate management professionals.",
+      "levels": [
+        "Citation",
+        "Presentation"
+      ],
+      "domains": [
+        "Finance & Economics",
+        "Science & Technology"
+      ],
+      "topics": [
+        "SEO & Publishers",
+        "User Behavior",
+        "Citation & Provenance",
+        "Technical Evaluation"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-10-04"
+    },
+    {
+      "id": "doi-10.5281/zenodo.23101610",
+      "title": "Google AI Overview Dataset",
+      "authors": [
+        "HasData"
+      ],
+      "date": "2026-10-02",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Dataset",
+      "doi": "10.5281/zenodo.23101610",
+      "record": "https://doi.org/10.5281/zenodo.23101610",
+      "pdf": "",
+      "abstract": "Data behind the Google AI Overview Study, a HasData measurement of when Google shows an AI Overview and which sources it cites. The core panel is 1,100 queries, 100 per intent bucket across 11 buckets (symptom, tech, howto, diy, informational, navigational, local, events, purchase, comparison, recipe). An AI Overview appeared on 732 of them (66.5%). A second pass re-ran the 1,100 queries with organic results captured and added a 100-query travel bucket, 1,200 rows in all, so citation position can be compared with organic ranking. Queries were collected through the HasData SERP API with US desktop settings. Each row carries the AI Overview flag, the cited domains and flags for the other SERP features. The repository also holds a 113-domain niche-site slice, citation counts by content vertical, the derived aggregate tables, and the collection and analysis scripts.",
+      "levels": [
+        "Query",
+        "Citation"
+      ],
+      "domains": [
+        "Commerce & Consumer",
+        "Travel, Local & Lifestyle"
+      ],
+      "topics": [
+        "Citation & Provenance",
+        "Technical Evaluation"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-10-04"
+    },
     {
       "id": "doi-10.5281/zenodo.23085929",
       "title": "Between resistance and negotiation. Intellectual property as a survival strategy for media facing AI and digital platforms",
@@ -35,7 +145,7 @@
         "SEO & Publishers"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-03"
+      "first_detected": "2026-10-04"
     },
     {
       "id": "arxiv-2609.38946v1",
@@ -80,7 +190,7 @@
       "type": "Conference-Paper",
       "doi": "10.1145/3777912.3839818",
       "record": "https://doi.org/10.1145/3777912.3839818",
-      "pdf": "https://arxiv.org/pdf/2605.14021v1",
+      "pdf": "https://dl.acm.org/doi/pdf/10.1145/3777912.3839818?download=true",
       "abstract": "Google AI Overviews (AIOs) are arguably the most widely encountered deployment of generative AI, reaching over 2 billion users who may not realize the answers they see are AI-generated. Where search engines have traditionally surfaced ranked sources and left users to evaluate them, AIOs synthesize and deliver a single answer — giving Google unprecedented editorial control over what users read and know. We present a large-scale longitudinal measurement study, issuing 55,393 trending queries across 19 topical categories over a 40-day window (March 13–April 21, 2026). We report four main findings. First, overall AIO activation is 13.7%, rising to 64.7% for question-form queries, while politically sensitive topics see markedly lower rates. Second, AIO-cited domains are more credible than co-displayed first-page results, yet nearly 30% do not appear in those results at all, indicating a source selection mechanism distinct from Google's ranking algorithm. Third, decomposing responses into 98,020 atomic claims, 11.0% are unsupported by the cited pages — with omission the dominant failure mode — and source quality and claim fidelity are largely independent. Fourth, well over half of AIO-cited pages carry display advertising, meaning publishers lose revenue when AIOs suppress the click-through, even as Google's own sponsored ads continue to appear on the same page. Together, these findings document a rapid transformation of the online information ecosystem whose consequences for epistemic security remain poorly understood.",
       "levels": [
         "Query",
@@ -95,7 +205,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-03",
+      "first_detected": "2026-10-04",
       "domains": [
         "Politics, Government & News",
         "Commerce & Consumer"
@@ -157,7 +267,7 @@
       "first_detected": "2026-10-03"
     },
     {
-      "id": "doi-10.6084/m9.figshare.33945919.v1",
+      "id": "doi-10.6084/m9.figshare.33945919",
       "title": "The AI Citation Gap: How Brand Demand, Authority, and Knowledge Panels Decide Which of 1,000 US Personal Injury Law Firms AI Assistants Cite",
       "authors": [
         "Bahzad Hussain"
@@ -165,8 +275,8 @@
       "date": "2026-09-27",
       "venue": "Figshare",
       "type": "Preprint",
-      "doi": "10.6084/m9.figshare.33945919.v1",
-      "record": "https://doi.org/10.6084/m9.figshare.33945919.v1",
+      "doi": "10.6084/m9.figshare.33945919",
+      "record": "https://doi.org/10.6084/m9.figshare.33945919",
       "pdf": "",
       "abstract": "When a US consumer asks an AI assistant a legal question, the assistant answers with a synthesized paragraph and a short list of named entities and cited pages. Which law firms appear in those answers, and whose web pages host the citations, is rapidly becoming the discoverability question of the decade for the personal injury (PI) vertical, where a single signed case can be worth six or seven figures and a single head-term click transacts for hundreds of dollars. This paper is the eighth in a series on entity-completeness signals in the top-ranking US PI vertical. It presents, to our knowledge, the first large-N per-assistant AI citation audit of the vertical: for the same 1,000 top-ranking US personal injury law firm sample used throughout the series, we join per-firm mention and cited-page counts across four AI answer surfaces (ChatGPT, Gemini, Google AI Overview, and Google AI Mode) to the brand-search-demand, Person Entity Panel, Google Business Panel, domain-authority, and schema-completeness signals established in the prior papers. Three findings define what we name the AI Citation Gap. First, AI visibility is extremely concentrated: the median firm receives just 22 AI mentions across all four surfaces combined, the top 100 firms absorb 51.6% of all mentions, the bottom 500 firms share 9.6%, and the Gini coefficient of the mention distribution is 0.65. Second, the four assistants agree on who matters (pairwise Spearman ρ = 0.70 to 0.88) but not symmetrically: 126 firms that are visible on Google's AI surfaces are completely absent from ChatGPT, while only 14 firms show the reverse pattern. Third, the citations are mostly not on the firm's own website. We introduce the Citation Intermediation Ratio (CIR), the share of a firm's AI citation footprint hosted by domains other than its own, and report a median CIR of 0.72: for the median firm, roughly 72% of its AI citations are hosted by third parties, with legal directories alone hosting 23%, and 99% of firms fall below 50% own-site share. Domain authority is the dominant correlate of AI mentions (ρ = 0.80), brand search demand is the strongest firm-controllable second lever (firm brand ρ = 0.44, significant in regression net of authority), the Person Entity Panel is citation-neutral, and the Google Business Panel is again associated with a citation deficit (median 19 vs 36 mentions, p < 0.001; OLS coefficient negative and significant), extending the zero-click cannibalization pattern documented in the Brand Demand Flywheel paper into the AI answer layer. An OLS model on log mentions reaches R² = 0.64. The paper closes with Citation Surface Optimization (CSO), a practitioner framework for managing owned versus rented AI citation surfaces.",
       "levels": [
@@ -184,7 +294,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-03"
+      "first_detected": "2026-10-04"
     },
     {
       "id": "doi-10.7910/dvn/i5qdxu",
@@ -290,31 +400,6 @@
       ],
       "source": "OpenAlex",
       "first_detected": "2026-10-01"
-    },
-    {
-      "id": "doi-10.5281/zenodo.22954070",
-      "title": "Google's Generative AI Search Revolution: What Enterprise Software Companies Must Do Now",
-      "authors": [
-        "David Ohnstad"
-      ],
-      "date": "2026-09-25",
-      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
-      "type": "Article",
-      "doi": "10.5281/zenodo.22954070",
-      "record": "https://doi.org/10.5281/zenodo.22954070",
-      "pdf": "",
-      "abstract": "Artificial Intelligence has certainly gained attention in recent years and shows no sign of attracting any less as multiple applications and uses for the digital marvel increase! The question is, how well does AI do in information retrieval? According to Full article: https://davidohnstad.net/googles-new-generative-ai-search/",
-      "levels": [
-        "Content"
-      ],
-      "domains": [
-        "Science & Technology"
-      ],
-      "topics": [
-        "Technical Evaluation"
-      ],
-      "source": "OpenAlex",
-      "first_detected": "2026-09-29"
     },
     {
       "id": "doi-10.5281/zenodo.22959764",
@@ -621,7 +706,7 @@
         "Platform & Interface"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-03"
+      "first_detected": "2026-10-04"
     },
     {
       "id": "doi-10.5281/zenodo.22707850",
@@ -649,7 +734,7 @@
         "User Behavior"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-03"
+      "first_detected": "2026-10-04"
     },
     {
       "id": "doi-10.17605/osf.io/pzeur",
@@ -910,32 +995,6 @@
       ],
       "source": "arXiv",
       "first_detected": "2026-10-02"
-    },
-    {
-      "id": "doi-10.5281/zenodo.21783755",
-      "title": "Google's AI Search Revolution: What Minnesota Businesses and Outdoor Brands Need to Know",
-      "authors": [
-        "David Ohnstad"
-      ],
-      "date": "2026-08-04",
-      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
-      "type": "Article",
-      "doi": "10.5281/zenodo.21783755",
-      "record": "https://doi.org/10.5281/zenodo.21783755",
-      "pdf": "",
-      "abstract": "Google's AI Search Revolution: What Minnesota Businesses and Outdoor Brands Need to Know If you run a Minnesota business—especially in outdoor recreation, tourism, or local services—you've probably noticed something shift in how Google Search works over the past year. Google's new generative AI search features, particularly AI Overviews (formerly called SGE, or Search Generative Experience),… Continue reading Google's AI Search Revolution: What Minnesota Businesses and Outdoor Brands Need to Know Full article: https://davidohnstadminnesota.com/googles-new-generative-ai-search/",
-      "levels": [
-        "Content"
-      ],
-      "domains": [
-        "Commerce & Consumer",
-        "Travel, Local & Lifestyle"
-      ],
-      "topics": [
-        "General AIO"
-      ],
-      "source": "OpenAlex",
-      "first_detected": "2026-10-03"
     },
     {
       "id": "arxiv-2607.04282v3",
