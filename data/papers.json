@@ -1,8 +1,63 @@
 {
-  "last_updated": "2026-10-04T11:34:39+08:00",
+  "last_updated": "2026-10-05T11:15:42+08:00",
   "new_in_latest_scan": 2,
   "scope": "All-domain Google AI Overviews / SGE research with multi-label application-domain classification.",
   "papers": [
+    {
+      "id": "doi-10.5281/zenodo.23121705",
+      "title": "Does the language you ask in change which businesses AI recommends? Brand-mention matrices for Kyiv, Warsaw and Vilnius",
+      "authors": [
+        "Max Onyshchenko"
+      ],
+      "date": "2026-10-03",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Dataset",
+      "doi": "10.5281/zenodo.23121705",
+      "record": "https://doi.org/10.5281/zenodo.23121705",
+      "pdf": "",
+      "abstract": "Brand-mention matrices behind a 1,800-answer study: the same 20 dental buying questions asked in Kyiv (Ukrainian / English), Warsaw (Polish / English) and Vilnius (Lithuanian / English), three passes each, across five AI answer engines (ChatGPT with and without browsing, Perplexity, Gemini, Google AI Overview). Each row is one brand in one language on one pass from one engine, with the number of answers naming it and the denominator of answers that engine returned (6,630 rows). In all three markets the same-language overlap is higher than the cross-language overlap; the effect travels with retrieval and concentrates below the category leaders. Full study, method and limitations: https://quotedin.com/study/",
+      "levels": [
+        "Content"
+      ],
+      "domains": [
+        "Finance & Economics",
+        "Commerce & Consumer",
+        "Travel, Local & Lifestyle"
+      ],
+      "topics": [
+        "Technical Evaluation"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-10-05"
+    },
+    {
+      "id": "doi-10.5281/zenodo.23123439",
+      "title": "Exposing AI: Session Transcripts, 27–28 September 2026 (Supplementary Material)",
+      "authors": [
+        "Joseph Vincent Treglia"
+      ],
+      "date": "2026-10-03",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Article",
+      "doi": "10.5281/zenodo.23123439",
+      "record": "https://doi.org/10.5281/zenodo.23123439",
+      "pdf": "",
+      "abstract": "Transcripts of five sessions on commercial AI search and assistant systems (Google AI Mode, a conversational assistant, an AI search interface, DuckDuckGo Duck.ai with Bing AI Mode, Microsoft Copilot), recorded by the author on 27–28 September 2026, supporting the seventeen cases in the paper Exposing AI: Terminology Erasure, Attribution Failure, and the Case for BoolAIn Literacy in the New AI-ge. Interface clutter removed; wording unaltered. One combined volume and five individual files.Keywords: BoolAIn · AI-ge · AI search audit · transcripts · query rewriting · attribution · generative search · e-noculation · Theory of Preferred Action · TOPA",
+      "levels": [
+        "Query",
+        "Citation",
+        "Presentation"
+      ],
+      "domains": [
+        "General / Cross-domain"
+      ],
+      "topics": [
+        "Citation & Provenance",
+        "Platform & Interface"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-10-05"
+    },
     {
       "id": "doi-10.5281/zenodo.23098528",
       "title": "Google's Generative AI Search Revolution: What Enterprise Software Companies Must Do Now",
@@ -26,7 +81,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-04"
+      "first_detected": "2026-10-05"
     },
     {
       "id": "doi-10.5281/zenodo.23098324",
@@ -52,7 +107,7 @@
         "General AIO"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-04"
+      "first_detected": "2026-10-05"
     },
     {
       "id": "doi-10.26118/2782-4586-2026-588-593",
@@ -83,7 +138,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-04"
+      "first_detected": "2026-10-05"
     },
     {
       "id": "doi-10.5281/zenodo.23101610",
@@ -111,25 +166,25 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-04"
+      "first_detected": "2026-10-05"
     },
     {
-      "id": "doi-10.5281/zenodo.23085929",
+      "id": "doi-10.6084/m9.figshare.34046916",
       "title": "Between resistance and negotiation. Intellectual property as a survival strategy for media facing AI and digital platforms",
       "authors": [
+        "Simón Peña-Fernández",
         "Javier Díaz-Noci",
         "Javier Odriozola-Chéné",
-        "Rosa Pérez Arozamena",
-        "Koldobika Meso Ayerdi",
-        "Simón Peña-Fernández"
+        "Rosa Pérez-Arozamena",
+        "Koldobika Meso Ayerdi"
       ],
       "date": "2026-10-01",
-      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
-      "type": "Report",
-      "doi": "10.5281/zenodo.23085929",
-      "record": "https://doi.org/10.5281/zenodo.23085929",
+      "venue": "Figshare",
+      "type": "Conference-Paper",
+      "doi": "10.6084/m9.figshare.34046916",
+      "record": "https://doi.org/10.6084/m9.figshare.34046916",
       "pdf": "",
-      "abstract": "Introduction. Generative AI has intensified tensions between news organisations and technology platforms over intellectual property, audience traffic and journalism’s economic sustainability. The report examines how leading Spanish digital media have framed AI since ChatGPT’s emergence, while considering the subsequent disruption caused by Google AI Overviews and AI Mode. Methods. The study combines quantitative content analysis with legal and industry analysis. It examines 242 AI-related articles published between January 2022 and December 2024 by leading Spanish digital-native and legacy outlets, selected according to GfK DAM audience data. Frequency distributions and contingency tables assess thematic frames and editorial positions. Results. Intellectual property emerges as the central underlying conflict. Coverage concentrates on authorship (68%), ethics and legal liability (45%), business models and licensing (32%), and employment (21%). Legacy media generally frame AI as a threat to journalistic assets, whereas digital-native outlets emphasise efficiency and commercial opportunities. Civil society and journalists themselves remain marginal in the debate. Google’s AI-generated summaries further intensify concerns by retaining users within the platform and reducing referral traffic. Discussion. Intellectual property is becoming both a defensive right and a bargaining asset. The sector is consequently shifting from litigation towards licensing, collective negotiation and technological adaptation, although confidential agreements may strengthen major publishers while marginalising smaller outlets.",
+      "abstract": "Introduction. Generative AI has intensified tensions between news organisations and technology platforms over intellectual property, audience traffic and journalism’s economic sustainability. The report examines how leading Spanish digital media have framed AI since ChatGPT’s emergence, while considering the subsequent disruption caused by Google AI Overviews and AI Mode.Methods. The study combines quantitative content analysis with legal and industry analysis. It examines 242 AI-related articles published between January 2022 and December 2024 by leading Spanish digital-native and legacy outlets, selected according to GfK DAM audience data. Frequency distributions and contingency tables assess thematic frames and editorial positions.Results. Intellectual property emerges as the central underlying conflict. Coverage concentrates on authorship (68%), ethics and legal liability (45%), business models and licensing (32%), and employment (21%). Legacy media generally frame AI as a threat to journalistic assets, whereas digital-native outlets emphasise efficiency and commercial opportunities. Civil society and journalists themselves remain marginal in the debate. Google’s AI-generated summaries further intensify concerns by retaining users within the platform and reducing referral traffic.Discussion. Intellectual property is becoming both a defensive right and a bargaining asset. The sector is consequently shifting from litigation towards licensing, collective negotiation and technological adaptation, although confidential agreements may strengthen major publishers while marginalising smaller outlets.",
       "levels": [
         "Content",
         "Citation",
@@ -145,7 +200,7 @@
         "SEO & Publishers"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-04"
+      "first_detected": "2026-10-05"
     },
     {
       "id": "arxiv-2609.38946v1",
@@ -205,7 +260,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-04",
+      "first_detected": "2026-10-05",
       "domains": [
         "Politics, Government & News",
         "Commerce & Consumer"
@@ -294,7 +349,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-04"
+      "first_detected": "2026-10-05"
     },
     {
       "id": "doi-10.7910/dvn/i5qdxu",
@@ -706,7 +761,7 @@
         "Platform & Interface"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-04"
+      "first_detected": "2026-10-05"
     },
     {
       "id": "doi-10.5281/zenodo.22707850",
@@ -734,7 +789,7 @@
         "User Behavior"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-04"
+      "first_detected": "2026-10-05"
     },
     {
       "id": "doi-10.17605/osf.io/pzeur",
