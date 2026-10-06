@@ -1,8 +1,114 @@
 {
-  "last_updated": "2026-10-05T11:15:42+08:00",
-  "new_in_latest_scan": 2,
+  "last_updated": "2026-10-06T12:03:08+08:00",
+  "new_in_latest_scan": 4,
   "scope": "All-domain Google AI Overviews / SGE research with multi-label application-domain classification.",
   "papers": [
+    {
+      "id": "doi-10.5281/zenodo.23132107",
+      "title": "The Answer Index: what AI answer engines cite across eight industries",
+      "authors": [
+        "Brandon Lincoln Hendricks"
+      ],
+      "date": "2026-10-04",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Dataset",
+      "doi": "10.5281/zenodo.23132107",
+      "record": "https://doi.org/10.5281/zenodo.23132107",
+      "pdf": "",
+      "abstract": "The Answer Index is a first-party measurement of what AI answer engines cite. On 2026-09-01, Hendricks sent a fixed panel of 480 questions, spanning eight industries and ten question types with the type mix held identical in every industry, to Google AI Overviews, ChatGPT, Perplexity, and Gemini. 1,919 of 1,920 probes returned a measurement, producing 16,069 citations across 7,775 distinct domains. The question panel is published verbatim in this package so the study can be re-run and checked by anyone. The package contains the complete panel (JSON and CSV), one row per citation event, per-engine, per-industry, and per-question-type summaries, the classification of every cited domain with how each assignment was made, the 60-domain blind audit of that classifier, the full methodology with every definition and denominator, per-file SHA-256 digests, and citation files. Read before using: this measures answer-engine APIs, not consumer apps. A domain is counted once per answer, never once per link. Google AI Overview figures are computed against rendered panels and are directional pending a browser-screenshot control. The source classifier carries a measured 28 percent blind-audit disagreement, so the eleven-class breakdown is withheld and only the provider versus non-provider split is reported, as a floor. The companion report is at https://hendricks.ai/research/the-answer-index.",
+      "levels": [
+        "Citation"
+      ],
+      "domains": [
+        "Commerce & Consumer"
+      ],
+      "topics": [
+        "Citation & Provenance"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-10-06"
+    },
+    {
+      "id": "doi-10.5281/zenodo.23136160",
+      "title": "Quellen in KI-Antworten zu Marketing- und Integrationsfragen kleiner Unternehmen (Messung Oktober 2026)",
+      "authors": [
+        "Stanislav Tonkich"
+      ],
+      "date": "2026-10-04",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Dataset",
+      "doi": "10.5281/zenodo.23136160",
+      "record": "https://doi.org/10.5281/zenodo.23136160",
+      "pdf": "",
+      "abstract": "Aggregierte Auswertung einer eigenen Messung vom 03.10.2026: Welche Arten von Websites nennen KI-Assistenten (Perplexity, ChatGPT, Gemini) und Google AI Overviews als Quellen, wenn kleine Unternehmen Marketingfragen stellen oder Zugewanderte nach Arbeit, Anerkennung und Gründung fragen. Ausgewertet wurden 47 Antworten ohne Markenfragen, davon 42 mit Quellenangaben, zusammen 361 Quellennennungen von 256 verschiedenen Domains. Auswertung am 04.10.2026 durch STEP/SEEDS® (DigMa Systems UG (haftungsbeschränkt), Pocking). Die CSV-Datei (Semikolon als Trennzeichen, UTF-8) enthält Angaben zur Stichprobe und Methode, Quellentypen mit Anzahl und Anteil insgesamt, nach Themengruppe und nach Assistent sowie die Domains, die in mindestens drei Antworten genannt wurden. Die vollständigen Antworttexte der KI-Assistenten sind nicht enthalten. Grenzen: kleine Stichprobe und eine einzelne Messung. Antworten von KI-Assistenten schwanken je nach Zeitpunkt, Standort und Formulierung der Frage. Die Daten sind eine Momentaufnahme und keine allgemeingültige Verteilung. Methode und Erläuterung: https://step-seeds.de/ki-zitationsquellen-kmu",
+      "levels": [
+        "Citation"
+      ],
+      "domains": [
+        "Finance & Economics"
+      ],
+      "topics": [
+        "SEO & Publishers"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-10-06"
+    },
+    {
+      "id": "doi-10.5281/zenodo.23130267",
+      "title": "Houston AI Visibility Index, October 2026",
+      "authors": [
+        "Andres Rusic",
+        "Marketing & AI"
+      ],
+      "date": "2026-10-04",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Dataset",
+      "doi": "10.5281/zenodo.23130267",
+      "record": "https://doi.org/10.5281/zenodo.23130267",
+      "pdf": "",
+      "abstract": "Aggregate measurements of how readable 2,474 independent Houston-area small business websites (plus 540 chain and national brand sites, reported separately) are to AI search tools such as ChatGPT, Claude, Perplexity, Microsoft Copilot and Google AI Overviews. Data collected October 2, 2026, with a firewall follow-up on October 3, 2026. Headline findings (independent businesses): 30.9% pass all four AI-ready basics (AI search crawlers allowed in robots.txt, at least 120 words readable without JavaScript, business schema in JSON-LD, exactly one H1). 45.3% have no business schema, 26.8% have no H1 and 18.6% show under 120 words without JavaScript. 1.6% block an AI search crawler in robots.txt; a follow-up user-agent test found about 3.8% more block one at the firewall, so effective blocking is about 5%. 29.9% serve an llms.txt file. Files: houston-ai-visibility-index-2026-q4.csv (one row per segment: all independents, chains, and eight industries plus Other), firewall-followup-2026-10-03.csv, and a methods PDF with full definitions and a data dictionary. No individual business is named or identifiable. Full report and interactive version: https://marketingandai.com/research/houston-ai-visibility-index/ Business listings used to build the sample © OpenStreetMap contributors, Open Database License (ODbL).",
+      "levels": [
+        "Content"
+      ],
+      "domains": [
+        "Finance & Economics",
+        "Commerce & Consumer"
+      ],
+      "topics": [
+        "SEO & Publishers"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-10-06"
+    },
+    {
+      "id": "doi-10.5281/zenodo.21833255",
+      "title": "Dental AI Visibility Data: US Dental Practice Websites, AI Search Crawler Access, and a Vendor Self-Measurement Run Log (2026)",
+      "authors": [
+        "Citevio",
+        "Muhammed Veysel Erin"
+      ],
+      "date": "2026-10-04",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Dataset",
+      "doi": "10.5281/zenodo.21833255",
+      "record": "https://doi.org/10.5281/zenodo.21833255",
+      "pdf": "",
+      "abstract": "Seven anonymized, aggregated CSV datasets published by Citevio. Four are dental market scans covering how US dental practice websites are built and how they respond to AI search crawlers: structured data, publishing platform, robots.txt handling of 13 named AI and data crawlers, live server behavior toward those crawlers, Google review and rating signals, and site speed. They are built from Citevio's own scans of 527 dental practices (7 US metros plus 9 smaller nearby towns, June 2026), 6,497 dental-related domains nationwide (July 2026), and 499 sites tested for live crawler access (July 2026). The fifth is a separately marked vendor self-measurement log: 13 completed answer-engine runs (August 2026) recording whether the publisher's own name and domain appeared in responses to fixed queries. It measures the publisher, not the market, and supports no statement about dental practices. The sixth and seventh are new in this version: an answer-level file (82 recorded answer blocks) and an agency-level file (45 agency labels) from a study of which agencies ChatGPT and Perplexity named in answers to 23 dental GEO agency-hiring questions, 20–21 August 2026. Citevio chose the question set and is one of the subjects. These files are not a ranking, not a quality judgment and not a client outcome. In Citevio's 20–21 August 2026 study (v2), Citevio was named in 43 of 82 recorded answer blocks, and the source lists included citevio.com in 37. Row-level practice records, practice domains, and raw engine response text are not published. The agency-study files list agency labels and source domains as they appeared in answers. Read LIMITATIONS.md and METHOD.md in the GitHub repository (github.com/citevio/dental-geo-agency-study-2026-08) before quoting any figure.",
+      "levels": [
+        "Citation"
+      ],
+      "domains": [
+        "Finance & Economics",
+        "Commerce & Consumer"
+      ],
+      "topics": [
+        "SEO & Publishers",
+        "Citation & Provenance",
+        "Technical Evaluation"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-10-06"
+    },
     {
       "id": "doi-10.5281/zenodo.23121705",
       "title": "Does the language you ask in change which businesses AI recommends? Brand-mention matrices for Kyiv, Warsaw and Vilnius",
@@ -28,7 +134,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-05"
+      "first_detected": "2026-10-06"
     },
     {
       "id": "doi-10.5281/zenodo.23123439",
@@ -56,7 +162,7 @@
         "Platform & Interface"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-05"
+      "first_detected": "2026-10-06"
     },
     {
       "id": "doi-10.5281/zenodo.23098528",
@@ -81,7 +187,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-05"
+      "first_detected": "2026-10-06"
     },
     {
       "id": "doi-10.5281/zenodo.23098324",
@@ -107,7 +213,7 @@
         "General AIO"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-05"
+      "first_detected": "2026-10-06"
     },
     {
       "id": "doi-10.26118/2782-4586-2026-588-593",
@@ -138,7 +244,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-05"
+      "first_detected": "2026-10-06"
     },
     {
       "id": "doi-10.5281/zenodo.23101610",
@@ -166,23 +272,23 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-05"
+      "first_detected": "2026-10-06"
     },
     {
-      "id": "doi-10.6084/m9.figshare.34046916",
+      "id": "doi-10.31235/osf.io/4vrdn_v1",
       "title": "Between resistance and negotiation. Intellectual property as a survival strategy for media facing AI and digital platforms",
       "authors": [
-        "Simón Peña-Fernández",
         "Javier Díaz-Noci",
         "Javier Odriozola-Chéné",
-        "Rosa Pérez-Arozamena",
-        "Koldobika Meso Ayerdi"
+        "Rosa Pérez Arozamena",
+        "Koldobika Meso Ayerdi",
+        "Simón Peña-Fernández"
       ],
-      "date": "2026-10-01",
-      "venue": "Figshare",
-      "type": "Conference-Paper",
-      "doi": "10.6084/m9.figshare.34046916",
-      "record": "https://doi.org/10.6084/m9.figshare.34046916",
+      "date": "2026-10-02",
+      "venue": "OpenAlex indexed work",
+      "type": "Preprint",
+      "doi": "10.31235/osf.io/4vrdn_v1",
+      "record": "https://doi.org/10.31235/osf.io/4vrdn_v1",
       "pdf": "",
       "abstract": "Introduction. Generative AI has intensified tensions between news organisations and technology platforms over intellectual property, audience traffic and journalism’s economic sustainability. The report examines how leading Spanish digital media have framed AI since ChatGPT’s emergence, while considering the subsequent disruption caused by Google AI Overviews and AI Mode.Methods. The study combines quantitative content analysis with legal and industry analysis. It examines 242 AI-related articles published between January 2022 and December 2024 by leading Spanish digital-native and legacy outlets, selected according to GfK DAM audience data. Frequency distributions and contingency tables assess thematic frames and editorial positions.Results. Intellectual property emerges as the central underlying conflict. Coverage concentrates on authorship (68%), ethics and legal liability (45%), business models and licensing (32%), and employment (21%). Legacy media generally frame AI as a threat to journalistic assets, whereas digital-native outlets emphasise efficiency and commercial opportunities. Civil society and journalists themselves remain marginal in the debate. Google’s AI-generated summaries further intensify concerns by retaining users within the platform and reducing referral traffic.Discussion. Intellectual property is becoming both a defensive right and a bargaining asset. The sector is consequently shifting from litigation towards licensing, collective negotiation and technological adaptation, although confidential agreements may strengthen major publishers while marginalising smaller outlets.",
       "levels": [
@@ -200,10 +306,10 @@
         "SEO & Publishers"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-05"
+      "first_detected": "2026-10-06"
     },
     {
-      "id": "arxiv-2609.38946v1",
+      "id": "doi-10.48550/arxiv.2609.38946",
       "title": "Breaking News Out of the Filter Bubble: Generative AI Search Diversifies Collective Attention and Raises Shared Information Consumption",
       "authors": [
         "Heeseung Andrew Lee",
@@ -212,11 +318,11 @@
         "Dongwon Lee"
       ],
       "date": "2026-09-30",
-      "venue": "arXiv",
+      "venue": "arXiv (Cornell University)",
       "type": "Preprint",
-      "doi": "",
-      "record": "http://arxiv.org/abs/2609.38946v1",
-      "pdf": "https://arxiv.org/pdf/2609.38946v1",
+      "doi": "10.48550/arxiv.2609.38946",
+      "record": "https://doi.org/10.48550/arxiv.2609.38946",
+      "pdf": "https://arxiv.org/pdf/2609.38946",
       "abstract": "Generative AI search and AI overviews are transforming access to information and news, renewing concerns that readers will encounter a narrower range of topics and have less in common. We examine these concerns via a randomized field experiment with 37,561 readers at The Washington Post. Both groups searched the same archive, but treatment readers also received AI answers with article citations above conventional results. Measuring consumption across displayed answers and opened articles, we find that AI search expands the reach of widely read topics and increases overlap in readers' topic consumption. At the same time, consumption becomes less concentrated and shifts toward less-popular topics, both within readers and across the audience. AI answers account for most of the increase in shared information, delivering it without requiring article clicks and broadening exposure beyond the articles readers open. Cited articles also contribute to the shift toward less-popular topics. Readers shift from conventional-result clicks and browsing toward cited articles and follow-up searches. More frequent searching offsets lower article consumption per search, producing a small increase in article consumption per reader. Total information consumption per minute also rises. Generative AI search can thus diversify collective attention while strengthening the information readers have in common.",
       "levels": [
         "Citation",
@@ -229,8 +335,8 @@
         "User Behavior",
         "Citation & Provenance"
       ],
-      "source": "arXiv",
-      "first_detected": "2026-10-02"
+      "source": "OpenAlex",
+      "first_detected": "2026-10-06"
     },
     {
       "id": "doi-10.1145/3777912.3839818",
@@ -241,7 +347,7 @@
         "Jacob Montgomery"
       ],
       "date": "2026-09-29",
-      "venue": "OpenAlex indexed work",
+      "venue": "ACM Internet Measurement Conference (IMC)",
       "type": "Conference-Paper",
       "doi": "10.1145/3777912.3839818",
       "record": "https://doi.org/10.1145/3777912.3839818",
@@ -260,7 +366,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-05",
+      "first_detected": "2026-10-06",
       "domains": [
         "Politics, Government & News",
         "Commerce & Consumer"
@@ -761,7 +867,7 @@
         "Platform & Interface"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-05"
+      "first_detected": "2026-10-06"
     },
     {
       "id": "doi-10.5281/zenodo.22707850",
@@ -789,7 +895,7 @@
         "User Behavior"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-05"
+      "first_detected": "2026-10-06"
     },
     {
       "id": "doi-10.17605/osf.io/pzeur",
