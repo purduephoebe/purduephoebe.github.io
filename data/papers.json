@@ -1,8 +1,35 @@
 {
-  "last_updated": "2026-10-06T12:03:08+08:00",
-  "new_in_latest_scan": 4,
+  "last_updated": "2026-10-07T11:31:20+08:00",
+  "new_in_latest_scan": 1,
   "scope": "All-domain Google AI Overviews / SGE research with multi-label application-domain classification.",
   "papers": [
+    {
+      "id": "doi-10.5281/zenodo.23145556",
+      "title": "The AI Answer Evidence Index: preregistration. Do the numbers in AI answers have sources?",
+      "authors": [
+        "Minel Güneşoğlu"
+      ],
+      "date": "2026-10-05",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Article",
+      "doi": "10.5281/zenodo.23145556",
+      "record": "https://doi.org/10.5281/zenodo.23145556",
+      "pdf": "",
+      "abstract": "This record registers the design and the instrument of The AI Answer Evidence Index before its main data collection. The study asks whether a reader who follows an AI answer engine's own sources can find there the figures the answer gives: do the numbers in AI answers have sources? Fifty buyer questions about prices, costs, fees and value were drawn by a written rule and a seed fixed beforehand from 100 questions taken verbatim from Google autocomplete suggestions (hl=en, gl=us) on 22 September 2026, across six sectors. No question was written by hand and none was picked by preference: each draw was made by a rule fixed in code beforehand. Google AI Overviews, ChatGPT and Gemini will each be asked every question once through their free public web interfaces, from a New York network exit, by fixed scripts: no AI model asks a question or reads a page during collection, and an operator may pass a verification page by hand, which every attempt records. Ten questions are asked a second time on a later day as a stability measure. A local model lists the figures in each answer; every listed figure is checked by a script against the pages the answer cites and gets one of six outcomes, and an unknown scores zero and stays in the denominator. The figures that are not found are classified, and a 40-figure sample is read by a second model; both readings are model readings and are reported as such. The deposit carries the method note (METHOD-NOTE.md, the registered text), the owner's dated decisions, the question frame with its selection rule, and the instrument: collection scripts, parsers, the page fetcher with its tests, the figure extractor, the check, the classifier, the validation sample and the summary scripts. MANIFEST.sha256 lists the SHA-256 hash of every registered file. The SHA-256 of MANIFEST.sha256 itself is 6146ee82ce380fb9350958d8bf90b5e1079afe8f87726ea2577a29ccab509c16. Every file of the deposit is open from the moment of registration, with no embargo and no restricted file. This is the second study in the series that began with the AI Search Evidence Index (doi:10.5281/zenodo.22257563). The results, the data and the code will be published as a separate record that references this registration.",
+      "levels": [
+        "Citation",
+        "Presentation"
+      ],
+      "domains": [
+        "Politics, Government & News"
+      ],
+      "topics": [
+        "Citation & Provenance",
+        "Platform & Interface"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-10-07"
+    },
     {
       "id": "doi-10.5281/zenodo.23132107",
       "title": "The Answer Index: what AI answer engines cite across eight industries",
@@ -26,7 +53,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-06"
+      "first_detected": "2026-10-07"
     },
     {
       "id": "doi-10.5281/zenodo.23136160",
@@ -51,7 +78,7 @@
         "SEO & Publishers"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-06"
+      "first_detected": "2026-10-07"
     },
     {
       "id": "doi-10.5281/zenodo.23130267",
@@ -78,7 +105,7 @@
         "SEO & Publishers"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-06"
+      "first_detected": "2026-10-07"
     },
     {
       "id": "doi-10.5281/zenodo.21833255",
@@ -107,7 +134,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-06"
+      "first_detected": "2026-10-07"
     },
     {
       "id": "doi-10.5281/zenodo.23121705",
@@ -117,7 +144,7 @@
       ],
       "date": "2026-10-03",
       "venue": "Zenodo (CERN European Organization for Nuclear Research)",
-      "type": "Dataset",
+      "type": "Other",
       "doi": "10.5281/zenodo.23121705",
       "record": "https://doi.org/10.5281/zenodo.23121705",
       "pdf": "",
@@ -134,7 +161,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-06"
+      "first_detected": "2026-10-07"
     },
     {
       "id": "doi-10.5281/zenodo.23123439",
@@ -162,10 +189,10 @@
         "Platform & Interface"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-06"
+      "first_detected": "2026-10-07"
     },
     {
-      "id": "doi-10.5281/zenodo.23098528",
+      "id": "doi-10.5281/zenodo.23098527",
       "title": "Google's Generative AI Search Revolution: What Enterprise Software Companies Must Do Now",
       "authors": [
         "David Ohnstad"
@@ -173,8 +200,8 @@
       "date": "2026-10-02",
       "venue": "Zenodo (CERN European Organization for Nuclear Research)",
       "type": "Article",
-      "doi": "10.5281/zenodo.23098528",
-      "record": "https://doi.org/10.5281/zenodo.23098528",
+      "doi": "10.5281/zenodo.23098527",
+      "record": "https://doi.org/10.5281/zenodo.23098527",
       "pdf": "",
       "abstract": "Artificial Intelligence has certainly gained attention in recent years and shows no sign of attracting any less as multiple applications and uses for the digital marvel increase! The question is, how well does AI do in information retrieval? According to Full article: https://davidohnstad.net/googles-new-generative-ai-search/",
       "levels": [
@@ -187,10 +214,10 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-06"
+      "first_detected": "2026-10-07"
     },
     {
-      "id": "doi-10.5281/zenodo.23098324",
+      "id": "doi-10.5281/zenodo.23098323",
       "title": "Google's AI Search Revolution: What Minnesota Businesses and Outdoor Brands Need to Know",
       "authors": [
         "David Ohnstad"
@@ -198,8 +225,8 @@
       "date": "2026-10-02",
       "venue": "Zenodo (CERN European Organization for Nuclear Research)",
       "type": "Article",
-      "doi": "10.5281/zenodo.23098324",
-      "record": "https://doi.org/10.5281/zenodo.23098324",
+      "doi": "10.5281/zenodo.23098323",
+      "record": "https://doi.org/10.5281/zenodo.23098323",
       "pdf": "",
       "abstract": "Google's AI Search Revolution: What Minnesota Businesses and Outdoor Brands Need to Know If you run a Minnesota business—especially in outdoor recreation, tourism, or local services—you've probably noticed something shift in how Google Search works over the past year. Google's new generative AI search features, particularly AI Overviews (formerly called SGE, or Search Generative Experience),… Continue reading Google's AI Search Revolution: What Minnesota Businesses and Outdoor Brands Need to Know Full article: https://davidohnstadminnesota.com/googles-new-generative-ai-search/",
       "levels": [
@@ -213,7 +240,7 @@
         "General AIO"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-06"
+      "first_detected": "2026-10-07"
     },
     {
       "id": "doi-10.26118/2782-4586-2026-588-593",
@@ -244,7 +271,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-06"
+      "first_detected": "2026-10-07"
     },
     {
       "id": "doi-10.5281/zenodo.23101610",
@@ -336,7 +363,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-06"
+      "first_detected": "2026-10-07"
     },
     {
       "id": "doi-10.1145/3777912.3839818",
@@ -366,7 +393,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-06",
+      "first_detected": "2026-10-07",
       "domains": [
         "Politics, Government & News",
         "Commerce & Consumer"
@@ -867,7 +894,7 @@
         "Platform & Interface"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-06"
+      "first_detected": "2026-10-07"
     },
     {
       "id": "doi-10.5281/zenodo.22707850",
@@ -895,7 +922,7 @@
         "User Behavior"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-06"
+      "first_detected": "2026-10-07"
     },
     {
       "id": "doi-10.17605/osf.io/pzeur",
