@@ -1,10 +1,39 @@
 {
-  "last_updated": "2026-10-07T11:31:20+08:00",
+  "last_updated": "2026-10-08T11:45:46+08:00",
   "new_in_latest_scan": 1,
   "scope": "All-domain Google AI Overviews / SGE research with multi-label application-domain classification.",
   "papers": [
     {
-      "id": "doi-10.5281/zenodo.23145556",
+      "id": "doi-10.6084/m9.figshare.34094295",
+      "title": "AI search citations for 150 real estate questions across five engines, September 2026",
+      "authors": [
+        "Abdul Subkhan"
+      ],
+      "date": "2026-10-06",
+      "venue": "Figshare",
+      "type": "Dataset",
+      "doi": "10.6084/m9.figshare.34094295",
+      "record": "https://doi.org/10.6084/m9.figshare.34094295",
+      "pdf": "",
+      "abstract": "Row-level data from the 150-Query Real Estate AI Search Study by CiteVantage. The same 150 questions a real estate professional would ask were put to ChatGPT, Perplexity, Gemini, Google AI Overviews and Microsoft Copilot during fieldwork from 8 to 12 September 2026, and every domain cited in each answer was recorded. The data covers 747 measurements. Across them the engines cited 1,297 distinct domains. 1,077 of those (83%) were cited by a single engine, and 3 were cited by all five. No two engines shared a most-cited source, and the largest overlap between any two engines' top 30 lists was 10 sources out of 30. Files1. ai-search-real-estate-2026.csv: one row per query and engine. Columns: query_id, query, query_shape, engine, sources_cited, cited_domains (space separated).2. ai-search-real-estate-2026-google-aio-urls.csv: every link shown by Google AI Overviews, one row per link. Columns: query_id, position, url, domain, repeat_in_answer.3. domains-ai-cites-real-estate.csv: the 1,297 cited domains with site type, total citations, number of engines citing, and a count per engine.4. study150-engines.png and study150-overlap.png: two charts. MethodChatGPT, Perplexity, Gemini and Copilot were queried in their own interfaces. Google AI Overviews was captured through a search API. One citation means one domain cited in one answer, so a site cited three times in one answer counts once. Grok was excluded because only 19 of 150 queries completed. LimitationsGemini returned a citable source list on a minority of its answers, so its distinct-domain count is a floor. All queries ran from a single location. AI answers change between runs, so this is a snapshot of 8 to 12 September 2026, not a stable ranking. CorrectionAn earlier version of the study page mixed two counting units for Google AI Overviews. It was corrected on 23 September 2026. Declared interestThe dataset was produced by CiteVantage, and citevantage.com is one of the 3 domains cited by all five engines. The row-level files are published so every figure can be recomputed. Full method and findings: https://citevantage.com/research/ai-search-real-estate-2026/",
+      "levels": [
+        "Query",
+        "Citation",
+        "Presentation"
+      ],
+      "domains": [
+        "General / Cross-domain"
+      ],
+      "topics": [
+        "Citation & Provenance",
+        "Technical Evaluation",
+        "Platform & Interface"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-10-08"
+    },
+    {
+      "id": "doi-10.5281/zenodo.23145555",
       "title": "The AI Answer Evidence Index: preregistration. Do the numbers in AI answers have sources?",
       "authors": [
         "Minel Güneşoğlu"
@@ -12,8 +41,8 @@
       "date": "2026-10-05",
       "venue": "Zenodo (CERN European Organization for Nuclear Research)",
       "type": "Article",
-      "doi": "10.5281/zenodo.23145556",
-      "record": "https://doi.org/10.5281/zenodo.23145556",
+      "doi": "10.5281/zenodo.23145555",
+      "record": "https://doi.org/10.5281/zenodo.23145555",
       "pdf": "",
       "abstract": "This record registers the design and the instrument of The AI Answer Evidence Index before its main data collection. The study asks whether a reader who follows an AI answer engine's own sources can find there the figures the answer gives: do the numbers in AI answers have sources? Fifty buyer questions about prices, costs, fees and value were drawn by a written rule and a seed fixed beforehand from 100 questions taken verbatim from Google autocomplete suggestions (hl=en, gl=us) on 22 September 2026, across six sectors. No question was written by hand and none was picked by preference: each draw was made by a rule fixed in code beforehand. Google AI Overviews, ChatGPT and Gemini will each be asked every question once through their free public web interfaces, from a New York network exit, by fixed scripts: no AI model asks a question or reads a page during collection, and an operator may pass a verification page by hand, which every attempt records. Ten questions are asked a second time on a later day as a stability measure. A local model lists the figures in each answer; every listed figure is checked by a script against the pages the answer cites and gets one of six outcomes, and an unknown scores zero and stays in the denominator. The figures that are not found are classified, and a 40-figure sample is read by a second model; both readings are model readings and are reported as such. The deposit carries the method note (METHOD-NOTE.md, the registered text), the owner's dated decisions, the question frame with its selection rule, and the instrument: collection scripts, parsers, the page fetcher with its tests, the figure extractor, the check, the classifier, the validation sample and the summary scripts. MANIFEST.sha256 lists the SHA-256 hash of every registered file. The SHA-256 of MANIFEST.sha256 itself is 6146ee82ce380fb9350958d8bf90b5e1079afe8f87726ea2577a29ccab509c16. Every file of the deposit is open from the moment of registration, with no embargo and no restricted file. This is the second study in the series that began with the AI Search Evidence Index (doi:10.5281/zenodo.22257563). The results, the data and the code will be published as a separate record that references this registration.",
       "levels": [
@@ -28,7 +57,7 @@
         "Platform & Interface"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-07"
+      "first_detected": "2026-10-08"
     },
     {
       "id": "doi-10.5281/zenodo.23132107",
@@ -105,7 +134,7 @@
         "SEO & Publishers"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-07"
+      "first_detected": "2026-10-08"
     },
     {
       "id": "doi-10.5281/zenodo.21833255",
@@ -134,7 +163,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-07"
+      "first_detected": "2026-10-08"
     },
     {
       "id": "doi-10.5281/zenodo.23121705",
@@ -217,32 +246,6 @@
       "first_detected": "2026-10-07"
     },
     {
-      "id": "doi-10.5281/zenodo.23098323",
-      "title": "Google's AI Search Revolution: What Minnesota Businesses and Outdoor Brands Need to Know",
-      "authors": [
-        "David Ohnstad"
-      ],
-      "date": "2026-10-02",
-      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
-      "type": "Article",
-      "doi": "10.5281/zenodo.23098323",
-      "record": "https://doi.org/10.5281/zenodo.23098323",
-      "pdf": "",
-      "abstract": "Google's AI Search Revolution: What Minnesota Businesses and Outdoor Brands Need to Know If you run a Minnesota business—especially in outdoor recreation, tourism, or local services—you've probably noticed something shift in how Google Search works over the past year. Google's new generative AI search features, particularly AI Overviews (formerly called SGE, or Search Generative Experience),… Continue reading Google's AI Search Revolution: What Minnesota Businesses and Outdoor Brands Need to Know Full article: https://davidohnstadminnesota.com/googles-new-generative-ai-search/",
-      "levels": [
-        "Content"
-      ],
-      "domains": [
-        "Commerce & Consumer",
-        "Travel, Local & Lifestyle"
-      ],
-      "topics": [
-        "General AIO"
-      ],
-      "source": "OpenAlex",
-      "first_detected": "2026-10-07"
-    },
-    {
       "id": "doi-10.26118/2782-4586-2026-588-593",
       "title": "SEO as a tool for managing the company's digital presence",
       "authors": [
@@ -271,7 +274,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-07"
+      "first_detected": "2026-10-08"
     },
     {
       "id": "doi-10.5281/zenodo.23101610",
@@ -363,7 +366,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-07"
+      "first_detected": "2026-10-08"
     },
     {
       "id": "doi-10.1145/3777912.3839818",
@@ -393,7 +396,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-07",
+      "first_detected": "2026-10-08",
       "domains": [
         "Politics, Government & News",
         "Commerce & Consumer"
@@ -829,6 +832,32 @@
       "first_detected": "2026-09-25"
     },
     {
+      "id": "doi-10.5281/zenodo.22825645",
+      "title": "Google's AI Search Revolution: What Minnesota Businesses and Outdoor Brands Need to Know",
+      "authors": [
+        "David Ohnstad"
+      ],
+      "date": "2026-09-18",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Article",
+      "doi": "10.5281/zenodo.22825645",
+      "record": "https://doi.org/10.5281/zenodo.22825645",
+      "pdf": "",
+      "abstract": "Google's AI Search Revolution: What Minnesota Businesses and Outdoor Brands Need to Know If you run a Minnesota business—especially in outdoor recreation, tourism, or local services—you've probably noticed something shift in how Google Search works over the past year. Google's new generative AI search features, particularly AI Overviews (formerly called SGE, or Search Generative Experience),… Continue reading Google's AI Search Revolution: What Minnesota Businesses and Outdoor Brands Need to Know Full article: https://davidohnstadminnesota.com/googles-new-generative-ai-search/",
+      "levels": [
+        "Content"
+      ],
+      "domains": [
+        "Commerce & Consumer",
+        "Travel, Local & Lifestyle"
+      ],
+      "topics": [
+        "General AIO"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-10-08"
+    },
+    {
       "id": "doi-10.6084/m9.figshare.33868474.v1",
       "title": "Measuring AI Visibility: A Method for Tracking Brand Mentions and Citations in LLM Answers",
       "authors": [
@@ -894,7 +923,7 @@
         "Platform & Interface"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-07"
+      "first_detected": "2026-10-08"
     },
     {
       "id": "doi-10.5281/zenodo.22707850",
@@ -922,7 +951,7 @@
         "User Behavior"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-07"
+      "first_detected": "2026-10-08"
     },
     {
       "id": "doi-10.17605/osf.io/pzeur",
