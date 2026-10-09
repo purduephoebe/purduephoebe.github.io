@@ -1,8 +1,40 @@
 {
-  "last_updated": "2026-10-08T11:45:46+08:00",
-  "new_in_latest_scan": 1,
+  "last_updated": "2026-10-09T11:50:51+08:00",
+  "new_in_latest_scan": 2,
   "scope": "All-domain Google AI Overviews / SGE research with multi-label application-domain classification.",
   "papers": [
+    {
+      "id": "doi-10.1016/j.ipm.2026.105211",
+      "title": "From search results to generative answers: A mixed-methods study of credibility assessment and trust formation in AI Overviews",
+      "authors": [
+        "Yolanda Casermeiro-Corpas",
+        "Francisco Rejón‐Guardia",
+        "María Vallespín Arán",
+        "Sebastián Molinillo"
+      ],
+      "date": "2026-10-07",
+      "venue": "Information Processing & Management",
+      "type": "Article",
+      "doi": "10.1016/j.ipm.2026.105211",
+      "record": "https://doi.org/10.1016/j.ipm.2026.105211",
+      "pdf": "",
+      "abstract": "Generative search shifts information evaluation from comparing ranked documents to assessing synthesised answers. This study examines how users’ perceptions of answer quality are associated with trust and credibility in Google AI Overviews and explores whether visible interface cues may foster trust without systematic source verification. Study 1 analysed survey data from 510 Spanish users using a consistent partial least squares structural equation modelling approach. Study 2 combined eye tracking and interviews with 20 Spanish users. The model explained 75.7% of the variance in trust and 91.0% of the variance in credibility. Clarity and context ( β = .419, p < .001) and access to additional information and supporting sources ( β = .335, p = .002) showed the strongest observed associations with trust, whereas response immediacy was not significant ( β = .008, p = .874). Trust ( β = .834) and perceived usefulness ( β = .229) were positively associated with credibility (both p < .001), which, in turn, was associated with recommendation following ( β = .877) and intention to use ( β = .553; both p < .001). Eye tracking recorded no analysable fixations on the AI-error warning, while the interviews indicated that participants in this subsample did not routinely verify the displayed sources and often interpreted visible references as indicators of reliability. Taken together, Study 1 identifies associations between perceived answer-quality cues, trust, and credibility, whereas Study 2 suggests that visual prominence and visible references appeared to operate as authority cues for some participants and may encourage reliance without active source verification.",
+      "levels": [
+        "Citation",
+        "Presentation"
+      ],
+      "domains": [
+        "Commerce & Consumer"
+      ],
+      "topics": [
+        "User Behavior",
+        "Citation & Provenance",
+        "Technical Evaluation",
+        "Platform & Interface"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-10-09"
+    },
     {
       "id": "doi-10.6084/m9.figshare.34094295",
       "title": "AI search citations for 150 real estate questions across five engines, September 2026",
@@ -30,7 +62,7 @@
         "Platform & Interface"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-08"
+      "first_detected": "2026-10-09"
     },
     {
       "id": "doi-10.5281/zenodo.23145555",
@@ -58,6 +90,34 @@
       ],
       "source": "OpenAlex",
       "first_detected": "2026-10-08"
+    },
+    {
+      "id": "openalex-W7220872758",
+      "title": "Comunicação pública sob mediação algorítmica: SEO, AI Overviews e o impacto nas métricas de audiência das notícias do portal do STJ (2020-2025)",
+      "authors": [
+        "Sheila Messerschmidt da Silveira",
+        "Rodrigo Lopes de Aguiar",
+        "Roberto Thomaz da Silveira"
+      ],
+      "date": "2026-10-05",
+      "venue": "Revista Processus Multidisciplinar",
+      "type": "Article",
+      "doi": "",
+      "record": "https://openalex.org/W7220872758",
+      "pdf": "",
+      "abstract": "Este artigo analisa os impactos da mediação algorítmica e da incorporação de sistemas de inteligência artificial (IA) nos mecanismos de busca sobre a comunicação pública do Poder Judiciário, a partir do caso da seção de notícias do portal de notícias do Superior Tribunal de Justiça (STJ), no período de 2020 a 2025. Adota-se abordagem qualitativa, com estudo de caso baseado em dados institucionais de acesso e produção de conteúdo. Os resultados evidenciam dois movimentos distintos: um ciclo de expansão sustentada ao longo de quatro anos, associado à adoção de estratégias de otimização para mecanismos de busca (SEO), e uma inflexão em 2025, caracterizada pela redução no volume de acessos, sem relação com variações no volume de publicações. A análise sugere que o crescimento decorreu de ganhos de performance relacionados à visibilidade e à encontrabilidade da informação. Sob a ótica da literatura, a queda de acessos é interpretada como resultado de transformações no ecossistema informacional, especialmente com o avanço de recursos como o AI Overviews do Google e de fenômenos como o zero-click search, que reduzem a necessidade de acesso direto às fontes originárias de informação. Como contribuição, o artigo questiona a adequação dos indicadores tradicionais de desempenho e alerta para a necessidade de desenvolvimento de métricas voltadas à mensuração da visibilidade informacional em ambientes com mediação algorítmica.",
+      "levels": [
+        "Presentation"
+      ],
+      "domains": [
+        "General / Cross-domain"
+      ],
+      "topics": [
+        "SEO & Publishers",
+        "User Behavior"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-10-09"
     },
     {
       "id": "doi-10.5281/zenodo.23132107",
@@ -134,7 +194,7 @@
         "SEO & Publishers"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-08"
+      "first_detected": "2026-10-09"
     },
     {
       "id": "doi-10.5281/zenodo.21833255",
@@ -274,7 +334,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-08"
+      "first_detected": "2026-10-09"
     },
     {
       "id": "doi-10.5281/zenodo.23101610",
@@ -366,7 +426,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-08"
+      "first_detected": "2026-10-09"
     },
     {
       "id": "doi-10.1145/3777912.3839818",
@@ -396,7 +456,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-08",
+      "first_detected": "2026-10-09",
       "domains": [
         "Politics, Government & News",
         "Commerce & Consumer"
@@ -855,7 +915,7 @@
         "General AIO"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-08"
+      "first_detected": "2026-10-09"
     },
     {
       "id": "doi-10.6084/m9.figshare.33868474.v1",
@@ -923,7 +983,7 @@
         "Platform & Interface"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-08"
+      "first_detected": "2026-10-09"
     },
     {
       "id": "doi-10.5281/zenodo.22707850",
