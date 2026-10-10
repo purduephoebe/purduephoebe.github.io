@@ -1,8 +1,90 @@
 {
-  "last_updated": "2026-10-09T11:50:51+08:00",
-  "new_in_latest_scan": 2,
+  "last_updated": "2026-10-10T11:34:53+08:00",
+  "new_in_latest_scan": 5,
   "scope": "All-domain Google AI Overviews / SGE research with multi-label application-domain classification.",
   "papers": [
+    {
+      "id": "doi-10.24171/j.phrp.2026.0365",
+      "title": "Visibility of the Korean National Health Information Portal across search engines and generative artificial intelligence platforms: a repeated cross-sectional study",
+      "authors": [
+        "Younglee Choi",
+        "Hee-kyoung Nam",
+        "Belong Cho"
+      ],
+      "date": "2026-10-08",
+      "venue": "Osong Public Health and Research Perspectives",
+      "type": "Article",
+      "doi": "10.24171/j.phrp.2026.0365",
+      "record": "https://doi.org/10.24171/j.phrp.2026.0365",
+      "pdf": "",
+      "abstract": "Objectives: This study assessed changes in the visibility of the National Health Information Portal (NHIP), operated by the Korea Disease Control and Prevention Agency, across conventional search portals and generative artificial intelligence (AI) platforms. Methods: We analyzed 150 health-related keywords derived from NHIP traffic data, Daum search logs, and chronic disease categories across 7 platforms: Naver, Google, Bing, Daum, ChatGPT, Perplexity, and Gemini. Searches were conducted in September 2025 and February 2026; Gemini was assessed only in the second survey. NHIP exposure was defined as appearance within the top 10 organic search results, whereas AI citation was defined as explicit source attribution. Changes were tested using McNemar's test. Results: Organic search exposure for the NHIP increased on Naver (64.0% to 73.3%, p=0.018) and decreased on Bing (72.0% to 61.3%, p=0.021). AI-summary citation rates increased more substantially on Naver AI Briefing (8.0% to 62.7%, p<0.001), Bing AI Summary (6.7% to 44.7%, p<0.001), Google AI Overview (30.0% to 48.0%, p=0.001), and ChatGPT (16.7% to 38.0%, p<0.001). Gemini cited the NHIP for 96.0% of keywords. For dyslipidemia-related keywords (n=10), Google and ChatGPT showed no NHIP exposure, whereas Gemini cited the NHIP for all keywords. Conclusion: AI citation represents a new dimension of health information accessibility. To address visibility gaps and marked platform divergence, public health portals should implement a 3-level optimization strategy encompassing machine-readable infrastructure, AI-friendly content formatting, and continuous multi-platform monitoring.",
+      "levels": [
+        "Citation",
+        "Presentation"
+      ],
+      "domains": [
+        "Health & Medicine",
+        "Science & Technology"
+      ],
+      "topics": [
+        "SEO & Publishers",
+        "Citation & Provenance"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-10-10"
+    },
+    {
+      "id": "doi-10.5281/zenodo.23237772",
+      "title": "vindbar-Index: Nennungen von GEO-Agenturen und KI-SEO-Dienstleistern in KI-Antworten (DACH)",
+      "authors": [
+        "Marco Licht"
+      ],
+      "date": "2026-10-08",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Dataset",
+      "doi": "10.5281/zenodo.23237772",
+      "record": "https://doi.org/10.5281/zenodo.23237772",
+      "pdf": "",
+      "abstract": "Monatliche Zählung, welche GEO-Agenturen, KI-SEO-Dienstleister und Werkzeuge ChatGPT, Gemini, Perplexity, Claude, Google AI Overviews und Google AI Mode im deutschsprachigen Raum nennen. 20 feste Kauffragen, wöchentlich drei Wiederholungen je Frage und System, jede Antwort im Wortlaut.",
+      "levels": [
+        "Presentation"
+      ],
+      "domains": [
+        "General / Cross-domain"
+      ],
+      "topics": [
+        "SEO & Publishers"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-10-10"
+    },
+    {
+      "id": "doi-10.5281/zenodo.23238428",
+      "title": "The AI Answer Evidence Index: data, code and results of the main run",
+      "authors": [
+        "Minel Güneşoğlu"
+      ],
+      "date": "2026-10-08",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Dataset",
+      "doi": "10.5281/zenodo.23238428",
+      "record": "https://doi.org/10.5281/zenodo.23238428",
+      "pdf": "",
+      "abstract": "This record holds the data, the code and the results of the main run of The AI Answer Evidence Index. The study asks whether a reader who follows an AI answer engine's own sources can find there the figures the answer gives: do the numbers in AI answers have sources? It measures whether a figure in an answer occurs on the pages that answer cites, and it does not measure whether any figure is correct. Fifty buyer questions about prices, costs, fees and value, drawn by a written rule from Google autocomplete suggestions, were put to Google AI Overviews, ChatGPT and Gemini through their free public web interfaces from a New York network exit on 5 to 7 October 2026, by fixed scripts, and the first ten were asked a second time. The design, the questions and the instrument were registered for these three engines before the first answer was collected (doi:10.5281/zenodo.23145556, published 5 October 2026 at 13:32:08 UTC). A local model listed the figures in each answer, a script checked every listed figure against the pages the answer cites, the figures that were not found were classified, and a 40-figure sample drawn from the figures of the three registered engines was read by a second model; both readings are model readings and are reported as such. Two engines were added after the registration and outside it, as exploratory additions. The same fifty questions were put once to Perplexity, through a signed-in free account, and to Claude through the Anthropic API with its web search tool; the tables write Claude (API). Their answers were collected for an analysis the registration does not contain, of which sources the engines cite and how far they share them, and were then put through the registered figure chain: the same extraction, check, classifier and summary. By the instruction recorded as entry 7 of the deviation log, the result texts and the tables show the five engines together: 249 of 250 answers, 241 of them with at least one figure, 3,465 figures. The comparison of five engines is not a registered comparison. The values of the three registered engines are unchanged, and each access route is stated where the answers are reported. The record carries every registered file unchanged; the answer records and attempt notes of the main and the repeat set; the records of the two added collections; the address, fetch time, status and SHA-256 of every cited page; the extraction, check and classification outputs for all five engines; the registered measures; the validation sample with its readings; the tables and the two result texts (report/); the deviation log, with seven dated entries and the run record of every collection block; and the run logs. The text of the cited pages and the saved answer pages are not redistributed: the record gives their addresses, fetch times and SHA-256 hashes, and quotes of at most 200 characters. MANIFEST.sha256 lists the SHA-256 hash of every file of the deposit. The SHA-256 of MANIFEST.sha256 itself is f0471e8cdddae9ae2aa7fde87b63830a154962b7034e41671b279ee200ba03d3. Every file is open, with no embargo and no restricted file. This is the second study in the series that began with the AI Search Evidence Index (doi:10.5281/zenodo.22257563).",
+      "levels": [
+        "Citation",
+        "Presentation"
+      ],
+      "domains": [
+        "General / Cross-domain"
+      ],
+      "topics": [
+        "Citation & Provenance",
+        "Platform & Interface"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-10-10"
+    },
     {
       "id": "doi-10.1016/j.ipm.2026.105211",
       "title": "From search results to generative answers: A mixed-methods study of credibility assessment and trust formation in AI Overviews",
@@ -17,7 +99,7 @@
       "type": "Article",
       "doi": "10.1016/j.ipm.2026.105211",
       "record": "https://doi.org/10.1016/j.ipm.2026.105211",
-      "pdf": "",
+      "pdf": "https://www.sciencedirect.com/science/article/pii/S0306457326006011/pdf",
       "abstract": "Generative search shifts information evaluation from comparing ranked documents to assessing synthesised answers. This study examines how users’ perceptions of answer quality are associated with trust and credibility in Google AI Overviews and explores whether visible interface cues may foster trust without systematic source verification. Study 1 analysed survey data from 510 Spanish users using a consistent partial least squares structural equation modelling approach. Study 2 combined eye tracking and interviews with 20 Spanish users. The model explained 75.7% of the variance in trust and 91.0% of the variance in credibility. Clarity and context ( β = .419, p < .001) and access to additional information and supporting sources ( β = .335, p = .002) showed the strongest observed associations with trust, whereas response immediacy was not significant ( β = .008, p = .874). Trust ( β = .834) and perceived usefulness ( β = .229) were positively associated with credibility (both p < .001), which, in turn, was associated with recommendation following ( β = .877) and intention to use ( β = .553; both p < .001). Eye tracking recorded no analysable fixations on the AI-error warning, while the interviews indicated that participants in this subsample did not routinely verify the displayed sources and often interpreted visible references as indicators of reliability. Taken together, Study 1 identifies associations between perceived answer-quality cues, trust, and credibility, whereas Study 2 suggests that visual prominence and visible references appeared to operate as authority cues for some participants and may encourage reliance without active source verification.",
       "levels": [
         "Citation",
@@ -33,7 +115,69 @@
         "Platform & Interface"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-09"
+      "first_detected": "2026-10-10"
+    },
+    {
+      "id": "doi-10.1007/s40119-026-00481-5",
+      "title": "A Comparative Evaluation of ChatGPT and Google Search Output for Caregiver Education in Tetralogy of Fallot",
+      "authors": [
+        "Shreyas V. Menon",
+        "Armaun D. Rouhi",
+        "Jason J. Han"
+      ],
+      "date": "2026-10-07",
+      "venue": "Cardiology and Therapy",
+      "type": "Article",
+      "doi": "10.1007/s40119-026-00481-5",
+      "record": "https://doi.org/10.1007/s40119-026-00481-5",
+      "pdf": "https://link.springer.com/content/pdf/10.1007/s40119-026-00481-5.pdf",
+      "abstract": "INTRODUCTION: Caregivers of children with tetralogy of Fallot (TOF) frequently seek medical information online to better understand their child's diagnosis, treatment, and long-term care. Recently, generative artificial intelligence (AI) tools, including Google AI Overview and ChatGPT, have emerged as widely accessible sources of health information. However, the quality, readability, and accuracy of these platforms for caregiver education in congenital heart disease remain poorly characterized. METHODS: Forty frequently asked caregiver questions regarding TOF were identified using Google's \"People Also Ask\" feature. Each question was submitted to ChatGPT-5.5 and entered as a Google search query, generating 80 total responses. Google search output comprised 37 AI Overviews and three organic search excerpts. Responses were evaluated for word count, Flesch Reading Ease (FRE), and Flesch-Kincaid grade level (FKGL). Two independent reviewers assessed response accuracy using a 5-point Likert scale, while one reviewer evaluated educational quality using a modified Ensuring Quality Information for Patients (EQIP) instrument. RESULTS: Compared with Google search output (37 AI Overviews and three organic search excerpts), ChatGPT-5.5 generated significantly longer responses (327.9 ± 117.0 vs. 192.5 ± 85.9 words, p < 0.001), with a higher reading level (FKGL: 23.7 ± 8.5 vs. 15.4 ± 3.6, p < 0.001) and lower readability (FRE: 17.3 ± 14.9 vs. 27.4 ± 11.7, p < 0.001). ChatGPT-5.5 demonstrated higher reviewer-rated accuracy (4.95 ± 0.19 vs. 4.40 ± 0.44, p < 0.001) and higher modified EQIP scores (86.44% ± 7.01% vs. 59.62% ± 13.99%, p < 0.001). CONCLUSIONS: Under the study's prompting conditions, ChatGPT-5.5 responses received higher reviewer-rated accuracy and modified EQIP scores than Google search output but were longer and had higher calculated reading-grade levels. These findings do not establish improved caregiver comprehension, which was not directly assessed.",
+      "levels": [
+        "Query",
+        "Content",
+        "Citation"
+      ],
+      "domains": [
+        "Health & Medicine",
+        "Commerce & Consumer",
+        "Education & Academia",
+        "Science & Technology"
+      ],
+      "topics": [
+        "Citation & Provenance",
+        "Technical Evaluation"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-10-10"
+    },
+    {
+      "id": "doi-10.5281/zenodo.23210742",
+      "title": "AI Visibility Index for Trading Brands",
+      "authors": [
+        "PipsWire Intelligence",
+        "David Ispiryan"
+      ],
+      "date": "2026-10-07",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Dataset",
+      "doi": "10.5281/zenodo.23210742",
+      "record": "https://doi.org/10.5281/zenodo.23210742",
+      "pdf": "",
+      "abstract": "When a trader asks an AI assistant which forex broker, prop firm or crypto exchange to use, which brands does it name? This dataset measures that, every quarter. PipsWire Intelligence asks ChatGPT, Claude, Gemini, Perplexity and Google the questions traders ask, in many markets. Every brand the answers name gets an AI Visibility Score from 0 to 100, by market and by source (engine). Edition 2026-Q3 (published 16 September 2026, method version 1.1): 288 brands (119 forex and CFD brokers, 76 prop trading firms, 93 crypto exchanges), 16 markets, and 7,062 answers to questions that name no brand. One CSV, 36,945 rows, 17 columns. Each row gives one brand in one cut (category, market, source): the score with its range, the mention rate, the recommendation rate, a position score, a sentiment score, the own-site citation rate, share of voice and the answer counts. Score = 100 x (0.40 x mention rate + 0.30 x recommendation rate x position score + 0.15 x sentiment score + 0.15 x own-site citation rate). Twelve fixed question templates (seven name no brand), each asked at least twice. ChatGPT, Claude, Gemini and Perplexity are queried through their APIs with web search; Google is measured on AI Mode, AI Overviews and its top 10 results. Brand names are matched with alias lists. A market is measured for a product only where residents can legally use it. Published by PipsWire Intelligence, the data unit of PipsWire, a Catalinq LLC publication (San Francisco, California). Author: David Ispiryan. Live index: https://pipswire.com/intelligence/ . Method: https://pipswire.com/intelligence/methodology/ . Corrections are published with a date within five working days. Disclosure: Catalinq LLC also owns Ranxy, a marketing agency, and BrokerCatalogue and ExchangeCatalogue, two comparison sites. They are labelled wherever they appear and are never scored. Nobody can pay to change a score. B2B marketing data. Not investment advice, and not a recommendation to trade or to use any broker, exchange or prop firm.",
+      "levels": [
+        "Content",
+        "Citation"
+      ],
+      "domains": [
+        "Finance & Economics",
+        "Commerce & Consumer",
+        "Law & Public Policy"
+      ],
+      "topics": [
+        "Citation & Provenance"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-10-10"
     },
     {
       "id": "doi-10.6084/m9.figshare.34094295",
@@ -62,7 +206,7 @@
         "Platform & Interface"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-09"
+      "first_detected": "2026-10-10"
     },
     {
       "id": "doi-10.5281/zenodo.23145555",
@@ -104,7 +248,7 @@
       "type": "Article",
       "doi": "",
       "record": "https://openalex.org/W7220872758",
-      "pdf": "",
+      "pdf": "https://periodicos.processus.com.br/index.php/multi/article/download/1795/1667",
       "abstract": "Este artigo analisa os impactos da mediação algorítmica e da incorporação de sistemas de inteligência artificial (IA) nos mecanismos de busca sobre a comunicação pública do Poder Judiciário, a partir do caso da seção de notícias do portal de notícias do Superior Tribunal de Justiça (STJ), no período de 2020 a 2025. Adota-se abordagem qualitativa, com estudo de caso baseado em dados institucionais de acesso e produção de conteúdo. Os resultados evidenciam dois movimentos distintos: um ciclo de expansão sustentada ao longo de quatro anos, associado à adoção de estratégias de otimização para mecanismos de busca (SEO), e uma inflexão em 2025, caracterizada pela redução no volume de acessos, sem relação com variações no volume de publicações. A análise sugere que o crescimento decorreu de ganhos de performance relacionados à visibilidade e à encontrabilidade da informação. Sob a ótica da literatura, a queda de acessos é interpretada como resultado de transformações no ecossistema informacional, especialmente com o avanço de recursos como o AI Overviews do Google e de fenômenos como o zero-click search, que reduzem a necessidade de acesso direto às fontes originárias de informação. Como contribuição, o artigo questiona a adequação dos indicadores tradicionais de desempenho e alerta para a necessidade de desenvolvimento de métricas voltadas à mensuração da visibilidade informacional em ambientes com mediação algorítmica.",
       "levels": [
         "Presentation"
@@ -117,7 +261,7 @@
         "User Behavior"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-09"
+      "first_detected": "2026-10-10"
     },
     {
       "id": "doi-10.5281/zenodo.23132107",
@@ -194,7 +338,7 @@
         "SEO & Publishers"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-09"
+      "first_detected": "2026-10-10"
     },
     {
       "id": "doi-10.5281/zenodo.21833255",
@@ -334,7 +478,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-09"
+      "first_detected": "2026-10-10"
     },
     {
       "id": "doi-10.5281/zenodo.23101610",
@@ -426,7 +570,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-09"
+      "first_detected": "2026-10-10"
     },
     {
       "id": "doi-10.1145/3777912.3839818",
@@ -456,7 +600,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-09",
+      "first_detected": "2026-10-10",
       "domains": [
         "Politics, Government & News",
         "Commerce & Consumer"
@@ -915,7 +1059,7 @@
         "General AIO"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-09"
+      "first_detected": "2026-10-10"
     },
     {
       "id": "doi-10.6084/m9.figshare.33868474.v1",
@@ -983,7 +1127,7 @@
         "Platform & Interface"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-09"
+      "first_detected": "2026-10-10"
     },
     {
       "id": "doi-10.5281/zenodo.22707850",
