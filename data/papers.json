@@ -1,8 +1,33 @@
 {
-  "last_updated": "2026-10-10T11:34:53+08:00",
-  "new_in_latest_scan": 5,
+  "last_updated": "2026-10-11T11:07:31+08:00",
+  "new_in_latest_scan": 0,
   "scope": "All-domain Google AI Overviews / SGE research with multi-label application-domain classification.",
   "papers": [
+    {
+      "id": "doi-10.5281/zenodo.23259030",
+      "title": "Google's AI Search Revolution: What Minnesota Businesses and Outdoor Brands Need to Know",
+      "authors": [
+        "David Ohnstad"
+      ],
+      "date": "2026-10-09",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Article",
+      "doi": "10.5281/zenodo.23259030",
+      "record": "https://doi.org/10.5281/zenodo.23259030",
+      "pdf": "",
+      "abstract": "Full article: https://davidohnstadminnesota.com/googles-new-generative-ai-search/",
+      "levels": [
+        "Content"
+      ],
+      "domains": [
+        "Commerce & Consumer"
+      ],
+      "topics": [
+        "General AIO"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-10-11"
+    },
     {
       "id": "doi-10.24171/j.phrp.2026.0365",
       "title": "Visibility of the Korean National Health Information Portal across search engines and generative artificial intelligence platforms: a repeated cross-sectional study",
@@ -31,7 +56,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-10"
+      "first_detected": "2026-10-11"
     },
     {
       "id": "doi-10.5281/zenodo.23237772",
@@ -56,7 +81,7 @@
         "SEO & Publishers"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-10"
+      "first_detected": "2026-10-11"
     },
     {
       "id": "doi-10.5281/zenodo.23238428",
@@ -83,7 +108,7 @@
         "Platform & Interface"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-10"
+      "first_detected": "2026-10-11"
     },
     {
       "id": "doi-10.1016/j.ipm.2026.105211",
@@ -115,7 +140,7 @@
         "Platform & Interface"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-10"
+      "first_detected": "2026-10-11"
     },
     {
       "id": "doi-10.1007/s40119-026-00481-5",
@@ -148,7 +173,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-10"
+      "first_detected": "2026-10-11"
     },
     {
       "id": "doi-10.5281/zenodo.23210742",
@@ -177,7 +202,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-10"
+      "first_detected": "2026-10-11"
     },
     {
       "id": "doi-10.6084/m9.figshare.34094295",
@@ -261,7 +286,7 @@
         "User Behavior"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-10"
+      "first_detected": "2026-10-11"
     },
     {
       "id": "doi-10.5281/zenodo.23132107",
@@ -338,7 +363,7 @@
         "SEO & Publishers"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-10"
+      "first_detected": "2026-10-11"
     },
     {
       "id": "doi-10.5281/zenodo.21833255",
@@ -478,7 +503,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-10"
+      "first_detected": "2026-10-11"
     },
     {
       "id": "doi-10.5281/zenodo.23101610",
@@ -570,7 +595,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-10"
+      "first_detected": "2026-10-11"
     },
     {
       "id": "doi-10.1145/3777912.3839818",
@@ -600,7 +625,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-10",
+      "first_detected": "2026-10-11",
       "domains": [
         "Politics, Government & News",
         "Commerce & Consumer"
@@ -1036,32 +1061,6 @@
       "first_detected": "2026-09-25"
     },
     {
-      "id": "doi-10.5281/zenodo.22825645",
-      "title": "Google's AI Search Revolution: What Minnesota Businesses and Outdoor Brands Need to Know",
-      "authors": [
-        "David Ohnstad"
-      ],
-      "date": "2026-09-18",
-      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
-      "type": "Article",
-      "doi": "10.5281/zenodo.22825645",
-      "record": "https://doi.org/10.5281/zenodo.22825645",
-      "pdf": "",
-      "abstract": "Google's AI Search Revolution: What Minnesota Businesses and Outdoor Brands Need to Know If you run a Minnesota business—especially in outdoor recreation, tourism, or local services—you've probably noticed something shift in how Google Search works over the past year. Google's new generative AI search features, particularly AI Overviews (formerly called SGE, or Search Generative Experience),… Continue reading Google's AI Search Revolution: What Minnesota Businesses and Outdoor Brands Need to Know Full article: https://davidohnstadminnesota.com/googles-new-generative-ai-search/",
-      "levels": [
-        "Content"
-      ],
-      "domains": [
-        "Commerce & Consumer",
-        "Travel, Local & Lifestyle"
-      ],
-      "topics": [
-        "General AIO"
-      ],
-      "source": "OpenAlex",
-      "first_detected": "2026-10-10"
-    },
-    {
       "id": "doi-10.6084/m9.figshare.33868474.v1",
       "title": "Measuring AI Visibility: A Method for Tracking Brand Mentions and Citations in LLM Answers",
       "authors": [
@@ -1127,7 +1126,7 @@
         "Platform & Interface"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-10"
+      "first_detected": "2026-10-11"
     },
     {
       "id": "doi-10.5281/zenodo.22707850",
