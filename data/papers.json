@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-11T11:07:31+08:00",
-  "new_in_latest_scan": 0,
+  "last_updated": "2026-10-12T11:31:03+08:00",
+  "new_in_latest_scan": 1,
   "scope": "All-domain Google AI Overviews / SGE research with multi-label application-domain classification.",
   "papers": [
     {
@@ -26,7 +26,39 @@
         "General AIO"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-11"
+      "first_detected": "2026-10-12"
+    },
+    {
+      "id": "doi-10.19044/esipreprint.10.2026.p187",
+      "title": "From Web Search to AI Search: A Comparative Analysis of Information-Seeking Behaviour in Traditional Search Engines and Conversational Systems Based on Large Language Models",
+      "authors": [
+        "Arianna Di Vittorio",
+        "Vito Alessandro Di Gioia"
+      ],
+      "date": "2026-10-09",
+      "venue": "European Scientific Journal ESJ",
+      "type": "Article",
+      "doi": "10.19044/esipreprint.10.2026.p187",
+      "record": "https://doi.org/10.19044/esipreprint.10.2026.p187",
+      "pdf": "https://eujournal.org/index.php/esj/article/download/21635/20985",
+      "abstract": "AI search is changing how users seek information: instead of typing keywords and clicking through links, users increasingly ask complex questions and obtain direct answers on the results page. This shift, together with the rise of “zero-click search” and of chatbots based on Large Language Models (LLMs), is reshaping the customer experience of information seeking. This paper examines how LLM-based search systems are changing the way users retrieve information online, moving the dominant paradigm from keyword queries and ranked lists of links to direct answers in natural language. The study offers a structured, non-systematic narrative review comparing traditional search engines (represented by Google Search) and conversational AI tools (represented by ChatGPT and GPT-3/3.5-based search tools). It synthesises eight independent studies published between 2023 and 2026: three randomised controlled experiments, two large-scale observational analyses of real-world behaviour and three studies measuring content reliability, complemented by an industry benchmark (Vectara Hallucination Leaderboard). The analysis focuses on five key performance indicators (KPIs): number of queries per task (KPI 1), task success rate/accuracy (KPI 2), total time to task completion (KPI 3), rate of consultation of external sources/outbound clicks as a proxy for cross-verification (KPI 4), and the hallucination rate of AI systems compared with the rate of unreliable results in traditional search (KPI 5). AI systems consistently reduce task completion time, whereas the reduction in the number of queries depends on the task. Accuracy improves only when the generated output is correct; when it is wrong, accuracy drops sharply, consistent with a markedly lower consultation of external sources. The risk of error exists in both paradigms under specific conditions of use. The five KPIs should therefore be read as an interdependent system, with implications for the design of hybrid search tools in human-computer interaction and information retrieval.",
+      "levels": [
+        "Content",
+        "Citation",
+        "Presentation"
+      ],
+      "domains": [
+        "Commerce & Consumer",
+        "Science & Technology"
+      ],
+      "topics": [
+        "User Behavior",
+        "Citation & Provenance",
+        "Technical Evaluation",
+        "Safety & Risk"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-10-12"
     },
     {
       "id": "doi-10.24171/j.phrp.2026.0365",
@@ -56,7 +88,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-11"
+      "first_detected": "2026-10-12"
     },
     {
       "id": "doi-10.5281/zenodo.23237772",
@@ -140,7 +172,7 @@
         "Platform & Interface"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-11"
+      "first_detected": "2026-10-12"
     },
     {
       "id": "doi-10.1007/s40119-026-00481-5",
@@ -173,7 +205,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-11"
+      "first_detected": "2026-10-12"
     },
     {
       "id": "doi-10.5281/zenodo.23210742",
@@ -286,7 +318,7 @@
         "User Behavior"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-11"
+      "first_detected": "2026-10-12"
     },
     {
       "id": "doi-10.5281/zenodo.23132107",
@@ -363,7 +395,7 @@
         "SEO & Publishers"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-11"
+      "first_detected": "2026-10-12"
     },
     {
       "id": "doi-10.5281/zenodo.21833255",
@@ -503,7 +535,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-11"
+      "first_detected": "2026-10-12"
     },
     {
       "id": "doi-10.5281/zenodo.23101610",
@@ -595,7 +627,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-11"
+      "first_detected": "2026-10-12"
     },
     {
       "id": "doi-10.1145/3777912.3839818",
@@ -625,7 +657,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-11",
+      "first_detected": "2026-10-12",
       "domains": [
         "Politics, Government & News",
         "Commerce & Consumer"
@@ -1126,7 +1158,7 @@
         "Platform & Interface"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-11"
+      "first_detected": "2026-10-12"
     },
     {
       "id": "doi-10.5281/zenodo.22707850",
