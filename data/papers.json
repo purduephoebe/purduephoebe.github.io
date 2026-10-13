@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-12T11:31:03+08:00",
+  "last_updated": "2026-10-13T12:45:18+08:00",
   "new_in_latest_scan": 1,
   "scope": "All-domain Google AI Overviews / SGE research with multi-label application-domain classification.",
   "papers": [
@@ -26,7 +26,7 @@
         "General AIO"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-12"
+      "first_detected": "2026-10-13"
     },
     {
       "id": "doi-10.19044/esipreprint.10.2026.p187",
@@ -58,7 +58,34 @@
         "Safety & Risk"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-12"
+      "first_detected": "2026-10-13"
+    },
+    {
+      "id": "openalex-W7221502855",
+      "title": "Local SEO for Irish Solicitors: Getting Found When It Matters Most",
+      "authors": [
+        "Khan Juma Khan"
+      ],
+      "date": "2026-10-09",
+      "venue": "OSF Preprints (OSF Preprints)",
+      "type": "Preprint",
+      "doi": "",
+      "record": "https://openalex.org/W7221502855",
+      "pdf": "",
+      "abstract": "A practitioner guide for Irish law firms on winning local search: practice-area pages, Google Business Profile trust signals, and visibility in AI search answers. By Khan Juma Khan, SEO consultant in Ireland (https://kjkseo.com/). KJK SEO provides AEO and GEO services (https://kjkseo.com/aeo-geo/) for Irish professional firms.",
+      "levels": [
+        "Presentation"
+      ],
+      "domains": [
+        "Law & Public Policy",
+        "Travel, Local & Lifestyle"
+      ],
+      "topics": [
+        "SEO & Publishers",
+        "User Behavior"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-10-13"
     },
     {
       "id": "doi-10.24171/j.phrp.2026.0365",
@@ -88,7 +115,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-12"
+      "first_detected": "2026-10-13"
     },
     {
       "id": "doi-10.5281/zenodo.23237772",
@@ -318,7 +345,7 @@
         "User Behavior"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-12"
+      "first_detected": "2026-10-13"
     },
     {
       "id": "doi-10.5281/zenodo.23132107",
@@ -395,7 +422,7 @@
         "SEO & Publishers"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-12"
+      "first_detected": "2026-10-13"
     },
     {
       "id": "doi-10.5281/zenodo.21833255",
@@ -535,7 +562,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-12"
+      "first_detected": "2026-10-13"
     },
     {
       "id": "doi-10.5281/zenodo.23101610",
@@ -627,7 +654,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-12"
+      "first_detected": "2026-10-13"
     },
     {
       "id": "doi-10.1145/3777912.3839818",
@@ -657,7 +684,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-12",
+      "first_detected": "2026-10-13",
       "domains": [
         "Politics, Government & News",
         "Commerce & Consumer"
@@ -1158,7 +1185,7 @@
         "Platform & Interface"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-12"
+      "first_detected": "2026-10-13"
     },
     {
       "id": "doi-10.5281/zenodo.22707850",
