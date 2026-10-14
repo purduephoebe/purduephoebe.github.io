@@ -1,8 +1,64 @@
 {
-  "last_updated": "2026-10-13T12:45:18+08:00",
-  "new_in_latest_scan": 1,
+  "last_updated": "2026-10-14T10:53:42+08:00",
+  "new_in_latest_scan": 2,
   "scope": "All-domain Google AI Overviews / SGE research with multi-label application-domain classification.",
   "papers": [
+    {
+      "id": "doi-10.1145/3805696.3846053",
+      "title": "Who Does Google Cite for Health? Auditing the Source Ecosystem of AI Overviews in Taiwan",
+      "authors": [
+        "Ming-Hsin Phoebe Chiu",
+        "Kai Li"
+      ],
+      "date": "2026-10-12",
+      "venue": "ACM/IEEE Joint Conference on Digital Libraries",
+      "type": "Conference-Paper",
+      "doi": "10.1145/3805696.3846053",
+      "record": "https://doi.org/10.1145/3805696.3846053",
+      "pdf": "",
+      "abstract": "Google’s AI Overviews (AIO) now synthesize answers atop the search results page for a large fraction of health queries, displacing the ranked list of links that long mediated public access to health information. This represents a new venue for users to get information; however, almost all scrutiny of AIO concerns English-language, U.S.-localized search. We present the first systematic audit, to our knowledge, of the AIO source ecosystem in a non-English, non-Western setting: Traditional-Chinese (zh-TW) health search in Taiwan. Drawing on the 625 most-searched real-world Google Taiwan health queries of 2025, we characterize which sources Google elevates across the 417 overviews they triggered, and how those sources relate. Data collection was repeated over four runs to control for AIO’s instability. Each overview presents a dense citation slate (median 10 URLs, 8 hosts), often with an image (59%) but rarely a query-specific medical warning (16%). Citations are overwhelmingly Taiwan-based (90%) and dominated by healthcare providers (40%) and commercial sites (24%); academic, Wikipedia, and social media sources are each marginal (2%). The pool is long-tailed and unconcentrated (HHI ≈ 55), yet co-citation analysis of the 975 domains reveals a single hub-dominated component anchored by hospital and government portals, with Facebook and Wikipedia among the most-cited domains. We discuss implications for source transparency, AI-generated content curation, and cross-lingual algorithmic accountability.",
+      "levels": [
+        "Query",
+        "Citation"
+      ],
+      "domains": [
+        "Health & Medicine",
+        "Politics, Government & News",
+        "Education & Academia"
+      ],
+      "topics": [
+        "Citation & Provenance"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-10-14"
+    },
+    {
+      "id": "doi-10.5281/zenodo.23311408",
+      "title": "AI Overview Citations for B2B Software Queries (US, Oct 2026, Wave 1)",
+      "authors": [
+        "AI Ranked Editorial"
+      ],
+      "date": "2026-10-12",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Dataset",
+      "doi": "10.5281/zenodo.23311408",
+      "record": "https://doi.org/10.5281/zenodo.23311408",
+      "pdf": "",
+      "abstract": "One row per Google AI Overview citation for 150 US B2B software buyer queries across 10 categories (CRM, project management, HR and payroll, accounting, cybersecurity, marketing automation, BI and analytics, customer support, developer tools and DevOps, sales engagement) and 6 query patterns (best, best for small business, industry or company size, X vs Y, top tools, alternatives). Method: Ahrefs API v3 serp-overview, country US, filtered to ai_overview and ai_overview_sitelink rows. Snapshot dates 28 August to 10 October 2026, collected 12 October 2026. Domain Rating from the Ahrefs public Domain Rating endpoint; source types classified by hand per domain. Organic top 10 overlap pulled for a 40 query sample. Headline numbers: 132 of 150 queries measured; an AI Overview appeared on 122 (92.4%); 742 citations; software vendors' own sites 44.1%; YouTube, Reddit and forums 30.9%; 28.7% of cited URLs also ranked in the organic top 10 (40 query sample). Full report and methodology: https://airanked.ai/research/ai-overview-citations-b2b",
+      "levels": [
+        "Query",
+        "Citation"
+      ],
+      "domains": [
+        "Finance & Economics",
+        "Science & Technology"
+      ],
+      "topics": [
+        "Citation & Provenance"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-10-14"
+    },
     {
       "id": "doi-10.5281/zenodo.23259030",
       "title": "Google's AI Search Revolution: What Minnesota Businesses and Outdoor Brands Need to Know",
@@ -26,7 +82,7 @@
         "General AIO"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-13"
+      "first_detected": "2026-10-14"
     },
     {
       "id": "doi-10.19044/esipreprint.10.2026.p187",
@@ -58,7 +114,7 @@
         "Safety & Risk"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-13"
+      "first_detected": "2026-10-14"
     },
     {
       "id": "openalex-W7221502855",
@@ -85,7 +141,7 @@
         "User Behavior"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-13"
+      "first_detected": "2026-10-14"
     },
     {
       "id": "doi-10.24171/j.phrp.2026.0365",
@@ -115,7 +171,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-13"
+      "first_detected": "2026-10-14"
     },
     {
       "id": "doi-10.5281/zenodo.23237772",
@@ -345,7 +401,7 @@
         "User Behavior"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-13"
+      "first_detected": "2026-10-14"
     },
     {
       "id": "doi-10.5281/zenodo.23132107",
@@ -422,7 +478,7 @@
         "SEO & Publishers"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-13"
+      "first_detected": "2026-10-14"
     },
     {
       "id": "doi-10.5281/zenodo.21833255",
@@ -562,7 +618,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-13"
+      "first_detected": "2026-10-14"
     },
     {
       "id": "doi-10.5281/zenodo.23101610",
@@ -654,7 +710,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-13"
+      "first_detected": "2026-10-14"
     },
     {
       "id": "doi-10.1145/3777912.3839818",
@@ -684,7 +740,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-13",
+      "first_detected": "2026-10-14",
       "domains": [
         "Politics, Government & News",
         "Commerce & Consumer"
@@ -1185,7 +1241,7 @@
         "Platform & Interface"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-13"
+      "first_detected": "2026-10-14"
     },
     {
       "id": "doi-10.5281/zenodo.22707850",
