@@ -1,8 +1,38 @@
 {
-  "last_updated": "2026-10-16T10:27:19+08:00",
-  "new_in_latest_scan": 1,
+  "last_updated": "2026-10-17T10:20:12+08:00",
+  "new_in_latest_scan": 2,
   "scope": "All-domain Google AI Overviews / SGE research with multi-label application-domain classification.",
   "papers": [
+    {
+      "id": "doi-10.5281/zenodo.23405630",
+      "title": "What Is Associated with Being Cited in AI Answers? Page, Domain and Query Features on Google AI Overviews, Google AI Mode, Perplexity and Yandex Alice, Russian-Language Queries, October 2026",
+      "authors": [
+        "Stanislav Kirichenko"
+      ],
+      "date": "2026-10-16",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Preprint",
+      "doi": "10.5281/zenodo.23405630",
+      "record": "https://doi.org/10.5281/zenodo.23405630",
+      "pdf": "",
+      "abstract": "Search-optimisation advice for AI answers lists dozens of ranking factors, most of them taken from vendor studies that differ in data, platform and method. This preprint compares 38 of them with one snapshot of Russian-language results. The main collection covers 2400 queries in 16 niches on Google AI Overviews (88230 result pages at organic positions 1–50, 2045 queries with a block that has links) and 800 queries on Yandex Alice (368 blocks with links). Smaller collections add Google AI Mode (181 queries with links), Perplexity Sonar (45 queries) and 303 brand queries per engine. The outcome is whether a result page is a link of the AI block. Each feature is fitted in a logit model with the organic position (and, for text and structure features, page length) as controls, two-way clustered standard errors and a Benjamini–Hochberg correction within each platform. Organic position matters most on Google: a page at rank 1 is a link of the block with probability 65.1%, at rank 10 with 16.1%, at rank 20 with 2.4%. Yandex Alice behaves differently: 23.9% of its links stand in the organic top 10 and 63.9% are absent from the top 50 of the same query. At equal position, informational pages are cited more often than commercial ones, and the semantic closeness of the title to the query has a positive sign on all four platforms (odds ratio 1.26 per standard deviation on Google). Domain-authority measures show no positive association on Google. A stated author is associated with citation on Google (1.23) and AI Mode (1.77) and borderline on Perplexity; Article markup on Google (1.30) and Perplexity (3.03). Point estimates are higher on the two small-sample platforms, but their intervals overlap with Google's. A within-query sensitivity analysis with query fixed effects keeps the direction of all selected estimates; two of them lose significance. The record contains the preprint (PDF) and a replication package: model-ready tables without commercial metrics, links of the AI blocks, the results of every fit, and code that refits 463 models (largest deviation from the released estimates below 0.0001). Raw HTML, page texts, texts of AI answers and commercial domain metrics (Keys.so, Ahrefs) are not included. Text, figures and data: CC BY 4.0; code: MIT. Observational design, one date, Moscow for Google and Yandex, desktop; no causal claims. The author offers search-optimisation services and runs the AI-text detector used in one analysis (see the preprint, Competing interests). A Russian-language article for practitioners based on the same data: sk-seo.ru/blog/chto-vliyaet-na-citirovanie-v-ii-otvetah.html.",
+      "levels": [
+        "Query",
+        "Content",
+        "Citation",
+        "Presentation"
+      ],
+      "domains": [
+        "Commerce & Consumer"
+      ],
+      "topics": [
+        "SEO & Publishers",
+        "Citation & Provenance",
+        "Technical Evaluation"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-10-17"
+    },
     {
       "id": "doi-10.5281/zenodo.23360736",
       "title": "Beyond Rankings: How Marketers Can Evaluate AI Search Visibility Without Confusing It with Traffic",
@@ -32,7 +62,34 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-16"
+      "first_detected": "2026-10-17"
+    },
+    {
+      "id": "doi-10.5281/zenodo.23384135",
+      "title": "Brand Citation Tracking: ChatGPT vs Perplexity vs Google AI Overviews — 2026 Track or Miss",
+      "authors": [
+        "Noah Berger"
+      ],
+      "date": "2026-10-14",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Preprint",
+      "doi": "10.5281/zenodo.23384135",
+      "record": "https://doi.org/10.5281/zenodo.23384135",
+      "pdf": "",
+      "abstract": "Track ChatGPT, Perplexity, and Google AI Overviews citations: count Perplexity's 4–8 panel, use fixed ChatGPT prompts, and check Search Console at weeks 9–12. Independent technical note mirroring the canonical version: https://getfrontier.co/blog/brand-citation-tracking-chatgpt-vs-perplexity-vs-google-ai-overviews-2026-track-or-miss.php",
+      "levels": [
+        "Query",
+        "Citation"
+      ],
+      "domains": [
+        "Commerce & Consumer",
+        "Science & Technology"
+      ],
+      "topics": [
+        "Citation & Provenance"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-10-17"
     },
     {
       "id": "doi-10.1145/3805696.3846053",
@@ -113,7 +170,7 @@
         "General AIO"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-16"
+      "first_detected": "2026-10-17"
     },
     {
       "id": "doi-10.19044/esipreprint.10.2026.p187",
@@ -145,7 +202,7 @@
         "Safety & Risk"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-16"
+      "first_detected": "2026-10-17"
     },
     {
       "id": "openalex-W7221502855",
@@ -172,7 +229,7 @@
         "User Behavior"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-16"
+      "first_detected": "2026-10-17"
     },
     {
       "id": "doi-10.24171/j.phrp.2026.0365",
@@ -202,7 +259,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-16"
+      "first_detected": "2026-10-17"
     },
     {
       "id": "doi-10.5281/zenodo.23237772",
@@ -432,7 +489,7 @@
         "User Behavior"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-16"
+      "first_detected": "2026-10-17"
     },
     {
       "id": "doi-10.5281/zenodo.23132107",
@@ -741,7 +798,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-16"
+      "first_detected": "2026-10-17"
     },
     {
       "id": "doi-10.1145/3777912.3839818",
@@ -771,7 +828,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-16",
+      "first_detected": "2026-10-17",
       "domains": [
         "Politics, Government & News",
         "Commerce & Consumer"
