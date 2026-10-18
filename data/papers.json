@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-17T10:20:12+08:00",
-  "new_in_latest_scan": 2,
+  "last_updated": "2026-10-18T10:20:18+08:00",
+  "new_in_latest_scan": 1,
   "scope": "All-domain Google AI Overviews / SGE research with multi-label application-domain classification.",
   "papers": [
     {
@@ -31,7 +31,32 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-17"
+      "first_detected": "2026-10-18"
+    },
+    {
+      "id": "doi-10.5281/zenodo.23411852",
+      "title": "Google's Generative AI Search Revolution: What Enterprise Software Companies Must Do Now",
+      "authors": [
+        "David Ohnstad"
+      ],
+      "date": "2026-10-16",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Article",
+      "doi": "10.5281/zenodo.23411852",
+      "record": "https://doi.org/10.5281/zenodo.23411852",
+      "pdf": "",
+      "abstract": "Artificial Intelligence has certainly gained attention in recent years and shows no sign of attracting any less as multiple applications and uses for the digital marvel increase! The question is, how well does AI do in information retrieval? According to Full article: https://davidohnstad.net/googles-new-generative-ai-search/",
+      "levels": [
+        "Content"
+      ],
+      "domains": [
+        "Science & Technology"
+      ],
+      "topics": [
+        "Technical Evaluation"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-10-18"
     },
     {
       "id": "doi-10.5281/zenodo.23360736",
@@ -62,7 +87,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-17"
+      "first_detected": "2026-10-18"
     },
     {
       "id": "doi-10.5281/zenodo.23384135",
@@ -89,7 +114,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-17"
+      "first_detected": "2026-10-18"
     },
     {
       "id": "doi-10.1145/3805696.3846053",
@@ -148,6 +173,35 @@
       "first_detected": "2026-10-15"
     },
     {
+      "id": "doi-10.48550/arxiv.2610.15033",
+      "title": "What Drives AI Citations? Content, Retrieval and Model Knowledge in Generative Engine Optimization (GEO)",
+      "authors": [
+        "Mahe Chen",
+        "Nick Koudas"
+      ],
+      "date": "2026-10-10",
+      "venue": "arXiv (Cornell University)",
+      "type": "Preprint",
+      "doi": "10.48550/arxiv.2610.15033",
+      "record": "https://doi.org/10.48550/arxiv.2610.15033",
+      "pdf": "https://arxiv.org/pdf/2610.15033",
+      "abstract": "Generative search engines such as ChatGPT, Gemini and Perplexity now decide which Web pages users see as sources, and a growing industry of generative engine optimization advises publishers on how to earn these citations. We study what shapes citation in two 90-day collections of answers to commercial questions in contrasting markets: 158,099 answers with 468,037 citations. Comparing pages of the same website, content matters in one way: pages whose title and paragraphs match the questions people ask are cited more, whereas FAQ blocks, structured data, summary boxes and page speed appear effective only across websites. Page properties nevertheless explain little of the variation between pages of a website. Replaying the questions through the engines' APIs shows why. Every page ChatGPT cites is one its own search retrieved, and which pages that search retrieves, for sub-queries the model rewrites on every answer and that rarely coincide with Google's or Bing's results, explains far more of the variation than page properties (32% against 2.8%). Content acts mainly through this step, by matching the engine's queries in meaning. The model's own knowledge shapes it too: ChatGPT writes brands it knows into its searches, prefers websites it knows, and names brands without any supporting page, and controlled experiments show that brand names reorder its rankings of products with identical facts. Pages are thus cited when searched; brands are also named when remembered. The findings replicate in a market of small B2B vendors. We release data and code.",
+      "levels": [
+        "Citation"
+      ],
+      "domains": [
+        "Finance & Economics",
+        "Commerce & Consumer"
+      ],
+      "topics": [
+        "SEO & Publishers",
+        "Citation & Provenance",
+        "Technical Evaluation"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-10-18"
+    },
+    {
       "id": "doi-10.5281/zenodo.23259030",
       "title": "Google's AI Search Revolution: What Minnesota Businesses and Outdoor Brands Need to Know",
       "authors": [
@@ -170,7 +224,7 @@
         "General AIO"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-17"
+      "first_detected": "2026-10-18"
     },
     {
       "id": "doi-10.19044/esipreprint.10.2026.p187",
@@ -202,7 +256,7 @@
         "Safety & Risk"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-17"
+      "first_detected": "2026-10-18"
     },
     {
       "id": "openalex-W7221502855",
@@ -229,7 +283,7 @@
         "User Behavior"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-17"
+      "first_detected": "2026-10-18"
     },
     {
       "id": "doi-10.24171/j.phrp.2026.0365",
@@ -259,7 +313,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-17"
+      "first_detected": "2026-10-18"
     },
     {
       "id": "doi-10.5281/zenodo.23237772",
@@ -489,7 +543,7 @@
         "User Behavior"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-17"
+      "first_detected": "2026-10-18"
     },
     {
       "id": "doi-10.5281/zenodo.23132107",
@@ -653,31 +707,6 @@
       "first_detected": "2026-10-07"
     },
     {
-      "id": "doi-10.5281/zenodo.23098527",
-      "title": "Google's Generative AI Search Revolution: What Enterprise Software Companies Must Do Now",
-      "authors": [
-        "David Ohnstad"
-      ],
-      "date": "2026-10-02",
-      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
-      "type": "Article",
-      "doi": "10.5281/zenodo.23098527",
-      "record": "https://doi.org/10.5281/zenodo.23098527",
-      "pdf": "",
-      "abstract": "Artificial Intelligence has certainly gained attention in recent years and shows no sign of attracting any less as multiple applications and uses for the digital marvel increase! The question is, how well does AI do in information retrieval? According to Full article: https://davidohnstad.net/googles-new-generative-ai-search/",
-      "levels": [
-        "Content"
-      ],
-      "domains": [
-        "Science & Technology"
-      ],
-      "topics": [
-        "Technical Evaluation"
-      ],
-      "source": "OpenAlex",
-      "first_detected": "2026-10-07"
-    },
-    {
       "id": "doi-10.26118/2782-4586-2026-588-593",
       "title": "SEO as a tool for managing the company's digital presence",
       "authors": [
@@ -798,7 +827,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-17"
+      "first_detected": "2026-10-18"
     },
     {
       "id": "doi-10.1145/3777912.3839818",
@@ -828,7 +857,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-17",
+      "first_detected": "2026-10-18",
       "domains": [
         "Politics, Government & News",
         "Commerce & Consumer"
