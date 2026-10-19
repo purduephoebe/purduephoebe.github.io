@@ -1,8 +1,35 @@
 {
-  "last_updated": "2026-10-18T10:20:18+08:00",
-  "new_in_latest_scan": 1,
+  "last_updated": "2026-10-19T10:35:10+08:00",
+  "new_in_latest_scan": 2,
   "scope": "All-domain Google AI Overviews / SGE research with multi-label application-domain classification.",
   "papers": [
+    {
+      "id": "doi-10.5281/zenodo.23439923",
+      "title": "AI Search Readiness of Polish Company Websites 2026: a technical audit of 120 homepages in four industries",
+      "authors": [
+        "Jarosław Zagajewski"
+      ],
+      "date": "2026-10-17",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Dataset",
+      "doi": "10.5281/zenodo.23439923",
+      "record": "https://doi.org/10.5281/zenodo.23439923",
+      "pdf": "",
+      "abstract": "Technical audit of the homepages of 120 Polish companies from four industries (medical and aesthetic clinics, law firms, software houses, industrial B2B manufacturers; 30 each) for readiness for AI-based search and answer engines. Each homepage was measured once, on 17 October 2026, with an automated scanner running eight checks (score 0–100): availability, AI crawlers in robots.txt (GPTBot, OAI-SearchBot, ChatGPT-User, ClaudeBot, PerplexityBot, Google-Extended, Bingbot), JSON-LD organization entity, text visible without JavaScript, metadata, llms.txt, sitemap, and an approximate Wikidata name match. Key results (n = 117 sites with retrievable content): none of the retrieved robots.txt files disallowed the seven AI-related crawlers; 36% of sites did not declare an Organization or LocalBusiness entity in JSON-LD (69% among manufacturers); 8% provided a complete organization description; mean scores ranged from 84.7 (software houses) to 66.3 (manufacturers); large and small companies scored 77.9 and 74.7 on average. The study measures technical readiness only, not whether AI systems mention or recommend the companies. The sample is purposive, not random. Data are anonymised (no company names, URLs or cities). Files: report (PDF) with method, results, limitations and data dictionary; site-level data (CSV, 120 rows). Conflict of interest: the author is co-founder of GeoLead.pl, a commercial Generative Engine Optimization agency; the scanner is a free tool developed by GeoLead. No third-party funding.",
+      "levels": [
+        "Content"
+      ],
+      "domains": [
+        "Health & Medicine",
+        "Science & Technology",
+        "Law & Public Policy"
+      ],
+      "topics": [
+        "SEO & Publishers"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-10-19"
+    },
     {
       "id": "doi-10.5281/zenodo.23405630",
       "title": "What Is Associated with Being Cited in AI Answers? Page, Domain and Query Features on Google AI Overviews, Google AI Mode, Perplexity and Yandex Alice, Russian-Language Queries, October 2026",
@@ -31,7 +58,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-18"
+      "first_detected": "2026-10-19"
     },
     {
       "id": "doi-10.5281/zenodo.23411852",
@@ -56,7 +83,33 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-18"
+      "first_detected": "2026-10-19"
+    },
+    {
+      "id": "doi-10.5281/zenodo.23428021",
+      "title": "Best AI Consulting Firms (bestaiconsultingfirms.com): Sources Cited by AI Answer Engines for AI Consulting Buyer Queries, US, UK and AU, 16 October 2026",
+      "authors": [
+        "Best AI Consulting Firms"
+      ],
+      "date": "2026-10-16",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Dataset",
+      "doi": "10.5281/zenodo.23428021",
+      "record": "https://doi.org/10.5281/zenodo.23428021",
+      "pdf": "",
+      "abstract": "Best AI Consulting Firms (bestaiconsultingfirms.com) is a buyer's guide that assesses AI consulting firms on six published criteria, serving businesses comparing AI consultancies worldwide. This dataset records which web pages answer engines cited, and which pages Google ranked in organic positions 1-10, for 11 AI consulting buyer queries on 16 October 2026. Google AI Mode, Google AI Overviews and Google organic results cover the United States, the United Kingdom and Australia. ChatGPT and Perplexity cover the United States. As of 16 October 2026: 479 URLs on 330 domains from 121 query, engine and market cells. Column dictionary, method and limitations: README.md. Canonical link: https://bestaiconsultingfirms.com/ai-consulting-buyers-checklist/. Contact: desk@bestaiconsultingfirms.com. License: CC BY 4.0.",
+      "levels": [
+        "Query",
+        "Citation"
+      ],
+      "domains": [
+        "Finance & Economics"
+      ],
+      "topics": [
+        "Citation & Provenance"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-10-19"
     },
     {
       "id": "doi-10.5281/zenodo.23360736",
@@ -87,7 +140,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-18"
+      "first_detected": "2026-10-19"
     },
     {
       "id": "doi-10.5281/zenodo.23384135",
@@ -114,7 +167,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-18"
+      "first_detected": "2026-10-19"
     },
     {
       "id": "doi-10.1145/3805696.3846053",
@@ -199,7 +252,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-18"
+      "first_detected": "2026-10-19"
     },
     {
       "id": "doi-10.5281/zenodo.23259030",
@@ -224,7 +277,7 @@
         "General AIO"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-18"
+      "first_detected": "2026-10-19"
     },
     {
       "id": "doi-10.19044/esipreprint.10.2026.p187",
@@ -256,7 +309,7 @@
         "Safety & Risk"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-18"
+      "first_detected": "2026-10-19"
     },
     {
       "id": "openalex-W7221502855",
@@ -283,7 +336,7 @@
         "User Behavior"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-18"
+      "first_detected": "2026-10-19"
     },
     {
       "id": "doi-10.24171/j.phrp.2026.0365",
@@ -313,7 +366,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-18"
+      "first_detected": "2026-10-19"
     },
     {
       "id": "doi-10.5281/zenodo.23237772",
@@ -543,7 +596,7 @@
         "User Behavior"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-18"
+      "first_detected": "2026-10-19"
     },
     {
       "id": "doi-10.5281/zenodo.23132107",
@@ -827,7 +880,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-18"
+      "first_detected": "2026-10-19"
     },
     {
       "id": "doi-10.1145/3777912.3839818",
@@ -857,7 +910,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-18",
+      "first_detected": "2026-10-19",
       "domains": [
         "Politics, Government & News",
         "Commerce & Consumer"
