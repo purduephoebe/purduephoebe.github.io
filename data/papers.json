@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-19T10:35:10+08:00",
-  "new_in_latest_scan": 2,
+  "last_updated": "2026-10-20T10:47:08+08:00",
+  "new_in_latest_scan": 0,
   "scope": "All-domain Google AI Overviews / SGE research with multi-label application-domain classification.",
   "papers": [
     {
@@ -28,7 +28,7 @@
         "SEO & Publishers"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-19"
+      "first_detected": "2026-10-20"
     },
     {
       "id": "doi-10.5281/zenodo.23405630",
@@ -58,7 +58,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-19"
+      "first_detected": "2026-10-20"
     },
     {
       "id": "doi-10.5281/zenodo.23411852",
@@ -83,7 +83,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-19"
+      "first_detected": "2026-10-20"
     },
     {
       "id": "doi-10.5281/zenodo.23428021",
@@ -140,7 +140,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-19"
+      "first_detected": "2026-10-20"
     },
     {
       "id": "doi-10.5281/zenodo.23384135",
@@ -167,7 +167,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-19"
+      "first_detected": "2026-10-20"
     },
     {
       "id": "doi-10.1145/3805696.3846053",
@@ -252,7 +252,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-19"
+      "first_detected": "2026-10-20"
     },
     {
       "id": "doi-10.5281/zenodo.23259030",
@@ -277,7 +277,7 @@
         "General AIO"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-19"
+      "first_detected": "2026-10-20"
     },
     {
       "id": "doi-10.19044/esipreprint.10.2026.p187",
@@ -309,7 +309,7 @@
         "Safety & Risk"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-19"
+      "first_detected": "2026-10-20"
     },
     {
       "id": "openalex-W7221502855",
@@ -336,7 +336,7 @@
         "User Behavior"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-19"
+      "first_detected": "2026-10-20"
     },
     {
       "id": "doi-10.24171/j.phrp.2026.0365",
@@ -366,7 +366,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-19"
+      "first_detected": "2026-10-20"
     },
     {
       "id": "doi-10.5281/zenodo.23237772",
@@ -596,7 +596,7 @@
         "User Behavior"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-19"
+      "first_detected": "2026-10-20"
     },
     {
       "id": "doi-10.5281/zenodo.23132107",
@@ -880,7 +880,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-19"
+      "first_detected": "2026-10-20"
     },
     {
       "id": "doi-10.1145/3777912.3839818",
@@ -910,7 +910,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-19",
+      "first_detected": "2026-10-20",
       "domains": [
         "Politics, Government & News",
         "Commerce & Consumer"
