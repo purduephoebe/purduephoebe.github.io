@@ -1,8 +1,66 @@
 {
-  "last_updated": "2026-10-20T10:47:08+08:00",
-  "new_in_latest_scan": 0,
+  "last_updated": "2026-10-21T10:41:48+08:00",
+  "new_in_latest_scan": 2,
   "scope": "All-domain Google AI Overviews / SGE research with multi-label application-domain classification.",
   "papers": [
+    {
+      "id": "doi-10.5281/zenodo.23475574",
+      "title": "From Search Engines to AI Answers: The New Rules of SEO, GEO, and Digital Marketing",
+      "authors": [
+        "Gadi Samet"
+      ],
+      "date": "2026-10-19",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Preprint",
+      "doi": "10.5281/zenodo.23475574",
+      "record": "https://doi.org/10.5281/zenodo.23475574",
+      "pdf": "",
+      "abstract": "Search has shifted from ranked lists of blue links to AI answers. In 2026, industry keyword trackers report Google AI Overviews shown on roughly 43–50% of queries, while the one large-scale academic measurement study reviewed here finds substantially lower overall activation (13.7%, rising to 64.7% for question-form queries), a gap this article attributes to differences between commercial tracking samples and broad academic query samples rather than treating either figure as settled; coverage is markedly higher for informational and decision-related queries in both types of study. Zero-click rates vary from 37% for transactional queries to 92% for informational queries (aggregating to roughly 75% overall), and rise from 63% without an AI Overview present to 82% when one is; citation overlap with traditional Google rankings sits as low as 14–17% in several studies. Standing number one is no longer enough. This article explores the new rules of visibility in the generative age. Operating on up-to-date signals from BrightEdge, SparkToro, Similarweb, First Page Sage, Pew, Ahrefs, Princeton GEO research, Google Search Console generative reports along with the author’s practical track record of scaling SEO- and GEO-based Answer Engine Optimisation (AEO) systems, it lays out the continuum of SEO, GEO and Answer Engine Optimisation (AEO), offers seven evidence-based rules centred on entity clarity (mainly Wikipedia and Wikidata), citability signals (statistics, source citations, expert quotations), third-party corroboration, technical eligibility, multi-engine strategy, evolved measurement, and content freshness, and concludes with an operational implementation pathway and strategic implications for digital marketing teams. Brands that choose to see SEO and GEO as a single seamless system of authority and discoverability will monopolise the next decade of digital visibility; those that do not will gradually lose category presence within the answers users now receive.",
+      "levels": [
+        "Query",
+        "Citation",
+        "Presentation"
+      ],
+      "domains": [
+        "Finance & Economics",
+        "Commerce & Consumer",
+        "Education & Academia",
+        "Science & Technology"
+      ],
+      "topics": [
+        "SEO & Publishers",
+        "User Behavior",
+        "Citation & Provenance",
+        "Technical Evaluation"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-10-21"
+    },
+    {
+      "id": "doi-10.5281/zenodo.23470404",
+      "title": "AI Visibility Checker Dataset 2026: AI Crawler Access, llms.txt and Schema on 2,339 Websites",
+      "authors": [
+        "Arobis AI"
+      ],
+      "date": "2026-10-19",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Dataset",
+      "doi": "10.5281/zenodo.23470404",
+      "record": "https://doi.org/10.5281/zenodo.23470404",
+      "pdf": "",
+      "abstract": "This dataset shows whether AI search engines can actually read the websites they might recommend. It holds aggregate results from 2,377 scans of 2,339 websites run with the free Arobis AI Visibility Checker between 1 June and 17 October 2026. Each scan reads the robots.txt rules for seven AI user agents (GPTBot, OAI-SearchBot, ChatGPT-User, ClaudeBot, Claude-Web, Google-Extended, PerplexityBot), checks for llms.txt, JSON-LD structured data and on-page signals, and, for 2,297 scans, fetches the homepage live as ChatGPT, Claude, Gemini and Perplexity. Every scan ends in a 0 to 100 AI visibility score. Key findings 3.6% of scans block GPTBot in robots.txt, but 18.8% get nothing usable back when the homepage is fetched live as ChatGPT's crawler. Among scans whose robots.txt allows all three OpenAI agents, 17.8% (391 of 2,201) still get nothing back. Most of that gap is silent blocking at the CDN, firewall or bot-protection layer. 49.2% of scans publish llms.txt and 78.0% carry JSON-LD. Sites with both average 93.6 out of 100; sites with neither average 48.0. The average AI visibility score is 79.2 and the median is 85. Questions this dataset answers What is AI visibility? AI visibility is how easily AI search engines such as ChatGPT, Claude, Gemini, Perplexity and Google AI Overviews can reach, read and understand a website, and so how likely they are to cite or recommend it. How many websites block GPTBot? 3.6% of the 2,377 scans block GPTBot in robots.txt (85 scans). Can a website allow GPTBot and still be invisible to ChatGPT? Yes. 17.8% of scans that allow all three OpenAI agents in robots.txt still returned nothing usable when fetched live as ChatGPT. robots.txt alone does not prove access; a live fetch does. How common is llms.txt? 49.2% of scanned websites publish an llms.txt file. Do llms.txt and structured data go with higher scores? Websites with both llms.txt and JSON-LD average 93.6 out of 100, against 48.0 for websites with neither. This is a correlation across the sample, not a measured causal effect. How do I check my own website? Run a free scan with the Arobis AI Visibility Checker. It tests robots.txt, live fetches as each AI engine, structured data, llms.txt and content signals. Files headline_summary.csv: sample size, dates, mean and median score, live fetch totals score_distribution.csv and score_bands.csv: score histogram and bands signal_prevalence.csv: share of scans with llms.txt, robots.txt, JSON-LD, Organization schema, canonical, og:image and more ai_bot_robots_status.csv: robots.txt allowed, blocked and unknown counts per AI user agent live_fetch_probes.csv: live fetch outcome per engine (full, http_only, none) and the allowed-but-refused count score_by_signal.csv: average score split by llms.txt, JSON-LD, Organization and FAQPage schema, GPTBot status, H1 count and word count monthly_trend.csv: June to October 2026 month by month (October covers the 1st to the 17th) schema_types_top15.csv, dimension_averages.csv, engine_score_averages.csv, tld_top12.csv Collection and limitations Scans were run by site owners, agencies and visitors, so the sample leans toward AI-aware websites and does not represent the whole web. A few domains were scanned more than once (2,377 scans, 2,339 websites). The files hold aggregates only: no domains, URLs or personal data. About Arobis AI Arobis AI is an AI Search Demand Generation agency for B2B SaaS. It helps software companies get cited and recommended by ChatGPT, Claude, Gemini, Perplexity and Google AI Overviews. Cite as: Arobis AI (2026). AI Visibility Checker Dataset 2026: AI Crawler Access, llms.txt and Schema on 2,339 Websites. CC BY 4.0.",
+      "levels": [
+        "Citation"
+      ],
+      "domains": [
+        "Science & Technology"
+      ],
+      "topics": [
+        "SEO & Publishers"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-10-21"
+    },
     {
       "id": "doi-10.5281/zenodo.23439923",
       "title": "AI Search Readiness of Polish Company Websites 2026: a technical audit of 120 homepages in four industries",
@@ -28,7 +86,7 @@
         "SEO & Publishers"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-20"
+      "first_detected": "2026-10-21"
     },
     {
       "id": "doi-10.5281/zenodo.23405630",
@@ -58,7 +116,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-20"
+      "first_detected": "2026-10-21"
     },
     {
       "id": "doi-10.5281/zenodo.23411852",
@@ -140,7 +198,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-20"
+      "first_detected": "2026-10-21"
     },
     {
       "id": "doi-10.5281/zenodo.23384135",
@@ -167,7 +225,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-20"
+      "first_detected": "2026-10-21"
     },
     {
       "id": "doi-10.1145/3805696.3846053",
@@ -252,7 +310,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-20"
+      "first_detected": "2026-10-21"
     },
     {
       "id": "doi-10.5281/zenodo.23259030",
@@ -277,7 +335,7 @@
         "General AIO"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-20"
+      "first_detected": "2026-10-21"
     },
     {
       "id": "doi-10.19044/esipreprint.10.2026.p187",
@@ -309,7 +367,7 @@
         "Safety & Risk"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-20"
+      "first_detected": "2026-10-21"
     },
     {
       "id": "openalex-W7221502855",
@@ -336,7 +394,7 @@
         "User Behavior"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-20"
+      "first_detected": "2026-10-21"
     },
     {
       "id": "doi-10.24171/j.phrp.2026.0365",
@@ -366,7 +424,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-20"
+      "first_detected": "2026-10-21"
     },
     {
       "id": "doi-10.5281/zenodo.23237772",
@@ -596,7 +654,7 @@
         "User Behavior"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-20"
+      "first_detected": "2026-10-21"
     },
     {
       "id": "doi-10.5281/zenodo.23132107",
@@ -880,7 +938,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-20"
+      "first_detected": "2026-10-21"
     },
     {
       "id": "doi-10.1145/3777912.3839818",
@@ -910,7 +968,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-20",
+      "first_detected": "2026-10-21",
       "domains": [
         "Politics, Government & News",
         "Commerce & Consumer"
