@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-22T10:39:03+08:00",
-  "new_in_latest_scan": 2,
+  "last_updated": "2026-10-23T10:43:40+08:00",
+  "new_in_latest_scan": 0,
   "scope": "All-domain Google AI Overviews / SGE research with multi-label application-domain classification.",
   "papers": [
     {
@@ -27,7 +27,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-22"
+      "first_detected": "2026-10-23"
     },
     {
       "id": "doi-10.5281/zenodo.23505198",
@@ -57,7 +57,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-22"
+      "first_detected": "2026-10-23"
     },
     {
       "id": "doi-10.5281/zenodo.23503618",
@@ -82,7 +82,32 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-22"
+      "first_detected": "2026-10-23"
+    },
+    {
+      "id": "doi-10.17632/wtf77cp7gn",
+      "title": "AI Visibility Checker Dataset 2026: AI Crawler Access, llms.txt and Schema on 2,339 Websites",
+      "authors": [
+        "RanAI Arobis"
+      ],
+      "date": "2026-10-20",
+      "venue": "Mendeley Data",
+      "type": "Dataset",
+      "doi": "10.17632/wtf77cp7gn",
+      "record": "https://doi.org/10.17632/wtf77cp7gn",
+      "pdf": "",
+      "abstract": "Can ChatGPT, Claude, Gemini and Perplexity actually read the websites they might recommend? This dataset holds aggregate results from 2,377 scans of 2,339 websites run with the free Arobis AI Visibility Checker (https://arobis.ai/ai-visibility-checker) between 1 June and 17 October 2026. Each scan reads robots.txt rules for seven AI user agents (GPTBot, OAI-SearchBot, ChatGPT-User, ClaudeBot, Claude-Web, Google-Extended, PerplexityBot), checks llms.txt, JSON-LD structured data and on-page signals, and for 2,297 scans fetches the homepage live as ChatGPT, Claude, Gemini and Perplexity. Every scan ends in a 0 to 100 AI visibility score. Key findings: - 3.6% of scans block GPTBot in robots.txt, but 18.8% get nothing usable back when the homepage is fetched live as ChatGPT's crawler. - 17.8% of scans that allow all three OpenAI agents (391 of 2,201) still get nothing back, mostly from silent blocking at the CDN, firewall or bot-protection layer. - 49.2% publish llms.txt and 78.0% carry JSON-LD. Sites with both average 93.6 out of 100; sites with neither average 48.0 (a correlation, not a causal effect). - Average AI visibility score 79.2, median 85. What is AI visibility? How easily AI search engines such as ChatGPT, Claude, Gemini, Perplexity and Google AI Overviews can reach, read and understand a website, and so how likely they are to cite or recommend it. Files: headline_summary, score_distribution, score_bands, signal_prevalence, ai_bot_robots_status (per AI user agent), live_fetch_probes (per engine), score_by_signal, monthly_trend (June to October 2026), schema_types_top15, dimension_averages, engine_score_averages, tld_top12. Limitations: scans were run by site owners, agencies and visitors, so the sample leans toward AI-aware websites. Aggregates only: no domains, URLs or personal data. Arobis AI is an AI Search Demand Generation agency for B2B SaaS. Also on Zenodo: https://doi.org/10.5281/zenodo.23470405",
+      "levels": [
+        "Citation"
+      ],
+      "domains": [
+        "General / Cross-domain"
+      ],
+      "topics": [
+        "SEO & Publishers"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-10-23"
     },
     {
       "id": "doi-10.5281/zenodo.23475574",
@@ -115,32 +140,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-22"
-    },
-    {
-      "id": "doi-10.5281/zenodo.23470404",
-      "title": "AI Visibility Checker Dataset 2026: AI Crawler Access, llms.txt and Schema on 2,339 Websites",
-      "authors": [
-        "Arobis AI"
-      ],
-      "date": "2026-10-19",
-      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
-      "type": "Dataset",
-      "doi": "10.5281/zenodo.23470404",
-      "record": "https://doi.org/10.5281/zenodo.23470404",
-      "pdf": "",
-      "abstract": "This dataset shows whether AI search engines can actually read the websites they might recommend. It holds aggregate results from 2,377 scans of 2,339 websites run with the free Arobis AI Visibility Checker between 1 June and 17 October 2026. Each scan reads the robots.txt rules for seven AI user agents (GPTBot, OAI-SearchBot, ChatGPT-User, ClaudeBot, Claude-Web, Google-Extended, PerplexityBot), checks for llms.txt, JSON-LD structured data and on-page signals, and, for 2,297 scans, fetches the homepage live as ChatGPT, Claude, Gemini and Perplexity. Every scan ends in a 0 to 100 AI visibility score. Key findings 3.6% of scans block GPTBot in robots.txt, but 18.8% get nothing usable back when the homepage is fetched live as ChatGPT's crawler. Among scans whose robots.txt allows all three OpenAI agents, 17.8% (391 of 2,201) still get nothing back. Most of that gap is silent blocking at the CDN, firewall or bot-protection layer. 49.2% of scans publish llms.txt and 78.0% carry JSON-LD. Sites with both average 93.6 out of 100; sites with neither average 48.0. The average AI visibility score is 79.2 and the median is 85. Questions this dataset answers What is AI visibility? AI visibility is how easily AI search engines such as ChatGPT, Claude, Gemini, Perplexity and Google AI Overviews can reach, read and understand a website, and so how likely they are to cite or recommend it. How many websites block GPTBot? 3.6% of the 2,377 scans block GPTBot in robots.txt (85 scans). Can a website allow GPTBot and still be invisible to ChatGPT? Yes. 17.8% of scans that allow all three OpenAI agents in robots.txt still returned nothing usable when fetched live as ChatGPT. robots.txt alone does not prove access; a live fetch does. How common is llms.txt? 49.2% of scanned websites publish an llms.txt file. Do llms.txt and structured data go with higher scores? Websites with both llms.txt and JSON-LD average 93.6 out of 100, against 48.0 for websites with neither. This is a correlation across the sample, not a measured causal effect. How do I check my own website? Run a free scan with the Arobis AI Visibility Checker. It tests robots.txt, live fetches as each AI engine, structured data, llms.txt and content signals. Files headline_summary.csv: sample size, dates, mean and median score, live fetch totals score_distribution.csv and score_bands.csv: score histogram and bands signal_prevalence.csv: share of scans with llms.txt, robots.txt, JSON-LD, Organization schema, canonical, og:image and more ai_bot_robots_status.csv: robots.txt allowed, blocked and unknown counts per AI user agent live_fetch_probes.csv: live fetch outcome per engine (full, http_only, none) and the allowed-but-refused count score_by_signal.csv: average score split by llms.txt, JSON-LD, Organization and FAQPage schema, GPTBot status, H1 count and word count monthly_trend.csv: June to October 2026 month by month (October covers the 1st to the 17th) schema_types_top15.csv, dimension_averages.csv, engine_score_averages.csv, tld_top12.csv Collection and limitations Scans were run by site owners, agencies and visitors, so the sample leans toward AI-aware websites and does not represent the whole web. A few domains were scanned more than once (2,377 scans, 2,339 websites). The files hold aggregates only: no domains, URLs or personal data. About Arobis AI Arobis AI is an AI Search Demand Generation agency for B2B SaaS. It helps software companies get cited and recommended by ChatGPT, Claude, Gemini, Perplexity and Google AI Overviews. Cite as: Arobis AI (2026). AI Visibility Checker Dataset 2026: AI Crawler Access, llms.txt and Schema on 2,339 Websites. CC BY 4.0.",
-      "levels": [
-        "Citation"
-      ],
-      "domains": [
-        "Science & Technology"
-      ],
-      "topics": [
-        "SEO & Publishers"
-      ],
-      "source": "OpenAlex",
-      "first_detected": "2026-10-22"
+      "first_detected": "2026-10-23"
     },
     {
       "id": "doi-10.5281/zenodo.23439923",
@@ -253,7 +253,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-22"
+      "first_detected": "2026-10-23"
     },
     {
       "id": "doi-10.5281/zenodo.23384135",
@@ -280,7 +280,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-22"
+      "first_detected": "2026-10-23"
     },
     {
       "id": "doi-10.1145/3805696.3846053",
@@ -365,7 +365,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-22"
+      "first_detected": "2026-10-23"
     },
     {
       "id": "doi-10.5281/zenodo.23259030",
@@ -390,7 +390,7 @@
         "General AIO"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-22"
+      "first_detected": "2026-10-23"
     },
     {
       "id": "doi-10.19044/esipreprint.10.2026.p187",
@@ -422,7 +422,7 @@
         "Safety & Risk"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-22"
+      "first_detected": "2026-10-23"
     },
     {
       "id": "openalex-W7221502855",
@@ -449,7 +449,7 @@
         "User Behavior"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-22"
+      "first_detected": "2026-10-23"
     },
     {
       "id": "doi-10.24171/j.phrp.2026.0365",
@@ -709,7 +709,7 @@
         "User Behavior"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-22"
+      "first_detected": "2026-10-23"
     },
     {
       "id": "doi-10.5281/zenodo.23132107",
@@ -993,7 +993,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-22"
+      "first_detected": "2026-10-23"
     },
     {
       "id": "doi-10.1145/3777912.3839818",
@@ -1023,7 +1023,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-22",
+      "first_detected": "2026-10-23",
       "domains": [
         "Politics, Government & News",
         "Commerce & Consumer"
@@ -1401,7 +1401,7 @@
         "Platform & Interface"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-22"
+      "first_detected": "2026-10-23"
     },
     {
       "id": "doi-10.5281/zenodo.22856034",
@@ -1524,7 +1524,7 @@
         "Platform & Interface"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-22"
+      "first_detected": "2026-10-23"
     },
     {
       "id": "doi-10.5281/zenodo.22707850",
@@ -1611,7 +1611,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-22"
+      "first_detected": "2026-10-23"
     },
     {
       "id": "doi-10.65150/ep-jsshrs/v2e9/2026-04",
@@ -1690,7 +1690,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-22"
+      "first_detected": "2026-10-23"
     },
     {
       "id": "arxiv-2608.29063v1",
@@ -1722,7 +1722,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-22"
+      "first_detected": "2026-10-23"
     },
     {
       "id": "arxiv-2608.18352v1",
@@ -1753,7 +1753,7 @@
         "User Behavior"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-22"
+      "first_detected": "2026-10-23"
     },
     {
       "id": "arxiv-2609.05463v1",
@@ -1781,7 +1781,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-22"
+      "first_detected": "2026-10-23"
     },
     {
       "id": "arxiv-2608.04831v1",
@@ -1812,7 +1812,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-22"
+      "first_detected": "2026-10-23"
     },
     {
       "id": "arxiv-2607.04282v3",
@@ -1840,7 +1840,7 @@
         "User Behavior"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-22"
+      "first_detected": "2026-10-23"
     },
     {
       "id": "arxiv-2607.03421v1",
@@ -1877,7 +1877,7 @@
         "Platform & Interface"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-22"
+      "first_detected": "2026-10-23"
     },
     {
       "id": "arxiv-2606.11337v1",
@@ -1911,7 +1911,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-22"
+      "first_detected": "2026-10-23"
     },
     {
       "id": "pmlr-kakimov26a",
@@ -1971,7 +1971,7 @@
         "Platform & Interface"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-22"
+      "first_detected": "2026-10-23"
     },
     {
       "id": "arxiv-2605.04949v3",
@@ -1998,7 +1998,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-22"
+      "first_detected": "2026-10-23"
     },
     {
       "id": "arxiv-2605.01077v1",
@@ -2027,7 +2027,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-22"
+      "first_detected": "2026-10-23"
     },
     {
       "id": "arxiv-2604.27790v1",
@@ -2061,7 +2061,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-22"
+      "first_detected": "2026-10-23"
     },
     {
       "id": "arxiv-2604.25707v2",
@@ -2089,7 +2089,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-22"
+      "first_detected": "2026-10-23"
     },
     {
       "id": "arxiv-2603.29071v1",
@@ -2118,7 +2118,7 @@
         "SEO & Publishers"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-22"
+      "first_detected": "2026-10-23"
     },
     {
       "id": "arxiv-2603.16138v2",
@@ -2148,7 +2148,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-22",
+      "first_detected": "2026-10-23",
       "domains": [
         "Politics, Government & News"
       ]
@@ -2182,7 +2182,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-22"
+      "first_detected": "2026-10-23"
     },
     {
       "id": "arxiv-2602.18455v6",
@@ -2209,7 +2209,7 @@
         "SEO & Publishers"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-22"
+      "first_detected": "2026-10-23"
     },
     {
       "id": "arxiv-2601.22493v2",
@@ -2243,7 +2243,7 @@
         "Safety & Risk"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-22"
+      "first_detected": "2026-10-23"
     },
     {
       "id": "arxiv-2602.22221v2",
@@ -2275,7 +2275,7 @@
         "Safety & Risk"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-22"
+      "first_detected": "2026-10-23"
     },
     {
       "id": "arxiv-2512.02665v1",
@@ -2304,7 +2304,7 @@
         "Safety & Risk"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-22"
+      "first_detected": "2026-10-23"
     },
     {
       "id": "arxiv-2511.12920v4",
@@ -2338,7 +2338,7 @@
         "Platform & Interface"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-22",
+      "first_detected": "2026-10-23",
       "domains": [
         "Health & Medicine",
         "Science & Technology"
@@ -2371,7 +2371,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-22"
+      "first_detected": "2026-10-23"
     },
     {
       "id": "doi-10.2196-79961",
@@ -2432,7 +2432,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-22"
+      "first_detected": "2026-10-23"
     },
     {
       "id": "doi-10.3145-thinkepi.2025.e19a08",
