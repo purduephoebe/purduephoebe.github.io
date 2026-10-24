@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-23T10:43:40+08:00",
+  "last_updated": "2026-10-24T10:41:03+08:00",
   "new_in_latest_scan": 0,
   "scope": "All-domain Google AI Overviews / SGE research with multi-label application-domain classification.",
   "papers": [
@@ -57,7 +57,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-23"
+      "first_detected": "2026-10-24"
     },
     {
       "id": "doi-10.5281/zenodo.23503618",
@@ -140,7 +140,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-23"
+      "first_detected": "2026-10-24"
     },
     {
       "id": "doi-10.5281/zenodo.23439923",
@@ -253,7 +253,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-23"
+      "first_detected": "2026-10-24"
     },
     {
       "id": "doi-10.5281/zenodo.23384135",
@@ -280,7 +280,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-23"
+      "first_detected": "2026-10-24"
     },
     {
       "id": "doi-10.1145/3805696.3846053",
@@ -363,31 +363,6 @@
         "SEO & Publishers",
         "Citation & Provenance",
         "Technical Evaluation"
-      ],
-      "source": "OpenAlex",
-      "first_detected": "2026-10-23"
-    },
-    {
-      "id": "doi-10.5281/zenodo.23259030",
-      "title": "Google's AI Search Revolution: What Minnesota Businesses and Outdoor Brands Need to Know",
-      "authors": [
-        "David Ohnstad"
-      ],
-      "date": "2026-10-09",
-      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
-      "type": "Article",
-      "doi": "10.5281/zenodo.23259030",
-      "record": "https://doi.org/10.5281/zenodo.23259030",
-      "pdf": "",
-      "abstract": "Full article: https://davidohnstadminnesota.com/googles-new-generative-ai-search/",
-      "levels": [
-        "Content"
-      ],
-      "domains": [
-        "Commerce & Consumer"
-      ],
-      "topics": [
-        "General AIO"
       ],
       "source": "OpenAlex",
       "first_detected": "2026-10-23"
@@ -709,7 +684,7 @@
         "User Behavior"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-23"
+      "first_detected": "2026-10-24"
     },
     {
       "id": "doi-10.5281/zenodo.23132107",
@@ -966,7 +941,7 @@
       "first_detected": "2026-10-06"
     },
     {
-      "id": "doi-10.48550/arxiv.2609.38946",
+      "id": "arxiv-2609.38946v1",
       "title": "Breaking News Out of the Filter Bubble: Generative AI Search Diversifies Collective Attention and Raises Shared Information Consumption",
       "authors": [
         "Heeseung Andrew Lee",
@@ -975,11 +950,11 @@
         "Dongwon Lee"
       ],
       "date": "2026-09-30",
-      "venue": "arXiv (Cornell University)",
+      "venue": "arXiv",
       "type": "Preprint",
       "doi": "10.48550/arxiv.2609.38946",
-      "record": "https://doi.org/10.48550/arxiv.2609.38946",
-      "pdf": "https://arxiv.org/pdf/2609.38946",
+      "record": "http://arxiv.org/abs/2609.38946v1",
+      "pdf": "https://arxiv.org/pdf/2609.38946v1",
       "abstract": "Generative AI search and AI overviews are transforming access to information and news, renewing concerns that readers will encounter a narrower range of topics and have less in common. We examine these concerns via a randomized field experiment with 37,561 readers at The Washington Post. Both groups searched the same archive, but treatment readers also received AI answers with article citations above conventional results. Measuring consumption across displayed answers and opened articles, we find that AI search expands the reach of widely read topics and increases overlap in readers' topic consumption. At the same time, consumption becomes less concentrated and shifts toward less-popular topics, both within readers and across the audience. AI answers account for most of the increase in shared information, delivering it without requiring article clicks and broadening exposure beyond the articles readers open. Cited articles also contribute to the shift toward less-popular topics. Readers shift from conventional-result clicks and browsing toward cited articles and follow-up searches. More frequent searching offsets lower article consumption per search, producing a small increase in article consumption per reader. Total information consumption per minute also rises. Generative AI search can thus diversify collective attention while strengthening the information readers have in common.",
       "levels": [
         "Citation",
@@ -992,42 +967,8 @@
         "User Behavior",
         "Citation & Provenance"
       ],
-      "source": "OpenAlex",
-      "first_detected": "2026-10-23"
-    },
-    {
-      "id": "doi-10.1145/3777912.3839818",
-      "title": "Measuring Google AI Overviews: Activation, Source Quality, Claim Fidelity, and Publisher Impact",
-      "authors": [
-        "Haofei Xu",
-        "Umar Iqbal",
-        "Jacob Montgomery"
-      ],
-      "date": "2026-09-29",
-      "venue": "ACM Internet Measurement Conference (IMC)",
-      "type": "Conference-Paper",
-      "doi": "10.1145/3777912.3839818",
-      "record": "https://doi.org/10.1145/3777912.3839818",
-      "pdf": "https://dl.acm.org/doi/pdf/10.1145/3777912.3839818?download=true",
-      "abstract": "Google AI Overviews (AIOs) are arguably the most widely encountered deployment of generative AI, reaching over 2 billion users who may not realize the answers they see are AI-generated. Where search engines have traditionally surfaced ranked sources and left users to evaluate them, AIOs synthesize and deliver a single answer — giving Google unprecedented editorial control over what users read and know. We present a large-scale longitudinal measurement study, issuing 55,393 trending queries across 19 topical categories over a 40-day window (March 13–April 21, 2026). We report four main findings. First, overall AIO activation is 13.7%, rising to 64.7% for question-form queries, while politically sensitive topics see markedly lower rates. Second, AIO-cited domains are more credible than co-displayed first-page results, yet nearly 30% do not appear in those results at all, indicating a source selection mechanism distinct from Google's ranking algorithm. Third, decomposing responses into 98,020 atomic claims, 11.0% are unsupported by the cited pages — with omission the dominant failure mode — and source quality and claim fidelity are largely independent. Fourth, well over half of AIO-cited pages carry display advertising, meaning publishers lose revenue when AIOs suppress the click-through, even as Google's own sponsored ads continue to appear on the same page. Together, these findings document a rapid transformation of the online information ecosystem whose consequences for epistemic security remain poorly understood.",
-      "levels": [
-        "Query",
-        "Content",
-        "Citation",
-        "Presentation"
-      ],
-      "topics": [
-        "SEO & Publishers",
-        "User Behavior",
-        "Citation & Provenance",
-        "Technical Evaluation"
-      ],
-      "source": "OpenAlex",
-      "first_detected": "2026-10-23",
-      "domains": [
-        "Politics, Government & News",
-        "Commerce & Consumer"
-      ]
+      "source": "arXiv",
+      "first_detected": "2026-10-24"
     },
     {
       "id": "doi-10.5281/zenodo.23028277",
@@ -1401,7 +1342,7 @@
         "Platform & Interface"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-23"
+      "first_detected": "2026-10-24"
     },
     {
       "id": "doi-10.5281/zenodo.22856034",
@@ -1457,6 +1398,32 @@
       ],
       "source": "OpenAlex",
       "first_detected": "2026-09-25"
+    },
+    {
+      "id": "doi-10.5281/zenodo.22825645",
+      "title": "Google's AI Search Revolution: What Minnesota Businesses and Outdoor Brands Need to Know",
+      "authors": [
+        "David Ohnstad"
+      ],
+      "date": "2026-09-18",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Article",
+      "doi": "10.5281/zenodo.22825645",
+      "record": "https://doi.org/10.5281/zenodo.22825645",
+      "pdf": "",
+      "abstract": "Google's AI Search Revolution: What Minnesota Businesses and Outdoor Brands Need to Know If you run a Minnesota business—especially in outdoor recreation, tourism, or local services—you've probably noticed something shift in how Google Search works over the past year. Google's new generative AI search features, particularly AI Overviews (formerly called SGE, or Search Generative Experience),… Continue reading Google's AI Search Revolution: What Minnesota Businesses and Outdoor Brands Need to Know Full article: https://davidohnstadminnesota.com/googles-new-generative-ai-search/",
+      "levels": [
+        "Content"
+      ],
+      "domains": [
+        "Commerce & Consumer",
+        "Travel, Local & Lifestyle"
+      ],
+      "topics": [
+        "General AIO"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-10-24"
     },
     {
       "id": "doi-10.6084/m9.figshare.33868474.v1",
@@ -1524,7 +1491,7 @@
         "Platform & Interface"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-23"
+      "first_detected": "2026-10-24"
     },
     {
       "id": "doi-10.5281/zenodo.22707850",
@@ -1611,7 +1578,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-23"
+      "first_detected": "2026-10-24"
     },
     {
       "id": "doi-10.65150/ep-jsshrs/v2e9/2026-04",
@@ -1690,7 +1657,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-23"
+      "first_detected": "2026-10-24"
     },
     {
       "id": "arxiv-2608.29063v1",
@@ -1722,7 +1689,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-23"
+      "first_detected": "2026-10-24"
     },
     {
       "id": "arxiv-2608.18352v1",
@@ -1753,7 +1720,7 @@
         "User Behavior"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-23"
+      "first_detected": "2026-10-24"
     },
     {
       "id": "arxiv-2609.05463v1",
@@ -1781,7 +1748,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-23"
+      "first_detected": "2026-10-24"
     },
     {
       "id": "arxiv-2608.04831v1",
@@ -1812,7 +1779,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-23"
+      "first_detected": "2026-10-24"
     },
     {
       "id": "arxiv-2607.04282v3",
@@ -1840,7 +1807,7 @@
         "User Behavior"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-23"
+      "first_detected": "2026-10-24"
     },
     {
       "id": "arxiv-2607.03421v1",
@@ -1877,7 +1844,7 @@
         "Platform & Interface"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-23"
+      "first_detected": "2026-10-24"
     },
     {
       "id": "arxiv-2606.11337v1",
@@ -1911,7 +1878,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-23"
+      "first_detected": "2026-10-24"
     },
     {
       "id": "pmlr-kakimov26a",
@@ -1971,7 +1938,41 @@
         "Platform & Interface"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-23"
+      "first_detected": "2026-10-24"
+    },
+    {
+      "id": "arxiv-2605.14021v2",
+      "title": "Measuring Google AI Overviews: Activation, Source Quality, Claim Fidelity, and Publisher Impact",
+      "authors": [
+        "Haofei Xu",
+        "Umar Iqbal",
+        "Jacob M. Montgomery"
+      ],
+      "date": "2026-05-13",
+      "venue": "arXiv",
+      "type": "Preprint",
+      "doi": "10.1145/3777912.3839818",
+      "record": "http://arxiv.org/abs/2605.14021v2",
+      "pdf": "https://arxiv.org/pdf/2605.14021v2",
+      "abstract": "Google AI Overviews (AIOs) are arguably the most widely encountered deployment of generative AI, reaching over 2 billion users who may not realize the answers they see are AI-generated. Where search engines have traditionally surfaced ranked sources and left users to evaluate them, AIOs synthesize and deliver a single answer - giving Google unprecedented editorial control over what users read and know. We present a large-scale longitudinal measurement study, issuing 55,393 trending queries across 19 topical categories over a 40-day window (March 13 - April 21, 2026). We report four main findings. First, overall AIO activation is 13.7%, rising to 64.7% for question-form queries, while politically sensitive topics see markedly lower rates. Second, AIO-cited domains are more credible than co-displayed first-page results, yet nearly 30% do not appear in those results at all, indicating a source selection mechanism distinct from Google's ranking algorithm. Third, decomposing responses into 98,020 atomic claims, 11.0% are unsupported by the cited pages - with omission the dominant failure mode - and source quality and claim fidelity are largely independent. Fourth, well over half of AIO-cited pages carry display advertising, meaning publishers lose revenue when AIOs suppress the click-through, even as Google's own sponsored ads continue to appear on the same page. Together, these findings document a rapid transformation of the online information ecosystem whose consequences for epistemic security remain poorly understood.",
+      "levels": [
+        "Query",
+        "Content",
+        "Citation",
+        "Presentation"
+      ],
+      "topics": [
+        "SEO & Publishers",
+        "User Behavior",
+        "Citation & Provenance",
+        "Technical Evaluation"
+      ],
+      "source": "arXiv",
+      "first_detected": "2026-10-24",
+      "domains": [
+        "Politics, Government & News",
+        "Commerce & Consumer"
+      ]
     },
     {
       "id": "arxiv-2605.04949v3",
@@ -1998,7 +1999,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-23"
+      "first_detected": "2026-10-24"
     },
     {
       "id": "arxiv-2605.01077v1",
@@ -2027,7 +2028,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-23"
+      "first_detected": "2026-10-24"
     },
     {
       "id": "arxiv-2604.27790v1",
@@ -2061,7 +2062,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-23"
+      "first_detected": "2026-10-24"
     },
     {
       "id": "arxiv-2604.25707v2",
@@ -2089,7 +2090,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-23"
+      "first_detected": "2026-10-24"
     },
     {
       "id": "arxiv-2603.29071v1",
@@ -2118,7 +2119,7 @@
         "SEO & Publishers"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-23"
+      "first_detected": "2026-10-24"
     },
     {
       "id": "arxiv-2603.16138v2",
@@ -2148,7 +2149,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-23",
+      "first_detected": "2026-10-24",
       "domains": [
         "Politics, Government & News"
       ]
@@ -2182,7 +2183,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-23"
+      "first_detected": "2026-10-24"
     },
     {
       "id": "arxiv-2602.18455v6",
@@ -2209,7 +2210,7 @@
         "SEO & Publishers"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-23"
+      "first_detected": "2026-10-24"
     },
     {
       "id": "arxiv-2601.22493v2",
@@ -2243,7 +2244,7 @@
         "Safety & Risk"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-23"
+      "first_detected": "2026-10-24"
     },
     {
       "id": "arxiv-2602.22221v2",
@@ -2275,7 +2276,7 @@
         "Safety & Risk"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-23"
+      "first_detected": "2026-10-24"
     },
     {
       "id": "arxiv-2512.02665v1",
@@ -2304,7 +2305,7 @@
         "Safety & Risk"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-23"
+      "first_detected": "2026-10-24"
     },
     {
       "id": "arxiv-2511.12920v4",
@@ -2338,7 +2339,7 @@
         "Platform & Interface"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-23",
+      "first_detected": "2026-10-24",
       "domains": [
         "Health & Medicine",
         "Science & Technology"
@@ -2371,7 +2372,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-23"
+      "first_detected": "2026-10-24"
     },
     {
       "id": "doi-10.2196-79961",
@@ -2432,7 +2433,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-23"
+      "first_detected": "2026-10-24"
     },
     {
       "id": "doi-10.3145-thinkepi.2025.e19a08",
