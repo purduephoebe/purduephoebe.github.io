@@ -1,8 +1,113 @@
 {
-  "last_updated": "2026-10-26T10:29:46+08:00",
-  "new_in_latest_scan": 2,
+  "last_updated": "2026-10-27T11:04:15+08:00",
+  "new_in_latest_scan": 4,
   "scope": "All-domain Google AI Overviews / SGE research with multi-label application-domain classification.",
   "papers": [
+    {
+      "id": "doi-10.5281/zenodo.23651936",
+      "title": "AI Source Index: what six AI answer engines cited, first eight weeks (2026-W36 to W43)",
+      "authors": [
+        "Promvia (Atlaven)"
+      ],
+      "date": "2026-10-25",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Dataset",
+      "doi": "10.5281/zenodo.23651936",
+      "record": "https://doi.org/10.5281/zenodo.23651936",
+      "pdf": "",
+      "abstract": "Every week from 3 September to 19 October 2026 (UTC), the same 40 buyer questions were put to six AI answer engines (ChatGPT, Perplexity, Gemini, Claude, Google AI Overviews and Google AI Mode) and every source each answer cited was recorded: 1,920 checks, 1,883 answered. The release contains the raw weekly rows (data/), flat CSVs, the analysis scripts, and the first-eight-weeks study package (studies/first-eight-weeks/: rows.csv with 11,667 rows, results.json with every published number, and recount.py, a Python standard-library script that rebuilds results.json from rows.csv and prints ALL MATCH). Limits: the engines are read through their APIs and Google's result pages, not the consumer apps; one sample per engine, question and week. Report: https://promvia.app/ai-source-index/first-eight-weeks",
+      "levels": [
+        "Citation"
+      ],
+      "domains": [
+        "Commerce & Consumer"
+      ],
+      "topics": [
+        "Information Literacy",
+        "Citation & Provenance"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-10-27"
+    },
+    {
+      "id": "doi-10.5281/zenodo.23645499",
+      "title": "Sextant AI Visibility Index",
+      "authors": [
+        "LLC (Sextant AEO) Shearwater Labs"
+      ],
+      "date": "2026-10-25",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Software",
+      "doi": "10.5281/zenodo.23645499",
+      "record": "https://doi.org/10.5281/zenodo.23645499",
+      "pdf": "",
+      "abstract": "First public edition of the Sextant AI Visibility Index: ten unbranded buyer prompts about AEO tools, three samples a day on six AI engines (ChatGPT, Perplexity, Gemini, Claude, Grok, Google AI Overviews), October 14 to 17, 2026, 720 answers. Data under data/2026-10-18 (index.json, leaderboard.csv, prompts.csv, cited_domains.csv), CC BY 4.0; the runner code (aeo-index) is MIT. Cite via CITATION.cff; a Zenodo DOI is minted from this release.",
+      "levels": [
+        "Query",
+        "Citation"
+      ],
+      "domains": [
+        "Commerce & Consumer"
+      ],
+      "topics": [
+        "Citation & Provenance"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-10-27"
+    },
+    {
+      "id": "doi-10.5281/zenodo.23636561",
+      "title": "Brands ranked in the top three positions by AI engines in October 2026 had faster branded search growth from ChatGPT's launch in 2022 than brands outside the top three positions: exploratory evidence from 418 US brands",
+      "authors": [
+        "Daniel Patrick Grainger"
+      ],
+      "date": "2026-10-25",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Article",
+      "doi": "10.5281/zenodo.23636561",
+      "record": "https://doi.org/10.5281/zenodo.23636561",
+      "pdf": "",
+      "abstract": "Ranking Atlas Working Paper RA-WP-2026-03. Not peer reviewed. Background. When people ask an AI engine which product to buy or which service to use, it answers with a short list of brands in order. Practitioners describe this as a branding channel: people meet a brand in an AI answer, then search for it by name on Google. If position in these lists is linked to later searches, brands placed near the top should show faster growth in branded search. Our earlier study of 347 US brands found that brands ChatGPT and Gemini recommended grew about 7 pp per year faster in Google Ads searches than matched brands, but the result was unstable over time (Grainger, 2026). Methods. We measured recommendation position again with five engines (ChatGPT, Gemini, Google AI Mode, Google AI Overviews and Perplexity) and 280 brand-free category prompts, run six times each on 23-24 October 2026 (8,190 answers). Each of 418 US brands was placed in a band: position 1, positions 2-3, position 4 or later, or not named. We compared these bands with each brand's Google Ads search volume growth from October 2022 to September 2026, a window that begins two months before ChatGPT's public launch on 30 November 2022, which we treat as the start of mainstream AI engine use. Google Trends was a second source, and 2015-2022, before ChatGPT, a placebo period. Growth is reported in pp of annual growth (100 x the yearly change in ln volume; 1 pp is roughly 1% per year). Positions are a single October 2026 snapshot compared retrospectively with earlier growth; past AI answers cannot be reconstructed. Results. The 68 brands placed in the top three grew 8.2 pp per year (about 8.5% a year) faster than the other 350, after controlling for category and starting volume (95% CI 3.3 to 13.2). Google Trends gave a similar estimate (+7.9; 95% CI 1.7 to 14.1). In 2015-2022, before ChatGPT's launch, no growth advantage was detected (-1.6; 95% CI -5.3 to 2.1). The gap appeared in both halves of the post-ChatGPT period in Ads (+11.1 and +7.4). None of the pre-specified tests was supported: brands at position 1 and at positions 2-3 grew at similar rates, and the rank-ordering test was not significant after Holm correction. In post hoc checks, the gap was similar when compared with brands of the same starting volume (7.6 to 8.7 pp), and 10 of 12 randomly drawn top-3 brands grew faster than their category median. Conclusions. Brands that AI engines place in the top three have grown faster in branded search since ChatGPT's public launch, on two data sources and in both halves of the period, with no detectable gap before ChatGPT. The comparison was chosen after the data were seen, so the result is an association, not evidence that AI ranking causes search growth. A prospective study that measures position first will be preregistered publicly.",
+      "levels": [
+        "Query",
+        "Citation"
+      ],
+      "domains": [
+        "Commerce & Consumer"
+      ],
+      "topics": [
+        "Citation & Provenance",
+        "Technical Evaluation"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-10-27"
+    },
+    {
+      "id": "doi-10.5281/zenodo.23643938",
+      "title": "MarketingOnWeb",
+      "authors": [
+        "Rinze Lozano"
+      ],
+      "date": "2026-10-25",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Article",
+      "doi": "10.5281/zenodo.23643938",
+      "record": "https://doi.org/10.5281/zenodo.23643938",
+      "pdf": "",
+      "abstract": "MarketingOnWeb is a Melbourne-based digital growth partner helping Australian businesses get found, convert more enquiries and automate growth.MarketingOnWeb helps Australian businesses grow with conversion-focused websites, SEO and local search, AI search optimisation, Google Ads and paid media, content and social, CRM integration and workflow automation, website speed, security and maintenance, and analytics. Every engagement starts with a Free Growth Audit, and pricing is published as clear starting prices in AUD (excluding GST) with final scope confirmed after the audit. For more inquiry, visit digital marketing services",
+      "levels": [
+        "Presentation"
+      ],
+      "domains": [
+        "Finance & Economics",
+        "Travel, Local & Lifestyle"
+      ],
+      "topics": [
+        "SEO & Publishers"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-10-27"
+    },
     {
       "id": "doi-10.6084/m9.figshare.34761576",
       "title": "MarketingOnWeb – Melbourne Digital Marketing Agency",
@@ -27,7 +132,7 @@
         "SEO & Publishers"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-26"
+      "first_detected": "2026-10-27"
     },
     {
       "id": "doi-10.5281/zenodo.23589516",
@@ -52,7 +157,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-26"
+      "first_detected": "2026-10-27"
     },
     {
       "id": "doi-10.5281/zenodo.23589260",
@@ -77,7 +182,7 @@
         "General AIO"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-26"
+      "first_detected": "2026-10-27"
     },
     {
       "id": "doi-10.5281/zenodo.23586712",
@@ -136,7 +241,7 @@
         "Platform & Interface"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-26"
+      "first_detected": "2026-10-27"
     },
     {
       "id": "doi-10.17632/hmdxwwknyj",
@@ -192,7 +297,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-26"
+      "first_detected": "2026-10-27"
     },
     {
       "id": "doi-10.5281/zenodo.23503618",
@@ -275,7 +380,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-26"
+      "first_detected": "2026-10-27"
     },
     {
       "id": "doi-10.5281/zenodo.23439923",
@@ -363,7 +468,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-26"
+      "first_detected": "2026-10-27"
     },
     {
       "id": "doi-10.5281/zenodo.23384135",
@@ -390,7 +495,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-26"
+      "first_detected": "2026-10-27"
     },
     {
       "id": "doi-10.1145/3805696.3846053",
@@ -794,7 +899,7 @@
         "User Behavior"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-26"
+      "first_detected": "2026-10-27"
     },
     {
       "id": "doi-10.5281/zenodo.23132107",
