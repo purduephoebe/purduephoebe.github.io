@@ -1,8 +1,66 @@
 {
-  "last_updated": "2026-10-27T11:04:15+08:00",
-  "new_in_latest_scan": 4,
+  "last_updated": "2026-10-28T11:16:22+08:00",
+  "new_in_latest_scan": 2,
   "scope": "All-domain Google AI Overviews / SGE research with multi-label application-domain classification.",
   "papers": [
+    {
+      "id": "doi-10.5281/zenodo.23676357",
+      "title": "Studio GEO Veneto: dati su ChatGPT, Perplexity e AI Overview di Google per 100 ricerche locali",
+      "authors": [
+        "Luca Giraldi"
+      ],
+      "date": "2026-10-26",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Dataset",
+      "doi": "10.5281/zenodo.23676357",
+      "record": "https://doi.org/10.5281/zenodo.23676357",
+      "pdf": "",
+      "abstract": "Dati dello Studio GEO Veneto: un'osservazione su come tre strumenti di intelligenza artificiale (ChatGPT, Perplexity e l'AI Overview di Google) rispondono a ricerche locali commerciali nel Veneto. AUTORE: Luca Giraldi, consulente di marketing digitale COSA È STATO MISURATO: 100 ricerche in italiano, scritte come le farebbe un cliente (per esempio \"miglior ristorante di pesce a Venezia\" o \"idraulico pronto intervento a Treviso\"), su 10 categorie di attività (ristoranti, hotel, parrucchieri, dentisti, avvocati, commercialisti, idraulici, officine, agenzie immobiliari, fotografi) e 5 città (Venezia, Padova, Verona, Treviso, San Donà di Piave), in quattro tipi di intento: migliore, prezzo, consiglio, disponibilità. Per ogni ricerca sono state raccolte le risposte dei tre strumenti e le fonti citate: 577 risposte in totale, raccolte il 25 ottobre 2026. RISULTATI PRINCIPALI: - L'AI Overview di Google compare in 94 ricerche su 100.- ProntoPro, TripAdvisor, Treatwell e TheFork sono tra i siti più citati da tutti e tre gli strumenti.- Ripetendo la stessa ricerca, le fonti citate coincidono solo in parte: indice di sovrapposizione medio 0,40 per ChatGPT e 0,51 per Perplexity. CONTENUTO DEL DEPOSITO: - risultati_per_ricerca.csv: una riga per ricerca, con presenza dell'AI Overview e domini citati.- copertura_ai_overview.csv: copertura per settore, città, tipo di città e intento.- siti_citati_per_motore.csv e siti_citati_per_settore.csv: domini citati e frequenza.- studio-geo-veneto-dati.xlsx: tutte le tabelle in un unico file.- LEGGIMI.md: metodo, descrizione delle colonne, limiti.Sono pubblicati solo dati aggregati e domini: non i testi integrali delle risposte né i nomi delle attività. LIMITI: Fotografia scattata a ottobre su 100 ricerche scelte dall'autore, non un campione casuale. Le risposte sono state raccolte tramite interfacce per sviluppatori e possono differire da quelle di app e browser. ChatGPT è stata ripetuta più volte solo su 39 ricerche. Le fonti dei tre strumenti non sono confrontabili uno a uno. ARTICOLO DI ACCOMPAGNAMENTO:Come farsi trovare da ChatGPT e risposte Google AI: Studio GEO Veneto English summary: Dataset of the \"Studio GEO Veneto\": how ChatGPT, Perplexity and Google AI Overviews answer 100 local commercial searches in Veneto, Italy (10 business categories, 5 cities). Google showed an AI Overview for 94 of 100 searches. The deposit contains aggregated data and cited domains only, not the full answer texts. Collected 25 October 2026.",
+      "levels": [
+        "Citation"
+      ],
+      "domains": [
+        "Finance & Economics",
+        "Travel, Local & Lifestyle"
+      ],
+      "topics": [
+        "General AIO"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-10-28"
+    },
+    {
+      "id": "doi-10.5281/zenodo.23589052",
+      "title": "CiteShift: Code and Derived Data for Auditing SEO Visibility in Generative AI Search",
+      "authors": [
+        "Tayyab Maqsood",
+        "Muhammad Zunnurain Hussain",
+        "Hafiza Saleha",
+        "Muhammad Zulkifl Hasan"
+      ],
+      "date": "2026-10-26",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Software",
+      "doi": "10.5281/zenodo.23589052",
+      "record": "https://doi.org/10.5281/zenodo.23589052",
+      "pdf": "",
+      "abstract": "Code and derived data accompanying the manuscript \"CiteShift: A Rank Transfer and Citation Propensity Framework for Auditing SEO Visibility in Generative AI Search\". The package measures how organic search visibility transfers into citations by Google AI Overviews and Gemini 2.5 Flash, using the public benchmark of Grossman et al. (SIGIR 2026): 11,500 queries and 165,934 query and URL candidates. It implements a rank transfer curve, an Organic Retention Rate, a Generative Displacement Index, a citation concentration analysis, and a Generative Citation Propensity Model. All Python scripts and every table and figure in the manuscript are included. Base study: Grossman et al., \"How Generative AI Disrupts Search: An Empirical Study of Google Search, Gemini, and AI Overviews\", SIGIR 2026, https://doi.org/10.48550/arXiv.2604.27790 Source data: https://github.com/rag24/AIO (Apache 2.0), not redistributed here. To reproduce: pip install -r requirements.txt, then python src/download_data.py, then python src/run_all.py.",
+      "levels": [
+        "Query",
+        "Citation",
+        "Presentation"
+      ],
+      "domains": [
+        "Politics, Government & News"
+      ],
+      "topics": [
+        "SEO & Publishers",
+        "Citation & Provenance",
+        "Technical Evaluation"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-10-28"
+    },
     {
       "id": "doi-10.5281/zenodo.23651936",
       "title": "AI Source Index: what six AI answer engines cited, first eight weeks (2026-W36 to W43)",
@@ -27,7 +85,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-27"
+      "first_detected": "2026-10-28"
     },
     {
       "id": "doi-10.5281/zenodo.23645499",
@@ -53,7 +111,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-27"
+      "first_detected": "2026-10-28"
     },
     {
       "id": "doi-10.5281/zenodo.23636561",
@@ -80,7 +138,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-27"
+      "first_detected": "2026-10-28"
     },
     {
       "id": "doi-10.5281/zenodo.23643938",
@@ -106,7 +164,7 @@
         "SEO & Publishers"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-27"
+      "first_detected": "2026-10-28"
     },
     {
       "id": "doi-10.6084/m9.figshare.34761576",
@@ -132,7 +190,7 @@
         "SEO & Publishers"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-27"
+      "first_detected": "2026-10-28"
     },
     {
       "id": "doi-10.5281/zenodo.23589516",
@@ -157,7 +215,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-27"
+      "first_detected": "2026-10-28"
     },
     {
       "id": "doi-10.5281/zenodo.23589260",
@@ -182,7 +240,7 @@
         "General AIO"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-27"
+      "first_detected": "2026-10-28"
     },
     {
       "id": "doi-10.5281/zenodo.23586712",
@@ -241,7 +299,7 @@
         "Platform & Interface"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-27"
+      "first_detected": "2026-10-28"
     },
     {
       "id": "doi-10.17632/hmdxwwknyj",
@@ -297,7 +355,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-27"
+      "first_detected": "2026-10-28"
     },
     {
       "id": "doi-10.5281/zenodo.23503618",
@@ -380,7 +438,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-27"
+      "first_detected": "2026-10-28"
     },
     {
       "id": "doi-10.5281/zenodo.23439923",
@@ -899,7 +957,7 @@
         "User Behavior"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-27"
+      "first_detected": "2026-10-28"
     },
     {
       "id": "doi-10.5281/zenodo.23132107",
