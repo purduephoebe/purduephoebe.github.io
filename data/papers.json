@@ -1,8 +1,65 @@
 {
-  "last_updated": "2026-10-28T11:16:22+08:00",
-  "new_in_latest_scan": 2,
+  "last_updated": "2026-10-29T11:41:24+08:00",
+  "new_in_latest_scan": 3,
   "scope": "All-domain Google AI Overviews / SGE research with multi-label application-domain classification.",
   "papers": [
+    {
+      "id": "doi-10.5281/zenodo.23708876",
+      "title": "Digital PR in the Era of Generative Search – Supplementary materials (observation dataset and survey responses)",
+      "authors": [
+        "Gloria Piersigilli"
+      ],
+      "date": "2026-10-27",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Dataset",
+      "doi": "10.5281/zenodo.23708876",
+      "record": "https://doi.org/10.5281/zenodo.23708876",
+      "pdf": "",
+      "abstract": "Supplementary materials for G. Piersigilli (2026), Digital PR in the Era of Generative Search: Strategic Reputation and Authority for AI-Mediated Visibility, Master’s thesis, LUMSA University (supervisor Prof. S. Mulargia). Observation dataset (171 observations of ChatGPT, Google AI Overviews and Perplexity; 1,162 coded citations; campaign press review published with the permission of Lever PR) and anonymised questionnaire responses (N = 79).",
+      "levels": [
+        "Citation"
+      ],
+      "domains": [
+        "Commerce & Consumer",
+        "Education & Academia"
+      ],
+      "topics": [
+        "Citation & Provenance"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-10-29"
+    },
+    {
+      "id": "doi-10.5281/zenodo.23693456",
+      "title": "Aesthetic Clinic AI Search Visibility Across Four Platforms",
+      "authors": [
+        "Evgeniy Yudin"
+      ],
+      "date": "2026-10-27",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Dataset",
+      "doi": "10.5281/zenodo.23693456",
+      "record": "https://doi.org/10.5281/zenodo.23693456",
+      "pdf": "",
+      "abstract": "Public, sanitized dataset for a US-English aesthetic-clinic AI-search panel covering 18 exact query cells, three scheduled waves and four answer surfaces (216 planned observations) across New York City, Chicago and Miami. It covers neuromodulator injections, dermal fillers, and laser skin resurfacing. The final panel contains 205 AI-answer states, 11 successful no-AI-Overview states and no unresolved core errors, plus 1,259 declared citation occurrences and a predefined qualitative follow-up of selected visible-source pages. Google transport was mixed Live and Standard with documented finite recoveries; the dataset is not a consumer-interface replication. The package includes aggregate tables, sanitized observation and citation inputs, methodology, manifest, checksums and reproduction code. Full AI answers, provider identifiers, credentials, API identifiers, source HTML and private client or project information are excluded. This is an exploratory source-visibility panel, not a clinical ranking, representative market-share estimate or causal ranking-factor experiment. A visible cited domain does not establish that it caused a provider mention or ranking. Study: https://rotgar.com/medical/resources/aesthetic-clinic-ai-visibility-four-platform-study",
+      "levels": [
+        "Query",
+        "Citation",
+        "Presentation"
+      ],
+      "domains": [
+        "Health & Medicine",
+        "Finance & Economics",
+        "Commerce & Consumer"
+      ],
+      "topics": [
+        "Citation & Provenance",
+        "Technical Evaluation",
+        "Platform & Interface"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-10-29"
+    },
     {
       "id": "doi-10.5281/zenodo.23676357",
       "title": "Studio GEO Veneto: dati su ChatGPT, Perplexity e AI Overview di Google per 100 ricerche locali",
@@ -27,7 +84,7 @@
         "General AIO"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-28"
+      "first_detected": "2026-10-29"
     },
     {
       "id": "doi-10.5281/zenodo.23589052",
@@ -59,7 +116,36 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-28"
+      "first_detected": "2026-10-29"
+    },
+    {
+      "id": "doi-10.5281/zenodo.23671411",
+      "title": "CiteTrace: Code and Results for Where Generative Search Citations Come From: Provenance Decomposition and Citation Prediction for Google AI Overviews and Gemini",
+      "authors": [
+        "Saleha Waqar",
+        "Muhammad Zunnurain Hussain",
+        "Tayyab Maqsood"
+      ],
+      "date": "2026-10-26",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Software",
+      "doi": "10.5281/zenodo.23671411",
+      "record": "https://doi.org/10.5281/zenodo.23671411",
+      "pdf": "",
+      "abstract": "Code and derived results for the paper \"Where Generative Search Citations Come From: Provenance Decomposition and Citation Prediction for Google AI Overviews and Gemini\". CiteTrace reanalyses the data released by Grossman et al. (SIGIR 2026, https://github.com/rag24/AIO): it compares Google organic results, AI Overview sources and Gemini sources at four URL canonicalisation levels, splits every generative citation into exact page, sibling page or new site, measures citation rates by organic rank, trains a citation propensity model with query grouped cross validation against four baselines, and normalises cross engine similarity by run to run stability. The archive contains the Python package, all analysis and figure scripts, unit tests, a script that downloads the released data at a fixed commit and checks SHA256 checksums, and the result files behind every table and figure. The released data are not redistributed here; they remain under the Apache License 2.0 of the original repository.",
+      "levels": [
+        "Query",
+        "Citation"
+      ],
+      "domains": [
+        "General / Cross-domain"
+      ],
+      "topics": [
+        "Bias & Fairness",
+        "Citation & Provenance"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-10-29"
     },
     {
       "id": "doi-10.5281/zenodo.23651936",
@@ -164,7 +250,7 @@
         "SEO & Publishers"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-28"
+      "first_detected": "2026-10-29"
     },
     {
       "id": "doi-10.6084/m9.figshare.34761576",
@@ -190,7 +276,7 @@
         "SEO & Publishers"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-28"
+      "first_detected": "2026-10-29"
     },
     {
       "id": "doi-10.5281/zenodo.23589516",
@@ -240,7 +326,7 @@
         "General AIO"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-28"
+      "first_detected": "2026-10-29"
     },
     {
       "id": "doi-10.5281/zenodo.23586712",
@@ -299,7 +385,7 @@
         "Platform & Interface"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-28"
+      "first_detected": "2026-10-29"
     },
     {
       "id": "doi-10.17632/hmdxwwknyj",
@@ -355,7 +441,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-28"
+      "first_detected": "2026-10-29"
     },
     {
       "id": "doi-10.5281/zenodo.23503618",
@@ -438,7 +524,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-28"
+      "first_detected": "2026-10-29"
     },
     {
       "id": "doi-10.5281/zenodo.23439923",
