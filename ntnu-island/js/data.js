@@ -1,0 +1,166 @@
+// 內容皆整理自臺師大官方網站（2026-10-28 擷取），每條附來源連結。
+// 未能於官方頁面確認、或兩頁數字不一致者，不放入（見 ../../MEMORY.md / LOG.md）。
+
+const NEWS = (id) => `https://pr.ntnu.edu.tw/ntnunews/index.php?mode=data&id=${id}`;
+const U = {
+  history: 'http://archives.lib.ntnu.edu.tw/c1/c1_1.jsp',
+  motto: 'http://archives.lib.ntnu.edu.tw/c2/c2_1.jsp',
+  glance: 'https://www.iro.ntnu.edu.tw/iro/index.php/ntnuatglance/',
+  about: 'https://www.iro.ntnu.edu.tw/iro/index.php/aboutntnu/',
+  rh: 'https://rh.acad.ntnu.edu.tw/',
+  top: 'https://top.ntnu.edu.tw/',
+  usr: 'https://usr.top.ntnu.edu.tw/',
+  usr4: 'https://usr.top.ntnu.edu.tw/project4.html',
+  usrPlan: 'https://usr.top.ntnu.edu.tw/about-plan.html',
+  sdgs: 'https://www.sdgs.ntnu.edu.tw/',
+  sdgsInit: 'https://www.sdgs.ntnu.edu.tw/sustainability-initiative/',
+  plan: 'http://pr.ntnu.edu.tw/archive/activitise/SchoolDevelopmentPlan.html',
+  president: 'https://www.ntnu.edu.tw/president/',
+};
+
+export const THEMES = [
+  {
+    id: 'core', no: '01', name: '百年本島', title: '百年亮點', en: 'Centennial Core', icon: 'star',
+    pos: [0, 0], r: 11, labelY: 10.5,
+    tagline: '從 1922 年的臺北高等學校走到今天的綜合大學，和平校區的紅磚古蹟見證了一百年。',
+    quote: '校訓「誠正勤樸」：誠，不虛偽；正，不偏私；勤，不怠惰；樸，不浮華。',
+    chips: ['誠正勤樸', '10 學院', '三校區'],
+    items: [
+      { big: '1922', t: '創校：臺北高等學校', tag: '校史', d: '前身為 1922 年創立的「臺灣總督府臺北高等學校」，當時是臺灣唯一的高校；1926 年遷到古亭町，也就是現在的和平校區。', src: U.history, srcName: '數位校史館' },
+      { big: '1946', t: '師範學院 → 國立臺灣師範大學', tag: '校史', d: '1946 年成立臺灣省立師範學院，1955 年改制為省立師範大學，1967 年升格為國立臺灣師範大學；1994 年《師資培育法》施行後轉型為綜合大學。', src: U.history, srcName: '數位校史館' },
+      { big: '4', t: '棟市定古蹟', tag: '校園', d: '行政大樓、普字樓、禮堂、文薈廳都是市定古蹟。島上的紅磚建築就是向它們致敬。', src: U.history, srcName: '數位校史館' },
+      { big: '10', t: '個學院、67 個系所', tag: '數據', d: '教育、理、文、科技與工程、藝術、運動與休閒、音樂、國際與社會科學、管理、跨域科技產業創新研究，共 10 個學院。', src: U.about, srcName: '研究發展處 數據概覽' },
+      { big: '18,295', t: '位在學學生', tag: '數據', d: '大學部 8,674 人、碩士班 4,493 人、博士班 1,334 人、碩士在職專班 2,307 人、海外華人學生預備課程 1,487 人；境外學生 1,942 人。', src: U.glance, srcName: '校務概況' },
+      { big: '18萬+', t: '校友遍布各界', tag: '數據', d: '校友超過 18 萬人。每學年開課 6,300 門以上，其中全英語授課超過 1,000 門。', src: U.about, srcName: '研究發展處 數據概覽' },
+      { t: '和平・公館・林口三校區', tag: '校園', d: '三個校區合計約 55.25 公頃；地圖上另有和平校區 II。地圖上的兩座小島是公館和林口校區。', src: U.glance, srcName: '校務概況' },
+      { t: '2022 百年校慶：百年傳承，世紀典範', tag: '校史', d: '百年校慶慶祝大會在 2022 年 9 月 28 日舉行，主軸是「凝聚、承諾、涵養、傳承」。系列活動之一是鐵騎環島，9 天走過 17 個縣市、900 多公里。', src: NEWS(21010), srcName: '師大新聞' },
+      { t: '校訓「誠正勤樸」', tag: '校史', d: '由第三任校長劉真訂定，1952 年（民國 41 年）2 月 20 日第 27 次行政會議通過。', src: U.motto, srcName: '數位校史館' },
+    ],
+  },
+  {
+    id: 'research', no: '02', name: '研究亮點', title: '研究亮點', en: 'Research Frontier', icon: 'atom',
+    pos: [-27, -13], r: 7, labelY: 9.5,
+    tagline: '從二維材料、量子記憶體到 PM2.5 無人機與新物種，研究成果從實驗室一路登上國際期刊。',
+    quote: '2020–2024 年 Scopus 收錄學術發表 10,641 篇。',
+    chips: ['Nature', '量子', 'AI', '精準醫學'],
+    items: [
+      { t: '物理系兩度登上《Nature》', tag: '物理', d: '一篇是「超薄材料光電與谷電子學新方向」，另一篇是「首度直接量測二維半導體電子轉移長度」。', src: U.rh, srcName: '研究亮點' },
+      { t: '與加州理工合作突破量子記憶體技術', tag: '物理', d: '物理系和美國加州理工學院合作，在量子記憶體的應用技術上取得突破。', src: U.rh, srcName: '研究亮點' },
+      { t: '無人機追蹤 PM2.5 污染源', tag: '資工', d: '資工系賀耀華團隊讓無人機去找空氣中的 PM2.5 污染源。', src: U.rh, srcName: '研究亮點' },
+      { t: '質譜平台推進精準醫學', tag: '化學', d: '化學系陳頌方團隊建立氰丙基質譜平台，用於精準醫學研究。', src: U.rh, srcName: '研究亮點' },
+      { t: '藍色生物冶金：從海洋回收金屬', tag: '化學', d: '化學系王彥士團隊執行海委會「前瞻藍色生物冶金技術開發計畫」，以東北角陰陽海為研究場域，成果在瑞士戈登研究會議發表。', src: NEWS(24986), srcName: '師大新聞' },
+      { t: '發現新種「呂賴氏蜓蜥」', tag: '生科', d: '生科系林思民、王宇德發表新種蜥蜴「呂賴氏蜓蜥」。', src: U.rh, srcName: '研究亮點' },
+      { t: '可穿戴微型發電機', tag: '機電', d: '機電系楊啟榮研發可撓性摩擦起電器，做成可以穿在身上的微型發電機。', src: U.rh, srcName: '研究亮點' },
+      { t: '十年追蹤：溫暖陪伴勝過經濟條件', tag: '教育', d: 'KIT「臺灣幼兒發展調查資料庫」團隊累積十年的追蹤資料，出版新書，發現孩子幸福的關鍵是溫暖陪伴，而不是家庭經濟條件。', src: NEWS(24990), srcName: '師大新聞' },
+      { t: '用 AI 學 AI：創新教材教具', tag: 'AI', d: '教育部科技領域教學研究中心在第 14 屆師資培育國際學術研討會展出 AI 教材與教具。', src: NEWS(25005), srcName: '師大新聞' },
+      { t: '四大特色領域研究中心', tag: '高教深耕', d: '華語文與科技、學習科學、社會情緒教育、國際臺灣學。', src: U.top, srcName: '高教深耕計畫' },
+    ],
+  },
+  {
+    id: 'social', no: '03', name: '社會貢獻', title: '社會貢獻 USR', en: 'Social Impact', icon: 'heart',
+    pos: [26, -12], r: 7.5, labelY: 9,
+    tagline: '從偏鄉、高齡、特教、新住民到金門僑鄉，大學走出圍牆，把資源帶進社區。',
+    quote: 'USR 目標：影響深化、受眾廣化、場域國際化。',
+    chips: ['第四期 11 案', '約 7 萬人次', 'SDG 4・17'],
+    items: [
+      { big: '11', t: '項第四期 USR 計畫', tag: 'USR', d: '1 項深耕型計畫，加上 10 項 Hub 計畫，主題涵蓋偏鄉教育、特殊教育、新住民華語、高齡心理、減塑、農村與性別友善職場。', src: U.usr4, srcName: 'USR 計畫' },
+      { big: '7萬', t: '2025 年 USR 服務人次', tag: 'USR', d: '2025 年大學社會責任實踐計畫的服務量約 70,000 人次。', src: U.sdgsInit, srcName: '永續發展中心' },
+      { t: '時光共融：高齡長健與跨世代共學', tag: '高齡', d: '第四期的深耕型計畫，主軸是高齡者的健康促進和跨世代共學。', src: U.usr4, srcName: 'USR 計畫' },
+      { t: '深耕偏鄉暨弱勢教育', tag: '教育', d: 'Hub 計畫之一，副標是「鏈結國際、邁向永續」，持續陪伴偏鄉與弱勢學生學習。', src: U.usr4, srcName: 'USR 計畫' },
+      { t: '特殊教育的普及與融合', tag: '特教', d: 'Hub 計畫「刻不容緩的社會責任」，推動特殊教育普及與融合。', src: U.usr4, srcName: 'USR 計畫' },
+      { t: '臺灣心連新：新住民智慧華語', tag: '華語', d: 'Hub 計畫，內容是新住民智慧華語學習，以及培育雙語師資。', src: U.usr4, srcName: 'USR 計畫' },
+      { t: '「僑」與「橋」：金門僑鄉文化', tag: '文化', d: 'Hub 計畫，保存金門的僑鄉文化，並重新連結海外網絡。', src: U.usr4, srcName: 'USR 計畫' },
+      { t: '暖陽「心」社區：高齡心理諮商', tag: '高齡', d: 'Hub 計畫，為高齡長者建立心理諮商的生態系統服務模式。', src: U.usr4, srcName: 'USR 計畫' },
+      { t: '五大實踐主軸對應 SDGs', tag: 'SDGs', d: '優質教育（SDG 4）、康健社會（SDG 3、5、10）、永續環境（SDG 6、7）、永續城鄉與文化創生（SDG 11）、全球夥伴關係（SDG 17）。', src: U.usrPlan, srcName: 'USR 計畫' },
+      { t: '校友捐贈千萬獎學金', tag: '回饋', d: '美術系 52 級校友何宣廣捐贈新臺幣一千萬元獎學金，用來培育藝術創作人才。', src: NEWS(25027), srcName: '師大新聞' },
+    ],
+  },
+  {
+    id: 'sustain', no: '04', name: '永續校園', title: '永續發展', en: 'Sustainability', icon: 'leaf',
+    pos: [-25, 16], r: 8, labelY: 9.5,
+    tagline: '全國第一個環境教育研究所的發源地，目標 2048 年全面碳中和。',
+    quote: '2030 碳排減半，2048 全面碳中和。',
+    chips: ['THE Impact 前 100', '碳中和 2048', '綠色大學聯盟'],
+    items: [
+      { big: '2048', t: '全面碳中和目標', tag: '淨零', d: '2023 年宣示 2030 年碳排減半、2048 年全面碳中和，對齊國家 2050 淨零政策。', src: U.sdgsInit, srcName: '永續發展中心' },
+      { big: 'Top100', t: 'THE 影響力排名三項指標', tag: '排名', d: '在 THE Impact Rankings 2026 有三項指標進入全球前 100 名。', src: U.sdgsInit, srcName: '永續發展中心' },
+      { big: '1,707', t: '門課程連結 SDGs', tag: '教學', d: '113 學年共有 1,707 門課程與聯合國永續發展目標連結。', src: U.sdgsInit, srcName: '永續發展中心' },
+      { t: '1993：全國第一個環境教育研究所', tag: '里程碑', d: '1993 年成立全國第一個環境教育研究所，112 學年起改名為永續管理與環境教育研究所。', src: U.sdgsInit, srcName: '永續發展中心' },
+      { t: '臺灣綠色大學聯盟：52 校', tag: '網絡', d: '2000 年起推動綠色學校夥伴網絡，2013 年發起臺灣綠色大學聯盟，有 52 校參與。', src: U.sdgsInit, srcName: '永續發展中心' },
+      { t: '永續發展委員會與永續發展中心', tag: '治理', d: '2019 年成立永續發展委員會，2020 年 8 月成立永續發展中心。', src: U.sdgsInit, srcName: '永續發展中心' },
+      { t: 'YouBike 減碳與「騎零王」', tag: '行動', d: '2025 年師生騎 YouBike 共減碳 2,472.1 kgCO2e；另外推動「騎零王 2.0」和校園減塑規約。', src: U.sdgs, srcName: '永續發展中心' },
+      { t: '暖日永續節：恆於行動 生於實踐', tag: '活動', d: '2026 年暖日永續節的主題是「恆於行動 生於實踐」；《2025 臺師大永續發展年報》以 17 項 SDGs 為揭露架構。', src: U.sdgs, srcName: '永續發展中心' },
+      { t: '蚵殼珊瑚復育基座 Reefvive 珊續', tag: '設計', d: '設計系學生廖尹睿、郭映彤用蚵殼做出珊瑚復育基座，入圍 James Dyson Award 全球 20 強。', src: NEWS(24988), srcName: '師大新聞' },
+      { t: 'TNFD 在地指引：自然正向', tag: '產學', d: '永續所與 TEJ 合辦臺灣 TNFD 在地指引實務研討會，以公私協力推動自然正向。', src: NEWS(25011), srcName: '師大新聞' },
+    ],
+  },
+  {
+    id: 'future', no: '05', name: '未來展望', title: '未來展望', en: 'Future Vision', icon: 'compass',
+    pos: [24, 18], r: 7.5, labelY: 12,
+    tagline: '2026–2030 校務發展計畫的願景：成為亞洲頂尖、國際卓越的大學。',
+    quote: '奠基、躍升，共創「新師大」。',
+    chips: ['2026–2030', 'AI 計算中心', '亞洲頂尖'],
+    items: [
+      { t: '願景：亞洲頂尖、國際卓越', tag: '校務計畫', d: '2026–2030 校務發展計畫以「成為亞洲頂尖、國際卓越之大學」為願景。', src: U.plan, srcName: '校務發展計畫' },
+      { big: '4', t: '大主軸', tag: '校務計畫', d: '智慧創新、國際鏈結、跨域整合、產學永續。', src: U.plan, srcName: '校務發展計畫' },
+      { t: '四大策略目標', tag: '校務計畫', d: '彰顯學術特色，連結科技應用；厚植全球網絡，栽培國際菁英；創新跨域學習，培育多元人才；強化社會鏈結，創造永續校園。', src: U.plan, srcName: '校務發展計畫' },
+      { big: '3+5', t: '三大奠基、五大躍升', tag: '校長理念', d: '宋曜廷校長提出「奠基、躍升，共創新師大」。三大奠基是空間、人才、福利；五大躍升是新文藝復興、成立 AI 計算中心、一學院一產業聚落、師道倫理、社會影響力與永續。', src: U.president, srcName: '校長的話' },
+      { t: '成立 AI 計算中心', tag: 'AI', d: '列為五大躍升之一，作為智慧創新的基礎建設。', src: U.president, srcName: '校長的話' },
+      { t: '高教深耕第二期：3.2 億元以上', tag: '高教深耕', d: '第二期核定超過 3.2 億元，成長將近五成；另有 14 項數位產品入選教育部推薦採購。', src: U.top, srcName: '高教深耕計畫' },
+      { t: '臺灣大學系統三校聯盟', tag: '國際鏈結', d: '與臺大、臺科大組成臺灣大學系統；國際姊妹校超過 400 所，學術合作 792 件。', src: U.glance, srcName: '校務概況' },
+      { t: '國際研發：臺印電動車充電原型', tag: '國際鏈結', d: '車能所首次參與國科會 IIPP 計畫，和印度 BITS 博士生合作，在 90 天實習期間完成電動車感應充電系統原型。', src: NEWS(25016), srcName: '師大新聞' },
+    ],
+  },
+  {
+    id: 'honors', no: '06', name: '師生榮耀', title: '師生榮耀', en: 'Pride & Honors', icon: 'trophy',
+    pos: [1, -33], r: 7.5, labelY: 9,
+    tagline: '師大人站上世界舞台：運動場、技能競賽、設計大獎和教育獎項都有。',
+    quote: 'QS 2025 學科排名：教育與運動科學學科全國第一。',
+    chips: ['世錦賽金牌', 'QS 學科全國第一', '星雲教育獎'],
+    items: [
+      { big: '14.966', t: '唐嘉鴻世錦賽單槓金牌', tag: '體育', d: '體育系博士生唐嘉鴻在 2026 年鹿特丹第 54 屆世界競技體操錦標賽，以 14.966 分奪下男子單槓金牌，這是臺灣體操史上第一面世錦賽金牌。', src: NEWS(25019), srcName: '師大新聞' },
+      { big: '18', t: '個學科登上 QS 2025', tag: '排名', d: '2025 年 QS 學科排名有 18 個學科上榜，其中 9 個進入全球前 200、6 個進入全球百大，名列全台第二；教育、運動科學兩個學科全國第一。', src: U.usrPlan, srcName: 'USR 計畫' },
+      { t: 'WorldSkills 汽車技術銅牌', tag: '技能', d: '車能學程一年級的劉彥頫，在上海舉行的第 48 屆國際技能競賽汽車技術職類拿下銅牌，共有 36 國參賽。', src: NEWS(25014), srcName: '師大新聞' },
+      { t: '星雲教育獎雙得主', tag: '師培', d: '第 14 屆星雲教育獎：校友陳富貴以 62 年的教育服務獲「終生教育奉獻獎」，陳育霖副教授獲「典範教師獎」。', src: NEWS(25018), srcName: '師大新聞' },
+      { t: 'James Dyson Award 全球 20 強', tag: '設計', d: '設計系學生作品「Reefvive 珊續」用蚵殼做珊瑚復育基座，入圍全球 20 強。', src: NEWS(24988), srcName: '師大新聞' },
+    ],
+  },
+];
+
+// 小島：其他校區（點擊打開本島的「三校區」條目）
+export const ISLETS = [
+  { name: '公館校區', pos: [-6, 25], r: 3.4, trees: 5, house: true, item: 6, note: '三校區之一' },
+  { name: '林口校區', pos: [-43, -1], r: 3.8, trees: 7, house: true, item: 6, note: '三校區之一' },
+];
+
+export const SOURCES = [
+  { name: '國立臺灣師範大學 官網', url: 'https://www.ntnu.edu.tw/' },
+  { name: '數位校史館：學校簡史', url: U.history },
+  { name: '數位校史館：校訓', url: U.motto },
+  { name: '校務概況 NTNU at a Glance', url: U.glance },
+  { name: '數據概覽 About NTNU', url: U.about },
+  { name: '研究亮點', url: U.rh },
+  { name: '高教深耕計畫', url: U.top },
+  { name: '大學社會責任 USR', url: U.usr },
+  { name: 'USR 第四期計畫', url: U.usr4 },
+  { name: '永續發展中心', url: U.sdgs },
+  { name: '永續發展倡議', url: U.sdgsInit },
+  { name: '校務發展計畫', url: U.plan },
+  { name: '校長的話', url: U.president },
+  { name: '師大新聞（各則見條目連結）', url: 'https://pr.ntnu.edu.tw/ntnunews/' },
+];
+
+export const INTRO = [
+  { title: '每座島是一個面向', body: '6 座主題島嶼圍著百年本島，用木棧橋串在一起。點島嶼或名牌，或是用右側清單，都能看到每座島上的亮點。' },
+  { title: '拖曳、縮放、換時段', body: '拖曳畫面可以旋轉視角，滾輪或雙指可以縮放。左上角可以切換清晨、正午、黃昏、夜晚；到了夜晚，窗戶和燈塔會亮起來。點進一座島，島上的建築會一層層展開成樓層剖面；按「剖面」可以一次展開全部建築。按「漫遊」會變成一位學生，用 WASD 在各島之間走動。' },
+  { title: '跟著師大獅導覽', body: '按「導覽」會自動逛完全部島嶼，每一條亮點都附官方來源連結，可以點進去看原文。' },
+];
+
+export const ICONS = {
+  star: '<svg viewBox="0 0 24 24"><path d="m12 3 2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1L3.2 9.5l6.1-.9z"/></svg>',
+  atom: '<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="1.6"/><ellipse cx="12" cy="12" rx="9" ry="3.6"/><ellipse cx="12" cy="12" rx="9" ry="3.6" transform="rotate(60 12 12)"/><ellipse cx="12" cy="12" rx="9" ry="3.6" transform="rotate(120 12 12)"/></svg>',
+  heart: '<svg viewBox="0 0 24 24"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/></svg>',
+  leaf: '<svg viewBox="0 0 24 24"><path d="M5 19c0-8 5-13 15-14-1 10-6 15-14 15M5 19l7-7"/></svg>',
+  compass: '<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="m15.5 8.5-2 5-5 2 2-5z"/></svg>',
+  trophy: '<svg viewBox="0 0 24 24"><path d="M8 4h8v5a4 4 0 0 1-8 0zM8 6H5a3 3 0 0 0 3 4M16 6h3a3 3 0 0 1-3 4M12 13v4M8 20h8M9 17h6"/></svg>',
+};
