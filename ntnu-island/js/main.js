@@ -1,7 +1,7 @@
 import * as THREE from 'three';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 import { mergeGeometries } from 'three/addons/utils/BufferGeometryUtils.js';
-import { THEMES, ISLETS, SOURCES, INTRO, ICONS } from './data.js?v=29';
+import { THEMES, ISLETS, SOURCES, INTRO, ICONS } from './data.js?v=30';
 
 // ---------- renderer / scene ----------
 const canvas = document.getElementById('scene');
@@ -185,7 +185,7 @@ function textTexture(text, { w = 1024, h = 160, bg = '#f6eee2', fg = '#a64c30', 
   return tex;
 }
 function bunting(group, a, b, n, sag = 0.4) {
-  const cols = [0xd6643c, 0xf1b73b, 0x3d5a80, 0x6aa36f, 0xfaf6ee];
+  const cols = [0x93272c, 0xf1b73b, 0x3d5a80, 0x6aa36f, 0xfaf6ee];
   const A = new THREE.Vector3(...a), B = new THREE.Vector3(...b);
   const pts = [];
   for (let i = 0; i <= n; i++) {
@@ -257,8 +257,8 @@ function lamp() {
 // A person is plain state ({kind, anchor, x, z, ...}); BEHAVE[kind] updates it each frame and
 // stepCrowd() turns it into instance matrices. Positions are local to `anchor` (an island group, or world if null).
 const MAXP = 360;
-const SHIRTS = [0xd6643c, 0x3d5a80, 0xf1b73b, 0x6aa36f, 0xfaf6ee, 0x9b6bb0, 0xe8705a, 0x4fa3a5];
-const PACKS = [0x2b3a55, 0x6b4a3a, 0xd6643c, 0x3d5a80, 0x556b2f, 0xf1b73b];
+const SHIRTS = [0x93272c, 0x3d5a80, 0xf1b73b, 0x6aa36f, 0xfaf6ee, 0x9b6bb0, 0xe8705a, 0x4fa3a5];
+const PACKS = [0x2b3a55, 0x6b4a3a, 0x93272c, 0x3d5a80, 0x556b2f, 0xf1b73b];
 const HAIRS = [0x2a1d16, 0x3b2a20, 0x14100d, 0x5a3b28];
 const armGeo = new THREE.BoxGeometry(0.07, 0.36, 0.07).translate(0, -0.17, 0);
 const parts = {};
@@ -992,14 +992,14 @@ const BUILDERS = {
     g.add(L);
     animators.push((t) => { L.userData.head.rotation.y = Math.sin(t * 0.8) * 0.35; L.userData.head.rotation.z = Math.sin(t * 1.6) * 0.06; });
     // giant books (師範 = teaching)
-    const bc = [0xd6643c, 0x3d5a80, 0xf1b73b, 0x6aa36f];
+    const bc = [0x93272c, 0x3d5a80, 0xf1b73b, 0x6aa36f];
     bc.forEach((c, i) => {
       const b = mesh(new THREE.BoxGeometry(1.9 - i * 0.15, 0.32, 1.4 - i * 0.08), mat(c), -4.2, TOP + 0.16 + i * 0.32, 4.4);
       b.rotation.y = i * 0.22 - 0.3;
       g.add(b);
     });
     [[-2.4, 3.3], [2.4, 3.4], [-6.5, 0.5], [5.6, -1.6]].forEach(([x, z]) => { const l = lamp(); l.position.set(x, TOP, z); g.add(l); });
-    const f = flag(0xd6643c, 3); f.position.set(6.2, TOP, 4.2); g.add(f);
+    const f = flag(0x93272c, 3); f.position.set(6.2, TOP, 4.2); g.add(f);
     // NTNU letters with a hedge behind and a flower bed in front, palms either side
     const sign = ntnuSign();
     sign.position.set(0, TOP, 6.3);
@@ -1047,7 +1047,7 @@ const BUILDERS = {
     });
     // floating atom
     const atom = new THREE.Group();
-    atom.add(mesh(new THREE.IcosahedronGeometry(0.45, 1), mat(0xd6643c, { emissive: 0xd6643c, emissiveIntensity: 0.3 })));
+    atom.add(mesh(new THREE.IcosahedronGeometry(0.45, 1), mat(0x93272c, { emissive: 0x93272c, emissiveIntensity: 0.3 })));
     for (let i = 0; i < 3; i++) {
       const ring = new THREE.Mesh(new THREE.TorusGeometry(1.2, 0.05, 6, 40), mat(C.navy));
       ring.rotation.set(Math.PI / 2, (i * Math.PI) / 3, 0);
@@ -1069,7 +1069,7 @@ const BUILDERS = {
   // 03 社會貢獻：小村落 + 學童 + 書車
   social(g, r) {
     pathDisc(g, 0, 0.6, 3.4);
-    const palette = [[0xfff1dc, 0xd6643c], [0xe8f1f2, 0x3d5a80], [0xfde7c8, 0x6aa36f], [0xf7e0e0, 0xb9622f], [0xffffff, 0x5f6f7f]];
+    const palette = [[0xfff1dc, 0x93272c], [0xe8f1f2, 0x3d5a80], [0xfde7c8, 0x6aa36f], [0xf7e0e0, 0xb9622f], [0xffffff, 0x5f6f7f]];
     [[-3.2, -2.2, 0.3], [-0.6, -3.4, 0], [2.3, -2.6, -0.4], [3.6, 0.4, -1.2], [-3.8, 1.2, 1.3]].forEach(([x, z, ry], i) => {
       const h = house(...palette[i], 1 + (i % 2) * 0.2);
       h.position.set(x, TOP, z);
@@ -1236,7 +1236,7 @@ const BUILDERS = {
     g.add(rope);
     animators.push((t) => { rope.position.x = cx + Math.sin(t * 1.3) * 0.3; });
     for (let k = 0; k < 4; k++) {
-      addPerson({ kind: 'tug', anchor: g, bx: cx - 0.6 - k * 0.38, x: cx - 0.6 - k * 0.38, z: cz + (k % 2 ? 0.12 : -0.12), yaw: Math.PI / 2, pack: false, shirt: 0xd6643c, seed: 620 + k });
+      addPerson({ kind: 'tug', anchor: g, bx: cx - 0.6 - k * 0.38, x: cx - 0.6 - k * 0.38, z: cz + (k % 2 ? 0.12 : -0.12), yaw: Math.PI / 2, pack: false, shirt: 0x93272c, seed: 620 + k });
       addPerson({ kind: 'tug', anchor: g, bx: cx + 0.6 + k * 0.38, x: cx + 0.6 + k * 0.38, z: cz + (k % 2 ? -0.12 : 0.12), yaw: -Math.PI / 2, pack: false, shirt: 0x3d5a80, seed: 630 + k });
     }
     addPerson({ kind: 'idle', anchor: g, x: cx, z: cz + 0.9, face: [cx, cz], pack: false, shirt: 0x222222, seed: 640 });
@@ -1251,7 +1251,7 @@ const BUILDERS = {
       }
     }
     const pl = pole(g, -2.9, 5.75, 2.7), pr = pole(g, 2.9, 5.75, 2.7);
-    const banner = new THREE.Mesh(new THREE.PlaneGeometry(5.6, 0.8), new THREE.MeshStandardMaterial({ map: textTexture('師大運動會　加油！', { bg: '#d6643c', fg: '#fffaf3' }), side: THREE.DoubleSide, roughness: 0.9 }));
+    const banner = new THREE.Mesh(new THREE.PlaneGeometry(5.6, 0.8), new THREE.MeshStandardMaterial({ map: textTexture('師大運動會　加油！', { bg: '#93272c', fg: '#fffaf3' }), side: THREE.DoubleSide, roughness: 0.9 }));
     banner.position.set(cx, pl[1] - 0.45, 5.75);
     banner.rotation.y = Math.PI;
     g.add(banner);
@@ -1280,7 +1280,7 @@ const BUILDERS = {
     crowd.slice(-3).forEach((p) => { p.face = [3.0, -3.6]; p.x = 2.2 + (crowd.indexOf(p) % 3) * 0.8; p.z = -2.5; });
     // balloon bunch by the podium
     const balloons = new THREE.Group();
-    [[0, 0, 0xd6643c], [0.35, 0.25, C.gold], [-0.3, 0.3, 0x3d5a80], [0.1, 0.55, 0x6aa36f], [-0.1, -0.3, 0xe8705a]].forEach(([x, y, c]) => {
+    [[0, 0, 0x93272c], [0.35, 0.25, C.gold], [-0.3, 0.3, 0x3d5a80], [0.1, 0.55, 0x6aa36f], [-0.1, -0.3, 0xe8705a]].forEach(([x, y, c]) => {
       balloons.add(mesh(new THREE.SphereGeometry(0.28, 10, 8), mat(c, { roughness: 0.4 }), x, y, 0));
       balloons.add(mesh(new THREE.CylinderGeometry(0.008, 0.008, 1.6, 3), mat(0x777777), x * 0.5, y - 0.9, 0));
     });
@@ -1294,7 +1294,7 @@ const BUILDERS = {
     hb.add(mesh(new THREE.CylinderGeometry(0.035, 0.035, 1.9, 6), mat(0xdddddd, { metalness: 0.7 }), 0, 2.6, 0).rotateZ(Math.PI / 2));
     const gym = new THREE.Group();
     gym.position.y = 2.6;
-    const body = person(0xd6643c, 1.2);
+    const body = person(0x93272c, 1.2);
     body.rotation.z = Math.PI;
     body.position.y = -0.1;
     gym.add(body);
@@ -1419,7 +1419,7 @@ function boat(color) {
   g.add(sail);
   return g;
 }
-[[46, 0.05, 0xd6643c, 0], [38, -0.07, 0x3d5a80, 2.5], [55, 0.04, 0xf1b73b, 4.4]].forEach(([R, w, c, ph]) => {
+[[46, 0.05, 0x93272c, 0], [38, -0.07, 0x3d5a80, 2.5], [55, 0.04, 0xf1b73b, 4.4]].forEach(([R, w, c, ph]) => {
   const b = boat(c);
   scene.add(b);
   animators.push((t) => {
@@ -1876,10 +1876,10 @@ function blocked(x, z) {
   return colliders.some((c) => inside(c, x, z, 0.25));
 }
 
-// the avatar: a student in an NTNU-orange shirt with a lion-ear cap; faces +z like the crowd
+// the avatar: a student in an NTNU-red shirt with a lion-ear cap; faces +z like the crowd
 function avatarModel() {
   const g = new THREE.Group();
-  const shirt = mat(0xd6643c), skin = mat(0xf2c9a0), jeans = mat(C.blue);
+  const shirt = mat(0x93272c), skin = mat(0xf2c9a0), jeans = mat(C.blue);
   const limb = (w, h, m, x, y) => {
     const p = new THREE.Group();
     p.position.set(x, y, 0);
