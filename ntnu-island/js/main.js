@@ -1,7 +1,7 @@
 import * as THREE from 'three';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 import { mergeGeometries } from 'three/addons/utils/BufferGeometryUtils.js';
-import { THEMES, SOURCES, INTRO, ICONS } from './data.js?v=31';
+import { THEMES, SOURCES, INTRO, ICONS } from './data.js?v=32';
 
 // ---------- renderer / scene ----------
 const canvas = document.getElementById('scene');
@@ -18,8 +18,8 @@ const camera = new THREE.PerspectiveCamera(38, 1, 0.3, 600);
 // aerial view of 和平校區 from the south (校本部 in front, 圖書館校區 beyond 和平東路);
 // phones get a farther, higher view so the whole campus fits the tall viewport
 const NARROW = window.innerWidth <= 760;
-const HOME = { pos: NARROW ? new THREE.Vector3(-4, 74, 64) : new THREE.Vector3(-1, 66, 68), target: new THREE.Vector3(-1, 0, NARROW ? 13 : 1) };
-const BIRD = { pos: new THREE.Vector3(-3, 115, 6), target: new THREE.Vector3(-3, 0, 0) };
+const HOME = { pos: NARROW ? new THREE.Vector3(78, 84, 10) : new THREE.Vector3(9, 64, 64), target: NARROW ? new THREE.Vector3(18, 0, 3) : new THREE.Vector3(9, 0, 2) };
+const BIRD = { pos: new THREE.Vector3(9, 110, 6), target: new THREE.Vector3(9, 0, 1) };
 camera.position.copy(HOME.pos);
 
 const controls = new OrbitControls(camera, canvas);
@@ -816,12 +816,14 @@ function palm(h = 3) {
 // Layout follows 總務處「和平校區 I／II 配置圖」(https://www.ga.ntnu.edu.tw/ntnu_map/, maps dated 2026-09-23).
 // Positions are read off 1600-px-wide copies of the two maps and converted by P1 / P2. World axes: +x east, +z south;
 // 和平東路一段 runs along x between 校本部 (campus I, south side) and 圖書館校區 (campus II, north side).
-// Map I is drawn with north at the bottom (west still on the left), map II with north at the top.
-// Map II is drawn at a larger scale than map I, so it is shrunk (0.8) to share one street grid; 麗水街 lines up with 師大路.
-const MS = 0.0323; // world units per map-I pixel: 行政大樓 is 310 px wide, its model 10 units
-const ROAD = 2.4; // half-width of 和平東路
-const P1 = (px, py) => [(px - 975) * MS, ROAD + (818 - py) * MS];
-const P2 = (px, py) => [-18.6 + (px - 140) * MS * 0.8, -ROAD - (845 - py) * MS * 0.8];
+// Map I is turned 180° (north at the bottom, so east is on the left: 師大路 and 龍泉街 east of campus, the track west);
+// map II has north at the top. Checked against Google Maps satellite view (2026-10-30): 1 map-I px ≈ 0.295 m,
+// 1 map-II px ≈ 0.18 m (so map II is shrunk to 0.64), and 麗水街 meets 和平東路 about 35 m west of 師大路,
+// so campus II sits north-east of 校本部, opposite 美術系館 and 龍泉街.
+const MS = 0.0323; // world units per map-I pixel: 行政大樓 is 310 px wide, its model 10 units (1 unit ≈ 9 m)
+const ROAD = 1.8; // half-width of 和平東路
+const P1 = (px, py) => [(975 - px) * MS, ROAD + (818 - py) * MS];
+const P2 = (px, py) => [15.2 + (px - 140) * MS * 0.64, -ROAD - (845 - py) * MS * 0.64];
 const box = (x0, z0, x1, z1) => ({ x: (x0 + x1) / 2, z: (z0 + z1) / 2, w: x1 - x0, d: z1 - z0, x0, x1, z0, z1 });
 function rect(P, px0, py0, px1, py1) {
   const [ax, az] = P(px0, py0), [bx, bz] = P(px1, py1);
@@ -842,11 +844,11 @@ const PAVE = 0xe6dfd1;
 slab(box(-200, -200, 200, 200), 0xd6d0c4, 0);
 const STREETS = [
   [box(-200, -ROAD, 200, ROAD), '和平東路一段'],
-  [box(-19.9, ROAD, -18.0, 200), '師大路'],
-  [box(-19.4, -200, -18.1, -ROAD), '麗水街'],
-  [box(-28.2, ROAD, -27.0, 200), '龍泉街'],
-  [box(13.0, -200, 14.6, -ROAD), '和平東路一段 141 巷'],
-  [box(18.9, ROAD, 20.5, 200), '巷道'],
+  [box(18.0, ROAD, 19.9, 200), '師大路'],
+  [box(14.5, -200, 15.6, -ROAD), '麗水街'],
+  [box(27.0, ROAD, 28.2, 200), '龍泉街'],
+  [box(40.3, -200, 41.7, -ROAD), '和平東路一段 141 巷'],
+  [box(-20.5, ROAD, -18.9, 200), '巷道'],
 ];
 STREETS.forEach(([r]) => slab(r, 0x6b6e73, 1));
 // centre line along 和平東路 and a zebra crossing at each main gate, merged into one mesh
@@ -858,8 +860,8 @@ STREETS.forEach(([r]) => slab(r, 0x6b6e73, 1));
   m.castShadow = false;
   groundRoot.add(m);
 }
-const CAMPUS1 = rect(P1, 420, 240, 1550, 818), WEST = rect(P1, 140, 250, 355, 818), CAMPUS2 = rect(P2, 160, 175, 1350, 845);
-[CAMPUS1, WEST, CAMPUS2].forEach((r) => slab(r, C.grass, 2));
+const CAMPUS1 = rect(P1, 420, 240, 1550, 818), EAST = rect(P1, 140, 250, 355, 818), CAMPUS2 = rect(P2, 160, 175, 1350, 845);
+[CAMPUS1, EAST, CAMPUS2].forEach((r) => slab(r, C.grass, 2));
 // paved walks drawn grey on the maps
 [
   [P1, 640, 655, 725, 818], [P1, 430, 383, 1150, 426], [P1, 430, 466, 1140, 497], [P1, 512, 383, 548, 800],
@@ -971,11 +973,11 @@ const BUILDERS = {
     const puzi = site(g, puziBuilding(), P1(697, 518), 'n');
     registerLayers(g, puzi, { gap: 1.2, labels: false });
     occupy(puzi, 9, 2.2, 60);
-    registerLayers(g, site(g, wenhuiHall(), P1(507, 543), 'w'), { gap: 1.0, labels: false });
-    const aud = site(g, auditorium(), P1(945, 720), 'w', 0.85);
+    registerLayers(g, site(g, wenhuiHall(), P1(507, 543), 'e'), { gap: 1.0, labels: false });
+    const aud = site(g, auditorium(), P1(945, 720), 'e', 0.85);
     registerLayers(g, aud, { gap: 1.3, labels: false });
     occupy(aud, 2.8, 3.8, 70);
-    plainBlock(g, rect(P1, 425, 497, 477, 590), 'w', { N: 2 }); // H104 健康中心
+    plainBlock(g, rect(P1, 425, 497, 477, 590), 'e', { N: 2 }); // H104 健康中心
     plainBlock(g, rect(P1, 440, 427, 500, 475), 'n', { N: 3 }); // H106 樂群樓
     plainBlock(g, rect(P1, 438, 690, 552, 770), 'n', { N: 3, wall: 0xf1e3d3 }); // H103 樂智樓
     plainBlock(g, rect(P1, 1000, 690, 1105, 785), 'n', { N: 3, wall: 0xf3ece2 }); // H114 音樂系館
@@ -991,7 +993,7 @@ const BUILDERS = {
     // gate posts and the guardhouse on 和平東路
     for (const px of [640, 732]) { const [x, z] = loc(g, P1(px, 810)); const p = mesh(new THREE.BoxGeometry(0.5, 1.4, 0.5), mat(C.brick), x, TOP + 0.7, z); g.add(p); solids.push(p); }
     { const [x, z] = loc(g, P1(605, 786)); const gh = mesh(new THREE.BoxGeometry(1.3, 0.95, 0.8), mat(C.trim), x, TOP + 0.47, z); g.add(gh); solids.push(gh); }
-    // the red NTNU letters (as in the user's photo) east of the 圓環, reading toward 和平東路
+    // the red NTNU letters (as in the user's photo) west of the 圓環, reading toward 和平東路
     const signG = new THREE.Group();
     const sign = ntnuSign();
     signG.add(sign);
@@ -1003,14 +1005,14 @@ const BUILDERS = {
     solids.push(sign);
     people(g, [loc(g, P1(770, 782)), loc(g, P1(800, 785)), loc(g, P1(830, 782))], 12); // taking photos with the letters
     crowd.slice(-3).forEach((p) => { p.face = loc(g, P1(800, 742)); });
-    // 師大獅 on its plinth and a stack of giant books (師範 = teaching) west of the 圓環
+    // 師大獅 on its plinth and a stack of giant books (師範 = teaching) east of the 圓環
     const [lx, lz] = loc(g, P1(598, 742));
     const plinth = mesh(new THREE.BoxGeometry(2.4, 0.6, 1.5), mat(C.trim), lx, TOP + 0.3, lz);
     g.add(plinth);
     platforms.push(plinth);
     const L = lion(1.05);
     L.position.set(lx, TOP + 0.6, lz);
-    L.rotation.y = Math.PI / 2 + 0.4;
+    L.rotation.y = -Math.PI / 2 - 0.4;
     g.add(L);
     animators.push((t) => { L.userData.head.rotation.y = Math.sin(t * 0.8) * 0.35; L.userData.head.rotation.z = Math.sin(t * 1.6) * 0.06; });
     people(g, [[lx + 0.6, lz - 1.2], [lx - 0.5, lz - 1.25]], 8);
@@ -1041,8 +1043,8 @@ const BUILDERS = {
       [rect(P1, 650, 338, 942, 382), 'n'], // H110 樸大樓
       [rect(P1, 447, 252, 650, 298), 's'], // H108 誠大樓
       [rect(P1, 650, 252, 942, 298), 's'], // H109 勤大樓
-      [rect(P1, 575, 298, 640, 338), 'e'], // links between the two bars
-      [rect(P1, 745, 298, 830, 338), 'e'],
+      [rect(P1, 575, 298, 640, 338), 'w'], // links between the two bars
+      [rect(P1, 745, 298, 830, 338), 'w'],
     ];
     bars.forEach(([r, face, labels]) => {
       const side = face === 'e' || face === 'w', W = side ? r.d : r.w, D = Math.max(1.4, side ? r.w : r.d);
@@ -1102,11 +1104,11 @@ const BUILDERS = {
       addPerson({ kind: 'tug', anchor: g, bx: tx + 0.6 + k * 0.38, x: tx + 0.6 + k * 0.38, z: ry + (k % 2 ? -0.12 : 0.12), yaw: -Math.PI / 2, pack: false, shirt: 0x3d5a80, seed: 630 + k });
     }
     addPerson({ kind: 'idle', anchor: g, x: tx, z: ry + 0.9, face: [tx, ry], pack: false, shirt: 0x222222, seed: 640 });
-    // 司令台 east of the track: a grandstand of cheering classmates facing west, banner behind
+    // 司令台 west of the track: a grandstand of cheering classmates facing east, banner behind
     const stand = new THREE.Group();
     const [sx, sz] = loc(g, P1(1478, 515));
     stand.position.set(sx, 0, sz);
-    stand.rotation.y = Math.PI / 2; // stand-local -z (toward the track) points west
+    stand.rotation.y = -Math.PI / 2; // stand-local -z (toward the track) points east
     g.add(stand);
     for (let k = 0; k < 3; k++) {
       const h = 0.3 * (k + 1);
@@ -1167,7 +1169,7 @@ const BUILDERS = {
     hb.position.set(tx, TOP, tz - 0.4);
     g.add(hb);
     animators.push((t) => { gym.rotation.x = t * 2.4; });
-    // 體育館 west of the track
+    // 體育館 east of the track
     const gymB = site(g, gymBuilding(), P1(990, 568), 'n', 1.25);
     registerLayers(g, gymB, { gap: 1.6, labelX: 3.6, storey: 3.6 });
     gymB.userData.levels.slice(0, 5).forEach(({ obj }, i) => {
@@ -1186,7 +1188,7 @@ const BUILDERS = {
   },
   // 02 研究亮點：圖書館校區總館 + 博愛樓 + 進修推廣學院，上空是旋轉的原子
   research(g) {
-    const lib = site(g, libraryBuilding(), P2(374, 716), 's', 1.15);
+    const lib = site(g, libraryBuilding(), P2(374, 716), 's', 0.92);
     registerLayers(g, lib, { gap: 1.0, labelX: 3.8, storey: 3.6 });
     occupy(lib, 4.4, 2.4, 50);
     plainBlock(g, rect(P2, 185, 400, 540, 580), 's', { N: 5, wall: 0xf2ece0 }); // H203 博愛樓
@@ -1215,7 +1217,7 @@ const BUILDERS = {
   // 03 社會貢獻：教育學院大樓 + 羅馬廣場（行動教室巴士、愛心氣球）+ 綜合大樓
   social(g) {
     plainBlock(g, rect(P2, 655, 225, 1000, 352), 's', { N: 6, wall: 0xf1e3d3 }); // H205 教育學院大樓
-    const zh = site(g, zongheBuilding(8.0, 3.0), P2(828, 738), 's');
+    const zh = site(g, zongheBuilding(6.4, 2.4), P2(828, 738), 's');
     registerLayers(g, zh, { gap: 0.8, labelX: 4.6, storey: 3.6 });
     occupy(zh, 8, 3, 760, 2);
     // 羅馬廣場: green square with a ring walk and four spokes
@@ -1299,7 +1301,7 @@ THEMES.forEach((th) => {
   world.hoverables.push(g);
 });
 
-// the rest of the campus (no theme): 師大路 west side — dormitories, 管理學院, 音樂學院, 美術系館
+// the rest of the campus (no theme): 師大路 east side — dormitories, 管理學院, 音樂學院, 美術系館
 const campusRoot = new THREE.Group();
 scene.add(campusRoot);
 [
@@ -1308,7 +1310,7 @@ scene.add(campusRoot);
   [rect(P1, 170, 395, 345, 528), 7, 0xf3e6cf], // H128 女一舍
   [rect(P1, 165, 575, 345, 705), 7, 0xe9dccb], // H127 男一舍
   [rect(P1, 165, 738, 352, 780), 4, 0xefe4d2], // H126 美術系館
-].forEach(([r, N, wall]) => plainBlock(campusRoot, r, 'e', { N, wall }));
+].forEach(([r, N, wall]) => plainBlock(campusRoot, r, 'w', { N, wall }));
 walkers(campusRoot, ...P1(250, 554), ...P1(350, 554), 3, 801, { lane: 0.2 });
 walkers(null, ...P1(380, 300), ...P1(380, 812), 6, 802, { lane: 0.4 }); // along 師大路
 walkers(null, -60, ROAD + 0.6, 60, ROAD + 0.6, 12, 803, { lane: 0.2 }); // 和平東路 sidewalks
@@ -1322,9 +1324,9 @@ plantRow(P1(430, 248), P1(1540, 248), 1.6, 0.9);
 plantRow(P2(180, 182), P2(1330, 182), 1.6, 0.9);
 plantRow(P2(180, 835), P2(560, 835), 1.6);
 plantRow(P2(650, 835), P2(990, 835), 1.6);
-for (const s of [-1, 1]) {
-  plantRow([-70, s * (ROAD + 1.1)], [-30, s * (ROAD + 1.1)], 3.2, 0.9);
-  plantRow([24, s * (ROAD + 1.1)], [70, s * (ROAD + 1.1)], 3.2, 0.9);
+for (const [z, a, b, c, d] of [[ROAD + 1.1, -70, -21, 29, 70], [-ROAD - 1.1, -70, 14, 42, 70]]) {
+  plantRow([a, z], [b, z], 3.2, 0.9);
+  plantRow([c, z], [d, z], 3.2, 0.9);
 }
 {
   const n = treePts.length;
@@ -1355,7 +1357,7 @@ for (const s of [-1, 1]) {
 
 // the surrounding city: low-poly blocks of shops and flats outside the campus and the streets
 {
-  const keepOut = [...STREETS.map(([r]) => r), CAMPUS1, WEST, CAMPUS2];
+  const keepOut = [...STREETS.map(([r]) => r), CAMPUS1, EAST, CAMPUS2];
   const cols = [0xebe6dc, 0xe2dbcf, 0xdcd6cc, 0xe8ddd0, 0xd6d9da, 0xe3d8c6, 0xd9d0c4].map((c) => new THREE.Color(c));
   const rand = rng(2026), list = [];
   for (let x = -84; x <= 74; x += 4.4) for (let z = -66; z <= 66; z += 4.4) {
@@ -1388,7 +1390,7 @@ const carCols = [0xf1b73b, 0xfaf6ee, 0x3d5a80, 0x93272c, 0x6f7a84, 0xfaf6ee, 0x2
 for (let k = 0; k < 14; k++) {
   const c = car(carCols[k % carCols.length]);
   scene.add(c);
-  const east = k % 2 === 0, v = (east ? 1 : -1) * (5 + (k % 3)), lane = (east ? 1 : -1) * (k % 4 < 2 ? 0.75 : 1.65);
+  const east = k % 2 === 0, v = (east ? 1 : -1) * (5 + (k % 3)), lane = (east ? 1 : -1) * (k % 4 < 2 ? 0.45 : 1.25);
   const x0 = -90 + k * 13;
   c.rotation.y = east ? 0 : Math.PI;
   animators.push((t) => { c.position.set(((x0 + v * t + 90) % 180 + 180) % 180 - 90, TOP - 0.04, lane); });
@@ -1396,7 +1398,7 @@ for (let k = 0; k < 14; k++) {
 for (let k = 0; k < 4; k++) {
   const c = car(carCols[(k + 2) % carCols.length]);
   scene.add(c);
-  const south = k % 2 === 0, v = (south ? 1 : -1) * 4, lane = -18.95 + (south ? -0.45 : 0.45);
+  const south = k % 2 === 0, v = (south ? 1 : -1) * 4, lane = 18.95 + (south ? -0.45 : 0.45);
   const z0 = k * 25;
   c.rotation.y = south ? -Math.PI / 2 : Math.PI / 2;
   animators.push((t) => { c.position.set(lane, TOP - 0.04, ((z0 + v * t) % 70 + 70) % 70 - 6); });
@@ -1821,7 +1823,7 @@ function groundAt(x, z) {
   const area = AREAS.find(([, r]) => within(r, x, z));
   if (area) return { y, g: area[0] };
   const street = STREETS.find(([r]) => within(r, x, z));
-  return { y, g: street ? street[1] : within(WEST, x, z) ? '師大路西側：宿舍與學院' : within(CAMPUS2, x, z) || within(CAMPUS1, x, z) ? '和平校區' : '校園外' };
+  return { y, g: street ? street[1] : within(EAST, x, z) ? '師大路東側：宿舍與學院' : within(CAMPUS2, x, z) || within(CAMPUS1, x, z) ? '和平校區' : '校園外' };
 }
 function blocked(x, z) {
   return colliders.some((c) => inside(c, x, z, 0.25));

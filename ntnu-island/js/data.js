@@ -21,7 +21,7 @@ const U = {
 export const THEMES = [
   {
     id: 'core', no: '01', name: '百年本部', title: '百年亮點', en: 'Centennial Core', icon: 'star',
-    pos: [-8.9, 8.2], r: 7, labelY: 8.5, view: 'n',
+    pos: [8.9, 7.6], r: 7, labelY: 8.5, view: 'n',
     tagline: '從 1922 年的臺北高等學校走到今天的綜合大學，和平校區的紅磚古蹟見證了一百年。',
     quote: '校訓「誠正勤樸」：誠，不虛偽；正，不偏私；勤，不怠惰；樸，不浮華。',
     chips: ['誠正勤樸', '10 學院', '三校區'],
@@ -39,7 +39,7 @@ export const THEMES = [
   },
   {
     id: 'research', no: '02', name: '研究亮點', title: '研究亮點', en: 'Research Frontier', icon: 'atom',
-    pos: [-12.7, -10.8], r: 8, labelY: 13,
+    pos: [19.9, -7.5], r: 9, labelY: 12,
     tagline: '從二維材料、量子記憶體到 PM2.5 無人機與新物種，研究成果從實驗室一路登上國際期刊。',
     quote: '2020–2024 年 Scopus 收錄學術發表 10,641 篇。',
     chips: ['Nature', '量子', 'AI', '精準醫學'],
@@ -58,7 +58,7 @@ export const THEMES = [
   },
   {
     id: 'social', no: '03', name: '社會貢獻', title: '社會貢獻 USR', en: 'Social Impact', icon: 'heart',
-    pos: [-1.1, -10.8], r: 7, labelY: 11,
+    pos: [29.2, -6.5], r: 9, labelY: 10,
     tagline: '從偏鄉、高齡、特教、新住民到金門僑鄉，大學走出圍牆，把資源帶進社區。',
     quote: 'USR 目標：影響深化、受眾廣化、場域國際化。',
     chips: ['第四期 11 案', '約 7 萬人次', 'SDG 4・17'],
@@ -77,7 +77,7 @@ export const THEMES = [
   },
   {
     id: 'sustain', no: '04', name: '永續校園', title: '永續發展', en: 'Sustainability', icon: 'leaf',
-    pos: [-6.3, 18.2], r: 9, labelY: 7.5,
+    pos: [6.3, 17.6], r: 9, labelY: 7.5,
     tagline: '全國第一個環境教育研究所的發源地，目標 2048 年全面碳中和。',
     quote: '2030 碳排減半，2048 全面碳中和。',
     chips: ['THE Impact 前 100', '碳中和 2048', '綠色大學聯盟'],
@@ -96,7 +96,7 @@ export const THEMES = [
   },
   {
     id: 'future', no: '05', name: '未來展望', title: '未來展望', en: 'Future Vision', icon: 'compass',
-    pos: [8.8, -11.8], r: 8, labelY: 12,
+    pos: [37.1, -9.3], r: 8, labelY: 11,
     tagline: '2026–2030 校務發展計畫的願景：成為亞洲頂尖、國際卓越的大學。',
     quote: '奠基、躍升，共創「新師大」。',
     chips: ['2026–2030', 'AI 計算中心', '亞洲頂尖'],
@@ -113,7 +113,7 @@ export const THEMES = [
   },
   {
     id: 'honors', no: '06', name: '師生榮耀', title: '師生榮耀', en: 'Pride & Honors', icon: 'trophy',
-    pos: [8.9, 12.0], r: 8, labelY: 8,
+    pos: [-8.9, 11.4], r: 8, labelY: 8,
     tagline: '師大人站上世界舞台：運動場、技能競賽、設計大獎和教育獎項都有。',
     quote: 'QS 2025 學科排名：教育與運動科學學科全國第一。',
     chips: ['世錦賽金牌', 'QS 學科全國第一', '星雲教育獎'],
