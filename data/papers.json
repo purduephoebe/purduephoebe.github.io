@@ -1,8 +1,121 @@
 {
-  "last_updated": "2026-10-29T11:41:24+08:00",
-  "new_in_latest_scan": 3,
+  "last_updated": "2026-10-30T11:44:01+08:00",
+  "new_in_latest_scan": 4,
   "scope": "All-domain Google AI Overviews / SGE research with multi-label application-domain classification.",
   "papers": [
+    {
+      "id": "arxiv-2610.39339v1",
+      "title": "Does the Citation Matter? Quality, Grounding, and Physician-Rubric Accuracy of Google's AI Overviews for Medical Information",
+      "authors": [
+        "Sam Agnoli",
+        "Brigid Reilly",
+        "Lily Barna",
+        "Emőke-Ágnes Horvát"
+      ],
+      "date": "2026-10-29",
+      "venue": "arXiv",
+      "type": "Preprint",
+      "doi": "",
+      "record": "http://arxiv.org/abs/2610.39339v1",
+      "pdf": "https://arxiv.org/pdf/2610.39339v1",
+      "abstract": "Google's AI Overviews (AIOs) are the first result users encounter when searching the web, shifting the work of selecting and evaluating sources from the user to Gemini. This may be especially consequential for health information, given that Google's traditional algorithm was designed to prioritize quality sources, and inaccurate information carries health risks. We evaluated 3,611 benchmark health questions, comparing each AIO against that question's top five traditional results on source selection and quality. We also evaluated the AIOs' statement grounding in their cited sources and how accurate AIOs were against physician-written rubrics. Overviews appeared for 96.4% of questions but drew on substantially different evidence than traditional search: only 44.4% of the top five results were cited by the corresponding AIO, which instead overrepresented commercial health publishers (e.g., WebMD, Healthline) at the expense of academic and government sources (e.g., Cleveland Clinic, National Health Service). AIO-cited pages scored lower than traditional results on four of six well-established credibility criteria. The grounding of AIO statements to their sources was poor: after correcting for classifier error, an estimated 56.7% of cited statements were supported by their cited page, and a further 20.8% of all statements were factual claims with no citation at all. When AIOs were graded against physicians' rubrics, they earned 38.2% of all available points (e.g., accuracy 54.2%, completeness 21.6%), and among the subset of AIOs whose physician rubric anticipated a specific inaccurate or potentially harmful claim, 22.2% of AIOs contained the harmful content. Notably, the accuracy of AIOs was unrelated to the grounding of their statements. We recommend AIO literacy interventions for users and holding AIOs at least to Google's own health-ranking standards.",
+      "levels": [
+        "Content",
+        "Citation"
+      ],
+      "domains": [
+        "Health & Medicine",
+        "Politics, Government & News",
+        "Education & Academia"
+      ],
+      "topics": [
+        "SEO & Publishers",
+        "Citation & Provenance",
+        "Technical Evaluation",
+        "Safety & Risk"
+      ],
+      "source": "arXiv",
+      "first_detected": "2026-10-30"
+    },
+    {
+      "id": "doi-10.5281/zenodo.23740428",
+      "title": "Mesurer la visibilité des marques dans les réponses des IA génératives : la méthode d'Hypervisible",
+      "authors": [
+        "Martin Noale"
+      ],
+      "date": "2026-10-28",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Article",
+      "doi": "10.5281/zenodo.23740428",
+      "record": "https://doi.org/10.5281/zenodo.23740428",
+      "pdf": "",
+      "abstract": "Les assistants d'IA générative répondent aux questions d'achat en citant certaines marques et certaines sources. Cette note décrit un protocole de mesure reproductible de cette visibilité : la même cohorte de questions, posée chaque semaine à cinq surfaces (ChatGPT, Gemini, Perplexity, Google AI Overviews et Google AI Mode). Chaque réponse est lue et gardée en entier, avec ses sources. La note définit les questions suivies, le calendrier du relevé, son seuil de complétude, et les indicateurs : taux de citation, position moyenne, classement face aux concurrents, sources citées et réputation. Elle en expose aussi les limites. Version en ligne, tenue à jour : https://hypervisible.fr/methode/ Generative AI assistants answer buying questions by citing some brands and some sources. This note describes a reproducible protocol for measuring that visibility: the same set of questions, asked every week to five surfaces (ChatGPT, Gemini, Perplexity, Google AI Overviews and Google AI Mode). Each answer is read and stored in full, with its sources. The note defines the tracked questions, the reading schedule and its completeness threshold, and the indicators: citation rate, average position, ranking against competitors, cited sources and reputation. It also states the method's limits. English version online: https://hypervisible.app/method/",
+      "levels": [
+        "Citation"
+      ],
+      "domains": [
+        "Commerce & Consumer"
+      ],
+      "topics": [
+        "Citation & Provenance",
+        "Technical Evaluation"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-10-30"
+    },
+    {
+      "id": "doi-10.5281/zenodo.23741263",
+      "title": "Auditer la citabilité d'une marque par les IA génératives : la méthode NEXUS GEO et le Référentiel GEO-47",
+      "authors": [
+        "Martin Noale"
+      ],
+      "date": "2026-10-28",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Article",
+      "doi": "10.5281/zenodo.23741263",
+      "record": "https://doi.org/10.5281/zenodo.23741263",
+      "pdf": "",
+      "abstract": "Résumé. Le generative engine optimization (GEO) désigne le travail qui vise à faire citer une marque, avec des informations exactes, dans les réponses rédigées par les IA génératives. Cette note décrit la méthode d’audit et d’accompagnement de NEXUS GEO, telle qu’elle est publiée sur son site. L’audit évalue un site et sa présence en ligne selon le Référentiel GEO-47 : 8 piliers, 47 critères, un score global sur 100. Sa grille vaut pour toutes les IA ; la mesure de la présence de la marque porte sur cinq IA (ChatGPT, Gemini, Perplexity, Mistral et Google AI Overviews), face à trois concurrents nommés. La note présente les trois étapes de la méthode, les indicateurs, les livrables, ce qui est publié et ce qui ne l’est pas, et les limites de la démarche. Abstract. Generative engine optimization (GEO) is the work of getting a brand cited, with accurate information, in answers written by generative AI assistants. This note describes the audit and support method of NEXUS GEO, a French agency, as published on its website. The audit assesses a website and its online presence against the GEO-47 Framework: 8 pillars, 47 criteria and an overall score out of 100. The assessment grid applies to all AI assistants; the brand’s presence is measured on five of them (ChatGPT, Gemini, Perplexity, Mistral and Google AI Overviews), against three named competitors. The note sets out the three stages of the method, its indicators and deliverables, what is published and what is not, and the method’s limits. Version en ligne, tenue à jour / Online version: https://nexus-geo.fr/methodologie ; Référentiel GEO-47 : https://nexus-geo.fr/referentiel-geo-47",
+      "levels": [
+        "Content"
+      ],
+      "domains": [
+        "Commerce & Consumer"
+      ],
+      "topics": [
+        "SEO & Publishers"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-10-30"
+    },
+    {
+      "id": "doi-10.5281/zenodo.23721558",
+      "title": "What ChatGPT, Claude and Gemini cited for Australian small business questions, October 2026",
+      "authors": [
+        "Appear Everywhere (ESK Solutions)"
+      ],
+      "date": "2026-10-28",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Dataset",
+      "doi": "10.5281/zenodo.23721558",
+      "record": "https://doi.org/10.5281/zenodo.23721558",
+      "pdf": "",
+      "abstract": "This record is a copy for citation. The canonical dataset and its write-up are at https://appeareverywhere.com/guides/what-the-ai-assistants-cite/, and the canonical CSV at https://appeareverywhere.com/guides/what-the-ai-assistants-cite/data.csv. If they differ, the canonical copy wins. Every site cited in 262 answers by ChatGPT, Claude and Gemini, each with web search on, to the small business questions on two lists of our own (Appear's 59, and 48 for creativebyjake.com.au), asked 19 and 20 October 2026, plus the 48 asked again a day later: one row per answer and cited site, with the question, its list and area, the assistant, the kind of site, and whether the answer cited the list's own site. No answer text and no business names. 2,754 rows. Columns: read (when the list was asked), site (whose list), list (core or wide), area, assistant, question, measure (always cited_domain), domain (the cited host, less \"www.\" and any port, once per answer), kind (official: any .gov.au site plus support.google.com and developers.google.com; directory: one of ten directory or review sites named on the canonical page; other) and cited_us (no in every row). Method. ChatGPT through OpenAI's Codex command-line tool with live web search (GPT-5.6 Luna, medium reasoning); Claude through Anthropic's Claude command-line tool with web search (Sonnet); Gemini through Google's API with Google Search grounding (gemini-flash-latest), the closest measurable stand-in for Google's AI Overviews. Each prompt said the asker was in Australia and asked the assistant to search the web, answer as it normally would and list the web addresses it relied on. Gemini answered only the storefront's 48 questions in this read. Limits. The questions are ours, not a random sample of what people ask, so no margin of error is given. One reading: a day later about half the cited sites changed. Command-line tools and an API, not the consumer apps. Disclosure. Appear Everywhere is run by ESK Solutions, which also runs Creative by Jake. Creative by Jake builds websites and appeareverywhere.com sells Appear, so we have a stake in what the write-up recommends. Licence and credit. CC BY 4.0. Cite as: Appear Everywhere (ESK Solutions), \"What do ChatGPT, Claude and Gemini cite when a small business asks?\", October 2026, https://appeareverywhere.com/guides/what-the-ai-assistants-cite/. Answers read 19 and 20 October 2026.",
+      "levels": [
+        "Query",
+        "Citation"
+      ],
+      "domains": [
+        "Finance & Economics",
+        "Commerce & Consumer"
+      ],
+      "topics": [
+        "SEO & Publishers",
+        "Citation & Provenance"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-10-30"
+    },
     {
       "id": "doi-10.5281/zenodo.23708876",
       "title": "Digital PR in the Era of Generative Search – Supplementary materials (observation dataset and survey responses)",
@@ -27,7 +140,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-29"
+      "first_detected": "2026-10-30"
     },
     {
       "id": "doi-10.5281/zenodo.23693456",
@@ -58,7 +171,7 @@
         "Platform & Interface"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-29"
+      "first_detected": "2026-10-30"
     },
     {
       "id": "doi-10.5281/zenodo.23676357",
@@ -116,7 +229,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-29"
+      "first_detected": "2026-10-30"
     },
     {
       "id": "doi-10.5281/zenodo.23671411",
@@ -145,7 +258,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-29"
+      "first_detected": "2026-10-30"
     },
     {
       "id": "doi-10.5281/zenodo.23651936",
@@ -250,7 +363,7 @@
         "SEO & Publishers"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-29"
+      "first_detected": "2026-10-30"
     },
     {
       "id": "doi-10.6084/m9.figshare.34761576",
@@ -276,7 +389,7 @@
         "SEO & Publishers"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-29"
+      "first_detected": "2026-10-30"
     },
     {
       "id": "doi-10.5281/zenodo.23589516",
@@ -326,7 +439,7 @@
         "General AIO"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-29"
+      "first_detected": "2026-10-30"
     },
     {
       "id": "doi-10.5281/zenodo.23586712",
@@ -385,7 +498,7 @@
         "Platform & Interface"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-29"
+      "first_detected": "2026-10-30"
     },
     {
       "id": "doi-10.17632/hmdxwwknyj",
@@ -441,7 +554,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-29"
+      "first_detected": "2026-10-30"
     },
     {
       "id": "doi-10.5281/zenodo.23503618",
@@ -524,7 +637,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-29"
+      "first_detected": "2026-10-30"
     },
     {
       "id": "doi-10.5281/zenodo.23439923",
@@ -1327,7 +1440,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-25"
+      "first_detected": "2026-10-30"
     },
     {
       "id": "doi-10.5281/zenodo.23028277",
@@ -1701,7 +1814,7 @@
         "Platform & Interface"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-25"
+      "first_detected": "2026-10-30"
     },
     {
       "id": "doi-10.5281/zenodo.22856034",
@@ -1824,7 +1937,7 @@
         "Platform & Interface"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-25"
+      "first_detected": "2026-10-30"
     },
     {
       "id": "doi-10.5281/zenodo.22707850",
@@ -1911,7 +2024,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-25"
+      "first_detected": "2026-10-30"
     },
     {
       "id": "doi-10.65150/ep-jsshrs/v2e9/2026-04",
@@ -1990,7 +2103,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-25"
+      "first_detected": "2026-10-30"
     },
     {
       "id": "arxiv-2608.29063v1",
@@ -2022,7 +2135,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-25"
+      "first_detected": "2026-10-30"
     },
     {
       "id": "arxiv-2608.18352v1",
@@ -2053,7 +2166,7 @@
         "User Behavior"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-25"
+      "first_detected": "2026-10-30"
     },
     {
       "id": "arxiv-2609.05463v1",
@@ -2081,7 +2194,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-25"
+      "first_detected": "2026-10-30"
     },
     {
       "id": "arxiv-2608.04831v1",
@@ -2112,7 +2225,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-25"
+      "first_detected": "2026-10-30"
     },
     {
       "id": "arxiv-2607.04282v3",
@@ -2140,7 +2253,7 @@
         "User Behavior"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-25"
+      "first_detected": "2026-10-30"
     },
     {
       "id": "arxiv-2607.03421v1",
@@ -2177,7 +2290,7 @@
         "Platform & Interface"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-25"
+      "first_detected": "2026-10-30"
     },
     {
       "id": "arxiv-2606.11337v1",
@@ -2211,7 +2324,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-25"
+      "first_detected": "2026-10-30"
     },
     {
       "id": "pmlr-kakimov26a",
@@ -2271,7 +2384,7 @@
         "Platform & Interface"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-25"
+      "first_detected": "2026-10-30"
     },
     {
       "id": "arxiv-2605.14021v2",
@@ -2301,7 +2414,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-25",
+      "first_detected": "2026-10-30",
       "domains": [
         "Politics, Government & News",
         "Commerce & Consumer"
@@ -2361,7 +2474,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-25"
+      "first_detected": "2026-10-30"
     },
     {
       "id": "arxiv-2604.27790v1",
@@ -2395,7 +2508,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-25"
+      "first_detected": "2026-10-30"
     },
     {
       "id": "arxiv-2604.25707v2",
@@ -2423,7 +2536,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-25"
+      "first_detected": "2026-10-30"
     },
     {
       "id": "arxiv-2603.29071v1",
@@ -2452,7 +2565,7 @@
         "SEO & Publishers"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-25"
+      "first_detected": "2026-10-30"
     },
     {
       "id": "arxiv-2603.16138v2",
@@ -2482,7 +2595,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-25",
+      "first_detected": "2026-10-30",
       "domains": [
         "Politics, Government & News"
       ]
@@ -2516,10 +2629,10 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-25"
+      "first_detected": "2026-10-30"
     },
     {
-      "id": "arxiv-2602.18455v6",
+      "id": "arxiv-2602.18455v7",
       "title": "Impact of AI Search Summaries on Website Traffic: Evidence from Google AI Overviews and Wikipedia",
       "authors": [
         "Mehrzad Khosravi",
@@ -2529,8 +2642,8 @@
       "venue": "arXiv",
       "type": "Preprint",
       "doi": "",
-      "record": "http://arxiv.org/abs/2602.18455v6",
-      "pdf": "https://arxiv.org/pdf/2602.18455v6",
+      "record": "http://arxiv.org/abs/2602.18455v7",
+      "pdf": "https://arxiv.org/pdf/2602.18455v7",
       "abstract": "Search engines increasingly display AI-generated answers above organic links, potentially displacing traffic to upstream publishers. We estimate the impact of Google's AI Overviews (AIO) on Wikipedia's search traffic using AIO's staggered geographic rollout and Wikipedia's multilingual structure. Our difference-in-differences design compares monthly external-search referrals to English Wikipedia articles with referrals to the same articles in German and French, and finds that default AIO availability reduced English search traffic by 5.45% and 4.82%, respectively. Our results suggest that answer-producing digital intermediaries can materially reallocate attention away from informational publishers, with implications for content monetization, search platform design, and policy.",
       "levels": [
         "Citation",
@@ -2543,7 +2656,7 @@
         "SEO & Publishers"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-25"
+      "first_detected": "2026-10-30"
     },
     {
       "id": "arxiv-2601.22493v2",
@@ -2577,7 +2690,7 @@
         "Safety & Risk"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-25"
+      "first_detected": "2026-10-30"
     },
     {
       "id": "arxiv-2602.22221v2",
@@ -2609,7 +2722,7 @@
         "Safety & Risk"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-25"
+      "first_detected": "2026-10-30"
     },
     {
       "id": "arxiv-2512.02665v1",
@@ -2638,7 +2751,7 @@
         "Safety & Risk"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-25"
+      "first_detected": "2026-10-30"
     },
     {
       "id": "arxiv-2511.12920v4",
@@ -2672,7 +2785,7 @@
         "Platform & Interface"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-25",
+      "first_detected": "2026-10-30",
       "domains": [
         "Health & Medicine",
         "Science & Technology"
@@ -2705,7 +2818,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-25"
+      "first_detected": "2026-10-30"
     },
     {
       "id": "doi-10.2196-79961",
@@ -2766,7 +2879,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-25"
+      "first_detected": "2026-10-30"
     },
     {
       "id": "doi-10.3145-thinkepi.2025.e19a08",
