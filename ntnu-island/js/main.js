@@ -1,7 +1,7 @@
 import * as THREE from 'three';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 import { mergeGeometries } from 'three/addons/utils/BufferGeometryUtils.js';
-import { THEMES, SOURCES, INTRO, ICONS } from './data.js?v=32';
+import { THEMES, SOURCES, INTRO, ICONS } from './data.js?v=33';
 
 // ---------- renderer / scene ----------
 const canvas = document.getElementById('scene');
@@ -1580,16 +1580,12 @@ function themeView(th) {
   const out = th.view === 'n' ? new THREE.Vector3(0.2, 0, -1).normalize() : new THREE.Vector3(0.3, 0, 1).normalize();
   const d = th.r * 2.2 + 14 + lift * 0.9; // pull back further for tall stacks (圖書館, 綜合大樓)
   const pos = target.clone().addScaledVector(out, d * 0.72).add(new THREE.Vector3(0, d * 0.9, 0));
-  // on narrow screens the detail sheet covers the bottom: aim a bit lower so the buildings sit higher
+  // on narrow screens the detail peek strip covers the bottom: aim a bit lower so the buildings sit higher
+  // (on desktop the detail sits in the side panel, so the buildings stay centred)
   if (stage.clientWidth < 760) {
-    const toCam = new THREE.Vector3(pos.x - target.x, 0, pos.z - target.z).normalize().multiplyScalar(th.r * 1.6);
+    const toCam = new THREE.Vector3(pos.x - target.x, 0, pos.z - target.z).normalize().multiplyScalar(th.r * 0.8);
     target.add(toCam);
-    pos.add(toCam).add(new THREE.Vector3(0, 6, 0));
-  }
-  else { // shift target right of center so the left detail card doesn't cover the buildings
-    const right = new THREE.Vector3().subVectors(target, pos).cross(new THREE.Vector3(0, 1, 0)).normalize();
-    target.addScaledVector(right, -th.r * 0.6);
-    pos.addScaledVector(right, -th.r * 0.6);
+    pos.add(toCam).add(new THREE.Vector3(0, 4, 0));
   }
   return { pos, target };
 }
@@ -1601,8 +1597,12 @@ function esc(s) { return String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<
 function renderDetail(i, openItem = -1) {
   const th = THEMES[i];
   detailEl.hidden = false;
+  // phone: open as a short peek strip so the map stays visible; a search hit (openItem) opens the full list
+  detailEl.classList.toggle('peek', stage.clientWidth < 760 && openItem < 0);
   detailEl.innerHTML = `
+    <button class="d-grip" aria-label="展開或收合"></button>
     <div class="d-head">
+      <button class="d-back">← 全部主題區</button>
       <button class="d-close" aria-label="關閉">✕</button>
       <div class="d-top">
         <div class="d-icon">${ICONS[th.icon] ?? ''}</div>
@@ -1616,6 +1616,7 @@ function renderDetail(i, openItem = -1) {
       <div class="d-chips">${(th.chips ?? []).map((c, k) => `<span class="d-chip ${k === 0 ? 'hot' : ''}">${esc(c)}</span>`).join('')}<span class="d-chip">${th.items.length} 個亮點</span></div>
       <div class="d-sub">這一區的亮點</div>
     </div>
+    <button class="d-peek">看 ${th.items.length} 個亮點 ↑</button>
     <div class="d-body">
       ${th.items.map((it, k) => `
         <div class="item ${k === openItem ? 'open' : ''}" data-k="${k}">
@@ -1627,7 +1628,9 @@ function renderDetail(i, openItem = -1) {
       <button data-nav="-1">← ${esc(THEMES[(i - 1 + THEMES.length) % THEMES.length].name)}</button>
       <button data-nav="1">${esc(THEMES[(i + 1) % THEMES.length].name)} →</button>
     </div>`;
-  detailEl.querySelector('.d-close').onclick = () => { stopTour(); closeDetail(); };
+  detailEl.querySelector('.d-close').onclick = detailEl.querySelector('.d-back').onclick = () => { stopTour(); closeDetail(); };
+  detailEl.querySelector('.d-grip').onclick = () => detailEl.classList.toggle('peek');
+  detailEl.querySelector('.d-peek').onclick = () => detailEl.classList.remove('peek');
   detailEl.querySelectorAll('.item > button').forEach((b) => b.addEventListener('click', () => b.parentElement.classList.toggle('open')));
   detailEl.querySelectorAll('[data-nav]').forEach((b) => b.addEventListener('click', () => { stopTour(); focusTheme((i + +b.dataset.nav + THEMES.length) % THEMES.length); }));
   if (openItem >= 0) detailEl.querySelector(`.item[data-k="${openItem}"]`)?.scrollIntoView({ block: 'center' });
@@ -1703,7 +1706,7 @@ searchEl.addEventListener('input', () => {
 document.getElementById('index-grip').addEventListener('click', () => indexEl.classList.toggle('open'));
 document.getElementById('btn-list').addEventListener('click', () => {
   if (window.innerWidth <= 760) indexEl.classList.toggle('open');
-  else { searchEl.focus(); }
+  else { if (!detailEl.hidden) { stopTour(); closeDetail(); } searchEl.focus(); }
 });
 
 // ---------- toolbar ----------
