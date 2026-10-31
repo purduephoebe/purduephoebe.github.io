@@ -1,7 +1,7 @@
 import * as THREE from 'three';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 import { mergeGeometries } from 'three/addons/utils/BufferGeometryUtils.js';
-import { THEMES, SOURCES, INTRO, ICONS, HEADLINES } from './data.js?v=36';
+import { THEMES, SOURCES, INTRO, ICONS, HEADLINES } from './data.js?v=37';
 
 // ---------- renderer / scene ----------
 const canvas = document.getElementById('scene');
