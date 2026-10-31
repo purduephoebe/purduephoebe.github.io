@@ -1,7 +1,7 @@
 import * as THREE from 'three';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 import { mergeGeometries } from 'three/addons/utils/BufferGeometryUtils.js';
-import { THEMES, SOURCES, INTRO, ICONS, HEADLINES } from './data.js?v=35';
+import { THEMES, SOURCES, INTRO, ICONS, HEADLINES } from './data.js?v=36';
 
 // ---------- renderer / scene ----------
 const canvas = document.getElementById('scene');
@@ -49,6 +49,8 @@ const C = {
   white: 0xfbf7ef, glass: 0x8fc3d9, gold: 0xf1b73b, blue: 0x3d5a80, navy: 0x2b3a55,
   water: 0x79c3c4, shallow: 0xa9e0d6, path: 0xead7b8,
 };
+// facade colours checked against photos (師大秘書室公共事務中心、維基百科；LOG 2026-10-31)
+const FACADE = { brick: 0xb8573a, concrete: 0xd8d4cc, stone: 0xcfc9bd, dorm: 0xdedbd4, metal: 0xc8ccce };
 const mats = new Map();
 function mat(color, opts = {}) {
   const key = color + JSON.stringify(opts);
@@ -941,6 +943,27 @@ const solarRoof = (W, D) => (L, i) => {
     L.add(p);
   }
 };
+// 博愛樓 portico: steps, four columns, entablature and a pediment, two storeys tall; z0 is the front wall
+function portico(W, z0) {
+  const P = new THREE.Group(), stone = mat(FACADE.stone), H = FH * 2, d = 0.9;
+  P.add(mesh(new THREE.BoxGeometry(W + 0.3, 0.12, d + 0.3), stone, 0, 0.06, z0 + d / 2));
+  for (let k = 0; k < 4; k++) P.add(mesh(new THREE.CylinderGeometry(0.13, 0.15, H - 0.45, 10), stone, -W / 2 + 0.25 + (k * (W - 0.5)) / 3, 0.12 + (H - 0.45) / 2, z0 + d - 0.15));
+  P.add(mesh(new THREE.BoxGeometry(W + 0.1, 0.3, d + 0.1), stone, 0, H - 0.18, z0 + d / 2));
+  const ped = mesh(prism(W + 0.1, 0.6, d + 0.1), stone, 0, H - 0.03, z0 + d / 2);
+  P.add(ped);
+  return P;
+}
+// 師大美術館: a cluster of tilted, faceted metal solids on the roof of its brick base (block fit hook)
+const crystal = (W, D) => (L, i) => {
+  if (i >= 0) return;
+  const m = mat(FACADE.metal, { metalness: 0.1, roughness: 0.45 });
+  [[0, 1.4, 0, 1.15, 0.2], [-W * 0.2, 1.2, 0.1, 0.85, 0.9], [W * 0.22, 1.3, -0.1, 0.9, -0.7], [0.15, 2.8, 0, 0.85, 0.5], [-0.3, 3.9, 0.05, 0.6, 1.3]].forEach(([x, y, z, r, rot]) => {
+    const c = mesh(new THREE.OctahedronGeometry(r, 0), m, x, y, z);
+    c.scale.set(Math.min(1.3, W / 3.2), 1.35, Math.min(0.95, D / 2.4));
+    c.rotation.set(rot * 0.3, rot, rot * 0.2);
+    L.add(c);
+  });
+};
 // stadium outline: half-circles of radius R joined by straights of length S along z
 function stadiumPath(p, R, S) {
   p.moveTo(-R, -S / 2);
@@ -979,8 +1002,8 @@ const BUILDERS = {
     occupy(aud, 2.8, 3.8, 70);
     plainBlock(g, rect(P1, 425, 497, 477, 590), 'e', { N: 2 }); // H104 健康中心
     plainBlock(g, rect(P1, 440, 427, 500, 475), 'n', { N: 3 }); // H106 樂群樓
-    plainBlock(g, rect(P1, 438, 690, 552, 770), 'n', { N: 3, wall: 0xf1e3d3 }); // H103 樂智樓
-    plainBlock(g, rect(P1, 1000, 690, 1105, 785), 'n', { N: 3, wall: 0xf3ece2 }); // H114 音樂系館
+    plainBlock(g, rect(P1, 438, 690, 552, 770), 'n', { N: 2, wall: FACADE.concrete }); // H103 樂智樓 (low concrete, café deck)
+    plainBlock(g, rect(P1, 1000, 690, 1105, 785), 'n', { N: 3, wall: FACADE.brick, edge: FACADE.concrete }); // H114 音樂系館 (red brick)
     // 圓環 with the flagpole, between 行政大樓 and the main gate
     const [rx, rz] = loc(g, P1(682, 715));
     const ring = mesh(new THREE.CylinderGeometry(1.5, 1.5, 0.05, 28), mat(PAVE), rx, TOP + 0.02, rz);
@@ -1048,11 +1071,11 @@ const BUILDERS = {
     ];
     bars.forEach(([r, face, labels]) => {
       const side = face === 'e' || face === 'w', W = side ? r.d : r.w, D = Math.max(1.4, side ? r.w : r.d);
-      plainBlock(g, r, face, { N: 4, wall: 0xefe4d2, labels, fit: side ? null : solarRoof(W, D) });
+      plainBlock(g, r, face, { N: 4, wall: FACADE.brick, edge: FACADE.concrete, labels, fit: side ? null : solarRoof(W, D) });
     });
-    // 游泳館: two storeys, pool on the ground floor
+    // 游泳館: tall red-brick piers and a glass front, pool on the ground floor
     const pool = (L, i) => { if (i === 0) L.add(mesh(new THREE.BoxGeometry(4.2, 0.04, 2.2), mat(0x6fc0d8, { roughness: 0.3 }), 0, 0.13, 0.4)); };
-    plainBlock(g, rect(P1, 955, 252, 1135, 378), 'n', { N: 2, wall: 0xdfe8ea, furn: 'none', open: true, fit: pool });
+    plainBlock(g, rect(P1, 955, 252, 1135, 378), 'n', { N: 2, wall: FACADE.brick, edge: C.white, furn: 'none', open: true, fit: pool });
     // 日光大道: tree-lined green strip
     slab(rect(P1, 540, 427, 1078, 466), C.grass2, 3);
     plantRow(P1(552, 437), P1(1066, 437), 1.3, 1.05);
@@ -1191,8 +1214,10 @@ const BUILDERS = {
     const lib = site(g, libraryBuilding(), P2(374, 716), 's', 0.92);
     registerLayers(g, lib, { gap: 1.0, labelX: 3.8, storey: 3.6 });
     occupy(lib, 4.4, 2.4, 50);
-    plainBlock(g, rect(P2, 185, 400, 540, 580), 's', { N: 5, wall: 0xf2ece0 }); // H203 博愛樓
-    plainBlock(g, rect(P2, 190, 190, 565, 355), 's', { N: 6, wall: 0xe8e2d6 }); // H204 進修推廣學院大樓
+    const boai = plainBlock(g, rect(P2, 185, 400, 540, 580), 's', { N: 5, wall: FACADE.brick, edge: FACADE.concrete }); // H203 博愛樓
+    // the grey stone pediment portico in front of 博愛樓 (photos); it rides with the ground floor
+    boai.userData.levels[0].obj.add(portico(boai.userData.size[0] * 0.32, boai.userData.size[1] / 2));
+    plainBlock(g, rect(P2, 190, 190, 565, 355), 's', { N: 6, wall: FACADE.brick, edge: FACADE.concrete }); // H204 進修推廣學院大樓
     const atom = new THREE.Group();
     atom.add(mesh(new THREE.IcosahedronGeometry(0.55, 1), mat(0x93272c, { emissive: 0x93272c, emissiveIntensity: 0.3 })));
     for (let i = 0; i < 3; i++) {
@@ -1216,7 +1241,7 @@ const BUILDERS = {
   },
   // 03 社會貢獻：教育學院大樓 + 羅馬廣場（行動教室巴士、愛心氣球）+ 綜合大樓
   social(g) {
-    plainBlock(g, rect(P2, 655, 225, 1000, 352), 's', { N: 6, wall: 0xf1e3d3 }); // H205 教育學院大樓
+    plainBlock(g, rect(P2, 655, 225, 1000, 352), 's', { N: 10, wall: FACADE.brick, edge: FACADE.concrete }); // H205 教育學院大樓 (red-brick slab, about 10 rows of windows)
     const zh = site(g, zongheBuilding(6.4, 2.4), P2(828, 738), 's');
     registerLayers(g, zh, { gap: 0.8, labelX: 4.6, storey: 3.6 });
     occupy(zh, 8, 3, 760, 2);
@@ -1252,10 +1277,11 @@ const BUILDERS = {
   },
   // 05 未來展望：科技與工程學院、機械工程大樓、產學館、師大美術館 + 起重機、熱氣球
   future(g) {
-    plainBlock(g, rect(P2, 1045, 318, 1350, 540), 's', { N: 7, wall: 0xdfe6ea, edge: 0xbfc9cf, labels: true }); // H207 科技與工程學院大樓
-    plainBlock(g, rect(P2, 1040, 595, 1355, 675), 's', { N: 5, wall: 0xe6e1d8 }); // H208 機械工程大樓
-    plainBlock(g, rect(P2, 1240, 718, 1385, 795), 's', { N: 4, wall: 0xf0e9dc }); // H209 產學館
-    plainBlock(g, rect(P2, 1068, 200, 1288, 275), 's', { N: 3, wall: C.white }); // H206 師大美術館
+    plainBlock(g, rect(P2, 1045, 318, 1350, 540), 's', { N: 7, wall: FACADE.brick, edge: C.white, labels: true }); // H207 科技與工程學院大樓 (white frame, brick infill)
+    plainBlock(g, rect(P2, 1040, 595, 1355, 675), 's', { N: 5, wall: FACADE.brick, edge: FACADE.concrete }); // H208 機械工程大樓
+    plainBlock(g, rect(P2, 1240, 718, 1385, 795), 's', { N: 4, wall: FACADE.brick, edge: FACADE.concrete }); // H209 產學館
+    const mr = rect(P2, 1068, 200, 1288, 275);
+    plainBlock(g, mr, 's', { N: 1, wall: FACADE.brick, edge: FACADE.concrete, fit: crystal(mr.w, Math.max(1.4, mr.d)) }); // H206 師大美術館: faceted metal volume on a brick base
     // crane on the lawn by the road
     const cr = new THREE.Group();
     cr.add(mesh(new THREE.BoxGeometry(0.3, 6.5, 0.3), mat(C.gold), 0, 3.25, 0));
@@ -1307,9 +1333,9 @@ scene.add(campusRoot);
 [
   [rect(P1, 135, 295, 278, 322), 4, 0xf3ece2], // H130 音樂學院
   [rect(P1, 240, 340, 318, 378), 5, 0xe9e2d6], // H129 管理學院
-  [rect(P1, 170, 395, 345, 528), 7, 0xf3e6cf], // H128 女一舍
-  [rect(P1, 165, 575, 345, 705), 7, 0xe9dccb], // H127 男一舍
-  [rect(P1, 165, 738, 352, 780), 4, 0xefe4d2], // H126 美術系館
+  [rect(P1, 170, 395, 345, 528), 7, FACADE.dorm], // H128 女一舍 (grey-white concrete, balconies)
+  [rect(P1, 165, 575, 345, 705), 7, FACADE.dorm], // H127 男一舍
+  [rect(P1, 165, 738, 352, 780), 4, FACADE.concrete], // H126 美術系館 (grey concrete, stacked overhangs)
 ].forEach(([r, N, wall]) => plainBlock(campusRoot, r, 'w', { N, wall }));
 walkers(campusRoot, ...P1(250, 554), ...P1(350, 554), 3, 801, { lane: 0.2 });
 walkers(null, ...P1(380, 300), ...P1(380, 812), 6, 802, { lane: 0.4 }); // along 師大路
