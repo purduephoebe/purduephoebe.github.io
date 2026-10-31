@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-30T11:44:01+08:00",
-  "new_in_latest_scan": 4,
+  "last_updated": "2026-10-31T11:28:02+08:00",
+  "new_in_latest_scan": 2,
   "scope": "All-domain Google AI Overviews / SGE research with multi-label application-domain classification.",
   "papers": [
     {
@@ -35,7 +35,64 @@
         "Safety & Risk"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-30"
+      "first_detected": "2026-10-31"
+    },
+    {
+      "id": "arxiv-2610.40164v1",
+      "title": "Who Owns Digital News, and Who Gets Cited: Measuring Media Concentration Across 77 Countries and Seven AI Systems",
+      "authors": [
+        "Peter Carragher",
+        "Kathleen M. Carley"
+      ],
+      "date": "2026-10-29",
+      "venue": "arXiv",
+      "type": "Preprint",
+      "doi": "",
+      "record": "http://arxiv.org/abs/2610.40164v1",
+      "pdf": "https://arxiv.org/pdf/2610.40164v1",
+      "abstract": "Digital news outlets compete for audience attention. Search engines equipped with generative AI systems such as Google's AI overviews increasingly decide where that attention goes, as well as the revenue it represents. Yet, the lack of a consistent data collection infrastructure between national-level regulatory bodies has hindered between-country comparative analysis of media concentration, and with it any assessment of how these intermediaries reshape digital news markets. To address this issue, we compile an ownership dataset for 9,761 digital news outlets drawn from Wikipedia and Wikidata, achieving high agreement with independently compiled US and UK news directories. Using this dataset, we derive traffic-weighted concentration indices for 77 countries. We find that journalists report more owner pressure in countries with higher concentration, and that outlet-level measures understate concentration, with owner-level indices a median 1.30x higher. Applying concentration measures to AI-mediated news discovery, we find that citation distributions from major AI systems are up to 2.08x more concentrated than traffic, and that if Google AI Overviews mediated all organic search, the resulting rise in US concentration would be several times that associated with highly regulated media mergers and acquisitions. Finally, our analyses indicate that AI systems preferentially cite state-controlled media outlets when prompted in that country's native language. Together, these findings raise concerns about the effect AI systems may have on digital media. We release the dataset to enable the monitoring of digital news globally, so that the impact of disruptive technologies on digital media markets can be tracked as they emerge.",
+      "levels": [
+        "Query",
+        "Citation",
+        "Presentation"
+      ],
+      "domains": [
+        "Finance & Economics",
+        "Politics, Government & News",
+        "Science & Technology",
+        "Law & Public Policy"
+      ],
+      "topics": [
+        "SEO & Publishers",
+        "Citation & Provenance"
+      ],
+      "source": "arXiv",
+      "first_detected": "2026-10-31"
+    },
+    {
+      "id": "doi-10.6084/m9.figshare.34863318",
+      "title": "AEO vs SEO: A Quick Guide",
+      "authors": [
+        "AEO Services Agency"
+      ],
+      "date": "2026-10-29",
+      "venue": "Figshare",
+      "type": "Other",
+      "doi": "10.6084/m9.figshare.34863318",
+      "record": "https://doi.org/10.6084/m9.figshare.34863318",
+      "pdf": "",
+      "abstract": "Answer engine optimization (AEO) and GEO agency helping brands get cited in ChatGPT, Perplexity, Gemini and Google AI Overviews. A short comparison of SEO and AEO by the best AEO services agency: https://aeoservicesagency.com",
+      "levels": [
+        "Presentation"
+      ],
+      "domains": [
+        "Commerce & Consumer"
+      ],
+      "topics": [
+        "SEO & Publishers"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-10-31"
     },
     {
       "id": "doi-10.5281/zenodo.23740428",
@@ -61,7 +118,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-30"
+      "first_detected": "2026-10-31"
     },
     {
       "id": "doi-10.5281/zenodo.23741263",
@@ -86,7 +143,7 @@
         "SEO & Publishers"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-30"
+      "first_detected": "2026-10-31"
     },
     {
       "id": "doi-10.5281/zenodo.23721558",
@@ -114,7 +171,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-30"
+      "first_detected": "2026-10-31"
     },
     {
       "id": "doi-10.5281/zenodo.23708876",
@@ -140,7 +197,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-30"
+      "first_detected": "2026-10-31"
     },
     {
       "id": "doi-10.5281/zenodo.23693456",
@@ -171,7 +228,7 @@
         "Platform & Interface"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-30"
+      "first_detected": "2026-10-31"
     },
     {
       "id": "doi-10.5281/zenodo.23676357",
@@ -229,7 +286,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-30"
+      "first_detected": "2026-10-31"
     },
     {
       "id": "doi-10.5281/zenodo.23671411",
@@ -363,7 +420,7 @@
         "SEO & Publishers"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-30"
+      "first_detected": "2026-10-31"
     },
     {
       "id": "doi-10.6084/m9.figshare.34761576",
@@ -389,7 +446,7 @@
         "SEO & Publishers"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-30"
+      "first_detected": "2026-10-31"
     },
     {
       "id": "doi-10.5281/zenodo.23589516",
@@ -439,7 +496,7 @@
         "General AIO"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-30"
+      "first_detected": "2026-10-31"
     },
     {
       "id": "doi-10.5281/zenodo.23586712",
@@ -498,7 +555,7 @@
         "Platform & Interface"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-30"
+      "first_detected": "2026-10-31"
     },
     {
       "id": "doi-10.17632/hmdxwwknyj",
@@ -554,7 +611,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-30"
+      "first_detected": "2026-10-31"
     },
     {
       "id": "doi-10.5281/zenodo.23503618",
@@ -1440,7 +1497,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-30"
+      "first_detected": "2026-10-31"
     },
     {
       "id": "doi-10.5281/zenodo.23028277",
@@ -1814,7 +1871,7 @@
         "Platform & Interface"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-30"
+      "first_detected": "2026-10-31"
     },
     {
       "id": "doi-10.5281/zenodo.22856034",
@@ -1937,7 +1994,7 @@
         "Platform & Interface"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-30"
+      "first_detected": "2026-10-31"
     },
     {
       "id": "doi-10.5281/zenodo.22707850",
@@ -2024,7 +2081,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-30"
+      "first_detected": "2026-10-31"
     },
     {
       "id": "doi-10.65150/ep-jsshrs/v2e9/2026-04",
@@ -2103,7 +2160,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-30"
+      "first_detected": "2026-10-31"
     },
     {
       "id": "arxiv-2608.29063v1",
@@ -2135,7 +2192,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-30"
+      "first_detected": "2026-10-31"
     },
     {
       "id": "arxiv-2608.18352v1",
@@ -2166,7 +2223,7 @@
         "User Behavior"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-30"
+      "first_detected": "2026-10-31"
     },
     {
       "id": "arxiv-2609.05463v1",
@@ -2194,7 +2251,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-30"
+      "first_detected": "2026-10-31"
     },
     {
       "id": "arxiv-2608.04831v1",
@@ -2225,7 +2282,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-30"
+      "first_detected": "2026-10-31"
     },
     {
       "id": "arxiv-2607.04282v3",
@@ -2253,7 +2310,7 @@
         "User Behavior"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-30"
+      "first_detected": "2026-10-31"
     },
     {
       "id": "arxiv-2607.03421v1",
@@ -2290,7 +2347,7 @@
         "Platform & Interface"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-30"
+      "first_detected": "2026-10-31"
     },
     {
       "id": "arxiv-2606.11337v1",
@@ -2324,7 +2381,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-30"
+      "first_detected": "2026-10-31"
     },
     {
       "id": "pmlr-kakimov26a",
@@ -2384,7 +2441,7 @@
         "Platform & Interface"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-30"
+      "first_detected": "2026-10-31"
     },
     {
       "id": "arxiv-2605.14021v2",
@@ -2414,7 +2471,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-30",
+      "first_detected": "2026-10-31",
       "domains": [
         "Politics, Government & News",
         "Commerce & Consumer"
@@ -2474,7 +2531,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-30"
+      "first_detected": "2026-10-31"
     },
     {
       "id": "arxiv-2604.27790v1",
@@ -2508,7 +2565,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-30"
+      "first_detected": "2026-10-31"
     },
     {
       "id": "arxiv-2604.25707v2",
@@ -2536,7 +2593,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-30"
+      "first_detected": "2026-10-31"
     },
     {
       "id": "arxiv-2603.29071v1",
@@ -2565,7 +2622,7 @@
         "SEO & Publishers"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-30"
+      "first_detected": "2026-10-31"
     },
     {
       "id": "arxiv-2603.16138v2",
@@ -2595,7 +2652,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-30",
+      "first_detected": "2026-10-31",
       "domains": [
         "Politics, Government & News"
       ]
@@ -2629,7 +2686,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-30"
+      "first_detected": "2026-10-31"
     },
     {
       "id": "arxiv-2602.18455v7",
@@ -2656,7 +2713,7 @@
         "SEO & Publishers"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-30"
+      "first_detected": "2026-10-31"
     },
     {
       "id": "arxiv-2601.22493v2",
@@ -2690,7 +2747,7 @@
         "Safety & Risk"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-30"
+      "first_detected": "2026-10-31"
     },
     {
       "id": "arxiv-2602.22221v2",
@@ -2722,7 +2779,7 @@
         "Safety & Risk"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-30"
+      "first_detected": "2026-10-31"
     },
     {
       "id": "arxiv-2512.02665v1",
@@ -2751,7 +2808,7 @@
         "Safety & Risk"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-30"
+      "first_detected": "2026-10-31"
     },
     {
       "id": "arxiv-2511.12920v4",
@@ -2785,7 +2842,7 @@
         "Platform & Interface"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-30",
+      "first_detected": "2026-10-31",
       "domains": [
         "Health & Medicine",
         "Science & Technology"
@@ -2818,7 +2875,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-30"
+      "first_detected": "2026-10-31"
     },
     {
       "id": "doi-10.2196-79961",
@@ -2879,7 +2936,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-30"
+      "first_detected": "2026-10-31"
     },
     {
       "id": "doi-10.3145-thinkepi.2025.e19a08",
