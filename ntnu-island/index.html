@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;0,9..144,800;1,9..144,500;1,9..144,700&family=JetBrains+Mono:wght@500;700&family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="css/style.css?v=33" />
+  <link rel="stylesheet" href="css/style.css?v=35" />
   <script type="importmap">
     {
       "imports": {
@@ -21,11 +21,8 @@
 </head>
 <body>
   <div id="app">
-    <main id="stage">
-      <canvas id="scene" aria-label="臺師大和平校區 3D 地圖"></canvas>
-      <div id="labels" aria-hidden="false"></div>
-
-      <header class="brand card">
+    <main id="shell">
+      <header class="brand">
         <img class="brand-logo" src="img/ntnu-emblem-red.png" alt="國立臺灣師範大學校徽" width="52" height="52" />
         <div class="brand-mark">HEPING<br />100.</div>
         <div class="brand-text">
@@ -57,26 +54,29 @@
         <button class="chip-btn round" id="btn-help" aria-label="說明">?</button>
       </div>
 
-      <aside id="detail" class="card" aria-live="polite" hidden></aside>
+      <div id="stage">
+        <canvas id="scene" aria-label="臺師大和平校區 3D 地圖"></canvas>
+        <div id="labels" aria-hidden="false"></div>
 
-      <div id="hint">拖曳旋轉 · 滾輪縮放 · 點建築看內容</div>
-
-      <div id="walk-hud" hidden>
-        <div class="walk-cross"></div>
-        <div class="walk-bar">
-          <div class="walk-where" id="walk-where"></div>
-          <button class="chip-btn" id="walk-open">亮點</button>
-          <button class="chip-btn" id="walk-view">視角</button>
-          <button class="chip-btn" id="walk-exit">離開</button>
-        </div>
-        <div class="walk-help">WASD／方向鍵 移動 · 拖曳 看四周 · Shift 跑步 · V 第一／第三人稱 · E 看這一區的亮點 · Esc 離開</div>
-        <div class="walk-pad">
-          <button data-key="KeyW" class="up" aria-label="前進">▲</button>
-          <button data-key="KeyA" class="left" aria-label="左移">◀</button>
-          <button data-key="KeyS" class="down" aria-label="後退">▼</button>
-          <button data-key="KeyD" class="right" aria-label="右移">▶</button>
+        <div id="walk-hud" hidden>
+          <div class="walk-cross"></div>
+          <div class="walk-bar">
+            <div class="walk-where" id="walk-where"></div>
+            <button class="chip-btn" id="walk-open">亮點</button>
+            <button class="chip-btn" id="walk-view">視角</button>
+            <button class="chip-btn" id="walk-exit">離開</button>
+          </div>
+          <div class="walk-help">WASD／方向鍵 移動 · 拖曳 看四周 · Shift 跑步 · V 第一／第三人稱 · E 看這一區的亮點 · Esc 離開</div>
+          <div class="walk-pad">
+            <button data-key="KeyW" class="up" aria-label="前進">▲</button>
+            <button data-key="KeyA" class="left" aria-label="左移">◀</button>
+            <button data-key="KeyS" class="down" aria-label="後退">▼</button>
+            <button data-key="KeyD" class="right" aria-label="右移">▶</button>
+          </div>
         </div>
       </div>
+
+      <aside id="detail" class="card" aria-live="polite" hidden></aside>
     </main>
 
     <aside id="index">
@@ -84,6 +84,7 @@
       <div class="kicker">THE NTNU INDEX</div>
       <h1 class="index-title">百年師大，<br />俯瞰和平校區。</h1>
       <p class="index-meta" id="index-meta"></p>
+      <p id="hint">拖曳旋轉 · 滾輪縮放 · 點建築看內容</p>
 
       <button class="tour-card" id="tour-card">
         <div>
@@ -100,11 +101,13 @@
 
       <div class="tabs" role="tablist">
         <button class="tab on" data-tab="themes">主題區</button>
+        <button class="tab" data-tab="news">師大新聞</button>
         <button class="tab" data-tab="sources">資料來源</button>
       </div>
 
       <ol id="theme-list"></ol>
       <div id="search-results" hidden></div>
+      <div id="news-list" hidden></div>
       <div id="source-list" hidden></div>
 
       <footer class="index-foot">
@@ -130,6 +133,6 @@
 
   <div id="loading"><div class="loader-lion">🦁</div><div>校園載入中…</div></div>
 
-  <script type="module" src="js/main.js?v=33"></script>
+  <script type="module" src="js/main.js?v=35"></script>
 </body>
 </html>

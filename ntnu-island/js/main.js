@@ -1,7 +1,7 @@
 import * as THREE from 'three';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 import { mergeGeometries } from 'three/addons/utils/BufferGeometryUtils.js';
-import { THEMES, SOURCES, INTRO, ICONS } from './data.js?v=33';
+import { THEMES, SOURCES, INTRO, ICONS, HEADLINES } from './data.js?v=35';
 
 // ---------- renderer / scene ----------
 const canvas = document.getElementById('scene');
@@ -18,7 +18,7 @@ const camera = new THREE.PerspectiveCamera(38, 1, 0.3, 600);
 // aerial view of 和平校區 from the south (校本部 in front, 圖書館校區 beyond 和平東路);
 // phones get a farther, higher view so the whole campus fits the tall viewport
 const NARROW = window.innerWidth <= 760;
-const HOME = { pos: NARROW ? new THREE.Vector3(78, 84, 10) : new THREE.Vector3(9, 64, 64), target: NARROW ? new THREE.Vector3(18, 0, 3) : new THREE.Vector3(9, 0, 2) };
+const HOME = { pos: NARROW ? new THREE.Vector3(68, 74, 7) : new THREE.Vector3(9, 64, 64), target: NARROW ? new THREE.Vector3(18, 0, 1) : new THREE.Vector3(9, 0, 2) };
 const BIRD = { pos: new THREE.Vector3(9, 110, 6), target: new THREE.Vector3(9, 0, 1) };
 camera.position.copy(HOME.pos);
 
@@ -1648,7 +1648,6 @@ function focusTheme(i, openItem = -1) {
   document.querySelectorAll('#theme-list button').forEach((b, k) => b.classList.toggle('on', k === i));
   indexEl.classList.remove('open');
   history.replaceState(null, '', '#' + th.id);
-  hideHint();
 }
 function closeDetail() {
   current = -1;
@@ -1675,6 +1674,13 @@ listEl.querySelectorAll('button').forEach((b, i) => b.addEventListener('click', 
 const srcEl = document.getElementById('source-list');
 srcEl.innerHTML = SOURCES.map((s) => `<a class="src" href="${esc(s.url)}" target="_blank" rel="noopener"><b>${esc(s.name)}</b>${esc(s.url)}</a>`).join('');
 
+const newsEl = document.getElementById('news-list');
+newsEl.innerHTML = `<p class="news-note">2026 年 10 月師大新聞選讀，標題為摘要；點標題看原文，點編號飛到該主題區。</p>` + HEADLINES.map((h) => {
+  const i = THEMES.findIndex((t) => t.id === h.theme);
+  return `<div class="news"><time>${h.date.slice(5).replace('-', '/')}</time><a href="${esc(h.url)}" target="_blank" rel="noopener">${esc(h.t)}</a>${i >= 0 ? `<button data-i="${i}" title="${esc(THEMES[i].title)}">${THEMES[i].no}</button>` : '<span></span>'}</div>`;
+}).join('');
+newsEl.querySelectorAll('button').forEach((b) => b.addEventListener('click', () => { stopTour(); focusTheme(+b.dataset.i); }));
+
 const searchEl = document.getElementById('search');
 const resultsEl = document.getElementById('search-results');
 let tab = 'themes';
@@ -1685,6 +1691,7 @@ function showTab(name) {
   listEl.hidden = name !== 'themes' || !!q;
   resultsEl.hidden = name !== 'themes' || !q;
   srcEl.hidden = name !== 'sources';
+  newsEl.hidden = name !== 'news';
 }
 document.querySelectorAll('.tab').forEach((t) => t.addEventListener('click', () => showTab(t.dataset.tab)));
 function hl(s, q) { const e = esc(s); return q ? e.split(esc(q)).join(`<mark>${esc(q)}</mark>`) : e; }
@@ -1752,8 +1759,6 @@ document.getElementById('intro-skip').addEventListener('click', () => { intro.hi
 document.getElementById('btn-help').addEventListener('click', () => { introStep = 0; renderIntro(); intro.hidden = false; });
 renderIntro();
 
-const hintEl = document.getElementById('hint');
-function hideHint() { hintEl.style.opacity = '0'; }
 
 // ---------- picking ----------
 const ray = new THREE.Raycaster();
@@ -1776,7 +1781,7 @@ canvas.addEventListener('pointermove', (e) => {
     world.pins.forEach((p) => p.el.classList.toggle('active', p.idx === current || (g && THEMES[p.idx] === g.userData.theme)));
   }
 });
-canvas.addEventListener('pointerdown', (e) => { downAt = [e.clientX, e.clientY]; stopTour(); hideHint(); });
+canvas.addEventListener('pointerdown', (e) => { downAt = [e.clientX, e.clientY]; stopTour(); });
 canvas.addEventListener('pointerup', (e) => {
   if (walk.on || !downAt || Math.hypot(e.clientX - downAt[0], e.clientY - downAt[1]) > 6) return;
   const g = pick(e);
@@ -1913,7 +1918,6 @@ function enterWalk() {
   document.getElementById('app').classList.add('walking');
   setView(walk.fp);
   resize();
-  hideHint();
 }
 function exitWalk() {
   walk.on = false;
