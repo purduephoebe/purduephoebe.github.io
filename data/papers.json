@@ -1,10 +1,65 @@
 {
-  "last_updated": "2026-10-31T11:28:02+08:00",
+  "last_updated": "2026-11-01T11:30:51+08:00",
   "new_in_latest_scan": 2,
   "scope": "All-domain Google AI Overviews / SGE research with multi-label application-domain classification.",
   "papers": [
     {
-      "id": "arxiv-2610.39339v1",
+      "id": "doi-10.5281/zenodo.23733822",
+      "title": "What AI tells the world about Türkiye's brands (Release 1): answers, claims and verdicts from six AI engines",
+      "authors": [
+        "Minel Güneşoğlu"
+      ],
+      "date": "2026-10-30",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Dataset",
+      "doi": "10.5281/zenodo.23733822",
+      "record": "https://doi.org/10.5281/zenodo.23733822",
+      "pdf": "",
+      "abstract": "Open data and code for the study \"What AI tells the world about Türkiye's brands\" (Release 1) by Is My Brand in AI. Scope. Six AI engines (ChatGPT, Gemini, Google AI Overviews, Bing Copilot Search, Claude, Perplexity) were asked about 11 brands from Türkiye and 9 European control brands, in Turkish and English. Their basic facts (founding year, headquarters, owner, countries, size) were checked against official company sources. Further modules: unbranded recommendation questions, real search queries, reworded questions, and Alanya as a destination (Turkish, English, German, Russian). Contents. 968 questions; 2,912 answer records collected 15 to 20 October 2026 (the 2,563 answers in the article's analysis were collected 15 to 18 October; later Perplexity retries are included but flagged as not analysed); 11,009 cited URLs; 6,378 extracted claims with raw and reviewed verdicts; source-tracing results; 1,542 English machine translations; 313 cropped answer-region screenshots; and the analysis code. Licence and third-party text. AI answer texts are AI-generated and are included for research and commentary. Long verbatim passages copied from third-party pages were cut, and private-person data was redacted. CC BY 4.0 covers our own contribution only; see NOTICE.md. Takedown requests: info@ismybrandinai.com Study page: https://ismybrandinai.com/ai-brand-accuracy-turkish-brands",
+      "levels": [
+        "Content",
+        "Citation"
+      ],
+      "domains": [
+        "Commerce & Consumer",
+        "Travel, Local & Lifestyle"
+      ],
+      "topics": [
+        "Citation & Provenance",
+        "Technical Evaluation"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-11-01"
+    },
+    {
+      "id": "doi-10.5281/zenodo.23795482",
+      "title": "Jerin John – Digital Marketing Expert, SEO Consultant & AI Visibility Specialist in Kerala, India",
+      "authors": [
+        "Jerin Jerin John"
+      ],
+      "date": "2026-10-30",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Article",
+      "doi": "10.5281/zenodo.23795482",
+      "record": "https://doi.org/10.5281/zenodo.23795482",
+      "pdf": "",
+      "abstract": "Jerin John is a digital marketing expert, SEO consultant, social media specialist and AI visibility strategist based in Kochi, Kerala, India. He provides affordable, professional digital marketing services to businesses, entrepreneurs and organisations across the world. With expertise in Search Engine Optimisation (SEO), Social Media Marketing (SMM), Google Ads, Pay-Per-Click (PPC) advertising, content marketing and digital strategy, Jerin helps businesses improve search visibility, generate qualified leads and strengthen their online presence. His specialist services also cover Generative Engine Optimisation (GEO), Answer Engine Optimisation (AEO), Large Language Model Optimisation (LLMO), AI Search Optimisation and Search Experience Optimisation (SXO), helping businesses improve their visibility across search engines and AI-powered platforms. This publication presents Jerin John's professional background, digital marketing expertise, services, portfolio and online profiles. It is intended for businesses looking for an experienced digital marketing consultant, SEO expert, SEO specialist or freelance digital marketer. Author: Jerin JohnLocation: Kochi, Kerala, IndiaWebsite: https://jerinjohndigital.com/About: https://jerinjohndigital.com/about-us/Portfolio: https://jerinjohndigital.com/portfolio",
+      "levels": [
+        "Presentation"
+      ],
+      "domains": [
+        "Finance & Economics",
+        "Commerce & Consumer"
+      ],
+      "topics": [
+        "SEO & Publishers",
+        "User Behavior"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-11-01"
+    },
+    {
+      "id": "doi-10.48550/arxiv.2610.39339",
       "title": "Does the Citation Matter? Quality, Grounding, and Physician-Rubric Accuracy of Google's AI Overviews for Medical Information",
       "authors": [
         "Sam Agnoli",
@@ -13,10 +68,10 @@
         "Emőke-Ágnes Horvát"
       ],
       "date": "2026-10-29",
-      "venue": "arXiv",
+      "venue": "arXiv (Cornell University)",
       "type": "Preprint",
-      "doi": "",
-      "record": "http://arxiv.org/abs/2610.39339v1",
+      "doi": "10.48550/arxiv.2610.39339",
+      "record": "https://doi.org/10.48550/arxiv.2610.39339",
       "pdf": "https://arxiv.org/pdf/2610.39339v1",
       "abstract": "Google's AI Overviews (AIOs) are the first result users encounter when searching the web, shifting the work of selecting and evaluating sources from the user to Gemini. This may be especially consequential for health information, given that Google's traditional algorithm was designed to prioritize quality sources, and inaccurate information carries health risks. We evaluated 3,611 benchmark health questions, comparing each AIO against that question's top five traditional results on source selection and quality. We also evaluated the AIOs' statement grounding in their cited sources and how accurate AIOs were against physician-written rubrics. Overviews appeared for 96.4% of questions but drew on substantially different evidence than traditional search: only 44.4% of the top five results were cited by the corresponding AIO, which instead overrepresented commercial health publishers (e.g., WebMD, Healthline) at the expense of academic and government sources (e.g., Cleveland Clinic, National Health Service). AIO-cited pages scored lower than traditional results on four of six well-established credibility criteria. The grounding of AIO statements to their sources was poor: after correcting for classifier error, an estimated 56.7% of cited statements were supported by their cited page, and a further 20.8% of all statements were factual claims with no citation at all. When AIOs were graded against physicians' rubrics, they earned 38.2% of all available points (e.g., accuracy 54.2%, completeness 21.6%), and among the subset of AIOs whose physician rubric anticipated a specific inaccurate or potentially harmful claim, 22.2% of AIOs contained the harmful content. Notably, the accuracy of AIOs was unrelated to the grounding of their statements. We recommend AIO literacy interventions for users and holding AIOs at least to Google's own health-ranking standards.",
       "levels": [
@@ -34,21 +89,21 @@
         "Technical Evaluation",
         "Safety & Risk"
       ],
-      "source": "arXiv",
-      "first_detected": "2026-10-31"
+      "source": "OpenAlex",
+      "first_detected": "2026-11-01"
     },
     {
-      "id": "arxiv-2610.40164v1",
+      "id": "doi-10.48550/arxiv.2610.40164",
       "title": "Who Owns Digital News, and Who Gets Cited: Measuring Media Concentration Across 77 Countries and Seven AI Systems",
       "authors": [
         "Peter Carragher",
         "Kathleen M. Carley"
       ],
       "date": "2026-10-29",
-      "venue": "arXiv",
+      "venue": "arXiv (Cornell University)",
       "type": "Preprint",
-      "doi": "",
-      "record": "http://arxiv.org/abs/2610.40164v1",
+      "doi": "10.48550/arxiv.2610.40164",
+      "record": "https://doi.org/10.48550/arxiv.2610.40164",
       "pdf": "https://arxiv.org/pdf/2610.40164v1",
       "abstract": "Digital news outlets compete for audience attention. Search engines equipped with generative AI systems such as Google's AI overviews increasingly decide where that attention goes, as well as the revenue it represents. Yet, the lack of a consistent data collection infrastructure between national-level regulatory bodies has hindered between-country comparative analysis of media concentration, and with it any assessment of how these intermediaries reshape digital news markets. To address this issue, we compile an ownership dataset for 9,761 digital news outlets drawn from Wikipedia and Wikidata, achieving high agreement with independently compiled US and UK news directories. Using this dataset, we derive traffic-weighted concentration indices for 77 countries. We find that journalists report more owner pressure in countries with higher concentration, and that outlet-level measures understate concentration, with owner-level indices a median 1.30x higher. Applying concentration measures to AI-mediated news discovery, we find that citation distributions from major AI systems are up to 2.08x more concentrated than traffic, and that if Google AI Overviews mediated all organic search, the resulting rise in US concentration would be several times that associated with highly regulated media mergers and acquisitions. Finally, our analyses indicate that AI systems preferentially cite state-controlled media outlets when prompted in that country's native language. Together, these findings raise concerns about the effect AI systems may have on digital media. We release the dataset to enable the monitoring of digital news globally, so that the impact of disruptive technologies on digital media markets can be tracked as they emerge.",
       "levels": [
@@ -66,8 +121,8 @@
         "SEO & Publishers",
         "Citation & Provenance"
       ],
-      "source": "arXiv",
-      "first_detected": "2026-10-31"
+      "source": "OpenAlex",
+      "first_detected": "2026-11-01"
     },
     {
       "id": "doi-10.6084/m9.figshare.34863318",
@@ -92,7 +147,7 @@
         "SEO & Publishers"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-31"
+      "first_detected": "2026-11-01"
     },
     {
       "id": "doi-10.5281/zenodo.23740428",
@@ -171,7 +226,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-31"
+      "first_detected": "2026-11-01"
     },
     {
       "id": "doi-10.5281/zenodo.23708876",
@@ -286,7 +341,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-31"
+      "first_detected": "2026-11-01"
     },
     {
       "id": "doi-10.5281/zenodo.23671411",
@@ -420,7 +475,7 @@
         "SEO & Publishers"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-31"
+      "first_detected": "2026-11-01"
     },
     {
       "id": "doi-10.6084/m9.figshare.34761576",
@@ -446,7 +501,7 @@
         "SEO & Publishers"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-31"
+      "first_detected": "2026-11-01"
     },
     {
       "id": "doi-10.5281/zenodo.23589516",
@@ -496,7 +551,7 @@
         "General AIO"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-31"
+      "first_detected": "2026-11-01"
     },
     {
       "id": "doi-10.5281/zenodo.23586712",
@@ -555,7 +610,7 @@
         "Platform & Interface"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-10-31"
+      "first_detected": "2026-11-01"
     },
     {
       "id": "doi-10.17632/hmdxwwknyj",
@@ -1497,7 +1552,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-31"
+      "first_detected": "2026-11-01"
     },
     {
       "id": "doi-10.5281/zenodo.23028277",
@@ -1871,7 +1926,7 @@
         "Platform & Interface"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-31"
+      "first_detected": "2026-11-01"
     },
     {
       "id": "doi-10.5281/zenodo.22856034",
@@ -1994,7 +2049,7 @@
         "Platform & Interface"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-31"
+      "first_detected": "2026-11-01"
     },
     {
       "id": "doi-10.5281/zenodo.22707850",
@@ -2081,7 +2136,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-31"
+      "first_detected": "2026-11-01"
     },
     {
       "id": "doi-10.65150/ep-jsshrs/v2e9/2026-04",
@@ -2160,7 +2215,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-31"
+      "first_detected": "2026-11-01"
     },
     {
       "id": "arxiv-2608.29063v1",
@@ -2192,7 +2247,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-31"
+      "first_detected": "2026-11-01"
     },
     {
       "id": "arxiv-2608.18352v1",
@@ -2223,7 +2278,7 @@
         "User Behavior"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-31"
+      "first_detected": "2026-11-01"
     },
     {
       "id": "arxiv-2609.05463v1",
@@ -2251,7 +2306,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-31"
+      "first_detected": "2026-11-01"
     },
     {
       "id": "arxiv-2608.04831v1",
@@ -2282,7 +2337,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-31"
+      "first_detected": "2026-11-01"
     },
     {
       "id": "arxiv-2607.04282v3",
@@ -2310,7 +2365,7 @@
         "User Behavior"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-31"
+      "first_detected": "2026-11-01"
     },
     {
       "id": "arxiv-2607.03421v1",
@@ -2347,7 +2402,7 @@
         "Platform & Interface"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-31"
+      "first_detected": "2026-11-01"
     },
     {
       "id": "arxiv-2606.11337v1",
@@ -2381,7 +2436,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-31"
+      "first_detected": "2026-11-01"
     },
     {
       "id": "pmlr-kakimov26a",
@@ -2441,7 +2496,7 @@
         "Platform & Interface"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-31"
+      "first_detected": "2026-11-01"
     },
     {
       "id": "arxiv-2605.14021v2",
@@ -2471,7 +2526,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-31",
+      "first_detected": "2026-11-01",
       "domains": [
         "Politics, Government & News",
         "Commerce & Consumer"
@@ -2531,7 +2586,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-31"
+      "first_detected": "2026-11-01"
     },
     {
       "id": "arxiv-2604.27790v1",
@@ -2565,7 +2620,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-31"
+      "first_detected": "2026-11-01"
     },
     {
       "id": "arxiv-2604.25707v2",
@@ -2593,7 +2648,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-31"
+      "first_detected": "2026-11-01"
     },
     {
       "id": "arxiv-2603.29071v1",
@@ -2622,7 +2677,7 @@
         "SEO & Publishers"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-31"
+      "first_detected": "2026-11-01"
     },
     {
       "id": "arxiv-2603.16138v2",
@@ -2652,7 +2707,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-31",
+      "first_detected": "2026-11-01",
       "domains": [
         "Politics, Government & News"
       ]
@@ -2686,7 +2741,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-31"
+      "first_detected": "2026-11-01"
     },
     {
       "id": "arxiv-2602.18455v7",
@@ -2713,7 +2768,7 @@
         "SEO & Publishers"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-31"
+      "first_detected": "2026-11-01"
     },
     {
       "id": "arxiv-2601.22493v2",
@@ -2747,7 +2802,7 @@
         "Safety & Risk"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-31"
+      "first_detected": "2026-11-01"
     },
     {
       "id": "arxiv-2602.22221v2",
@@ -2779,7 +2834,7 @@
         "Safety & Risk"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-31"
+      "first_detected": "2026-11-01"
     },
     {
       "id": "arxiv-2512.02665v1",
@@ -2808,7 +2863,7 @@
         "Safety & Risk"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-31"
+      "first_detected": "2026-11-01"
     },
     {
       "id": "arxiv-2511.12920v4",
@@ -2842,7 +2897,7 @@
         "Platform & Interface"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-31",
+      "first_detected": "2026-11-01",
       "domains": [
         "Health & Medicine",
         "Science & Technology"
@@ -2875,7 +2930,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-31"
+      "first_detected": "2026-11-01"
     },
     {
       "id": "doi-10.2196-79961",
@@ -2936,7 +2991,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-10-31"
+      "first_detected": "2026-11-01"
     },
     {
       "id": "doi-10.3145-thinkepi.2025.e19a08",
