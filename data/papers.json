@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-01T11:30:51+08:00",
-  "new_in_latest_scan": 2,
+  "last_updated": "2026-11-02T11:39:41+08:00",
+  "new_in_latest_scan": 0,
   "scope": "All-domain Google AI Overviews / SGE research with multi-label application-domain classification.",
   "papers": [
     {
@@ -29,7 +29,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-01"
+      "first_detected": "2026-11-02"
     },
     {
       "id": "doi-10.5281/zenodo.23795482",
@@ -56,7 +56,32 @@
         "User Behavior"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-01"
+      "first_detected": "2026-11-02"
+    },
+    {
+      "id": "doi-10.5281/zenodo.23785175",
+      "title": "AEO vs SEO: A Quick Guide",
+      "authors": [
+        "AEO Services Agency"
+      ],
+      "date": "2026-10-30",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Article",
+      "doi": "10.5281/zenodo.23785175",
+      "record": "https://doi.org/10.5281/zenodo.23785175",
+      "pdf": "",
+      "abstract": "Answer engine optimization (AEO) and GEO agency helping brands get cited in ChatGPT, Perplexity, Gemini and Google AI Overviews. A short comparison of SEO and AEO by the best AEO services agency.",
+      "levels": [
+        "Presentation"
+      ],
+      "domains": [
+        "Commerce & Consumer"
+      ],
+      "topics": [
+        "SEO & Publishers"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-11-02"
     },
     {
       "id": "doi-10.48550/arxiv.2610.39339",
@@ -120,31 +145,6 @@
       "topics": [
         "SEO & Publishers",
         "Citation & Provenance"
-      ],
-      "source": "OpenAlex",
-      "first_detected": "2026-11-01"
-    },
-    {
-      "id": "doi-10.6084/m9.figshare.34863318",
-      "title": "AEO vs SEO: A Quick Guide",
-      "authors": [
-        "AEO Services Agency"
-      ],
-      "date": "2026-10-29",
-      "venue": "Figshare",
-      "type": "Other",
-      "doi": "10.6084/m9.figshare.34863318",
-      "record": "https://doi.org/10.6084/m9.figshare.34863318",
-      "pdf": "",
-      "abstract": "Answer engine optimization (AEO) and GEO agency helping brands get cited in ChatGPT, Perplexity, Gemini and Google AI Overviews. A short comparison of SEO and AEO by the best AEO services agency: https://aeoservicesagency.com",
-      "levels": [
-        "Presentation"
-      ],
-      "domains": [
-        "Commerce & Consumer"
-      ],
-      "topics": [
-        "SEO & Publishers"
       ],
       "source": "OpenAlex",
       "first_detected": "2026-11-01"
@@ -341,7 +341,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-01"
+      "first_detected": "2026-11-02"
     },
     {
       "id": "doi-10.5281/zenodo.23671411",
@@ -475,7 +475,7 @@
         "SEO & Publishers"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-01"
+      "first_detected": "2026-11-02"
     },
     {
       "id": "doi-10.6084/m9.figshare.34761576",
@@ -501,7 +501,7 @@
         "SEO & Publishers"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-01"
+      "first_detected": "2026-11-02"
     },
     {
       "id": "doi-10.5281/zenodo.23589516",
@@ -551,7 +551,7 @@
         "General AIO"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-01"
+      "first_detected": "2026-11-02"
     },
     {
       "id": "doi-10.5281/zenodo.23586712",
@@ -610,7 +610,7 @@
         "Platform & Interface"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-01"
+      "first_detected": "2026-11-02"
     },
     {
       "id": "doi-10.17632/hmdxwwknyj",
