@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-02T11:39:41+08:00",
+  "last_updated": "2026-11-03T12:44:16+08:00",
   "new_in_latest_scan": 0,
   "scope": "All-domain Google AI Overviews / SGE research with multi-label application-domain classification.",
   "papers": [
@@ -29,7 +29,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-02"
+      "first_detected": "2026-11-03"
     },
     {
       "id": "doi-10.5281/zenodo.23795482",
@@ -56,7 +56,7 @@
         "User Behavior"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-02"
+      "first_detected": "2026-11-03"
     },
     {
       "id": "doi-10.5281/zenodo.23785175",
@@ -129,7 +129,7 @@
       "type": "Preprint",
       "doi": "10.48550/arxiv.2610.40164",
       "record": "https://doi.org/10.48550/arxiv.2610.40164",
-      "pdf": "https://arxiv.org/pdf/2610.40164v1",
+      "pdf": "https://arxiv.org/pdf/2610.40164",
       "abstract": "Digital news outlets compete for audience attention. Search engines equipped with generative AI systems such as Google's AI overviews increasingly decide where that attention goes, as well as the revenue it represents. Yet, the lack of a consistent data collection infrastructure between national-level regulatory bodies has hindered between-country comparative analysis of media concentration, and with it any assessment of how these intermediaries reshape digital news markets. To address this issue, we compile an ownership dataset for 9,761 digital news outlets drawn from Wikipedia and Wikidata, achieving high agreement with independently compiled US and UK news directories. Using this dataset, we derive traffic-weighted concentration indices for 77 countries. We find that journalists report more owner pressure in countries with higher concentration, and that outlet-level measures understate concentration, with owner-level indices a median 1.30x higher. Applying concentration measures to AI-mediated news discovery, we find that citation distributions from major AI systems are up to 2.08x more concentrated than traffic, and that if Google AI Overviews mediated all organic search, the resulting rise in US concentration would be several times that associated with highly regulated media mergers and acquisitions. Finally, our analyses indicate that AI systems preferentially cite state-controlled media outlets when prompted in that country's native language. Together, these findings raise concerns about the effect AI systems may have on digital media. We release the dataset to enable the monitoring of digital news globally, so that the impact of disruptive technologies on digital media markets can be tracked as they emerge.",
       "levels": [
         "Query",
@@ -147,7 +147,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-01"
+      "first_detected": "2026-11-03"
     },
     {
       "id": "doi-10.5281/zenodo.23740428",
@@ -341,7 +341,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-02"
+      "first_detected": "2026-11-03"
     },
     {
       "id": "doi-10.5281/zenodo.23671411",
@@ -475,7 +475,7 @@
         "SEO & Publishers"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-02"
+      "first_detected": "2026-11-03"
     },
     {
       "id": "doi-10.6084/m9.figshare.34761576",
@@ -501,7 +501,7 @@
         "SEO & Publishers"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-02"
+      "first_detected": "2026-11-03"
     },
     {
       "id": "doi-10.5281/zenodo.23589516",
@@ -551,7 +551,7 @@
         "General AIO"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-02"
+      "first_detected": "2026-11-03"
     },
     {
       "id": "doi-10.5281/zenodo.23586712",
