@@ -1,8 +1,142 @@
 {
-  "last_updated": "2026-11-03T12:44:16+08:00",
-  "new_in_latest_scan": 0,
+  "last_updated": "2026-11-04T12:07:03+08:00",
+  "new_in_latest_scan": 3,
   "scope": "All-domain Google AI Overviews / SGE research with multi-label application-domain classification.",
   "papers": [
+    {
+      "id": "doi-10.5281/zenodo.23892557",
+      "title": "Google's Generative AI Search Revolution: What Enterprise Software Companies Must Do Now",
+      "authors": [
+        "David Ohnstad"
+      ],
+      "date": "2026-11-02",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Article",
+      "doi": "10.5281/zenodo.23892557",
+      "record": "https://doi.org/10.5281/zenodo.23892557",
+      "pdf": "",
+      "abstract": "Artificial Intelligence has certainly gained attention in recent years and shows no sign of attracting any less as multiple applications and uses for the digital marvel increase! The question is, how well does AI do in information retrieval? According to Full article: https://davidohnstad.net/googles-new-generative-ai-search/",
+      "levels": [
+        "Content"
+      ],
+      "domains": [
+        "Science & Technology"
+      ],
+      "topics": [
+        "Technical Evaluation"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-11-04"
+    },
+    {
+      "id": "doi-10.5281/zenodo.23892342",
+      "title": "Google's AI Search Revolution: What Minnesota Businesses and Outdoor Brands Need to Know",
+      "authors": [
+        "David Ohnstad"
+      ],
+      "date": "2026-11-02",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Article",
+      "doi": "10.5281/zenodo.23892342",
+      "record": "https://doi.org/10.5281/zenodo.23892342",
+      "pdf": "",
+      "abstract": "Google's AI Search Revolution: What Minnesota Businesses and Outdoor Brands Need to Know If you run a Minnesota business—especially in outdoor recreation, tourism, or local services—you've probably noticed something shift in how Google Search works over the past year. Google's new generative AI search features, particularly AI Overviews (formerly called SGE, or Search Generative Experience),… Continue reading Google's AI Search Revolution: What Minnesota Businesses and Outdoor Brands Need to Know Full article: https://davidohnstadminnesota.com/googles-new-generative-ai-search/",
+      "levels": [
+        "Content"
+      ],
+      "domains": [
+        "Commerce & Consumer",
+        "Travel, Local & Lifestyle"
+      ],
+      "topics": [
+        "General AIO"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-11-04"
+    },
+    {
+      "id": "doi-10.5281/zenodo.23897232",
+      "title": "Audyt GEO: protokół pomiaru widoczności marki w ChatGPT, Google AI Overviews, Perplexity i Gemini. Przewodnik praktyczny (2026)",
+      "authors": [
+        "Adrian Grabski"
+      ],
+      "date": "2026-11-02",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Report",
+      "doi": "10.5281/zenodo.23897232",
+      "record": "https://doi.org/10.5281/zenodo.23897232",
+      "pdf": "",
+      "abstract": "Przewodnik opisuje, jak zbudować rzetelny pomiar widoczności marki w wyszukiwarkach opartych na AI: ChatGPT, Google AI Overviews, Perplexity i Gemini. Punktem wyjścia jest obserwacja, że pojedyncza odpowiedź modelu to anegdota, a nie dane, bo odpowiedzi zmieniają się między sesjami. Dokument przywołuje m.in. wynik SparkToro (szansa na tę samą listę marek dwa razy z rzędu poniżej 1:100) oraz sondaż McKinsey, w którym tylko 16% ankietowanych CMO deklarowało systematyczny pomiar widoczności w AI. Treść obejmuje: trzy warstwy audytu GEO (dostępność strony dla botów AI, widoczność marki w odpowiedziach, zgodność odpowiedzi z faktami), sześciostopniowy protokół pomiaru (20–50 pełnych pytań klientów, osobny pomiar na każdej platformie, 5 powtórzeń na szybki test i 10–20 przed decyzją, baseline, weryfikacja twierdzeń w czterostopniowej skali, jedna zmiana naraz), pięć metryk raportowanych z przedziałem ufności (Share of Voice, średnia pozycja, Citation Rate, Citation Links, wskaźnik błędów), wybór platformy przy małym budżecie, wynik audytu z progami decyzyjnymi oraz sytuacje, w których audyt GEO nie ma sensu. Dane z badań zewnętrznych mają charakter kierunkowy i pochodzą z cytowań na adriangrabski.pl. Autor, Adrian Grabski, jest niezależnym konsultantem SEO i AI search, pracującym w wyszukiwarkach od 2002 roku. Pełna metodologia usługi: https://adriangrabski.pl/audyt-geo/",
+      "levels": [
+        "Citation",
+        "Presentation"
+      ],
+      "domains": [
+        "General / Cross-domain"
+      ],
+      "topics": [
+        "SEO & Publishers",
+        "Citation & Provenance"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-11-04"
+    },
+    {
+      "id": "doi-10.5281/zenodo.23594679",
+      "title": "UK Universities AI Answer Study 2026: what ChatGPT, Perplexity and Google AI Overviews tell applicants",
+      "authors": [
+        "David R. Wood"
+      ],
+      "date": "2026-11-02",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Dataset",
+      "doi": "10.5281/zenodo.23594679",
+      "record": "https://doi.org/10.5281/zenodo.23594679",
+      "pdf": "",
+      "abstract": "A fact-checked snapshot of what three AI search tools told UK university applicants in October 2026. On 20 and 21 October 2026, 21 applicant-style questions about UK universities (entry grades, fees, league-table positions, graduate outcomes, contextual offers and \"which is better\" comparisons) were put to ChatGPT, Perplexity and Google AI Overviews: 63 answers in total. Every specific, checkable claim in those answers (198 claims) was checked against the university's own pages or official data (DfE, HESA, Discover Uni, UCAS), and given one of five outcomes: Correct, Wrong, Outdated, Overstated or Unverifiable. Headline results: 125 of 198 claims (63%) were correct, and 48 (24%) were wrong, out of date or overstated. ChatGPT was correct on 72% of its claims, Perplexity on 61% and Google AI Overviews on 55%. Accuracy depended more on the source an answer drew on than on the platform: answers drawn from a university's current official page were right 79% of the time, against 7% for answers drawn from out-of-date pages on the university's own website. The dataset also includes an audit of the rankings pages of all 31 universities in the study set (the 24 Russell Group members plus Bath, Dundee, Lancaster, Loughborough, St Andrews, Strathclyde and Surrey), recording which league-table editions each page showed, with every row backed by a dated PDF or screenshot. Pilot runs using open \"which universities should I apply to?\" questions are published separately (pilot_claims.csv, pilot_runs.csv) and are not included in the headline figures. They show ChatGPT tailoring university shortlists to the user's approximate location, signed in and signed out. Full write-up, report cards for each university and a checklist for university web teams: https://aivisibilitygap.com/uk-universities-ai-answers.html",
+      "levels": [
+        "Content",
+        "Citation"
+      ],
+      "domains": [
+        "Education & Academia"
+      ],
+      "topics": [
+        "SEO & Publishers",
+        "Citation & Provenance",
+        "Technical Evaluation"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-11-04"
+    },
+    {
+      "id": "doi-10.5281/zenodo.23895209",
+      "title": "Answer engine citation of a small B2B automation consultancy: a 33 prompt panel across ChatGPT, Perplexity, Gemini and Google AI Overviews (July to October 2026)",
+      "authors": [
+        "Jacky Lei"
+      ],
+      "date": "2026-11-02",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Dataset",
+      "doi": "10.5281/zenodo.23895209",
+      "record": "https://doi.org/10.5281/zenodo.23895209",
+      "pdf": "",
+      "abstract": "How often do AI answer engines cite a small, young B2B website when buyers ask questions about business automation? We logged 1,160 answers from ChatGPT (search), Perplexity, Gemini (Google Search grounding) and Google AI Overviews to a fixed panel of 33 buyer prompts in 19 categories, across 26 run dates from 1 July to 31 October 2026. Key findings (non brand prompts): The site was cited in 18.4% of answers overall: Perplexity 39.9%, Gemini 16.5%, ChatGPT 14.9%, Google AI Overviews 9.4%. When ChatGPT and Gemini actually searched, they cited the site about as often as Perplexity (32 to 33%). Specificity drove citation: prompts naming a narrow vertical product were cited 45% of the time, generic hiring and strategy prompts 6%. The most cited domains alongside the site were youtube.com, zapier.com, reddit.com and appfolio.com; directories were rarely cited. Files: a 2 page report (PDF) and the full panel as CSV (one row per engine answer: date, engine, category, prompt, mentioned, cited, retrieval fired, cited domains). The study site is Rex Automaton, an AI automation consultancy.",
+      "levels": [
+        "Query",
+        "Citation"
+      ],
+      "domains": [
+        "Commerce & Consumer"
+      ],
+      "topics": [
+        "SEO & Publishers",
+        "Citation & Provenance",
+        "Technical Evaluation"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-11-04"
+    },
     {
       "id": "doi-10.5281/zenodo.23733822",
       "title": "What AI tells the world about Türkiye's brands (Release 1): answers, claims and verdicts from six AI engines",
@@ -56,7 +190,7 @@
         "User Behavior"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-03"
+      "first_detected": "2026-11-04"
     },
     {
       "id": "doi-10.5281/zenodo.23785175",
@@ -147,7 +281,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-03"
+      "first_detected": "2026-11-04"
     },
     {
       "id": "doi-10.5281/zenodo.23740428",
@@ -341,7 +475,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-03"
+      "first_detected": "2026-11-04"
     },
     {
       "id": "doi-10.5281/zenodo.23671411",
@@ -475,7 +609,7 @@
         "SEO & Publishers"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-03"
+      "first_detected": "2026-11-04"
     },
     {
       "id": "doi-10.6084/m9.figshare.34761576",
@@ -499,56 +633,6 @@
       ],
       "topics": [
         "SEO & Publishers"
-      ],
-      "source": "OpenAlex",
-      "first_detected": "2026-11-03"
-    },
-    {
-      "id": "doi-10.5281/zenodo.23589516",
-      "title": "Google's Generative AI Search Revolution: What Enterprise Software Companies Must Do Now",
-      "authors": [
-        "David Ohnstad"
-      ],
-      "date": "2026-10-23",
-      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
-      "type": "Article",
-      "doi": "10.5281/zenodo.23589516",
-      "record": "https://doi.org/10.5281/zenodo.23589516",
-      "pdf": "",
-      "abstract": "Artificial Intelligence has certainly gained attention in recent years and shows no sign of attracting any less as multiple applications and uses for the digital marvel increase! The question is, how well does AI do in information retrieval? According to Full article: https://davidohnstad.net/googles-new-generative-ai-search/",
-      "levels": [
-        "Content"
-      ],
-      "domains": [
-        "Science & Technology"
-      ],
-      "topics": [
-        "Technical Evaluation"
-      ],
-      "source": "OpenAlex",
-      "first_detected": "2026-10-28"
-    },
-    {
-      "id": "doi-10.5281/zenodo.23589260",
-      "title": "Google's AI Search Revolution: What Minnesota Businesses and Outdoor Brands Need to Know",
-      "authors": [
-        "David Ohnstad"
-      ],
-      "date": "2026-10-23",
-      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
-      "type": "Article",
-      "doi": "10.5281/zenodo.23589260",
-      "record": "https://doi.org/10.5281/zenodo.23589260",
-      "pdf": "",
-      "abstract": "Full article: https://davidohnstadminnesota.com/googles-new-generative-ai-search/",
-      "levels": [
-        "Content"
-      ],
-      "domains": [
-        "Commerce & Consumer"
-      ],
-      "topics": [
-        "General AIO"
       ],
       "source": "OpenAlex",
       "first_detected": "2026-11-03"
