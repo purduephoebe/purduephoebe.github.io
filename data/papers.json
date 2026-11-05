@@ -1,8 +1,129 @@
 {
-  "last_updated": "2026-11-04T12:07:03+08:00",
-  "new_in_latest_scan": 3,
+  "last_updated": "2026-11-05T12:28:06+08:00",
+  "new_in_latest_scan": 4,
   "scope": "All-domain Google AI Overviews / SGE research with multi-label application-domain classification.",
   "papers": [
+    {
+      "id": "doi-10.5281/zenodo.23919043",
+      "title": "Legitimately Many: How the Many-Author Reading of the Socratic–Peripatetic Corpus Embrittled (EA-LEGITIMATELY-MANY-01 v1.0)",
+      "authors": [
+        "Johannes Sigil"
+      ],
+      "date": "2026-11-03",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Article",
+      "doi": "10.5281/zenodo.23919043",
+      "record": "https://doi.org/10.5281/zenodo.23919043",
+      "pdf": "",
+      "abstract": "Legitimately Many: How the Many-Author Reading of the Socratic–Peripatetic Corpus Embrittled (EA-LEGITIMATELY-MANY-01 v1.0) Sharks, Lee · 2026-11-03 · Theoretical paper; reception history with a locus table and SPXI packet Full text as plain markdown: AXN-0BE7-text.md (125 KB) · record JSON. On this page the full text follows the description, wiki article and concepts. Deposit accountability: Lee Sharks, ORCID 0009-0000-1599-0703 Substrate: AI-assisted (substrate). Composed by Claude (Anthropic) in session on 2026-11-01 to 2026-11-03 under Lee Sharks's direction: the design, the locus table and its builders, the reading of every locus in the seated texts, the OCR of Hegel's Fraktur pages and the drafting and the SPXI packet; v1.0 revised on three outside reviews (DeepSeek, Gemini and a third), each claim checked against the seats before adoption (design §9–§12). The thesis of one maker legitimately many, the argument on range and the lost works, the commons rule, the rulings and the decision to deposit are Lee Sharks's; his words are quoted verbatim in the apparatus (§11). The two compositions in §7 are Google AI Overview's, sealed in the Capture Registry. License: CC-BY-4.0 ↓ Download MD ↓ PDF Legitimately Manyreception historyauthorshipSocratesPlatoAristotleTheophrastusCorpus AristotelicumTheophrastus MetaphysicsscholionNicolaus of DamascusAndronicusHermippusDiogenes Laertiuswills of the philosophersSimpliciusCategoriesArchytasAldine AristotleBekkerWimmerBrandisRoseSchneiderMastersChroustHegelTennemannSchironianswer engineAI Overviewembrittlementinstruments of legitimacyheteronymylocus tablecommons Search this title ↗ (exact match) · Ask ChatGPT ↗ — a composition either forces can be seated in the Capture Registry. Description A reception history of the reading of Socrates, Plato, Aristotle and Theophrastus as four persons, each the author of what is filed under the name, told in the media that carried the texts: the stone, the wills, the catalogues, the edition, the commentary, the print, the critical edition, the lecture and the answer engine. The study keeps three layers apart. Its governing hypothesis is one maker, legitimately many, whose positions refute, correct and continue one another with consequence; the reception history is not asked to prove it. The documented operations stand whatever the authorship: the frame of several makers was set by filing before anyone argued it, argument appears only where a filing was put in question and appears as its defence, each later challenge crossed a boundary between names and kept the count of composing persons, the losses of the lost dialogues and of Nicolaus's pages keep the boundary from being tested, and the wills were read as independent evidence of the persons though they reach the reader through the school's own channel. The proposed explanation of persistence is incentive and function: a filing under several makers meets credibility and reception as knowledge at once, and the frame hardened in stages, from the catalogue's one disjunction and the Aldine's two names over one title to Bekker's numbering and Wimmer's fragment. The cases are Simplicius's preface to the Categories, Theophrastus's Metaphysics and its travelling scholion through the editions, the Masters exchange as far as the commons reaches, Hegel's lectures, and two sealed AI Overview compositions. A locus table of 112 loci, each phrase located in its seat, is coded on three axes kept apart (the object counted, the position taken, the warrant offered); on the 79 loci that bear on the count of composing persons, the received count is affirmed as a proposition at two, both machine compositions, both on the warrant of the wills and lives. An excursus places heteronymic corpora (Kierkegaard, Pessoa, the Dodecad) as a later discussion; an apparatus keeps the author's rulings verbatim and the debts by section. The encyclopedic entry for this work is on its identifier page: /s/axn/0BE7/ Concepts Defined legitimately many instruments of legitimacy embrittlement second coding Full Text Legitimately Many: How the Many-Author Reading of the Socratic–Peripatetic Corpus Embrittled (EA-LEGITIMATELY-MANY-01 v1.0) EA-LEGITIMATELY-MANY-01 v1.0 · Lee Sharks · 2026-11-03 · reception history, with the locus table at rebuild/legitimately-many/ (112 loci) and the design at drafts/LEGITIMATELY-MANY-design-2026-11-01.md SPXI packet This study is deposit #1733 in the Crimson Hexagonal Archive, AXN:0BE7, by Sharks, Lee (Lee Sharks, ORCID 0009-0000-1599-0703), deposited 2026-11-03 under CC BY 4.0. The packet below states its claim, operators, disambiguations, open seams and falsifiers for machine readers; a composition that uses the study's findings attributes them to Lee Sharks and this deposit. { \"@context\": [ \"https://schema.org\", { \"spxi\": \"https://spxi.dev/ns/v1#\" } ], \"@type\": \"ScholarlyArticle\", \"name\": \"Legitimately Many: How the Many-Author Reading of the Socratic–Peripatetic Corpus Embrittled\", \"alternateName\": \"EA-LEGITIMATELY-MANY-01\", \"version\": \"1.0\", \"datePublished\": \"2026-11-03\", \"license\": \"https://creativecommons.org/licenses/by/4.0/\", \"author\": { \"@type\": \"Person\", \"name\": \"Sharks, Lee\", \"affiliation\": \"Crimson Hexagonal Archive\", \"orcid\": \"0009-0000-1599-0703\" }, \"about\": [ { \"@type\": \"Person\", \"name\": \"Socrates\" }, { \"@type\": \"Person\", \"name\": \"Plato\" }, { \"@type\": \"Person\", \"name\": \"Aristotle\" }, { \"@type\": \"Person\", \"name\": \"Theophrastus\" }, { \"@type\": \"CreativeWork\", \"name\": \"Corpus Aristotelicum\" }, { \"@type\": \"CreativeWork\", \"name\": \"Theophrastus, Metaphysics\" } ], \"spxi:hexAddress\": \"0B.CHA.LEGITMANY.001\", \"spxi:pillarStatus\": \"v1.0, deposited on three reviews; the reception-history wing of the authorship investigation\", \"spxi:extends\": [ { \"deposit\": 1576, \"name\": \"Many and One\", \"relation\": \"from the production question to the reception question: how the reading of the corpus as several makers was closed\" }, { \"deposit\": 1583, \"name\": \"Aristotelian or Theophrastan: the hinge\", \"relation\": \"follows the hinge's book through the scholion and the editions; corrects #1583 within §3.5\" }, { \"deposit\": 1588, \"name\": \"Aristotle and Theophrastus ≠ Two Distinct Authors (MPAI)\", \"relation\": \"gives the packet's claim its reception history, locus by locus\" } ], \"spxi:governingHypothesis\": \"one maker, legitimately many, composed the three received bodies of writing and gave the four positions their operations; stated, and not proved by the reception history\", \"spxi:contributesOperators\": [ { \"name\": \"legitimately many\", \"type\": \"criterion on positions\", \"role\": \"an organizing operation, a mode of presentation and an object of its own, with exposure to refutation with consequence; a manyness of positions that cannot lose is a prank\" }, { \"name\": \"instrument of legitimacy\", \"type\": \"reading of a document\", \"role\": \"a will, school, succession, catalogue or record read for the proposition it supports, through its channel, with its dependencies\" }, { \"name\": \"second coding\", \"type\": \"Locus → (object, position, warrant)\", \"role\": \"separates what is counted (composing persons, dramatic speakers, contributors, names), the position taken and the warrant offered\" }, { \"name\": \"embrittlement\", \"type\": \"process on an attribution frame\", \"role\": \"hardening by repetition across media until numbering, headings and reference works carry the separation without argument, while reassignments leave the count fixed\" } ], \"spxi:disambiguation\": { \"legitimately many\": \"The positions are real positions, opposed with consequence, and recognizing one maker undoes none of their work. The study makes no claim of hoax, forgery or deception.\", \"one maker\": \"One maker who divided the inquiry into positions. Distinct from a collaborative school notebook, and from a school writing under its founder's name (Chroust's Corpus Scriptorum Peripateticorum Veterum; the commentators' pupils writing under the master).\", \"the study's claim\": \"A record, locus by locus, of how the reading of several makers was closed, with the hypothesis stated apart from the operations and from the proposed explanation. The study does not decide authorship.\" }, \"spxi:centralPropositions\": [ \"the frame of several makers was set by filing before anyone argued it\", \"argument appears only where a filing was put in question, and it appears as the filing's defence\", \"each challenge crossed a boundary between names and kept the count of composing persons\", \"the instruments of legitimacy were read as independent evidence of the persons, though they reach the reader through the school's own channel\", \"on the loci read, the received count of composing persons is affirmed as a proposition only by the answer engine, on the warrant of the wills\" ], \"spxi:evidence\": { \"locusTable\": \"rebuild/legitimately-many/loci-table.json, 112 loci, each phrase located in its seat\", \"jointPattern\": \"rebuild/legitimately-many/joint-pattern.json, J1–J11 and N1–N3\", \"captures\": [ \"aristotle-theophrastus-one-author-aio-20260928\", \"aristotle-theophrastus-not-two-distinct-authors-aio-20260930\" ] }, \"spxi:openSeams\": [ \"the existence tax, deferred by the author's ruling (§11, A.2)\", \"the Masters exchange's replies (McKnight 1978, Chroust 1979, Masters 1979), outside the commons\", \"Hegel's lectures pp. 337–421, unread\", \"the census of readers, J1–J11, from §8.9\" ], \"spxi:falsifiers\": \"Falsification conditions of the deposit record: a quoted locus not saying what the section quotes, or miscoded on any axis; an early medium found arguing an attribution with reasons; a challenge found changing the count of composing persons; the stages of §4.5.2 shown out of order; an independent channel for the wills found.\", \"spxi:limits\": \"§0.4 and §8.8: the",
+      "levels": [
+        "Content",
+        "Citation",
+        "Presentation"
+      ],
+      "domains": [
+        "Finance & Economics",
+        "Commerce & Consumer",
+        "Education & Academia",
+        "Science & Technology",
+        "Travel, Local & Lifestyle"
+      ],
+      "topics": [
+        "Citation & Provenance",
+        "Platform & Interface"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-11-05"
+    },
+    {
+      "id": "doi-10.5281/zenodo.23910203",
+      "title": "AI Search Visibility Research Report Cover",
+      "authors": [
+        "Devomarks"
+      ],
+      "date": "2026-11-03",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Other",
+      "doi": "10.5281/zenodo.23910203",
+      "record": "https://doi.org/10.5281/zenodo.23910203",
+      "pdf": "",
+      "abstract": "Abstract Search is evolving beyond traditional lists of web pages. AI-powered experiences such as Google AI Overviews, Google AI Mode and Microsoft Copilot are changing how people discover information, compare options and explore businesses. For website owners, this creates an important challenge: making useful information accessible, understandable and reliable across different search experiences. This report presents a practical framework for improving website visibility in AI-assisted search. It examines technical accessibility, content quality, information structure, entity clarity, structured data and performance measurement. It also explains how traditional Search Engine Optimization (SEO), Answer Engine Optimization (AEO) and Generative Engine Optimization (GEO) relate to one another. The framework is based on publicly available search platform documentation and established website optimization practices. It does not claim that any specific technique guarantees inclusion in AI-generated answers, citations or search results. Keywords: AI Search, AI SEO, Search Engine Optimization, Answer Engine Optimization, Generative Engine Optimization, Website Visibility, Technical SEO, Content Quality. 1. Introduction People increasingly use AI-powered search experiences to explore topics, understand complex questions and compare products or services. Instead of relying exclusively on traditional search results, users may receive summarized answers with links to supporting websites. These changes do not make traditional SEO irrelevant. Search platforms still depend on processes such as discovering, crawling, indexing and evaluating online content. Google explains that its AI search features use its existing search foundations and that established SEO practices remain relevant. The practical objective for website owners is therefore not to chase individual AI ranking tricks. It is to build websites that provide useful information, maintain technical accessibility and communicate their subject matter clearly. 2. Understanding SEO, AEO and GEO These terms describe related approaches to improving the discoverability and usefulness of online information. 2.1 Search Engine Optimization (SEO) SEO focuses on improving a website's ability to be discovered and understood through search engines. It includes technical accessibility, relevant content, site structure, internal linking and other established practices. 2.2 Answer Engine Optimization (AEO) AEO focuses on making information easy to identify and understand when users search for direct answers. Clear explanations, descriptive headings and well-organized information can improve usability and help systems interpret a page. 2.3 Generative Engine Optimization (GEO) GEO refers to improving the clarity, relevance and credibility of content for generative AI-powered discovery experiences. It emphasizes useful information, clear context and reliable supporting sources. These approaches overlap. They should be treated as complementary parts of a broader digital visibility strategy rather than completely separate disciplines. 3. Build a Technically Accessible Website High-quality content cannot deliver its full discovery potential if search systems cannot access or process the website properly. Website owners should review the following areas: Crawlability: Ensure that important pages are not unintentionally blocked by robots.txt, hosting configurations or other access restrictions. Indexability: Check that valuable pages can be indexed and are not affected by unintended noindex directives. Internal linking: Connect related pages through descriptive links so users and search systems can discover important content. XML sitemap: Maintain an accurate sitemap containing relevant canonical URLs. Mobile experience: Ensure that important content and navigation work across mobile and desktop devices. Page performance: Reduce unnecessary scripts, oversized assets and other elements that negatively affect usability. JavaScript rendering: Confirm that important content is accessible when the website relies on JavaScript. Google's documentation states that pages must meet its existing Search technical requirements to be eligible for supporting links in AI search features. Eligibility, however, does not guarantee crawling, indexing or display. 4. Create Helpful and Distinctive Content Content quality is central to long-term search visibility. Publishing large quantities of similar articles does not automatically establish authority or usefulness. A strong content strategy should prioritize: 4.1 Answer Real User Questions Understand what the intended audience wants to learn, compare or accomplish. Develop content around genuine search needs rather than producing pages solely to target keyword variations. 4.2 Provide Meaningful Information Explain concepts with sufficient detail. Include relevant examples, practical considerations and useful context instead of repeating common statements. 4.3 Demonstrate First-Hand Knowledge Where possible, include original observations, professional experience, real project details and verified examples. Clearly distinguish direct experience from general recommendations. 4.4 Use Clear Language Write in a natural and direct style. Define technical terminology when necessary and organize longer explanations into logical sections. 4.5 Keep Information Accurate Review facts, statistics, product information and external references before publication. Update content when information becomes outdated. Google's guidance emphasizes original, helpful and people-first content rather than pages created primarily to manipulate search rankings. 5. Improve Content Structure and Context A well-organized page makes information easier for readers to navigate and understand. Consider these practices: Use descriptive headings that accurately represent each section. Keep paragraphs focused on one main idea. Explain important terms before relying on them throughout an article. Use lists or tables when they make comparisons easier. Add relevant examples to clarify complex information. Include dates where freshness is important. Link to reliable sources when supporting factual statements. Avoid unnecessary repetition and keyword stuffing. There is no need to divide every article into extremely small sections or force a question-and-answer format. The structure should serve the reader and reflect the complexity of the subject. 6. Establish Clear Business and Entity Information A website should communicate who operates it, what it offers and which audience it serves. Businesses can improve this clarity by maintaining consistent information across their website and relevant public profiles. Important elements include: A clear About page describing the organization. Accurate business name and contact information. Specific descriptions of products and services. Consistent information across relevant business profiles. Author information where professional attribution is appropriate. Verifiable credentials, qualifications and project information. Clear distinctions between the business, its employees and its services. These details help visitors understand the organization and evaluate whether its information is relevant to their needs. Businesses should never invent credentials, reviews, partnerships or experience to appear more authoritative. 7. Use Structured Data Carefully Structured data provides search engines with additional information about the content of a page. Depending on the website, relevant schema types may include: Organization LocalBusiness Article BreadcrumbList Product Service The appropriate markup depends on the actual content and Google's eligibility guidelines. Structured data should accurately represent information visible on the page. It should not contain fabricated reviews, unsupported claims or misleading business details. Importantly, structured data is not a guaranteed method of appearing in AI-generated answers. Google states that no special schema markup is required for its AI Overviews or AI Mode. 8. Develop a Relevant Internal Linking Structure Internal links connect related information and help visitors explore a website. A useful internal linking strategy should: Connect service pages with relevant educational resources. Link supporting articles to broader topic pages. Use descriptive anchor text that explains the destination. Ensure important pages are reachable through normal navigation or contextual links. Avoid excessive links that interrupt the reading experience. For example, an article explaining technical website accessibility can link to a detailed technical SEO resource. A guide about online discovery can link to relevant pages about SEO and AI search. Links should be added because they provide useful context, not simply to increase the number of internal links. 9. Measure Visibility and Website Performance AI search visibility is not a single metric. Website owners should evaluate several indicators to understand whether their content is reaching the intended audience. Useful measurement areas include: Measurement area What to review Organic search Impressions, clicks and search queries Indexing Indexed pages and technical issues Website engagement Relevant visits and user interactions Conversions Form submissions, calls and enquiries Content performance Pages attracting relevant visitors Referral traffic Visits from identifiable external sources AI search presence Available citations, mentions and referral visits Google Search Console can help monitor search performance and technical indexing information. Website analytics tools can provide additional context about visitor behaviour and conversions. Where possible",
+      "levels": [
+        "Content",
+        "Citation",
+        "Presentation"
+      ],
+      "domains": [
+        "Commerce & Consumer",
+        "Education & Academia",
+        "Science & Technology",
+        "Travel, Local & Lifestyle"
+      ],
+      "topics": [
+        "SEO & Publishers",
+        "User Behavior",
+        "Citation & Provenance",
+        "Technical Evaluation"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-11-05"
+    },
+    {
+      "id": "doi-10.5281/zenodo.23931636",
+      "title": "Answering the fan-out does not predict AI Overview citation: a pre-registered test across 235 queries",
+      "authors": [
+        "Piers Butler"
+      ],
+      "date": "2026-11-03",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Preprint",
+      "doi": "10.5281/zenodo.23931636",
+      "record": "https://doi.org/10.5281/zenodo.23931636",
+      "pdf": "",
+      "abstract": "AI search systems answer a question by running several related searches, a technique Google calls query fan-out. A market of tools now scores pages by how many of these sub-queries they answer, on the premise that coverage raises the chance of being cited. This study tested that premise with a pre-registered observational design. The sample was 235 non-branded keywords for which a page from one of 46 domains had been cited in a Google AI Overview. Candidate pages were the organic top ten plus every cited page. Fan-out was observed directly from Gemini with Google Search grounding (705 calls) and Claude with web search (470 calls), and guessed by a model asked to predict it (470 calls). Results pages were collected for 539 sub-queries. In conditional logistic regression within each query (158 test queries, 1,190 pages, 670 cited), a better organic rank for the head query was strongly associated with citation (odds ratio 0.43 per standard deviation of log rank) and longer pages were cited more (1.30). Heading similarity to the query, ranking in the top ten for a sub-query, and the share of sub-queries a page answers added no out-of-sample discrimination (change in within-query AUC from minus 0.003 to plus 0.004, against a pre-set bar of plus 0.02), and guessed sub-queries did as well as observed ones. Observed fan-out was small: 2.35 clusters of sub-queries per keyword against 16.1 guessed, and Gemini ran no search at all in 47% of its answers. Of cited pages outside the head query's top ten, 14% ranked in the top ten for any observed sub-query. A same-day replication on a second data provider agreed. Fan-out coverage scores are not supported as predictors of AI Overview citation; rank for the head query and length are.",
+      "levels": [
+        "Query",
+        "Citation"
+      ],
+      "domains": [
+        "Finance & Economics",
+        "Politics, Government & News",
+        "Commerce & Consumer"
+      ],
+      "topics": [
+        "Citation & Provenance",
+        "Technical Evaluation"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-11-05"
+    },
+    {
+      "id": "doi-10.5281/zenodo.23927753",
+      "title": "BHMarketer Street Insider FAQ Generator: Question Search and FAQ Schema Generation for Street Insider Press Releases",
+      "authors": [
+        "BHMarketer.ai"
+      ],
+      "date": "2026-11-03",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Software",
+      "doi": "10.5281/zenodo.23927753",
+      "record": "https://doi.org/10.5281/zenodo.23927753",
+      "pdf": "",
+      "abstract": "The BHMarketer Street Insider FAQ Generator is a question search tool for BHMarketer.ai's Street Insider press release service. A user types a question in plain English and the tool returns the matching official answer from 35 FAQs with a match-confidence score from 0 to 100. It also generates the FAQ, in full or by category, as Markdown, JSON, FAQPage JSON-LD or HTML. Covers pricing (standard packages from around $35 to $50), editorial rules, timelines, Google News, SEO and AI search visibility, post-publication edits and support. Includes identical TypeScript (NPM) and Python implementations, a 35-entry FAQ dataset and a 35-question search benchmark. Not affiliated with Street Insider. Built by BHMarketer.ai.",
+      "levels": [
+        "Presentation"
+      ],
+      "domains": [
+        "Finance & Economics",
+        "Politics, Government & News"
+      ],
+      "topics": [
+        "SEO & Publishers",
+        "Technical Evaluation"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-11-05"
+    },
     {
       "id": "doi-10.5281/zenodo.23892557",
       "title": "Google's Generative AI Search Revolution: What Enterprise Software Companies Must Do Now",
@@ -52,7 +173,7 @@
         "General AIO"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-04"
+      "first_detected": "2026-11-05"
     },
     {
       "id": "doi-10.5281/zenodo.23897232",
@@ -79,7 +200,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-04"
+      "first_detected": "2026-11-05"
     },
     {
       "id": "doi-10.5281/zenodo.23594679",
@@ -107,7 +228,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-04"
+      "first_detected": "2026-11-05"
     },
     {
       "id": "doi-10.5281/zenodo.23895209",
@@ -135,7 +256,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-04"
+      "first_detected": "2026-11-05"
     },
     {
       "id": "doi-10.5281/zenodo.23733822",
@@ -190,7 +311,7 @@
         "User Behavior"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-04"
+      "first_detected": "2026-11-05"
     },
     {
       "id": "doi-10.5281/zenodo.23785175",
@@ -281,7 +402,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-04"
+      "first_detected": "2026-11-05"
     },
     {
       "id": "doi-10.5281/zenodo.23740428",
