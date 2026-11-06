@@ -1,8 +1,63 @@
 {
-  "last_updated": "2026-11-05T12:28:06+08:00",
-  "new_in_latest_scan": 4,
+  "last_updated": "2026-11-06T12:25:47+08:00",
+  "new_in_latest_scan": 2,
   "scope": "All-domain Google AI Overviews / SGE research with multi-label application-domain classification.",
   "papers": [
+    {
+      "id": "doi-10.5281/zenodo.23960476",
+      "title": "AI Overview CTR loss finder for Search Console data (Excel, v1)",
+      "authors": [
+        "AI Visibility Census"
+      ],
+      "date": "2026-11-04",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Other",
+      "doi": "10.5281/zenodo.23960476",
+      "record": "https://doi.org/10.5281/zenodo.23960476",
+      "pdf": "",
+      "abstract": "An Excel sheet for Google Search Console query data from two periods. It flags queries where click-through rate fell by 25% or more while average position moved by 1.0 or less (with at least 100 impressions in the later period; all three settings can be changed). The user records whether an AI Overview showed for each flagged query, and the sheet splits the lost clicks into AI Overview queries and queries with no AI Overview. Room for 500 queries. Example rows are fictional. Google says AI Overviews and AI Mode traffic is included in the Web search type of the Search Console Performance report, so the AI Overview check is done by hand. Documentation and limits: https://aivisibilitycensus.com/templates/ai-overview-ctr-loss/ Published by the AI Visibility Census: https://aivisibilitycensus.com/",
+      "levels": [
+        "Query",
+        "Presentation"
+      ],
+      "domains": [
+        "General / Cross-domain"
+      ],
+      "topics": [
+        "SEO & Publishers",
+        "User Behavior"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-11-06"
+    },
+    {
+      "id": "doi-10.5281/zenodo.23938245",
+      "title": "Recommending Is Not Citing: Separable and Competing Mechanisms for Entity Mention and Source Attribution in Large Language Models",
+      "authors": [
+        "Nicolás Bargioni"
+      ],
+      "date": "2026-11-04",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Preprint",
+      "doi": "10.5281/zenodo.23938245",
+      "record": "https://doi.org/10.5281/zenodo.23938245",
+      "pdf": "",
+      "abstract": "When a language model answers a question from numbered sources, two outputs that are often treated as one can come apart: whether it names an entity (recommends a brand) and whether it cites the source that supports that entity. We study this split in a controlled retrieval-augmented setting: five numbered sources, one per brand, a purchase question, and an explicit instruction to cite with bracketed numbers. The target brand's source sits at position [3] and is either neutral or carries one concrete fact. We read next-token probabilities in five open-weight models (Qwen3.5 4B, 27B, 122B-A10B, 397B-A17B-FP8 and DeepSeek-V4-Flash) and generated text in two API models (GPT-4.1-mini, Gemini 2.5 Flash). In every model, the concrete fact raises the probability of naming the brand (e.g. 1.7% to 47.7% in the 27B; 1.8% to 44.4% in the 397B) and lowers the probability of citing that same source once the brand is named (5.9% to 3.2%; 11.2% to 2.3%). In the API models the citation drop appears only under the citation instruction. Internally, difference-of-means directions for \"recommend\" and \"cite\" are nearly orthogonal at the positions where each decision is made (mean |cosine| 0.03–0.09, against split-half noise ceilings an order of magnitude higher) and partially anti-aligned at the position right after the brand. Adding the \"recommend\" direction raises naming and lowers citation beyond a random-direction control in three models. Activation patching places the citation decision in the last ~10% of depth, after the naming decision in the 27B and 397B. With sparse autoencoders on the 27B, ablating about ten features cuts the fact-driven recommendation from 70% to 32% (random ablation: 68%), whereas the late-layer features tied to citation look like reference-formatting features; we found no feature resembling \"this claim needs support\". Attention analysis splits citing into whether to open a bracket and which index to write: the index is correct 99% of the time and is computed redundantly (ablating up to 32 attention heads matches random ablation), while the fact acts on whether. A short observational sample of Google AI Overviews in Argentina is consistent with mention and attribution being separate in production. We conclude that entity mention and source attribution should be measured and studied as separate behaviours.",
+      "levels": [
+        "Query",
+        "Content",
+        "Citation"
+      ],
+      "domains": [
+        "Commerce & Consumer"
+      ],
+      "topics": [
+        "Citation & Provenance",
+        "Technical Evaluation"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-11-06"
+    },
     {
       "id": "doi-10.5281/zenodo.23919043",
       "title": "Legitimately Many: How the Many-Author Reading of the Socratic–Peripatetic Corpus Embrittled (EA-LEGITIMATELY-MANY-01 v1.0)",
@@ -66,7 +121,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-05"
+      "first_detected": "2026-11-06"
     },
     {
       "id": "doi-10.5281/zenodo.23931636",
@@ -95,7 +150,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-05"
+      "first_detected": "2026-11-06"
     },
     {
       "id": "doi-10.5281/zenodo.23927753",
@@ -122,7 +177,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-05"
+      "first_detected": "2026-11-06"
     },
     {
       "id": "doi-10.5281/zenodo.23892557",
@@ -150,32 +205,6 @@
       "first_detected": "2026-11-04"
     },
     {
-      "id": "doi-10.5281/zenodo.23892342",
-      "title": "Google's AI Search Revolution: What Minnesota Businesses and Outdoor Brands Need to Know",
-      "authors": [
-        "David Ohnstad"
-      ],
-      "date": "2026-11-02",
-      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
-      "type": "Article",
-      "doi": "10.5281/zenodo.23892342",
-      "record": "https://doi.org/10.5281/zenodo.23892342",
-      "pdf": "",
-      "abstract": "Google's AI Search Revolution: What Minnesota Businesses and Outdoor Brands Need to Know If you run a Minnesota business—especially in outdoor recreation, tourism, or local services—you've probably noticed something shift in how Google Search works over the past year. Google's new generative AI search features, particularly AI Overviews (formerly called SGE, or Search Generative Experience),… Continue reading Google's AI Search Revolution: What Minnesota Businesses and Outdoor Brands Need to Know Full article: https://davidohnstadminnesota.com/googles-new-generative-ai-search/",
-      "levels": [
-        "Content"
-      ],
-      "domains": [
-        "Commerce & Consumer",
-        "Travel, Local & Lifestyle"
-      ],
-      "topics": [
-        "General AIO"
-      ],
-      "source": "OpenAlex",
-      "first_detected": "2026-11-05"
-    },
-    {
       "id": "doi-10.5281/zenodo.23897232",
       "title": "Audyt GEO: protokół pomiaru widoczności marki w ChatGPT, Google AI Overviews, Perplexity i Gemini. Przewodnik praktyczny (2026)",
       "authors": [
@@ -200,7 +229,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-05"
+      "first_detected": "2026-11-06"
     },
     {
       "id": "doi-10.5281/zenodo.23594679",
@@ -256,7 +285,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-05"
+      "first_detected": "2026-11-06"
     },
     {
       "id": "doi-10.5281/zenodo.23733822",
@@ -311,7 +340,7 @@
         "User Behavior"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-05"
+      "first_detected": "2026-11-06"
     },
     {
       "id": "doi-10.5281/zenodo.23785175",
@@ -339,7 +368,7 @@
       "first_detected": "2026-11-02"
     },
     {
-      "id": "doi-10.48550/arxiv.2610.39339",
+      "id": "arxiv-2610.39339v1",
       "title": "Does the Citation Matter? Quality, Grounding, and Physician-Rubric Accuracy of Google's AI Overviews for Medical Information",
       "authors": [
         "Sam Agnoli",
@@ -348,10 +377,10 @@
         "Emőke-Ágnes Horvát"
       ],
       "date": "2026-10-29",
-      "venue": "arXiv (Cornell University)",
+      "venue": "arXiv",
       "type": "Preprint",
       "doi": "10.48550/arxiv.2610.39339",
-      "record": "https://doi.org/10.48550/arxiv.2610.39339",
+      "record": "http://arxiv.org/abs/2610.39339v1",
       "pdf": "https://arxiv.org/pdf/2610.39339v1",
       "abstract": "Google's AI Overviews (AIOs) are the first result users encounter when searching the web, shifting the work of selecting and evaluating sources from the user to Gemini. This may be especially consequential for health information, given that Google's traditional algorithm was designed to prioritize quality sources, and inaccurate information carries health risks. We evaluated 3,611 benchmark health questions, comparing each AIO against that question's top five traditional results on source selection and quality. We also evaluated the AIOs' statement grounding in their cited sources and how accurate AIOs were against physician-written rubrics. Overviews appeared for 96.4% of questions but drew on substantially different evidence than traditional search: only 44.4% of the top five results were cited by the corresponding AIO, which instead overrepresented commercial health publishers (e.g., WebMD, Healthline) at the expense of academic and government sources (e.g., Cleveland Clinic, National Health Service). AIO-cited pages scored lower than traditional results on four of six well-established credibility criteria. The grounding of AIO statements to their sources was poor: after correcting for classifier error, an estimated 56.7% of cited statements were supported by their cited page, and a further 20.8% of all statements were factual claims with no citation at all. When AIOs were graded against physicians' rubrics, they earned 38.2% of all available points (e.g., accuracy 54.2%, completeness 21.6%), and among the subset of AIOs whose physician rubric anticipated a specific inaccurate or potentially harmful claim, 22.2% of AIOs contained the harmful content. Notably, the accuracy of AIOs was unrelated to the grounding of their statements. We recommend AIO literacy interventions for users and holding AIOs at least to Google's own health-ranking standards.",
       "levels": [
@@ -369,8 +398,8 @@
         "Technical Evaluation",
         "Safety & Risk"
       ],
-      "source": "OpenAlex",
-      "first_detected": "2026-11-01"
+      "source": "arXiv",
+      "first_detected": "2026-11-06"
     },
     {
       "id": "doi-10.48550/arxiv.2610.40164",
@@ -402,7 +431,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-05"
+      "first_detected": "2026-11-06"
     },
     {
       "id": "doi-10.5281/zenodo.23740428",
@@ -1757,7 +1786,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-01"
+      "first_detected": "2026-11-06"
     },
     {
       "id": "doi-10.5281/zenodo.23028277",
@@ -1950,6 +1979,32 @@
       "first_detected": "2026-10-01"
     },
     {
+      "id": "doi-10.5281/zenodo.22953745",
+      "title": "Google's AI Search Revolution: What Minnesota Businesses and Outdoor Brands Need to Know",
+      "authors": [
+        "David Ohnstad"
+      ],
+      "date": "2026-09-25",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Article",
+      "doi": "10.5281/zenodo.22953745",
+      "record": "https://doi.org/10.5281/zenodo.22953745",
+      "pdf": "",
+      "abstract": "Google's AI Search Revolution: What Minnesota Businesses and Outdoor Brands Need to Know If you run a Minnesota business—especially in outdoor recreation, tourism, or local services—you've probably noticed something shift in how Google Search works over the past year. Google's new generative AI search features, particularly AI Overviews (formerly called SGE, or Search Generative Experience),… Continue reading Google's AI Search Revolution: What Minnesota Businesses and Outdoor Brands Need to Know Full article: https://davidohnstadminnesota.com/googles-new-generative-ai-search/",
+      "levels": [
+        "Content"
+      ],
+      "domains": [
+        "Commerce & Consumer",
+        "Travel, Local & Lifestyle"
+      ],
+      "topics": [
+        "General AIO"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-11-06"
+    },
+    {
       "id": "doi-10.5281/zenodo.22959764",
       "title": "Visibility of Ukrainian brands in generative AI answers: audit data and code (Видимість українських брендів у відповідях генеративних систем: дані й код аудиту)",
       "authors": [
@@ -2131,7 +2186,7 @@
         "Platform & Interface"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-01"
+      "first_detected": "2026-11-06"
     },
     {
       "id": "doi-10.5281/zenodo.22856034",
@@ -2254,7 +2309,7 @@
         "Platform & Interface"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-01"
+      "first_detected": "2026-11-06"
     },
     {
       "id": "doi-10.5281/zenodo.22707850",
@@ -2341,7 +2396,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-01"
+      "first_detected": "2026-11-06"
     },
     {
       "id": "doi-10.65150/ep-jsshrs/v2e9/2026-04",
@@ -2420,7 +2475,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-01"
+      "first_detected": "2026-11-06"
     },
     {
       "id": "arxiv-2608.29063v1",
@@ -2452,7 +2507,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-01"
+      "first_detected": "2026-11-06"
     },
     {
       "id": "arxiv-2608.18352v1",
@@ -2483,7 +2538,7 @@
         "User Behavior"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-01"
+      "first_detected": "2026-11-06"
     },
     {
       "id": "arxiv-2609.05463v1",
@@ -2511,7 +2566,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-01"
+      "first_detected": "2026-11-06"
     },
     {
       "id": "arxiv-2608.04831v1",
@@ -2542,7 +2597,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-01"
+      "first_detected": "2026-11-06"
     },
     {
       "id": "arxiv-2607.04282v3",
@@ -2570,7 +2625,7 @@
         "User Behavior"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-01"
+      "first_detected": "2026-11-06"
     },
     {
       "id": "arxiv-2607.03421v1",
@@ -2607,7 +2662,7 @@
         "Platform & Interface"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-01"
+      "first_detected": "2026-11-06"
     },
     {
       "id": "arxiv-2606.11337v1",
@@ -2641,7 +2696,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-01"
+      "first_detected": "2026-11-06"
     },
     {
       "id": "pmlr-kakimov26a",
@@ -2701,7 +2756,7 @@
         "Platform & Interface"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-01"
+      "first_detected": "2026-11-06"
     },
     {
       "id": "arxiv-2605.14021v2",
@@ -2731,7 +2786,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-01",
+      "first_detected": "2026-11-06",
       "domains": [
         "Politics, Government & News",
         "Commerce & Consumer"
@@ -2791,7 +2846,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-01"
+      "first_detected": "2026-11-06"
     },
     {
       "id": "arxiv-2604.27790v1",
@@ -2825,7 +2880,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-01"
+      "first_detected": "2026-11-06"
     },
     {
       "id": "arxiv-2604.25707v2",
@@ -2853,7 +2908,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-01"
+      "first_detected": "2026-11-06"
     },
     {
       "id": "arxiv-2603.29071v1",
@@ -2882,7 +2937,7 @@
         "SEO & Publishers"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-01"
+      "first_detected": "2026-11-06"
     },
     {
       "id": "arxiv-2603.16138v2",
@@ -2912,7 +2967,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-01",
+      "first_detected": "2026-11-06",
       "domains": [
         "Politics, Government & News"
       ]
@@ -2946,7 +3001,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-01"
+      "first_detected": "2026-11-06"
     },
     {
       "id": "arxiv-2602.18455v7",
@@ -2973,7 +3028,7 @@
         "SEO & Publishers"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-01"
+      "first_detected": "2026-11-06"
     },
     {
       "id": "arxiv-2601.22493v2",
@@ -3007,7 +3062,7 @@
         "Safety & Risk"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-01"
+      "first_detected": "2026-11-06"
     },
     {
       "id": "arxiv-2602.22221v2",
@@ -3039,7 +3094,7 @@
         "Safety & Risk"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-01"
+      "first_detected": "2026-11-06"
     },
     {
       "id": "arxiv-2512.02665v1",
@@ -3068,7 +3123,7 @@
         "Safety & Risk"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-01"
+      "first_detected": "2026-11-06"
     },
     {
       "id": "arxiv-2511.12920v4",
@@ -3102,7 +3157,7 @@
         "Platform & Interface"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-01",
+      "first_detected": "2026-11-06",
       "domains": [
         "Health & Medicine",
         "Science & Technology"
@@ -3135,7 +3190,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-01"
+      "first_detected": "2026-11-06"
     },
     {
       "id": "doi-10.2196-79961",
@@ -3196,7 +3251,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-01"
+      "first_detected": "2026-11-06"
     },
     {
       "id": "doi-10.3145-thinkepi.2025.e19a08",
