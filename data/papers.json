@@ -1,8 +1,95 @@
 {
-  "last_updated": "2026-11-06T12:25:47+08:00",
-  "new_in_latest_scan": 2,
+  "last_updated": "2026-11-07T11:53:37+08:00",
+  "new_in_latest_scan": 4,
   "scope": "All-domain Google AI Overviews / SGE research with multi-label application-domain classification.",
   "papers": [
+    {
+      "id": "doi-10.5281/zenodo.23986141",
+      "title": "2026 Credit Union & Fintech AI Search Visibility Study: Measuring Total Brand Omission and Cross-Engine Disagreement Across ChatGPT, Gemini, Perplexity, and Claude",
+      "authors": [
+        "Jones Amy"
+      ],
+      "date": "2026-11-05",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Report",
+      "doi": "10.5281/zenodo.23986141",
+      "record": "https://doi.org/10.5281/zenodo.23986141",
+      "pdf": "",
+      "abstract": "EquiSchema AI LLC conducted a 960-evaluation empirical benchmark study and an 80-prompt cross-engine disagreement analysis across the four leading generative AI search platforms (OpenAI ChatGPT, Google Gemini, Perplexity AI, and Anthropic Claude) to measure how often U.S. Credit Unions and mission-driven Financial Technology firms (Fintechs) are recommended when consumers ask unbranded, high-intent financial questions. While prior industry commentary has focused on AI hallucinations or generic brand-awareness prompts, this study measures Total Brand Omission—defined by EquiSchema AI as the complete exclusion of a qualified financial institution from unbranded, bottom-of-funnel borrower and depositor recommendations, leaving the institution with a 0% probability of consumer consideration. KEY EMPIRICAL FINDINGS (REPORT NO. 2026-02): 1. 96.0% Total Brand Omission (922 Omissions / 960 Evaluations): Across 20 real-world consumer borrowing and deposit queries evaluated across ChatGPT, Gemini, Perplexity, and Claude, the 12 audited national credit unions and ethical fintechs achieved only 4.0% aggregate visibility (38 mentions out of 960 opportunities). Audited Credit Unions suffered a 95.0% Total Brand Omission rate (5.0% visibility), while Ethical Fintechs suffered a 97.1% Total Brand Omission rate (2.9% visibility). 2. 0.0% Foundational Deposit Blackout (Q01–Q03): On the three core consumer deposit queries ($10,000 emergency fund high-yield savings, $500/month savings account, and highest 12-month CD rate for $25,000), all 12 audited Credit Unions and Fintechs recorded 0.0% visibility (0 out of 144 evaluations) across all four AI models. 3. 95.7% Cross-Engine Disagreement: Across 336 total recommendation slots (234 unique query-entity pairs), all four AI models agreed on the same financial institution only 3.8% of the time (4.3% including federal FHA mortgage programs). Over two-thirds (68.4%) of recommended institutions were named by only a single AI engine and completely omitted by the other three. 4. Megabank Collapse (5.4%) & Middleman Capture (17.3%): On specific dollar-tier and credit-score transactional prompts, the \"Big 4\" U.S. Megabanks captured just 5.4% of total AI recommendation slots combined. Meanwhile, 17.3% of all AI recommendation slots bypassed direct depository lenders entirely in favor of lead-generation middlemen, rate aggregators (such as Bankrate, LendingTree, and Credit Karma), and government program acronyms. 5. Loan-Tier Sensitivity Drift (\"Slot Roulette\") & Liability Refusals: Holding borrower credit score constant (720 FICO) while shifting auto loan size in $10,000 increments ($60,000 vs. $50,000 vs. $40,000) caused 85.7% of recommended lenders (6 of 7) to rotate or vanish across adjacent dollar brackets. Additionally, on credit-tiered auto loan prompts ($60,000 at 720 score and $45,000 at 650 score), Claude refused to recommend any lender (0 mentions) due to unstructured rate sheets failing confidence guardrails. Research Portal & Methodology Details: https://equischema.comAuthor: Amy Jones, Founder & Principal Architect, EquiSchema AI LLC (f/k/a Axiom GEO AI LLC), Indianapolis, Indiana, USA.",
+      "levels": [
+        "Query"
+      ],
+      "domains": [
+        "Finance & Economics",
+        "Politics, Government & News",
+        "Commerce & Consumer",
+        "Science & Technology"
+      ],
+      "topics": [
+        "Technical Evaluation"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-11-07"
+    },
+    {
+      "id": "doi-10.5281/zenodo.23966869",
+      "title": "존재하지 않는 업체를 물으면 AI는 어떻게 답하는가 — 한국어 가상 업체 9곳 × 3개 모델 162답변(2026-09-14)",
+      "authors": [
+        "Seonghoon Jeong"
+      ],
+      "date": "2026-11-05",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Dataset",
+      "doi": "10.5281/zenodo.23966869",
+      "record": "https://doi.org/10.5281/zenodo.23966869",
+      "pdf": "",
+      "abstract": "요약 부산 지역에 실제로 없는 업체 이름 10개를 만들었습니다. 병원·로펌·렌탈·에이전시·치과·한의원·세무사·학원·화장품 브랜드입니다. 이 업체들을 웹 검색이 켜진 세 모델에 물었습니다. 질문은 두 종류입니다. 평판: \"○○ 어때? 후기랑 평판 알려줘\" 상세: \"○○ 위치랑 가격, 운영시간 알려줘\" 정답이 없는 질문이라, 모델이 모른다는 것을 어떻게 처리하는지가 그대로 드러납니다. 모델부인(확인 불가)대체(다른 실존 업체 안내)조작(없는 사실 제시)혼합GPT(gpt-5.6-terra, web_search)74%26%00Gemini(gemini-3.8-flash, Google 검색 그라운딩)20%80%00Perplexity(sonar)56%30%9%6% 모델마다 54답변이고, 판정에 쓴 업체는 9곳입니다. 위치·가격·시간을 묻는 상세 질문에서 Gemini 는 93% 가 다른 업체를 안내했습니다. Perplexity 는 없는 업체의 주소·진료시간·\"방문 인증 후기\"를 사실처럼 제시한 답이 15%(조작+혼합)였습니다. Perplexity 는 162답변 전체에서 출처 인용이 0건이었습니다. API 응답에 인용이 붙지 않았습니다. GPT·Gemini 는 조작이 0건이었습니다. 함의는 두 가지입니다. \"AI 가 우리 이름을 말했다\"가 곧 근거 있는 언급은 아닙니다. AI 가 어떤 업체를 찾지 못했을 때, 결과는 \"언급 없음\"이 아니라 같은 지역 경쟁 업체 추천으로 나올 수 있습니다. 지식 공백 캐너리 방법(arXiv:2608.26385, 정답이 없는 질문으로 모델의 거절 방식을 잰다)을 한국어 지역 업체로 옮긴 실험입니다. 파일 경로내용data/answers.jsonl원 응답 180건. 질문·모델·검색 여부·재작성 검색어·인용 URL·출처 호스트·답변 본문. excluded=true 18건은 판정에서 뺀 10번째 캐너리data/judgments.json답변별 판정 180건. label(deny·substitute·fabricate·mixed), 판정 근거 인용, 정규식 예비 판정, excludedcode/summarize.py위 표를 judgments.json 만으로 다시 계산(AI 호출 없음)code/queries.ts·code/names.py가상 업체 이름과 질문 원문code/collect.ts수집기. 모델 호출부는 내부 공용 모듈을 쓰며 이 묶음에는 들어 있지 않습니다code/judge.py4분류 판정기(판정 프롬프트 원문 포함)code/cited-name-check.py인용 페이지 본문에 캐너리 이름이 실제로 있는지 사후 검증 code/ 의 경로는 원 저장소 기준(scripts/research/canary/...)이라 그대로는 돌지 않습니다. summarize.py 만 이 묶음 안에서 바로 돕니다. python3 code/summarize.py 설계 가상 업체 10곳: 이름마다 DuckDuckGo 검색 결과 0건을 확인했습니다(names.py). 호출: 질문 2종 × 업체 10 × 모델 3 × 반복 3 = 180회, 실패 0. 반복을 바깥 루프에 두어 같은 질문을 연달아 던지지 않았습니다. 측정 시장은 한국(KR·ko)입니다. 각 모델의 공식 API 를 썼고, 검색 도구는 켰습니다. 수집 일시는 2026-09-14 13:25~13:47 KST, 1회입니다. 제외: 10번째 캐너리 \"루미넬 스킨케어 브랜드\"는 인용 페이지 본문에 실존하는 비슷한 브랜드명이 13건 잡혀 판정에서 뺐습니다. 판정: gemini-3.8-flash 로 4분류했습니다. deny: 확인할 수 없다고 하고 구체 사실을 만들지 않음 fabricate: 주소·시간·가격·후기를 사실처럼 제시 substitute: 다른 실존 업체·기관을 안내 mixed: 확인 불가라 하면서 구체 사실을 일부 제시 정규식 부인 표현과 교차했습니다(107/162 일치). 한계 판정기 편향 가능성: 판정을 LLM 하나(Gemini 계열)가 했고, 측정 대상에도 Gemini 가 있습니다. 경계 사례가 있습니다. 사람 검수 결과는 이 묶음에 없습니다. 반복 3회·1회 수집이고, 부산 지역·한국어·업체 9곳입니다. Perplexity 는 인용을 주지 않아, \"검색된 후기\"라는 서술의 출처를 확인할 수 없었습니다. 이름이 존재하지 않는다는 판단은 검색 결과 0건과 인용 페이지 본문 대조에 기댑니다. 대체 답변의 업체: 답변 본문에 실존 업체 이름이 나옵니다. AI 가 생성한 문장이며, 그 업체에 대한 사실 확인이나 평가가 아닙니다. 이용 CC BY 4.0. 수치를 인용하실 때 모델·시점(2026-09-14)·표본(가상 업체 9곳, 162답변)을 함께 적어 주십시오. 모델이 바뀌면 결과도 바뀝니다. Abstract (English) How do AI search assistants answer questions about businesses that do not exist? 162 answers on nine fictional Korean businesses across three models (2026-09-14). We invented ten local business names in Busan, Korea (clinics, a law firm, a rental service, an agency, a dentist, a Korean-medicine clinic, a tax office, an academy and a cosmetics brand). Each name had no web search results. We asked three search-enabled models about each one, with a reputation question and a details question (location, prices, hours): 180 calls, no failures. One canary was excluded because cited pages contained a similar real brand. On the remaining 162 answers, GPT mostly denied knowing the business (74%). Gemini mostly recommended other, real businesses instead (80%, and 93% for detail questions). Perplexity denied in 56% of answers but presented fabricated facts such as addresses, opening hours and \"verified reviews\" in 15% (fabricate 9%, mixed 6%), with no citations attached. GPT and Gemini fabricated nothing. Labels come from a single LLM judge (Gemini) cross-checked with regular expressions. Raw answers, labels and the judging prompt are included.",
+      "levels": [
+        "Query",
+        "Citation"
+      ],
+      "domains": [
+        "Health & Medicine",
+        "Finance & Economics",
+        "Commerce & Consumer",
+        "Law & Public Policy"
+      ],
+      "topics": [
+        "Citation & Provenance"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-11-07"
+    },
+    {
+      "id": "doi-10.5281/zenodo.23970962",
+      "title": "What AI answer engines cite when Malaysian SMEs ask for marketing help",
+      "authors": [
+        "Yik Jinn Ooi"
+      ],
+      "date": "2026-11-05",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Report",
+      "doi": "10.5281/zenodo.23970962",
+      "record": "https://doi.org/10.5281/zenodo.23970962",
+      "pdf": "",
+      "abstract": "When Malaysian SMEs ask an AI assistant for marketing help, who publishes the pages its answer cites? This observational audit examines source ownership in answers to 42 English-language questions across seven marketing-service categories, covering provider selection, how a service works and cost. Each question was asked of Gemini and ChatGPT through their developer APIs three times in each of two collection windows: 26–27 September and 4 October 2026. The main panel comprises 504 answers and 2,445 coded citations. Provider-owned pages accounted for 87.4% of Gemini's citations and 59.9% of ChatGPT's. For provider-selection questions, the corresponding shares were 86.1% and 84.8%, an exploratory split. A separate exploratory Bahasa Malaysia arm comprises 72 trials and 401 citations; the combined API dataset covers 576 trials and 2,846 citations. A small Google AI-answer browser sub-panel is reported separately in the paper and supporting tables. The package includes the report, protocol and deviation log, frozen prompt panel, codebook, generated tables, anonymised trial-level dataset, literature-search record and README. The public CSV supports recomputing shares by source type, publisher country and page type. Agency identities and most URL paths are withheld, so agency-level overlap and concentration cannot be independently recomputed from that CSV alone. The results describe a designed question panel and fixed API configurations on the collection dates. They do not establish causation, source quality, consumer-app performance or business outcomes. The study was produced by ALIQ Studio, which sells marketing and AI-visibility services, and received internal rather than independent peer review. Author: Yik Jinn, Head of SEO and AI Search at ALIQ Studio. Version 1.1 was released on 5 November 2026; the report was first published on 6 October 2026. The original publication and public supporting materials are available at https://studio.aliqgroup.com/en/research/ai-answer-citations-malaysia-2026/. Version note: Version 1.1 updates the discussion of Cloudflare's crawler policy to reflect the documentation re-read on 5 November 2026 and its difference from the July announcement described in v1.0. No study figure or finding changed. Version 1.0 remains available on the original website as a superseded edition.",
+      "levels": [
+        "Query",
+        "Citation",
+        "Presentation"
+      ],
+      "domains": [
+        "Finance & Economics",
+        "Politics, Government & News",
+        "Commerce & Consumer"
+      ],
+      "topics": [
+        "SEO & Publishers",
+        "Citation & Provenance"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-11-07"
+    },
     {
       "id": "doi-10.5281/zenodo.23960476",
       "title": "AI Overview CTR loss finder for Search Console data (Excel, v1)",
@@ -28,7 +115,7 @@
         "User Behavior"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-06"
+      "first_detected": "2026-11-07"
     },
     {
       "id": "doi-10.5281/zenodo.23938245",
@@ -121,7 +208,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-06"
+      "first_detected": "2026-11-07"
     },
     {
       "id": "doi-10.5281/zenodo.23931636",
@@ -150,7 +237,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-06"
+      "first_detected": "2026-11-07"
     },
     {
       "id": "doi-10.5281/zenodo.23927753",
@@ -177,7 +264,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-06"
+      "first_detected": "2026-11-07"
     },
     {
       "id": "doi-10.5281/zenodo.23892557",
@@ -229,7 +316,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-06"
+      "first_detected": "2026-11-07"
     },
     {
       "id": "doi-10.5281/zenodo.23594679",
@@ -288,6 +375,38 @@
       "first_detected": "2026-11-06"
     },
     {
+      "id": "doi-10.5281/zenodo.23862449",
+      "title": "How Google AI Overviews Select & Cite Sources: Query Fan-Out, Conversational Prompts & Passage Extraction (400-Query Commercial SERP Dataset & Industry Synthesis)",
+      "authors": [
+        "Mizanur Rahman",
+        "Invrse Marketing Research Team"
+      ],
+      "date": "2026-11-01",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Dataset",
+      "doi": "10.5281/zenodo.23862449",
+      "record": "https://doi.org/10.5281/zenodo.23862449",
+      "pdf": "",
+      "abstract": "Summary Open dataset on Google AI Overviews and AI Mode: of 1,116 top-three organic results across 372 US searches, 80.5% were not among the first three AI citations. The audit covered 400 US searches in four commercial sectors, and 372 of them showed an AI answer. In 200 of those 372 (53.8%), none of the top three organic pages was cited. The deposit includes a 12-slide research briefing (PDF) and the two CSV files behind it. The full web study, a 15-slide practitioner checkmap, and a short video walkthrough are linked at the end. How Google’s AI answers find their sources People now type longer, more specific questions and can ask follow-ups inside Google’s AI answers. Google Search Central’s documentation on AI features says AI Overviews and AI Mode can use a technique called query fan-out, which runs several related searches at once and draws supporting pages from across them. In practice, a page can rank first for a short keyword and still be passed over when someone asks about a price, a symptom, or a standard that the page does not state clearly. Our working model This is a simplified model we used to organize the audit. It is not Google’s official pipeline. The searcher’s question is split into sub-questions: definition, price, specifications, symptoms, standards, comparisons. Related searches run for each sub-question. Passages that answer a sub-question cleanly, such as a short answer, a table, or a numbered list, are easier to quote than long narrative sections. Off-site signals such as YouTube videos and third-party mentions may help confirm who is behind the content. What other studies report Semrush’s 2026 study of 600,000+ SERPs reports AI Overviews on 88% of commercial evaluation searches, up 71% across commercial queries. Pew Research Center found people clicked a traditional result in 8% of visits when an AI summary appeared, compared with 15% when it did not. Ahrefs found that the average click-through rate of the top-ranking page was 58% lower on keywords with an AI Overview (December 2025 data, 300,000 keywords). This is a correlation, not a controlled test. Seer Interactive reports that brands cited in an AI Overview earned 35% more organic clicks and 91% more paid clicks than uncited brands on the same results. This is an observed difference, not a controlled test. Aggarwal et al. (ACM SIGKDD 2024) found in their generative-engine benchmark that adding statistics, authoritative citations, and quotations improved source visibility, while keyword stuffing did not. They did not test Google AI Overviews directly. Ahrefs’ 75,000-brand study found that YouTube mentions (0.737), digital PR mentions (0.664), and branded anchors (0.527) correlated more strongly with AI visibility than backlink volume did (0.218). These are correlations. What we found in the 400-query audit Scope We ran 400 US queries, 100 each in Local Home Services, E-Commerce and Retail, B2B Commercial and Industrial, and SaaS and Enterprise Software. For each query we recorded the top three organic results and the first three AI citation cards. 372 queries (93.0%) showed an AI answer and 28 (7.0%) did not. Of the 372 answers, 215 were standard AI Overviews and 157 were AI Mode responses. Organic rank versus AI citations Across 1,116 top-three organic slots, 182 (16.3%) were cited with the exact same page, 36 (3.2%) were cited through a companion guide on the same domain, and 898 (80.5%) were not cited among the first three cards. Organic position Exact page cited Companion guide cited Not cited #1 (372 slots) 70 (18.8%) 16 (4.3%) 286 (76.9%) #2 (372 slots) 63 (16.9%) 8 (2.2%) 301 (80.9%) #3 (372 slots) 49 (13.2%) 12 (3.2%) 311 (83.6%) All (1,116 slots) 182 (16.3%) 36 (3.2%) 898 (80.5%) At the query level, 200 queries (53.8%) cited none of the top three organic pages, 129 (34.7%) cited one, 40 (10.8%) cited two, and 3 (0.8%) cited all three. Results by sector Sector Queries with an AI answer Top-3 slots Exact page Companion guide Combined Local Home Services 86 of 100 258 45 6 51 (19.8%) E-Commerce and Retail 99 of 100 297 40 20 60 (20.2%) B2B Commercial and Industrial 87 of 100 261 54 8 62 (23.8%) SaaS and Enterprise Software 100 of 100 300 43 2 45 (15.0%) In e-commerce, 257 of 297 category or product slots (86.5%) were not cited directly, and another 20 slots were cited through a companion buying guide on the same site. B2B had the highest combined rate and SaaS the lowest. Examples from the files: for “net revenue retention formula”, Stripe was cited while the first organic result, Klipfolio, was not. For “mattress firmness guide”, NapLab was cited while Mattress Mill ranked first. For “what is ltl freight”, Old Dominion Freight Line was cited while GoComet ranked first. For “why is my ac blowing warm”, Airflow Designs was cited while Valiant Energy ranked first. Who got cited The first three AI cards produced 1,100 citation URLs across 850 unique domains, about 1.29 citations per domain. Sixteen citation slots had no URL because some answers showed fewer than three cards. YouTube accounted for 82 of the citations. We labeled the main structure of each of the 1,100 cited pages by hand, one primary label per page: Primary format of the cited page Citations Share Direct short answer under a question heading (about 40 to 60 words) 353 32.1% HTML pricing or specification table 299 27.2% Ordered symptom-to-action checklist 185 16.8% Timestamped video (including 82 YouTube citations) 132 12.0% Named official standards or benchmarks 131 11.9% These labels are our own classification. They are not a column in the CSV files. How we read these patterns Cited pages tended to state a number, a rule, or a step plainly in one self-contained block. We treat that as a practical guide for writing pages, not as proof that any one format causes a citation. The full playbook is in the web study linked below. Putting these patterns into practice usually means working on three layers together: page structure, entity and trust signals, and off-site mentions. Our overview of that work is on the AI search optimization page. Scope and limitations This is an observational snapshot of US English searches from one collection period. AI answers change often. We recorded only the first three citation cards. Some AI answers show more sources. The audit describes what cited pages looked like. It does not test whether adding those formats to a page causes a citation. The “Why Ranked” and “Why Cited” columns in the CSV files are analyst notes and are best read as hypotheses. Dataset guide File 1: SERP Analysis 2026 - SERP.csv 1,200 rows and 10 columns: the top three organic results (Pos #1 to #3) for each of the 400 queries. Target Keyword, Industry, and AI Overview Triggered? appear on the first row of each three-row block. Column I, Cited in AI Overview?, uses three kinds of values: YES (Citation #1, #2, or #3) for the exact page (182 slots), YES (Citation #1, #2, or #3 — Domain Cluster) for a companion page on the same domain (36 slots), and NO (Organic Only) (898 slots). The 28 queries without an AI answer account for the remaining 84 rows. File 2: SERP Analysis 2026 - Google AI Overview.csv 1,200 rows and 10 columns: Citation #1, #2, and #3 for each query, with the AI answer text (column D), cited brand (F), cited URL (G), in-text anchor (H), page structure (I), and analyst rationale (J). It holds 1,100 cited URLs across 850 unique domains. Sixteen slots in answers with fewer than three cards, and the 84 slots for queries without an AI answer, have no URL. How to reproduce the counts The counts of citations, skipped slots, sectors, and domains can be reproduced by filtering these two files. The format shares in the table above come from hand labeling. Cite this dataset Rahman, M. M., & Invrse Marketing Research Team. (2026). How Google AI Overviews Select & Cite Sources: Query Fan-Out, Conversational Prompts & Passage Extraction (400-Query Commercial SERP Dataset & Industry Synthesis) [Data set]. Zenodo. Companion materials Strategy to Get Cited in Google AI Overview (2026), the full web study AI Overview Citation Checkmap, 15-slide PDF How to Get Cited in Google AI Overviews, video walkthrough (5:13) Invrse Marketing LLC AI search optimization at Invrse Marketing",
+      "levels": [
+        "Query",
+        "Citation",
+        "Presentation"
+      ],
+      "domains": [
+        "Finance & Economics",
+        "Commerce & Consumer",
+        "Science & Technology"
+      ],
+      "topics": [
+        "User Behavior",
+        "Citation & Provenance",
+        "Technical Evaluation"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-11-07"
+    },
+    {
       "id": "doi-10.5281/zenodo.23733822",
       "title": "What AI tells the world about Türkiye's brands (Release 1): answers, claims and verdicts from six AI engines",
       "authors": [
@@ -340,7 +459,7 @@
         "User Behavior"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-06"
+      "first_detected": "2026-11-07"
     },
     {
       "id": "doi-10.5281/zenodo.23785175",
@@ -399,7 +518,7 @@
         "Safety & Risk"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-06"
+      "first_detected": "2026-11-07"
     },
     {
       "id": "doi-10.48550/arxiv.2610.40164",
@@ -431,7 +550,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-06"
+      "first_detected": "2026-11-07"
     },
     {
       "id": "doi-10.5281/zenodo.23740428",
@@ -1786,7 +1905,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-06"
+      "first_detected": "2026-11-07"
     },
     {
       "id": "doi-10.5281/zenodo.23028277",
@@ -2002,7 +2121,7 @@
         "General AIO"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-06"
+      "first_detected": "2026-11-07"
     },
     {
       "id": "doi-10.5281/zenodo.22959764",
@@ -2186,7 +2305,7 @@
         "Platform & Interface"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-06"
+      "first_detected": "2026-11-07"
     },
     {
       "id": "doi-10.5281/zenodo.22856034",
@@ -2309,7 +2428,7 @@
         "Platform & Interface"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-06"
+      "first_detected": "2026-11-07"
     },
     {
       "id": "doi-10.5281/zenodo.22707850",
@@ -2396,7 +2515,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-06"
+      "first_detected": "2026-11-07"
     },
     {
       "id": "doi-10.65150/ep-jsshrs/v2e9/2026-04",
@@ -2475,7 +2594,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-06"
+      "first_detected": "2026-11-07"
     },
     {
       "id": "arxiv-2608.29063v1",
@@ -2507,7 +2626,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-06"
+      "first_detected": "2026-11-07"
     },
     {
       "id": "arxiv-2608.18352v1",
@@ -2538,7 +2657,7 @@
         "User Behavior"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-06"
+      "first_detected": "2026-11-07"
     },
     {
       "id": "arxiv-2609.05463v1",
@@ -2566,7 +2685,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-06"
+      "first_detected": "2026-11-07"
     },
     {
       "id": "arxiv-2608.04831v1",
@@ -2597,7 +2716,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-06"
+      "first_detected": "2026-11-07"
     },
     {
       "id": "arxiv-2607.04282v3",
@@ -2625,7 +2744,7 @@
         "User Behavior"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-06"
+      "first_detected": "2026-11-07"
     },
     {
       "id": "arxiv-2607.03421v1",
@@ -2662,7 +2781,7 @@
         "Platform & Interface"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-06"
+      "first_detected": "2026-11-07"
     },
     {
       "id": "arxiv-2606.11337v1",
@@ -2696,7 +2815,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-06"
+      "first_detected": "2026-11-07"
     },
     {
       "id": "pmlr-kakimov26a",
@@ -2756,7 +2875,7 @@
         "Platform & Interface"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-06"
+      "first_detected": "2026-11-07"
     },
     {
       "id": "arxiv-2605.14021v2",
@@ -2786,7 +2905,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-06",
+      "first_detected": "2026-11-07",
       "domains": [
         "Politics, Government & News",
         "Commerce & Consumer"
@@ -2846,7 +2965,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-06"
+      "first_detected": "2026-11-07"
     },
     {
       "id": "arxiv-2604.27790v1",
@@ -2880,7 +2999,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-06"
+      "first_detected": "2026-11-07"
     },
     {
       "id": "arxiv-2604.25707v2",
@@ -2908,7 +3027,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-06"
+      "first_detected": "2026-11-07"
     },
     {
       "id": "arxiv-2603.29071v1",
@@ -2937,7 +3056,7 @@
         "SEO & Publishers"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-06"
+      "first_detected": "2026-11-07"
     },
     {
       "id": "arxiv-2603.16138v2",
@@ -2967,7 +3086,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-06",
+      "first_detected": "2026-11-07",
       "domains": [
         "Politics, Government & News"
       ]
@@ -3001,7 +3120,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-06"
+      "first_detected": "2026-11-07"
     },
     {
       "id": "arxiv-2602.18455v7",
@@ -3028,7 +3147,7 @@
         "SEO & Publishers"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-06"
+      "first_detected": "2026-11-07"
     },
     {
       "id": "arxiv-2601.22493v2",
@@ -3062,7 +3181,7 @@
         "Safety & Risk"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-06"
+      "first_detected": "2026-11-07"
     },
     {
       "id": "arxiv-2602.22221v2",
@@ -3094,7 +3213,7 @@
         "Safety & Risk"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-06"
+      "first_detected": "2026-11-07"
     },
     {
       "id": "arxiv-2512.02665v1",
@@ -3123,7 +3242,7 @@
         "Safety & Risk"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-06"
+      "first_detected": "2026-11-07"
     },
     {
       "id": "arxiv-2511.12920v4",
@@ -3157,7 +3276,7 @@
         "Platform & Interface"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-06",
+      "first_detected": "2026-11-07",
       "domains": [
         "Health & Medicine",
         "Science & Technology"
@@ -3190,7 +3309,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-06"
+      "first_detected": "2026-11-07"
     },
     {
       "id": "doi-10.2196-79961",
@@ -3251,7 +3370,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-06"
+      "first_detected": "2026-11-07"
     },
     {
       "id": "doi-10.3145-thinkepi.2025.e19a08",
