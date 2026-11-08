@@ -1,8 +1,120 @@
 {
-  "last_updated": "2026-11-07T11:53:37+08:00",
-  "new_in_latest_scan": 4,
+  "last_updated": "2026-11-08T11:37:42+08:00",
+  "new_in_latest_scan": 2,
   "scope": "All-domain Google AI Overviews / SGE research with multi-label application-domain classification.",
   "papers": [
+    {
+      "id": "doi-10.5281/zenodo.24004640",
+      "title": "Google's Generative AI Search Revolution: What Enterprise Software Companies Must Do Now",
+      "authors": [
+        "David Ohnstad"
+      ],
+      "date": "2026-11-06",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Article",
+      "doi": "10.5281/zenodo.24004640",
+      "record": "https://doi.org/10.5281/zenodo.24004640",
+      "pdf": "",
+      "abstract": "Artificial Intelligence has certainly gained attention in recent years and shows no sign of attracting any less as multiple applications and uses for the digital marvel increase! The question is, how well does AI do in information retrieval? According to Full article: https://davidohnstad.net/googles-new-generative-ai-search/",
+      "levels": [
+        "Content"
+      ],
+      "domains": [
+        "Science & Technology"
+      ],
+      "topics": [
+        "Technical Evaluation"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-11-08"
+    },
+    {
+      "id": "doi-10.5281/zenodo.24004244",
+      "title": "Google's AI Search Revolution: What Minnesota Businesses and Outdoor Brands Need to Know",
+      "authors": [
+        "David Ohnstad"
+      ],
+      "date": "2026-11-06",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Article",
+      "doi": "10.5281/zenodo.24004244",
+      "record": "https://doi.org/10.5281/zenodo.24004244",
+      "pdf": "",
+      "abstract": "Google's AI Search Revolution: What Minnesota Businesses and Outdoor Brands Need to Know If you run a Minnesota business—especially in outdoor recreation, tourism, or local services—you've probably noticed something shift in how Google Search works over the past year. Google's new generative AI search features, particularly AI Overviews (formerly called SGE, or Search Generative Experience),… Continue reading Google's AI Search Revolution: What Minnesota Businesses and Outdoor Brands Need to Know Full article: https://davidohnstadminnesota.com/googles-new-generative-ai-search/",
+      "levels": [
+        "Content"
+      ],
+      "domains": [
+        "Commerce & Consumer",
+        "Travel, Local & Lifestyle"
+      ],
+      "topics": [
+        "General AIO"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-11-08"
+    },
+    {
+      "id": "doi-10.5281/zenodo.23996780",
+      "title": "Generative Engine Optimization (GEO) & Technical SEO Infrastructure Benchmark for Global B2B SaaS (2026)",
+      "authors": [
+        "Will Sun"
+      ],
+      "date": "2026-11-06",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Report",
+      "doi": "10.5281/zenodo.23996780",
+      "record": "https://doi.org/10.5281/zenodo.23996780",
+      "pdf": "",
+      "abstract": "This technical report and benchmark dataset documents production engineering standards for Generative Engine Optimization (GEO), machine-readable /llms.txt context indexing, multi-entity Schema.org JSON-LD graphs, and Google Search Console indexation recovery for cross-border B2B SaaS and web utility platforms. Key Technical Benchmarks Covered Machine-Readable AI Context Protocols: Structuring root /llms.txt and /llms-full.txt manifests to improve entity citation accuracy in Perplexity, ChatGPT Search, Claude, and Google AI Overviews. Deep-Link Authority Distribution: Resolving the Google Search Console Crawled - currently not indexed and Target pages = 1 bottlenecks through functional sub-route deep linking and SSR semantic hydration. Core Web Vitals & Accessibility Compliance: Engineering sub-1.2s Largest Contentful Paint (LCP), zero Cumulative Layout Shift (CLS), and automated WCAG 2.2 AA compliance. Authoritative Production References & Live Implementations Technical SEO, GEO & Full-Stack Growth Engineering Services: https://willsun.agency/services Cross-Border B2B & SaaS Growth Case Studies (1.5M+ DAU): https://willsun.agency/cases Open Web Engineering Utility Ecosystem (GeoKit, A11yKit, CADGuide): https://willsun.agency/works Fixed-Scope Technical Audit & Advisory Packages: https://willsun.agency/pricing Will Sun Agency Official Portal: https://willsun.agency/",
+      "levels": [
+        "Content",
+        "Citation",
+        "Presentation"
+      ],
+      "domains": [
+        "Commerce & Consumer",
+        "Science & Technology",
+        "Law & Public Policy"
+      ],
+      "topics": [
+        "SEO & Publishers",
+        "Citation & Provenance",
+        "Technical Evaluation",
+        "Platform & Interface"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-11-08"
+    },
+    {
+      "id": "doi-10.5281/zenodo.23991475",
+      "title": "A Source-Checked Analysis of Google's Gemini Models on Long Context, Grounding, Cost, and Device Fit",
+      "authors": [
+        "Abubakar Abdullahi Janka"
+      ],
+      "date": "2026-11-06",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Article",
+      "doi": "10.5281/zenodo.23991475",
+      "record": "https://doi.org/10.5281/zenodo.23991475",
+      "pdf": "",
+      "abstract": "Google's Gemini model family has grown from multimodal assistants into cloud image and video generators, on-device models and tiered paid plans. This preprint is a source-checked analysis of public claims about these models. It compares vendor specifications with independent evidence in five areas. First, long-context retrieval, where single-needle recall results contrast with lower reported multi-needle scores. Second, search grounding, where studies of Google's AI Overviews find that accurate answers are often not fully supported by their citations; one analysis reports about 91% accuracy but only 39% of overviews both correct and fully supported. Third, cost per task rather than cost per token. Fourth, naming, plan and pricing changes that make it hard to know which model is in use. Fifth, device fit across Gemini Nano, Flash, Pro, Argon and the Nano Banana image models. Primary sources, including Google documentation, technical reports and an original study, are separated from secondary reports, and unverified claims are flagged. The paper ends with a practical model-selection guide and four open questions for developers and Google. It is a non-peer-reviewed analysis of public information as of November 5, 2026, and it reports no new experiments.",
+      "levels": [
+        "Content",
+        "Citation"
+      ],
+      "domains": [
+        "Politics, Government & News",
+        "Commerce & Consumer",
+        "Science & Technology"
+      ],
+      "topics": [
+        "Citation & Provenance",
+        "Technical Evaluation"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-11-08"
+    },
     {
       "id": "doi-10.5281/zenodo.23986141",
       "title": "2026 Credit Union & Fintech AI Search Visibility Study: Measuring Total Brand Omission and Cross-Engine Disagreement Across ChatGPT, Gemini, Perplexity, and Claude",
@@ -29,7 +141,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-07"
+      "first_detected": "2026-11-08"
     },
     {
       "id": "doi-10.5281/zenodo.23966869",
@@ -58,7 +170,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-07"
+      "first_detected": "2026-11-08"
     },
     {
       "id": "doi-10.5281/zenodo.23970962",
@@ -88,7 +200,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-07"
+      "first_detected": "2026-11-08"
     },
     {
       "id": "doi-10.5281/zenodo.23960476",
@@ -115,7 +227,7 @@
         "User Behavior"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-07"
+      "first_detected": "2026-11-08"
     },
     {
       "id": "doi-10.5281/zenodo.23938245",
@@ -208,7 +320,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-07"
+      "first_detected": "2026-11-08"
     },
     {
       "id": "doi-10.5281/zenodo.23931636",
@@ -264,32 +376,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-07"
-    },
-    {
-      "id": "doi-10.5281/zenodo.23892557",
-      "title": "Google's Generative AI Search Revolution: What Enterprise Software Companies Must Do Now",
-      "authors": [
-        "David Ohnstad"
-      ],
-      "date": "2026-11-02",
-      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
-      "type": "Article",
-      "doi": "10.5281/zenodo.23892557",
-      "record": "https://doi.org/10.5281/zenodo.23892557",
-      "pdf": "",
-      "abstract": "Artificial Intelligence has certainly gained attention in recent years and shows no sign of attracting any less as multiple applications and uses for the digital marvel increase! The question is, how well does AI do in information retrieval? According to Full article: https://davidohnstad.net/googles-new-generative-ai-search/",
-      "levels": [
-        "Content"
-      ],
-      "domains": [
-        "Science & Technology"
-      ],
-      "topics": [
-        "Technical Evaluation"
-      ],
-      "source": "OpenAlex",
-      "first_detected": "2026-11-04"
+      "first_detected": "2026-11-08"
     },
     {
       "id": "doi-10.5281/zenodo.23897232",
@@ -316,7 +403,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-07"
+      "first_detected": "2026-11-08"
     },
     {
       "id": "doi-10.5281/zenodo.23594679",
@@ -404,7 +491,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-07"
+      "first_detected": "2026-11-08"
     },
     {
       "id": "doi-10.5281/zenodo.23733822",
@@ -459,7 +546,7 @@
         "User Behavior"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-07"
+      "first_detected": "2026-11-08"
     },
     {
       "id": "doi-10.5281/zenodo.23785175",
@@ -518,7 +605,7 @@
         "Safety & Risk"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-07"
+      "first_detected": "2026-11-08"
     },
     {
       "id": "doi-10.48550/arxiv.2610.40164",
@@ -550,7 +637,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-07"
+      "first_detected": "2026-11-08"
     },
     {
       "id": "doi-10.5281/zenodo.23740428",
@@ -1905,7 +1992,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-07"
+      "first_detected": "2026-11-08"
     },
     {
       "id": "doi-10.5281/zenodo.23028277",
@@ -2098,32 +2185,6 @@
       "first_detected": "2026-10-01"
     },
     {
-      "id": "doi-10.5281/zenodo.22953745",
-      "title": "Google's AI Search Revolution: What Minnesota Businesses and Outdoor Brands Need to Know",
-      "authors": [
-        "David Ohnstad"
-      ],
-      "date": "2026-09-25",
-      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
-      "type": "Article",
-      "doi": "10.5281/zenodo.22953745",
-      "record": "https://doi.org/10.5281/zenodo.22953745",
-      "pdf": "",
-      "abstract": "Google's AI Search Revolution: What Minnesota Businesses and Outdoor Brands Need to Know If you run a Minnesota business—especially in outdoor recreation, tourism, or local services—you've probably noticed something shift in how Google Search works over the past year. Google's new generative AI search features, particularly AI Overviews (formerly called SGE, or Search Generative Experience),… Continue reading Google's AI Search Revolution: What Minnesota Businesses and Outdoor Brands Need to Know Full article: https://davidohnstadminnesota.com/googles-new-generative-ai-search/",
-      "levels": [
-        "Content"
-      ],
-      "domains": [
-        "Commerce & Consumer",
-        "Travel, Local & Lifestyle"
-      ],
-      "topics": [
-        "General AIO"
-      ],
-      "source": "OpenAlex",
-      "first_detected": "2026-11-07"
-    },
-    {
       "id": "doi-10.5281/zenodo.22959764",
       "title": "Visibility of Ukrainian brands in generative AI answers: audit data and code (Видимість українських брендів у відповідях генеративних систем: дані й код аудиту)",
       "authors": [
@@ -2305,7 +2366,7 @@
         "Platform & Interface"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-07"
+      "first_detected": "2026-11-08"
     },
     {
       "id": "doi-10.5281/zenodo.22856034",
@@ -2428,7 +2489,7 @@
         "Platform & Interface"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-07"
+      "first_detected": "2026-11-08"
     },
     {
       "id": "doi-10.5281/zenodo.22707850",
@@ -2515,7 +2576,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-07"
+      "first_detected": "2026-11-08"
     },
     {
       "id": "doi-10.65150/ep-jsshrs/v2e9/2026-04",
@@ -2594,7 +2655,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-07"
+      "first_detected": "2026-11-08"
     },
     {
       "id": "arxiv-2608.29063v1",
@@ -2626,7 +2687,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-07"
+      "first_detected": "2026-11-08"
     },
     {
       "id": "arxiv-2608.18352v1",
@@ -2657,7 +2718,7 @@
         "User Behavior"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-07"
+      "first_detected": "2026-11-08"
     },
     {
       "id": "arxiv-2609.05463v1",
@@ -2685,7 +2746,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-07"
+      "first_detected": "2026-11-08"
     },
     {
       "id": "arxiv-2608.04831v1",
@@ -2716,7 +2777,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-07"
+      "first_detected": "2026-11-08"
     },
     {
       "id": "arxiv-2607.04282v3",
@@ -2744,7 +2805,7 @@
         "User Behavior"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-07"
+      "first_detected": "2026-11-08"
     },
     {
       "id": "arxiv-2607.03421v1",
@@ -2781,7 +2842,7 @@
         "Platform & Interface"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-07"
+      "first_detected": "2026-11-08"
     },
     {
       "id": "arxiv-2606.11337v1",
@@ -2815,7 +2876,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-07"
+      "first_detected": "2026-11-08"
     },
     {
       "id": "pmlr-kakimov26a",
@@ -2875,7 +2936,7 @@
         "Platform & Interface"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-07"
+      "first_detected": "2026-11-08"
     },
     {
       "id": "arxiv-2605.14021v2",
@@ -2905,7 +2966,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-07",
+      "first_detected": "2026-11-08",
       "domains": [
         "Politics, Government & News",
         "Commerce & Consumer"
@@ -2965,7 +3026,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-07"
+      "first_detected": "2026-11-08"
     },
     {
       "id": "arxiv-2604.27790v1",
@@ -2999,7 +3060,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-07"
+      "first_detected": "2026-11-08"
     },
     {
       "id": "arxiv-2604.25707v2",
@@ -3027,7 +3088,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-07"
+      "first_detected": "2026-11-08"
     },
     {
       "id": "arxiv-2603.29071v1",
@@ -3056,7 +3117,7 @@
         "SEO & Publishers"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-07"
+      "first_detected": "2026-11-08"
     },
     {
       "id": "arxiv-2603.16138v2",
@@ -3086,7 +3147,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-07",
+      "first_detected": "2026-11-08",
       "domains": [
         "Politics, Government & News"
       ]
@@ -3120,7 +3181,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-07"
+      "first_detected": "2026-11-08"
     },
     {
       "id": "arxiv-2602.18455v7",
@@ -3147,7 +3208,7 @@
         "SEO & Publishers"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-07"
+      "first_detected": "2026-11-08"
     },
     {
       "id": "arxiv-2601.22493v2",
@@ -3181,7 +3242,7 @@
         "Safety & Risk"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-07"
+      "first_detected": "2026-11-08"
     },
     {
       "id": "arxiv-2602.22221v2",
@@ -3213,7 +3274,7 @@
         "Safety & Risk"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-07"
+      "first_detected": "2026-11-08"
     },
     {
       "id": "arxiv-2512.02665v1",
@@ -3242,7 +3303,7 @@
         "Safety & Risk"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-07"
+      "first_detected": "2026-11-08"
     },
     {
       "id": "arxiv-2511.12920v4",
@@ -3276,7 +3337,7 @@
         "Platform & Interface"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-07",
+      "first_detected": "2026-11-08",
       "domains": [
         "Health & Medicine",
         "Science & Technology"
@@ -3309,7 +3370,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-07"
+      "first_detected": "2026-11-08"
     },
     {
       "id": "doi-10.2196-79961",
@@ -3370,7 +3431,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-07"
+      "first_detected": "2026-11-08"
     },
     {
       "id": "doi-10.3145-thinkepi.2025.e19a08",
