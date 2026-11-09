@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-08T11:37:42+08:00",
-  "new_in_latest_scan": 2,
+  "last_updated": "2026-11-09T11:50:55+08:00",
+  "new_in_latest_scan": 1,
   "scope": "All-domain Google AI Overviews / SGE research with multi-label application-domain classification.",
   "papers": [
     {
@@ -26,7 +26,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-08"
+      "first_detected": "2026-11-09"
     },
     {
       "id": "doi-10.5281/zenodo.24004244",
@@ -52,7 +52,7 @@
         "General AIO"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-08"
+      "first_detected": "2026-11-09"
     },
     {
       "id": "doi-10.5281/zenodo.23996780",
@@ -84,7 +84,7 @@
         "Platform & Interface"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-08"
+      "first_detected": "2026-11-09"
     },
     {
       "id": "doi-10.5281/zenodo.23991475",
@@ -113,7 +113,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-08"
+      "first_detected": "2026-11-09"
     },
     {
       "id": "doi-10.5281/zenodo.23986141",
@@ -141,7 +141,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-08"
+      "first_detected": "2026-11-09"
     },
     {
       "id": "doi-10.5281/zenodo.23966869",
@@ -170,7 +170,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-08"
+      "first_detected": "2026-11-09"
     },
     {
       "id": "doi-10.5281/zenodo.23970962",
@@ -200,7 +200,33 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-08"
+      "first_detected": "2026-11-09"
+    },
+    {
+      "id": "doi-10.5281/zenodo.23996526",
+      "title": "026 U.S. Commercial Banking AI Search Visibility Study: Measuring Total Brand Omission Across Megabanks and Super-Regional Banks on ChatGPT, Gemini, Perplexity, and Claude",
+      "authors": [
+        "Jones Amy"
+      ],
+      "date": "2026-11-05",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Report",
+      "doi": "10.5281/zenodo.23996526",
+      "record": "https://doi.org/10.5281/zenodo.23996526",
+      "pdf": "",
+      "abstract": "EquiSchema AI LLC conducted a 1,200-evaluation empirical benchmark study across the four leading generative AI search platforms (OpenAI ChatGPT, Google Gemini, Perplexity AI, and Anthropic Claude) to measure how often the 12 largest U.S. commercial banks (6 U.S. Megabanks and 6 U.S. Super-Regional Banks) are recommended when consumers and small business owners ask unbranded, high-intent financial questions. This baseline study introduces and quantifies Total Brand Omission—defined by EquiSchema AI as the complete exclusion of a qualified financial institution from unbranded, bottom-of-funnel borrower and depositor recommendations, leaving the institution with a 0% probability of customer consideration. KEY EMPIRICAL FINDINGS (REPORT NO. 2026-01): 1. 91.4% Aggregate Total Brand Omission (1,200 Evaluations): Across 25 high-intent retail deposit, small business lending, wealth/CD, real estate, and consumer lending queries evaluated across ChatGPT, Gemini, Perplexity, and Claude, the 12 audited commercial banks achieved just 8.6% aggregate visibility (91.4% Total Brand Omission). 2. Megabanks (11.3% Visibility) vs. Super-Regional Banks (5.8% Visibility): The 6 U.S. Megabanks suffered an 88.7% Total Brand Omission rate, while the 6 U.S. Super-Regional Banks suffered a 94.2% Total Brand Omission rate (and a 97.4% omission rate when excluding a single outlier, Super-Regional 3, which achieved 22.0% visibility via specialized SBA and physician mortgage pages). 3. 0.0% Deposit & CD Blackout: Across all 6 Super-Regional Banks, visibility on rate-driven savings, money market, and CD queries was 0.0% (100% Total Brand Omission). On $25,000 savings (Q02), $40,000 money market (Q05), $100,000 18-month CD (Q11), $250,000 IRA rollover (Q13), and $20,000 12-month CD (Q15), all 12 audited Megabanks and Super-Regionals recorded a 0.0% blackout across all four AI models. 4. Specialty Semantic Proof vs. Mainstream Erasure: Super-Regional banks achieved strong visibility on $750,000 zero-down physician mortgages (Q18) where exact dollar caps and borrower personas were explicitly stated in page text, yet suffered 0% lender inclusion on $400,000 first-time homebuyer mortgages (Q20, ceded to Fannie Mae) and $45,000 650-score truck loans (Q21, ceded to Credit Unions). Companion Study (Credit Unions & Fintechs, Report No. 2026-02): https://doi.org/10.5281/zenodo.23986142Research Portal: https://equischema.comAuthor: Amy Jones, Founder & Principal Architect, EquiSchema AI LLC (f/k/a Axiom GEO AI LLC), Indianapolis, Indiana, USA.",
+      "levels": [
+        "Content"
+      ],
+      "domains": [
+        "Finance & Economics",
+        "Commerce & Consumer"
+      ],
+      "topics": [
+        "Technical Evaluation"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-11-09"
     },
     {
       "id": "doi-10.5281/zenodo.23960476",
@@ -227,7 +253,7 @@
         "User Behavior"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-08"
+      "first_detected": "2026-11-09"
     },
     {
       "id": "doi-10.5281/zenodo.23938245",
@@ -320,7 +346,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-08"
+      "first_detected": "2026-11-09"
     },
     {
       "id": "doi-10.5281/zenodo.23931636",
@@ -376,7 +402,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-08"
+      "first_detected": "2026-11-09"
     },
     {
       "id": "doi-10.5281/zenodo.23897232",
@@ -403,7 +429,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-08"
+      "first_detected": "2026-11-09"
     },
     {
       "id": "doi-10.5281/zenodo.23594679",
@@ -491,7 +517,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-08"
+      "first_detected": "2026-11-09"
     },
     {
       "id": "doi-10.5281/zenodo.23733822",
@@ -546,7 +572,7 @@
         "User Behavior"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-08"
+      "first_detected": "2026-11-09"
     },
     {
       "id": "doi-10.5281/zenodo.23785175",
@@ -637,7 +663,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-08"
+      "first_detected": "2026-11-09"
     },
     {
       "id": "doi-10.5281/zenodo.23740428",
