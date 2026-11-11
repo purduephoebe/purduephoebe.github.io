@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-10T13:25:45+08:00",
-  "new_in_latest_scan": 2,
+  "last_updated": "2026-11-11T11:55:27+08:00",
+  "new_in_latest_scan": 3,
   "scope": "All-domain Google AI Overviews / SGE research with multi-label application-domain classification.",
   "papers": [
     {
@@ -28,7 +28,35 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-10"
+      "first_detected": "2026-11-11"
+    },
+    {
+      "id": "doi-10.5281/zenodo.24045810",
+      "title": "The New Frontier of Wine Search Optimization: AI Search Operations at Honig Vineyard & Winery",
+      "authors": [
+        "Jonathan Honig"
+      ],
+      "date": "2026-11-08",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Article",
+      "doi": "10.5281/zenodo.24045810",
+      "record": "https://doi.org/10.5281/zenodo.24045810",
+      "pdf": "",
+      "abstract": "Wine buyers and visitors increasingly get a single synthesized answer from Google AI, ChatGPT, Perplexity or Gemini instead of a page of links. Those answers are assembled from whatever sources the engine can retrieve and trust, and for most wineries that includes directories, tourism boards, reservation platforms and old press that the winery does not control.This paper describes how answer engines build a description of a winery, why conflicting facts across sources weaken that description, and which technical layers a winery can manage to correct it. It argues that search for a winery works best as an ongoing operating system with a fixed schedule and measurements tied to visits and sales. Examples are drawn from fieldwork at Honig Vineyard & Winery, a family-owned winery in Rutherford, Napa Valley, and from wineries reviewed alongside it.",
+      "levels": [
+        "Citation"
+      ],
+      "domains": [
+        "Commerce & Consumer",
+        "Science & Technology",
+        "Travel, Local & Lifestyle"
+      ],
+      "topics": [
+        "User Behavior",
+        "Citation & Provenance"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-11-11"
     },
     {
       "id": "doi-10.17613/epwv9-zkf98",
@@ -55,7 +83,38 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-10"
+      "first_detected": "2026-11-11"
+    },
+    {
+      "id": "arxiv-2611.10715v1",
+      "title": "From User Behaviors to Satisfaction Judgments: Reasoning about User Satisfaction with AI Overviews",
+      "authors": [
+        "Xingzhu Wang",
+        "Yitong Xu",
+        "Yue Li",
+        "Daiting Shi",
+        "Jingzhou He",
+        "Jiaxin Mao"
+      ],
+      "date": "2026-11-07",
+      "venue": "arXiv",
+      "type": "Preprint",
+      "doi": "",
+      "record": "http://arxiv.org/abs/2611.10715v1",
+      "pdf": "https://arxiv.org/pdf/2611.10715v1",
+      "abstract": "The growing presence of AI overviews in everyday search makes their effective evaluation essential. Response quality has been the primary focus of existing evaluation research, with only a small number of studies examining the user perspective. These evaluations rely on queries and response content, leaving the information conveyed by user behavior insufficiently utilized. This work investigates satisfaction prediction for AI overviews from a user-centered perspective and incorporates behavioral signals into the prediction process. Applying existing behavior-based satisfaction prediction methods from traditional information retrieval to this setting, however, presents limitations. We address these limitations with STaRS, an LLM-based approach designed specifically for predicting satisfaction with AI overviews. At its core is a structured reasoning procedure: individual behavioral signals are interpreted first, and their implications then inform the prediction of user satisfaction. Reinforcement learning further optimizes this procedure, while a reward shaping mechanism alleviates reward sparsity during training. Evaluation on two real-world datasets demonstrates that STaRS outperforms the comparison methods in satisfaction prediction, providing search providers with a practical means of accurately estimating users' satisfaction with AI overviews.",
+      "levels": [
+        "Presentation"
+      ],
+      "domains": [
+        "Education & Academia"
+      ],
+      "topics": [
+        "User Behavior",
+        "Technical Evaluation"
+      ],
+      "source": "arXiv",
+      "first_detected": "2026-11-11"
     },
     {
       "id": "doi-10.5281/zenodo.24004640",
@@ -112,7 +171,7 @@
         "Platform & Interface"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-10"
+      "first_detected": "2026-11-11"
     },
     {
       "id": "doi-10.5281/zenodo.23991475",
@@ -141,7 +200,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-10"
+      "first_detected": "2026-11-11"
     },
     {
       "id": "doi-10.5281/zenodo.23986141",
@@ -169,7 +228,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-10"
+      "first_detected": "2026-11-11"
     },
     {
       "id": "doi-10.5281/zenodo.23966869",
@@ -228,7 +287,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-10"
+      "first_detected": "2026-11-11"
     },
     {
       "id": "doi-10.5281/zenodo.23996526",
@@ -254,7 +313,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-10"
+      "first_detected": "2026-11-11"
     },
     {
       "id": "doi-10.5281/zenodo.23960476",
@@ -281,7 +340,7 @@
         "User Behavior"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-10"
+      "first_detected": "2026-11-11"
     },
     {
       "id": "doi-10.5281/zenodo.23938245",
@@ -374,7 +433,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-10"
+      "first_detected": "2026-11-11"
     },
     {
       "id": "doi-10.5281/zenodo.23931636",
@@ -430,7 +489,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-10"
+      "first_detected": "2026-11-11"
     },
     {
       "id": "doi-10.5281/zenodo.23897232",
@@ -457,7 +516,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-10"
+      "first_detected": "2026-11-11"
     },
     {
       "id": "doi-10.5281/zenodo.23594679",
@@ -545,7 +604,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-10"
+      "first_detected": "2026-11-11"
     },
     {
       "id": "doi-10.5281/zenodo.23733822",
@@ -659,7 +718,7 @@
         "Safety & Risk"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-08"
+      "first_detected": "2026-11-11"
     },
     {
       "id": "doi-10.48550/arxiv.2610.40164",
@@ -691,7 +750,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-10"
+      "first_detected": "2026-11-11"
     },
     {
       "id": "doi-10.5281/zenodo.23740428",
@@ -1949,7 +2008,7 @@
         "General AIO"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-10"
+      "first_detected": "2026-11-11"
     },
     {
       "id": "doi-10.26118/2782-4586-2026-588-593",
@@ -2072,7 +2131,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-08"
+      "first_detected": "2026-11-11"
     },
     {
       "id": "doi-10.5281/zenodo.23028277",
@@ -2446,7 +2505,7 @@
         "Platform & Interface"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-08"
+      "first_detected": "2026-11-11"
     },
     {
       "id": "doi-10.5281/zenodo.22856034",
@@ -2569,7 +2628,7 @@
         "Platform & Interface"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-08"
+      "first_detected": "2026-11-11"
     },
     {
       "id": "doi-10.5281/zenodo.22707850",
@@ -2656,7 +2715,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-08"
+      "first_detected": "2026-11-11"
     },
     {
       "id": "doi-10.65150/ep-jsshrs/v2e9/2026-04",
@@ -2735,7 +2794,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-08"
+      "first_detected": "2026-11-11"
     },
     {
       "id": "arxiv-2608.29063v1",
@@ -2767,7 +2826,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-08"
+      "first_detected": "2026-11-11"
     },
     {
       "id": "arxiv-2608.18352v1",
@@ -2798,7 +2857,7 @@
         "User Behavior"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-08"
+      "first_detected": "2026-11-11"
     },
     {
       "id": "arxiv-2609.05463v1",
@@ -2826,7 +2885,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-08"
+      "first_detected": "2026-11-11"
     },
     {
       "id": "arxiv-2608.04831v1",
@@ -2857,7 +2916,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-08"
+      "first_detected": "2026-11-11"
     },
     {
       "id": "arxiv-2607.04282v3",
@@ -2885,7 +2944,7 @@
         "User Behavior"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-08"
+      "first_detected": "2026-11-11"
     },
     {
       "id": "arxiv-2607.03421v1",
@@ -2922,7 +2981,7 @@
         "Platform & Interface"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-08"
+      "first_detected": "2026-11-11"
     },
     {
       "id": "arxiv-2606.11337v1",
@@ -2957,6 +3016,40 @@
       ],
       "source": "arXiv",
       "first_detected": "2026-11-08"
+    },
+    {
+      "id": "arxiv-2606.11337v2",
+      "title": "Can AI Agents Synthesize Scientific Conclusions in Health?",
+      "authors": [
+        "Hayoung Jung",
+        "Pedro Viana Diniz",
+        "José Reinaldo Corrêa Roveda",
+        "Abner Fernandes da Silva",
+        "Haeun Jung",
+        "Enoch Tsai",
+        "Aleksandra Korolova",
+        "Manoel Horta Ribeiro"
+      ],
+      "date": "2026-06-09",
+      "venue": "arXiv",
+      "type": "Preprint",
+      "doi": "",
+      "record": "http://arxiv.org/abs/2606.11337v2",
+      "pdf": "https://arxiv.org/pdf/2606.11337v2",
+      "abstract": "Scientific AI agents increasingly retrieve evidence, reason across sources, and synthesize conclusions used in consequential decisions. Yet, their ability to do so in high-stakes domains such as health remains unclear. We introduce SciConBench, a large-scale live benchmark of 9.21K questions and expert-written conclusions from systematic reviews to evaluate open-domain scientific conclusion synthesis in health and medical domains. The benchmark draws on an expert-validated automated evaluation pipeline that decomposes conclusions into atomic facts and measures correctness and comprehensiveness via factual precision and recall. To mitigate data leakage, we further introduce SciConHarness, a clean-room evaluation harness that equips agents with controlled web interaction to ensure valid measurement. Evaluating 8 frontier models and deep research agents, we find that factual quality remains low: under clean-room settings, the best agent achieves only a factual F1 of 0.337. Our clean-room setting consistently reduces performance relative to unconstrained evaluation, suggesting that leakage inflates estimates of models' true synthesis capabilities. Finally, we audit consumer-facing agents (e.g., Google AI Overview, OpenEvidence) and find they frequently generate incomplete and sometimes contradictory conclusions, even when the ground-truth answer is available. Overall, our results show that reliable synthesis of scientific conclusions in health remains an open challenge, and that clean-room evaluation is essential for assessing open-domain AI agents.",
+      "levels": [
+        "Citation"
+      ],
+      "domains": [
+        "Health & Medicine",
+        "Commerce & Consumer"
+      ],
+      "topics": [
+        "Citation & Provenance",
+        "Technical Evaluation"
+      ],
+      "source": "arXiv",
+      "first_detected": "2026-11-11"
     },
     {
       "id": "pmlr-kakimov26a",
@@ -3016,7 +3109,7 @@
         "Platform & Interface"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-08"
+      "first_detected": "2026-11-11"
     },
     {
       "id": "arxiv-2605.14021v2",
@@ -3046,7 +3139,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-08",
+      "first_detected": "2026-11-11",
       "domains": [
         "Politics, Government & News",
         "Commerce & Consumer"
@@ -3106,7 +3199,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-08"
+      "first_detected": "2026-11-11"
     },
     {
       "id": "arxiv-2604.27790v1",
@@ -3140,7 +3233,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-08"
+      "first_detected": "2026-11-11"
     },
     {
       "id": "arxiv-2604.25707v2",
@@ -3168,7 +3261,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-08"
+      "first_detected": "2026-11-11"
     },
     {
       "id": "arxiv-2603.29071v1",
@@ -3197,7 +3290,7 @@
         "SEO & Publishers"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-08"
+      "first_detected": "2026-11-11"
     },
     {
       "id": "arxiv-2603.16138v2",
@@ -3227,13 +3320,13 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-08",
+      "first_detected": "2026-11-11",
       "domains": [
         "Politics, Government & News"
       ]
     },
     {
-      "id": "arxiv-2602.13415v2",
+      "id": "arxiv-2602.13415v3",
       "title": "The Rise of AI Search: Implications for Information Markets and Human Judgement at Scale",
       "authors": [
         "Sinan Aral",
@@ -3244,9 +3337,9 @@
       "venue": "arXiv",
       "type": "Preprint",
       "doi": "",
-      "record": "http://arxiv.org/abs/2602.13415v2",
-      "pdf": "https://arxiv.org/pdf/2602.13415v2",
-      "abstract": "We executed 24,000 search queries in 243 countries, generating 2.8 million AI and traditional search results in 2024 and 2025. We found a rapid global expansion of AI search and key trends that reflect important, previously hidden, policy decisions by AI companies that impact human exposure to AI search worldwide. From 2024 to 2025, overall exposure to Google AI Overviews (AIO) expanded from 7 to 229 countries, with surprising exclusions like France, Turkey, China and Cuba, which do not receive AI search results, even today. While only 1% of Covid search queries were answered by AI in 2024, over 66% of Covid queries were answered by AI in 2025 -- a 5600% increase signaling a clear policy shift on this critical health topic. Our results also show AI search surfaces significantly fewer long tail information sources, lower response variety, and significantly more low credibility and right- and center-leaning information sources, compared to traditional search, impacting the economic incentives to produce new information, market concentration in information production, and human judgment and decision-making at scale. The social and economic implications of these rapid changes in our information ecosystem necessitate a global debate about corporate and governmental policy related to AI search.",
+      "record": "http://arxiv.org/abs/2602.13415v3",
+      "pdf": "https://arxiv.org/pdf/2602.13415v3",
+      "abstract": "We analyzed global, longitudinal AI and traditional search data to spark a conversation about the growth and impact of AI search, and discuss its policy implications for platforms, regulators, scientists and citizens. We executed 24,000 search queries in 243 countries, generating 2.8 million AI and traditional search results in 2024 and 2025. We found a rapid global expansion of AI search and key trends that reflect important, previously hidden, policy decisions by AI companies that impact human exposure to AI search worldwide. From 2024 to 2025, overall exposure to Google AI Overviews (AIO) expanded from 7 to 229 countries, with surprising exclusions like France, Turkey, China and Cuba, which did not receive AI search results. While only 1% of Covid search queries were answered by AI in 2024, over 66% of Covid queries were answered by AI in 2025---a 5600% increase signaling a policy shift on this critical health topic. Our results also show AI search surfaces significantly fewer long tail information sources, lower response variety, and significantly more low credibility and right- and center-leaning information sources, compared to traditional search, impacting the economic incentives to produce new information, market concentration in information production, and human judgment and decision-making at scale. The social and economic implications of these rapid changes in our information ecosystem necessitate a global debate about corporate and governmental policy related to AI search. We hope this discussion and the dataset released with this paper elevate the global dialogue on AI search and its impact.",
       "levels": [
         "Citation",
         "Presentation"
@@ -3261,7 +3354,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-08"
+      "first_detected": "2026-11-11"
     },
     {
       "id": "arxiv-2602.18455v7",
@@ -3288,7 +3381,7 @@
         "SEO & Publishers"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-08"
+      "first_detected": "2026-11-11"
     },
     {
       "id": "arxiv-2601.22493v2",
@@ -3322,7 +3415,7 @@
         "Safety & Risk"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-08"
+      "first_detected": "2026-11-11"
     },
     {
       "id": "arxiv-2602.22221v2",
@@ -3354,7 +3447,7 @@
         "Safety & Risk"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-08"
+      "first_detected": "2026-11-11"
     },
     {
       "id": "arxiv-2512.02665v1",
@@ -3383,7 +3476,7 @@
         "Safety & Risk"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-08"
+      "first_detected": "2026-11-11"
     },
     {
       "id": "arxiv-2511.12920v4",
@@ -3417,7 +3510,7 @@
         "Platform & Interface"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-08",
+      "first_detected": "2026-11-11",
       "domains": [
         "Health & Medicine",
         "Science & Technology"
@@ -3450,7 +3543,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-08"
+      "first_detected": "2026-11-11"
     },
     {
       "id": "doi-10.2196-79961",
@@ -3511,7 +3604,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-08"
+      "first_detected": "2026-11-11"
     },
     {
       "id": "doi-10.3145-thinkepi.2025.e19a08",
