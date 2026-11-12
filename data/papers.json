@@ -1,8 +1,66 @@
 {
-  "last_updated": "2026-11-11T11:55:27+08:00",
-  "new_in_latest_scan": 3,
+  "last_updated": "2026-11-12T13:04:10+08:00",
+  "new_in_latest_scan": 2,
   "scope": "All-domain Google AI Overviews / SGE research with multi-label application-domain classification.",
   "papers": [
+    {
+      "id": "doi-10.5281/zenodo.24116805",
+      "title": "aivisibilitycensus/geo-skills: v1.1.0: geo-check, answer-collector, GitHub Action",
+      "authors": [
+        "census-admin"
+      ],
+      "date": "2026-11-10",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Software",
+      "doi": "10.5281/zenodo.24116805",
+      "record": "https://doi.org/10.5281/zenodo.24116805",
+      "pdf": "",
+      "abstract": "New geo-check: one command that lists what stops AI search engines reading a page (noindex, robots.txt rules for 11 crawler tokens, text that needs JavaScript, structured data that contradicts the page, firewall hints). Findings in four tiers with evidence grades. No score. GitHub Action: run geo-check on your URLs on every deploy; the job fails on a blocking finding. answer-collector: runs a fixed question set on ChatGPT, Gemini, Google AI Overviews, AI Mode and Copilot with your own DataForSEO or SerpApi key, and writes the CSV that answer-log-analyzer reads. Tested against recorded response shapes, not yet against the live APIs. SV-001: a pre-registered test of whether open-source GEO audit scores go with being named by AI. Protocol: https://github.com/aivisibilitycensus/geo-skills/blob/main/validation/SV-001-protocol.md Changed Code is now MIT. Skill text, evidence grades, templates and data stay CC BY 4.0. See LICENSING.md. Tests run on every push (Python 3.11 and 3.13). Nine skills in total. From the AI Visibility Census: https://aivisibilitycensus.com/",
+      "levels": [
+        "Citation",
+        "Presentation"
+      ],
+      "domains": [
+        "General / Cross-domain"
+      ],
+      "topics": [
+        "SEO & Publishers",
+        "Citation & Provenance"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-11-12"
+    },
+    {
+      "id": "doi-10.31235/osf.io/hejrt",
+      "title": "The Quality of Resources Used in Google AI Overviews for Health Topics",
+      "authors": [
+        "Adéla Jarolímková"
+      ],
+      "date": "2026-11-10",
+      "venue": "SocArXiv (OSF Preprints)",
+      "type": "Preprint",
+      "doi": "10.31235/osf.io/hejrt",
+      "record": "https://doi.org/10.31235/osf.io/hejrt",
+      "pdf": "",
+      "abstract": "Background: The growing number of consumers seeking health information online are increasingly offered Google AI Overviews atop their searches. Recent research has identified pitfalls of using large language models for health information generation. Objectives: To examine sources employed in generating AI overviews for minority-language queries and evaluate their quality. Methods: Query topics were derived from the Czech National Medical Library's patient information portal, entered in Google, and information about sources linked to AI overviews was collected and statistically analysed. Results: Of 145 distinct queries, 40 (27.6%) did not yield AI overviews. The remaining 105 queries produced 1,231 unique URLs (mean=11.7). General web pages were most frequent (68.9%, n=848), followed by Wikipedia (5.4%, n=66) and peer-reviewed articles (2.9%, n=35). Private-sector entities owned 55.7% of sources, public sector 29.5%, and non-profits 14.8%. Quality scores ranged from −1.5 to 7.0 (mean=1.85). Poor-quality sources comprised 28.4%, while 10.6% were excellent. Discussion: Quality variability strongly correlates with sector ownership. Public sources and structured initiatives demonstrate best practices, while private entities often introduce commercial bias and non-evidence-based content. Conclusion: Source quality for Czech health AI overviews is highly variable and sector-dependent. Rigorous quality control measures are essential for consumer safety.",
+      "levels": [
+        "Query",
+        "Content",
+        "Citation"
+      ],
+      "domains": [
+        "Health & Medicine",
+        "Commerce & Consumer"
+      ],
+      "topics": [
+        "Information Literacy",
+        "Bias & Fairness",
+        "Citation & Provenance",
+        "Safety & Risk"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-11-12"
+    },
     {
       "id": "doi-10.5281/zenodo.24058905",
       "title": "I Know You Are, But What Am I?: Or, How Biblical Criticism Granted a Completely Hypothetical Text Stronger Evidentiary Status Than the One That Exists — Revelation First",
@@ -12,7 +70,7 @@
       ],
       "date": "2026-11-08",
       "venue": "Zenodo (CERN European Organization for Nuclear Research)",
-      "type": "Article",
+      "type": "Report",
       "doi": "10.5281/zenodo.24058905",
       "record": "https://doi.org/10.5281/zenodo.24058905",
       "pdf": "",
@@ -28,7 +86,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-11"
+      "first_detected": "2026-11-12"
     },
     {
       "id": "doi-10.5281/zenodo.24045810",
@@ -56,7 +114,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-11"
+      "first_detected": "2026-11-12"
     },
     {
       "id": "doi-10.17613/epwv9-zkf98",
@@ -114,7 +172,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-11"
+      "first_detected": "2026-11-12"
     },
     {
       "id": "doi-10.5281/zenodo.24004640",
@@ -171,7 +229,7 @@
         "Platform & Interface"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-11"
+      "first_detected": "2026-11-12"
     },
     {
       "id": "doi-10.5281/zenodo.23991475",
@@ -228,7 +286,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-11"
+      "first_detected": "2026-11-12"
     },
     {
       "id": "doi-10.5281/zenodo.23966869",
@@ -287,11 +345,11 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-11"
+      "first_detected": "2026-11-12"
     },
     {
       "id": "doi-10.5281/zenodo.23996526",
-      "title": "026 U.S. Commercial Banking AI Search Visibility Study: Measuring Total Brand Omission Across Megabanks and Super-Regional Banks on ChatGPT, Gemini, Perplexity, and Claude",
+      "title": "2026 U.S. Commercial Banking AI Search Visibility Study: Measuring Total Brand Omission Across Megabanks and Super-Regional Banks on ChatGPT, Gemini, Perplexity, and Claude",
       "authors": [
         "Jones Amy"
       ],
@@ -313,7 +371,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-11"
+      "first_detected": "2026-11-12"
     },
     {
       "id": "doi-10.5281/zenodo.23960476",
@@ -340,7 +398,7 @@
         "User Behavior"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-11"
+      "first_detected": "2026-11-12"
     },
     {
       "id": "doi-10.5281/zenodo.23938245",
@@ -433,7 +491,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-11"
+      "first_detected": "2026-11-12"
     },
     {
       "id": "doi-10.5281/zenodo.23931636",
@@ -489,7 +547,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-11"
+      "first_detected": "2026-11-12"
     },
     {
       "id": "doi-10.5281/zenodo.23897232",
@@ -516,7 +574,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-11"
+      "first_detected": "2026-11-12"
     },
     {
       "id": "doi-10.5281/zenodo.23594679",
@@ -604,7 +662,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-11"
+      "first_detected": "2026-11-12"
     },
     {
       "id": "doi-10.5281/zenodo.23733822",
@@ -718,7 +776,7 @@
         "Safety & Risk"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-11"
+      "first_detected": "2026-11-12"
     },
     {
       "id": "doi-10.48550/arxiv.2610.40164",
@@ -750,7 +808,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-11"
+      "first_detected": "2026-11-12"
     },
     {
       "id": "doi-10.5281/zenodo.23740428",
@@ -2008,7 +2066,7 @@
         "General AIO"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-11"
+      "first_detected": "2026-11-12"
     },
     {
       "id": "doi-10.26118/2782-4586-2026-588-593",
@@ -2131,7 +2189,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-11"
+      "first_detected": "2026-11-12"
     },
     {
       "id": "doi-10.5281/zenodo.23028277",
@@ -2505,7 +2563,7 @@
         "Platform & Interface"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-11"
+      "first_detected": "2026-11-12"
     },
     {
       "id": "doi-10.5281/zenodo.22856034",
@@ -2628,7 +2686,7 @@
         "Platform & Interface"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-11"
+      "first_detected": "2026-11-12"
     },
     {
       "id": "doi-10.5281/zenodo.22707850",
@@ -2715,7 +2773,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-11"
+      "first_detected": "2026-11-12"
     },
     {
       "id": "doi-10.65150/ep-jsshrs/v2e9/2026-04",
@@ -2794,7 +2852,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-11"
+      "first_detected": "2026-11-12"
     },
     {
       "id": "arxiv-2608.29063v1",
@@ -2826,7 +2884,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-11"
+      "first_detected": "2026-11-12"
     },
     {
       "id": "arxiv-2608.18352v1",
@@ -2857,7 +2915,7 @@
         "User Behavior"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-11"
+      "first_detected": "2026-11-12"
     },
     {
       "id": "arxiv-2609.05463v1",
@@ -2885,7 +2943,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-11"
+      "first_detected": "2026-11-12"
     },
     {
       "id": "arxiv-2608.04831v1",
@@ -2916,7 +2974,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-11"
+      "first_detected": "2026-11-12"
     },
     {
       "id": "arxiv-2607.04282v3",
@@ -2944,7 +3002,7 @@
         "User Behavior"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-11"
+      "first_detected": "2026-11-12"
     },
     {
       "id": "arxiv-2607.03421v1",
@@ -2981,7 +3039,7 @@
         "Platform & Interface"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-11"
+      "first_detected": "2026-11-12"
     },
     {
       "id": "arxiv-2606.11337v1",
@@ -3049,7 +3107,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-11"
+      "first_detected": "2026-11-12"
     },
     {
       "id": "pmlr-kakimov26a",
@@ -3109,7 +3167,7 @@
         "Platform & Interface"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-11"
+      "first_detected": "2026-11-12"
     },
     {
       "id": "arxiv-2605.14021v2",
@@ -3139,7 +3197,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-11",
+      "first_detected": "2026-11-12",
       "domains": [
         "Politics, Government & News",
         "Commerce & Consumer"
@@ -3199,7 +3257,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-11"
+      "first_detected": "2026-11-12"
     },
     {
       "id": "arxiv-2604.27790v1",
@@ -3233,7 +3291,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-11"
+      "first_detected": "2026-11-12"
     },
     {
       "id": "arxiv-2604.25707v2",
@@ -3261,7 +3319,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-11"
+      "first_detected": "2026-11-12"
     },
     {
       "id": "arxiv-2603.29071v1",
@@ -3290,7 +3348,7 @@
         "SEO & Publishers"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-11"
+      "first_detected": "2026-11-12"
     },
     {
       "id": "arxiv-2603.16138v2",
@@ -3320,7 +3378,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-11",
+      "first_detected": "2026-11-12",
       "domains": [
         "Politics, Government & News"
       ]
@@ -3354,7 +3412,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-11"
+      "first_detected": "2026-11-12"
     },
     {
       "id": "arxiv-2602.18455v7",
@@ -3381,7 +3439,7 @@
         "SEO & Publishers"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-11"
+      "first_detected": "2026-11-12"
     },
     {
       "id": "arxiv-2601.22493v2",
@@ -3415,7 +3473,7 @@
         "Safety & Risk"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-11"
+      "first_detected": "2026-11-12"
     },
     {
       "id": "arxiv-2602.22221v2",
@@ -3447,7 +3505,7 @@
         "Safety & Risk"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-11"
+      "first_detected": "2026-11-12"
     },
     {
       "id": "arxiv-2512.02665v1",
@@ -3476,7 +3534,7 @@
         "Safety & Risk"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-11"
+      "first_detected": "2026-11-12"
     },
     {
       "id": "arxiv-2511.12920v4",
@@ -3510,7 +3568,7 @@
         "Platform & Interface"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-11",
+      "first_detected": "2026-11-12",
       "domains": [
         "Health & Medicine",
         "Science & Technology"
@@ -3543,7 +3601,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-11"
+      "first_detected": "2026-11-12"
     },
     {
       "id": "doi-10.2196-79961",
@@ -3604,7 +3662,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-11"
+      "first_detected": "2026-11-12"
     },
     {
       "id": "doi-10.3145-thinkepi.2025.e19a08",
