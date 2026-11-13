@@ -1,8 +1,62 @@
 {
-  "last_updated": "2026-11-12T13:04:10+08:00",
-  "new_in_latest_scan": 2,
+  "last_updated": "2026-11-13T12:20:21+08:00",
+  "new_in_latest_scan": 3,
   "scope": "All-domain Google AI Overviews / SGE research with multi-label application-domain classification.",
   "papers": [
+    {
+      "id": "doi-10.5281/zenodo.24125323",
+      "title": "HOW AI IS CHANGING LOCAL SEO IN 2026?",
+      "authors": [
+        "CBA Infotech"
+      ],
+      "date": "2026-11-11",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Article",
+      "doi": "10.5281/zenodo.24125323",
+      "record": "https://doi.org/10.5281/zenodo.24125323",
+      "pdf": "",
+      "abstract": "Discover how AI is changing Local SEO in 2026 with CBA Infotech! Artificial Intelligence is transforming how customers find local businesses through AI-powered search results, Google AI Overviews, smarter search intent analysis, and personalized recommendations. Businesses now need more than traditional keyword optimization to improve online visibility. Optimizing Google Business Profiles, creating helpful location-based content, maintaining accurate business information, and building genuine customer reviews are becoming increasingly important. Stay ahead of changing search trends and strengthen your local online presence with smart, AI-driven SEO strategies from CBA Infotech.",
+      "levels": [
+        "Presentation"
+      ],
+      "domains": [
+        "Commerce & Consumer",
+        "Science & Technology"
+      ],
+      "topics": [
+        "SEO & Publishers"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-11-13"
+    },
+    {
+      "id": "doi-10.17605/osf.io/wjgqp",
+      "title": "Do generative AI search engines recommend local restaurants? A complete-census audit of central Toyama City, Japan, in Japanese and English",
+      "authors": [
+        "Rintaro Taki"
+      ],
+      "date": "2026-11-11",
+      "venue": "Open Science Framework",
+      "type": "Study-Registration",
+      "doi": "10.17605/osf.io/wjgqp",
+      "record": "https://doi.org/10.17605/osf.io/wjgqp",
+      "pdf": "",
+      "abstract": "This preregistration describes an observational audit of whether four generative AI search engines (OpenAI, Google Gemini, Anthropic Claude and Perplexity) recommend restaurants in central Toyama City, Japan. A complete census of about 1,350 restaurants in the study area was built with the Google Places API. 48 prompts (6 dining scenarios x 4 phrasings x Japanese and English) are sent to each engine three times between 2026-12-02 and 2026-12-08 (576 responses). We estimate the share of restaurants that are never recommended, test which listing features (review count, official website, star rating, price information) predict being recommended, compare recommendations between Japanese and English prompts, and describe cited sources and recommendations of closed restaurants. No human participants or personal data are involved.",
+      "levels": [
+        "Query",
+        "Citation"
+      ],
+      "domains": [
+        "Commerce & Consumer",
+        "Travel, Local & Lifestyle"
+      ],
+      "topics": [
+        "SEO & Publishers",
+        "Citation & Provenance"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-11-13"
+    },
     {
       "id": "doi-10.5281/zenodo.24116805",
       "title": "aivisibilitycensus/geo-skills: v1.1.0: geo-check, answer-collector, GitHub Action",
@@ -28,7 +82,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-12"
+      "first_detected": "2026-11-13"
     },
     {
       "id": "doi-10.31235/osf.io/hejrt",
@@ -59,7 +113,33 @@
         "Safety & Risk"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-12"
+      "first_detected": "2026-11-13"
+    },
+    {
+      "id": "doi-10.5281/zenodo.24117192",
+      "title": "2026 National & Regional Credit Union AI Search Visibility Study: Evaluating Default Consumer Settings, Local Geolocation Grounding, and Semantic Placeholder Failures Across 1,800 Evaluations",
+      "authors": [
+        "Jones Amy"
+      ],
+      "date": "2026-11-09",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Report",
+      "doi": "10.5281/zenodo.24117192",
+      "record": "https://doi.org/10.5281/zenodo.24117192",
+      "pdf": "",
+      "abstract": "EquiSchema AI LLC conducted an 1,800-evaluation empirical benchmark study and a 100-prompt cross-engine disagreement analysis across OpenAI ChatGPT, Google Gemini, Perplexity AI, and Anthropic Claude to measure whether default authenticated consumer settings and metropolitan geolocation grounding (Indianapolis, Indiana) reduce Total Brand Omission for National Credit Unions, Ethical Fintechs, and Regional Credit Unions. Evaluating 18 financial institutions (6 National Powerhouse Credit Unions, 6 Ethical Fintechs, and 6 Indianapolis Credit Unions) across 25 high-intent consumer queries (20 unbranded national prompts plus 5 explicitly localized Indianapolis/Indiana prompts), Report No. 2026-03 documents five primary findings: 1. 95.6% Aggregate Total Brand Omission (1,800 Evaluations): Across 1,800 brand-inclusion evaluations in default consumer mode, audited institutions achieved just 4.4% overall visibility (79 inclusions out of 1,800 opportunities). 2. Invariance Between Sterile Incognito Mode and Default Authenticated Mode (96.0% vs. 95.5% Omission): Comparing the original 12 National Credit Unions and Ethical Fintechs across Queries 01–20 against Report No. 2026-02 (DOI: 10.5281/zenodo.23986142) revealed only a 0.5 percentage point shift in omission (from 96.0% to 95.5%), proving that Total Brand Omission is a persistent architectural failure rather than an artifact of browser privacy settings. 3. 98.3% Unbranded Omission of Local Credit Unions & \"Placeholder Substitution\": Across the 20 unbranded queries (Q01–Q20), the 6 Indianapolis Credit Unions recorded just 1.7% visibility (8/480 mentions—and 0.0% on ChatGPT and Gemini). Instead of naming specific local lenders on auto and RV loan queries, AI models repeatedly inserted generic placeholders (\"local credit unions\", \"Credit Unions\", \"local Indiana credit unions\") because unstructured rate sheets failed high-confidence entity verification. 4. 81.7% Omission on Explicit \"Indianapolis / Indiana\" Queries (Q21–Q25): Even when prompts explicitly contained \"in Indianapolis\" or \"in Indiana\", the 6 local credit unions suffered an 81.7% Total Brand Omission rate (22/120 mentions), including a complete 0.0% blackout on ChatGPT, Gemini, and Claude for \"best high yield savings account in Indianapolis\" (Q22). Companion Study (Report No. 2026-02): https://doi.org/10.5281/zenodo.23986142Research Portal: https://equischema.comAuthor: Amy Jones, Founder & Principal Architect, EquiSchema AI LLC, Indianapolis, Indiana, USA.",
+      "levels": [
+        "Query"
+      ],
+      "domains": [
+        "Finance & Economics",
+        "Commerce & Consumer"
+      ],
+      "topics": [
+        "Technical Evaluation"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-11-13"
     },
     {
       "id": "doi-10.5281/zenodo.24058905",
@@ -172,7 +252,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-12"
+      "first_detected": "2026-11-13"
     },
     {
       "id": "doi-10.5281/zenodo.24004640",
@@ -229,7 +309,7 @@
         "Platform & Interface"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-12"
+      "first_detected": "2026-11-13"
     },
     {
       "id": "doi-10.5281/zenodo.23991475",
@@ -286,7 +366,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-12"
+      "first_detected": "2026-11-13"
     },
     {
       "id": "doi-10.5281/zenodo.23966869",
@@ -345,7 +425,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-12"
+      "first_detected": "2026-11-13"
     },
     {
       "id": "doi-10.5281/zenodo.23996526",
@@ -371,7 +451,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-12"
+      "first_detected": "2026-11-13"
     },
     {
       "id": "doi-10.5281/zenodo.23960476",
@@ -398,7 +478,7 @@
         "User Behavior"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-12"
+      "first_detected": "2026-11-13"
     },
     {
       "id": "doi-10.5281/zenodo.23938245",
@@ -491,7 +571,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-12"
+      "first_detected": "2026-11-13"
     },
     {
       "id": "doi-10.5281/zenodo.23931636",
@@ -547,7 +627,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-12"
+      "first_detected": "2026-11-13"
     },
     {
       "id": "doi-10.5281/zenodo.23897232",
@@ -574,7 +654,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-12"
+      "first_detected": "2026-11-13"
     },
     {
       "id": "doi-10.5281/zenodo.23594679",
@@ -776,7 +856,7 @@
         "Safety & Risk"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-12"
+      "first_detected": "2026-11-13"
     },
     {
       "id": "doi-10.48550/arxiv.2610.40164",
@@ -808,7 +888,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-12"
+      "first_detected": "2026-11-13"
     },
     {
       "id": "doi-10.5281/zenodo.23740428",
@@ -2066,7 +2146,7 @@
         "General AIO"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-12"
+      "first_detected": "2026-11-13"
     },
     {
       "id": "doi-10.26118/2782-4586-2026-588-593",
@@ -2189,7 +2269,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-12"
+      "first_detected": "2026-11-13"
     },
     {
       "id": "doi-10.5281/zenodo.23028277",
@@ -2563,7 +2643,7 @@
         "Platform & Interface"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-12"
+      "first_detected": "2026-11-13"
     },
     {
       "id": "doi-10.5281/zenodo.22856034",
@@ -2686,7 +2766,7 @@
         "Platform & Interface"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-12"
+      "first_detected": "2026-11-13"
     },
     {
       "id": "doi-10.5281/zenodo.22707850",
@@ -2773,7 +2853,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-12"
+      "first_detected": "2026-11-13"
     },
     {
       "id": "doi-10.65150/ep-jsshrs/v2e9/2026-04",
@@ -2852,7 +2932,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-12"
+      "first_detected": "2026-11-13"
     },
     {
       "id": "arxiv-2608.29063v1",
@@ -2884,7 +2964,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-12"
+      "first_detected": "2026-11-13"
     },
     {
       "id": "arxiv-2608.18352v1",
@@ -2915,7 +2995,7 @@
         "User Behavior"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-12"
+      "first_detected": "2026-11-13"
     },
     {
       "id": "arxiv-2609.05463v1",
@@ -2943,7 +3023,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-12"
+      "first_detected": "2026-11-13"
     },
     {
       "id": "arxiv-2608.04831v1",
@@ -2974,7 +3054,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-12"
+      "first_detected": "2026-11-13"
     },
     {
       "id": "arxiv-2607.04282v3",
@@ -3002,7 +3082,7 @@
         "User Behavior"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-12"
+      "first_detected": "2026-11-13"
     },
     {
       "id": "arxiv-2607.03421v1",
@@ -3039,7 +3119,7 @@
         "Platform & Interface"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-12"
+      "first_detected": "2026-11-13"
     },
     {
       "id": "arxiv-2606.11337v1",
@@ -3107,7 +3187,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-12"
+      "first_detected": "2026-11-13"
     },
     {
       "id": "pmlr-kakimov26a",
@@ -3167,7 +3247,7 @@
         "Platform & Interface"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-12"
+      "first_detected": "2026-11-13"
     },
     {
       "id": "arxiv-2605.14021v2",
@@ -3197,7 +3277,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-12",
+      "first_detected": "2026-11-13",
       "domains": [
         "Politics, Government & News",
         "Commerce & Consumer"
@@ -3257,7 +3337,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-12"
+      "first_detected": "2026-11-13"
     },
     {
       "id": "arxiv-2604.27790v1",
@@ -3291,7 +3371,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-12"
+      "first_detected": "2026-11-13"
     },
     {
       "id": "arxiv-2604.25707v2",
@@ -3319,7 +3399,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-12"
+      "first_detected": "2026-11-13"
     },
     {
       "id": "arxiv-2603.29071v1",
@@ -3348,7 +3428,7 @@
         "SEO & Publishers"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-12"
+      "first_detected": "2026-11-13"
     },
     {
       "id": "arxiv-2603.16138v2",
@@ -3378,7 +3458,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-12",
+      "first_detected": "2026-11-13",
       "domains": [
         "Politics, Government & News"
       ]
@@ -3412,7 +3492,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-12"
+      "first_detected": "2026-11-13"
     },
     {
       "id": "arxiv-2602.18455v7",
@@ -3439,7 +3519,7 @@
         "SEO & Publishers"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-12"
+      "first_detected": "2026-11-13"
     },
     {
       "id": "arxiv-2601.22493v2",
@@ -3473,7 +3553,7 @@
         "Safety & Risk"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-12"
+      "first_detected": "2026-11-13"
     },
     {
       "id": "arxiv-2602.22221v2",
@@ -3505,7 +3585,7 @@
         "Safety & Risk"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-12"
+      "first_detected": "2026-11-13"
     },
     {
       "id": "arxiv-2512.02665v1",
@@ -3534,7 +3614,7 @@
         "Safety & Risk"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-12"
+      "first_detected": "2026-11-13"
     },
     {
       "id": "arxiv-2511.12920v4",
@@ -3568,7 +3648,7 @@
         "Platform & Interface"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-12",
+      "first_detected": "2026-11-13",
       "domains": [
         "Health & Medicine",
         "Science & Technology"
@@ -3601,7 +3681,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-12"
+      "first_detected": "2026-11-13"
     },
     {
       "id": "doi-10.2196-79961",
@@ -3662,7 +3742,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-12"
+      "first_detected": "2026-11-13"
     },
     {
       "id": "doi-10.3145-thinkepi.2025.e19a08",
