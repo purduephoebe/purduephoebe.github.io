@@ -1,8 +1,115 @@
 {
-  "last_updated": "2026-11-14T12:16:17+08:00",
-  "new_in_latest_scan": 0,
+  "last_updated": "2026-11-15T11:59:56+08:00",
+  "new_in_latest_scan": 2,
   "scope": "All-domain Google AI Overviews / SGE research with multi-label application-domain classification.",
   "papers": [
+    {
+      "id": "doi-10.5281/zenodo.24191025",
+      "title": "Google's Generative AI Search Revolution: What Enterprise Software Companies Must Do Now",
+      "authors": [
+        "David Ohnstad"
+      ],
+      "date": "2026-11-13",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Article",
+      "doi": "10.5281/zenodo.24191025",
+      "record": "https://doi.org/10.5281/zenodo.24191025",
+      "pdf": "",
+      "abstract": "Artificial Intelligence has certainly gained attention in recent years and shows no sign of attracting any less as multiple applications and uses for the digital marvel increase! The question is, how well does AI do in information retrieval? According to Full article: https://davidohnstad.net/googles-new-generative-ai-search/",
+      "levels": [
+        "Content"
+      ],
+      "domains": [
+        "Science & Technology"
+      ],
+      "topics": [
+        "Technical Evaluation"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-11-15"
+    },
+    {
+      "id": "doi-10.5281/zenodo.24190808",
+      "title": "Google's AI Search Revolution: What Minnesota Businesses and Outdoor Brands Need to Know",
+      "authors": [
+        "David Ohnstad"
+      ],
+      "date": "2026-11-13",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Article",
+      "doi": "10.5281/zenodo.24190808",
+      "record": "https://doi.org/10.5281/zenodo.24190808",
+      "pdf": "",
+      "abstract": "Google's AI Search Revolution: What Minnesota Businesses and Outdoor Brands Need to Know If you run a Minnesota business—especially in outdoor recreation, tourism, or local services—you've probably noticed something shift in how Google Search works over the past year. Google's new generative AI search features, particularly AI Overviews (formerly called SGE, or Search Generative Experience),… Continue reading Google's AI Search Revolution: What Minnesota Businesses and Outdoor Brands Need to Know Full article: https://davidohnstadminnesota.com/googles-new-generative-ai-search/",
+      "levels": [
+        "Content"
+      ],
+      "domains": [
+        "Commerce & Consumer",
+        "Travel, Local & Lifestyle"
+      ],
+      "topics": [
+        "General AIO"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-11-15"
+    },
+    {
+      "id": "doi-10.5281/zenodo.24204767",
+      "title": "Open Local AI Panel: study protocol v1.0 and data pipeline",
+      "authors": [
+        "Kateryna Cherkas"
+      ],
+      "date": "2026-11-13",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Software",
+      "doi": "10.5281/zenodo.24204767",
+      "record": "https://doi.org/10.5281/zenodo.24204767",
+      "pdf": "",
+      "abstract": "Pre-registered protocol (v1.0, frozen 2026-11-13, before the first full wave) and open-source pipeline for a monthly, reproducible panel that measures which independent local service businesses AI assistants (ChatGPT, Gemini, Perplexity, Claude, Google AI Overview) recommend for non-branded local queries in 26 US cities across 4 niches (construction, appliance repair, roofing, cleaning); how stable those recommendations are; how they compare with Google's local pack; and how accurate the stated facts are. Data for each wave will be released as a separate dataset.",
+      "levels": [
+        "Citation"
+      ],
+      "domains": [
+        "Commerce & Consumer"
+      ],
+      "topics": [
+        "Citation & Provenance"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-11-15"
+    },
+    {
+      "id": "doi-10.4018/979-8-2600-1503-2.ch006",
+      "title": "Generative Artificial Intelligence in Search Engines and Its Role in Consumer Behavior",
+      "authors": [
+        "Beatriz Araújo Do Bem",
+        "Inês Marques Figueiredo",
+        "Samuel Meneses Nogueira Urjais Gomes",
+        "Miguel Cachulo Pereira",
+        "Sara Santos"
+      ],
+      "date": "2026-11-13",
+      "venue": "Advances in computational intelligence and robotics book series",
+      "type": "Book-Chapter",
+      "doi": "10.4018/979-8-2600-1503-2.ch006",
+      "record": "https://doi.org/10.4018/979-8-2600-1503-2.ch006",
+      "pdf": "",
+      "abstract": "Generative artificial intelligence is changing how consumers receive information from search engines and chatbots. This chapter examines the perceived impact of AI-generated search content on consumer purchase decisions. A systematic literature review of Scopus studies published between 2021 and 2026 retained 17 studies. The synthesis indicates that this content relates to purchase decisions primarily through perceived usefulness, trust, familiarity, and perceived control, and that most evidence concerns perceptions and intentions rather than actual purchases. An exploratory Live Website Test compared Google and ChatGPT in two consumption tasks. Google was chosen more often, particularly in the higher-involvement task, and was associated with trust in the information, while ChatGPT was chosen for speed and ease of use. Adoption of generative AI search, therefore, appears conditional.",
+      "levels": [
+        "Content"
+      ],
+      "domains": [
+        "Commerce & Consumer",
+        "Science & Technology"
+      ],
+      "topics": [
+        "SEO & Publishers",
+        "User Behavior"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-11-15"
+    },
     {
       "id": "doi-10.5281/zenodo.24125323",
       "title": "HOW AI IS CHANGING LOCAL SEO IN 2026?",
@@ -27,7 +134,7 @@
         "SEO & Publishers"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-14"
+      "first_detected": "2026-11-15"
     },
     {
       "id": "doi-10.17605/osf.io/wjgqp",
@@ -139,7 +246,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-14"
+      "first_detected": "2026-11-15"
     },
     {
       "id": "doi-10.5281/zenodo.24058905",
@@ -255,31 +362,6 @@
       "first_detected": "2026-11-14"
     },
     {
-      "id": "doi-10.5281/zenodo.24004640",
-      "title": "Google's Generative AI Search Revolution: What Enterprise Software Companies Must Do Now",
-      "authors": [
-        "David Ohnstad"
-      ],
-      "date": "2026-11-06",
-      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
-      "type": "Article",
-      "doi": "10.5281/zenodo.24004640",
-      "record": "https://doi.org/10.5281/zenodo.24004640",
-      "pdf": "",
-      "abstract": "Artificial Intelligence has certainly gained attention in recent years and shows no sign of attracting any less as multiple applications and uses for the digital marvel increase! The question is, how well does AI do in information retrieval? According to Full article: https://davidohnstad.net/googles-new-generative-ai-search/",
-      "levels": [
-        "Content"
-      ],
-      "domains": [
-        "Science & Technology"
-      ],
-      "topics": [
-        "Technical Evaluation"
-      ],
-      "source": "OpenAlex",
-      "first_detected": "2026-11-10"
-    },
-    {
       "id": "doi-10.5281/zenodo.23996780",
       "title": "Generative Engine Optimization (GEO) & Technical SEO Infrastructure Benchmark for Global B2B SaaS (2026)",
       "authors": [
@@ -309,7 +391,7 @@
         "Platform & Interface"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-14"
+      "first_detected": "2026-11-15"
     },
     {
       "id": "doi-10.5281/zenodo.23991475",
@@ -366,7 +448,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-14"
+      "first_detected": "2026-11-15"
     },
     {
       "id": "doi-10.5281/zenodo.23966869",
@@ -425,7 +507,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-14"
+      "first_detected": "2026-11-15"
     },
     {
       "id": "doi-10.5281/zenodo.23996526",
@@ -451,7 +533,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-14"
+      "first_detected": "2026-11-15"
     },
     {
       "id": "doi-10.5281/zenodo.23960476",
@@ -2121,32 +2203,6 @@
       ],
       "source": "OpenAlex",
       "first_detected": "2026-10-07"
-    },
-    {
-      "id": "doi-10.5281/zenodo.23098323",
-      "title": "Google's AI Search Revolution: What Minnesota Businesses and Outdoor Brands Need to Know",
-      "authors": [
-        "David Ohnstad"
-      ],
-      "date": "2026-10-02",
-      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
-      "type": "Article",
-      "doi": "10.5281/zenodo.23098323",
-      "record": "https://doi.org/10.5281/zenodo.23098323",
-      "pdf": "",
-      "abstract": "Google's AI Search Revolution: What Minnesota Businesses and Outdoor Brands Need to Know If you run a Minnesota business—especially in outdoor recreation, tourism, or local services—you've probably noticed something shift in how Google Search works over the past year. Google's new generative AI search features, particularly AI Overviews (formerly called SGE, or Search Generative Experience),… Continue reading Google's AI Search Revolution: What Minnesota Businesses and Outdoor Brands Need to Know Full article: https://davidohnstadminnesota.com/googles-new-generative-ai-search/",
-      "levels": [
-        "Content"
-      ],
-      "domains": [
-        "Commerce & Consumer",
-        "Travel, Local & Lifestyle"
-      ],
-      "topics": [
-        "General AIO"
-      ],
-      "source": "OpenAlex",
-      "first_detected": "2026-11-14"
     },
     {
       "id": "doi-10.26118/2782-4586-2026-588-593",
