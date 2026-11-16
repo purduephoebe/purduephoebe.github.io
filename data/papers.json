@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-15T11:59:56+08:00",
-  "new_in_latest_scan": 2,
+  "last_updated": "2026-11-16T12:00:07+08:00",
+  "new_in_latest_scan": 1,
   "scope": "All-domain Google AI Overviews / SGE research with multi-label application-domain classification.",
   "papers": [
     {
@@ -26,7 +26,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-15"
+      "first_detected": "2026-11-16"
     },
     {
       "id": "doi-10.5281/zenodo.24190808",
@@ -52,7 +52,7 @@
         "General AIO"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-15"
+      "first_detected": "2026-11-16"
     },
     {
       "id": "doi-10.5281/zenodo.24204767",
@@ -77,7 +77,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-15"
+      "first_detected": "2026-11-16"
     },
     {
       "id": "doi-10.4018/979-8-2600-1503-2.ch006",
@@ -108,7 +108,7 @@
         "User Behavior"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-15"
+      "first_detected": "2026-11-16"
     },
     {
       "id": "doi-10.5281/zenodo.24125323",
@@ -134,7 +134,7 @@
         "SEO & Publishers"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-15"
+      "first_detected": "2026-11-16"
     },
     {
       "id": "doi-10.17605/osf.io/wjgqp",
@@ -246,7 +246,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-15"
+      "first_detected": "2026-11-16"
     },
     {
       "id": "doi-10.5281/zenodo.24058905",
@@ -391,7 +391,7 @@
         "Platform & Interface"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-15"
+      "first_detected": "2026-11-16"
     },
     {
       "id": "doi-10.5281/zenodo.23991475",
@@ -507,7 +507,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-15"
+      "first_detected": "2026-11-16"
     },
     {
       "id": "doi-10.5281/zenodo.23996526",
@@ -1958,6 +1958,36 @@
       ],
       "source": "OpenAlex",
       "first_detected": "2026-10-11"
+    },
+    {
+      "id": "doi-10.2991/978-94-6239-789-7_52",
+      "title": "A Multi-Layered Framework for Visual Search Optimization via Deep Learning-Based Semantic Clustering",
+      "authors": [
+        "Madhulika Singh",
+        "Satender Kumar",
+        "Arun Kumar"
+      ],
+      "date": "2026-10-07",
+      "venue": "Advances in intelligent systems research/Advances in Intelligent Systems Research",
+      "type": "Book-Chapter",
+      "doi": "10.2991/978-94-6239-789-7_52",
+      "record": "https://doi.org/10.2991/978-94-6239-789-7_52",
+      "pdf": "https://www.atlantis-press.com/article/126027930.pdf",
+      "abstract": "Background: As search engine architectures transition from heuristic keyword-matching to AI-driven semantic interpretation, small-scale enterprises in high-competition niches face increasing barriers to visibility.Modern search agents, utilizing Deep Learning models such as BERT and Vision AI, now prioritize ontological depth and cross-domain authority signals.Problem: Existing Search Engine Optimization (SEO) research is predominantly situated within a single-domain paradigm, leaving a significant theoretical and practical gap in how multi-domain networks can be leveraged to satisfy the Expertise, Authoritativeness, and Trustworthiness (E-E-A-T) requirements of AI-driven search ecosystems.Methodology: This research proposes the Network Image Cluster (NIC) model, a tri-layered architectural framework designed to achieve High-density topical coverage through Infrastructural latency optimization, Ontological mapping and contextual embedding, and multi-node graph synthesis.The model was validated through a longitudinal, two-phase quasi-experimental design over a 12-week period.Utilizing a \"greenfield\" approach to isolate variables, the study deployed the framework across two newly registered educational platforms targeting overlapping semantic clusters in the Indian preschool and primary education sectors.Findings: Empirical results demonstrate the transformative efficacy of the NIC model.Technical optimizations (Layer 1) yielded a +125% increase in Google PageSpeed performance (43 to 97; 𝑡(10) = 8.4, 𝑝 < 0.001), while semantic clustering (Layer 2) drove a +228% increase in organic sessions (𝑝 < 0.01) duration.Crucially, the network strategy (Layer 3) resulted in a +600% growth in visual search clicks and the occupation of 20-40% of first-page SERP real estate, effectively creating a \"Defensible architectural authority\" that suppressed traditional single-domain competitors.Conclusion/Significance: This study introduces the \"Network Content Cluster\" as a novel theoretical construct, offering a scalable and cost-effective roadmap for achieving Aggregated network influence in the digital landscape.The findings provide a blueprint for shifting from defensive SEO postures to offensive \"Coordinated multi-node optimization,\" ensuring resilience against the emerging Search Generative Experience (SGE).",
+      "levels": [
+        "Citation",
+        "Presentation"
+      ],
+      "domains": [
+        "Education & Academia",
+        "Science & Technology"
+      ],
+      "topics": [
+        "SEO & Publishers",
+        "User Behavior"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-11-16"
     },
     {
       "id": "doi-10.6084/m9.figshare.34094295",
