@@ -1,7 +1,7 @@
 import * as THREE from 'three';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 import { mergeGeometries } from 'three/addons/utils/BufferGeometryUtils.js';
-import { THEMES, SOURCES, INTRO, ICONS, HEADLINES } from './data.js?v=37';
+import { THEMES, SOURCES, INTRO, ICONS, HEADLINES } from './data.js?v=40';
 
 // ---------- renderer / scene ----------
 const canvas = document.getElementById('scene');
@@ -414,14 +414,27 @@ function registerLayers(island, group, { gap = 1.3, labelX = -2, storey = 3.6, l
 // Merge a static group's meshes into one mesh per material: a storey made of ~100 boxes
 // becomes a handful of draw calls. Meshes flagged userData.keep (animated parts) are left alone.
 function bake(group) {
+  const victims = [];
+  group.traverse((o) => { if (o.isMesh && !o.userData.keep) victims.push(o); });
+  return bakeMeshes(group, victims);
+}
+// Same merge for the loose props sitting directly in a zone group (lamps, plinths, beds, paths…).
+// Left alone: sub-groups (animated or composite objects), anything the avatar collides with or stands on
+// (solids/platforms keep a reference to the mesh), textured, transparent or double-sided meshes (flags, banners).
+function bakeProps(group) {
+  const victims = group.children.filter((o) => o.isMesh && !o.isInstancedMesh && !o.userData.keep
+    && !solids.includes(o) && !platforms.includes(o)
+    && o.material.isMeshStandardMaterial && !o.material.map && !o.material.transparent && o.material.side === THREE.FrontSide);
+  if (victims.length > 1) bakeMeshes(group, victims);
+  return group;
+}
+function bakeMeshes(group, victims) {
   group.updateMatrixWorld(true);
   const inv = new THREE.Matrix4().copy(group.matrixWorld).invert();
   const buckets = new Map();
-  const victims = [];
-  group.traverse((o) => { if (o.isMesh && !o.userData.keep) victims.push(o); });
   for (const o of victims) {
     const geo = o.geometry.index ? o.geometry.toNonIndexed() : o.geometry.clone();
-    for (const k of Object.keys(geo.attributes)) if (k !== 'position' && k !== 'normal') geo.deleteAttribute(k);
+    for (const k of Object.keys(geo.attributes)) if (k !== 'position' && k !== 'normal' && !(k === 'color' && o.material === bakedMat)) geo.deleteAttribute(k);
     geo.clearGroups();
     geo.applyMatrix4(new THREE.Matrix4().multiplyMatrices(inv, o.matrixWorld));
     if (!buckets.has(o.material)) buckets.set(o.material, []);
@@ -434,6 +447,7 @@ function bake(group) {
   for (const [m, list] of buckets) {
     const special = m === windowMat || m === lampMat || m.side !== THREE.FrontSide || m.metalness > 0 || (m.emissive && m.emissive.getHex() !== 0);
     if (special) { group.add(mesh(mergeGeometries(list), m)); continue; }
+    if (m === bakedMat) { plain.push(...list); continue; } // already vertex-coloured (re-baking a baked storey)
     for (const geo of list) {
       const n = geo.attributes.position.count, col = new Float32Array(n * 3);
       for (let i = 0; i < n; i++) col.set([m.color.r, m.color.g, m.color.b], i * 3);
@@ -1120,6 +1134,7 @@ const BUILDERS = {
     const ry = tz + 2.6;
     const rope = mesh(new THREE.CylinderGeometry(0.035, 0.035, 3.6, 5), mat(0xd8c49a), tx, TOP + 0.42, ry);
     rope.rotation.z = Math.PI / 2;
+    rope.userData.keep = true;
     g.add(rope);
     animators.push((t) => { rope.position.x = tx + Math.sin(t * 1.3) * 0.3; });
     for (let k = 0; k < 4; k++) {
@@ -1321,6 +1336,7 @@ THEMES.forEach((th) => {
   g.position.set(th.pos[0], 0, th.pos[1]);
   zoneRoot.add(g);
   BUILDERS[th.id]?.(g);
+  bakeProps(g);
   g.userData.theme = th;
   g.traverse((o) => { if (o.isMesh) o.userData.island = g; });
   world.islands.push(g);
@@ -1404,30 +1420,59 @@ for (const [z, a, b, c, d] of [[ROAD + 1.1, -70, -21, 29, 70], [-ROAD - 1.1, -70
   scene.add(city);
 }
 
-// traffic on 和平東路 and 師大路 (drives on the right)
-function car(color) {
-  const g = new THREE.Group();
-  g.add(mesh(new THREE.BoxGeometry(1.5, 0.42, 0.72), mat(color), 0, 0.36, 0));
-  g.add(mesh(new THREE.BoxGeometry(0.8, 0.32, 0.66), mat(0x2b3a55, { roughness: 0.4 }), -0.1, 0.72, 0));
-  for (const x of [-0.48, 0.48]) g.add(mesh(new THREE.BoxGeometry(0.3, 0.3, 0.78), mat(0x222222), x, 0.15, 0));
-  return g;
+bakeProps(campusRoot);
+// Floors only separate for the open zone (or 剖面), so each building also gets one merged copy of all its storeys.
+// stepLayers shows that copy while the floors are shut: about 300 storey meshes become ~2 draw calls per building.
+function buildClosed(b) {
+  b.group.updateMatrixWorld(true);
+  const inv = new THREE.Matrix4().copy(b.group.matrixWorld).invert();
+  const holder = new THREE.Group(), copies = [];
+  let island = null;
+  b.levels.forEach((L) => L.obj.traverse((o) => {
+    if (!o.isMesh) return;
+    island = island || o.userData.island;
+    const c = new THREE.Mesh(o.geometry, o.material);
+    c.matrixAutoUpdate = false;
+    c.matrix.multiplyMatrices(inv, o.matrixWorld);
+    holder.add(c);
+    copies.push(c);
+  }));
+  bakeMeshes(holder, copies);
+  holder.traverse((o) => { if (o.isMesh && island) o.userData.island = island; });
+  b.group.add(holder);
+  b.closed = holder;
+  b.levels.forEach((L) => { L.obj.visible = false; });
 }
+layered.forEach(buildClosed);
+
+// traffic on 和平東路 and 師大路 (drives on the right): 18 cars share three InstancedMeshes
 const carCols = [0xf1b73b, 0xfaf6ee, 0x3d5a80, 0x93272c, 0x6f7a84, 0xfaf6ee, 0x2b2b2b];
+const cars = [];
 for (let k = 0; k < 14; k++) {
-  const c = car(carCols[k % carCols.length]);
-  scene.add(c);
   const east = k % 2 === 0, v = (east ? 1 : -1) * (5 + (k % 3)), lane = (east ? 1 : -1) * (k % 4 < 2 ? 0.45 : 1.25);
   const x0 = -90 + k * 13;
-  c.rotation.y = east ? 0 : Math.PI;
-  animators.push((t) => { c.position.set(((x0 + v * t + 90) % 180 + 180) % 180 - 90, TOP - 0.04, lane); });
+  cars.push({ col: carCols[k % carCols.length], yaw: east ? 0 : Math.PI, at: (t, p) => p.set(((x0 + v * t + 90) % 180 + 180) % 180 - 90, TOP - 0.04, lane) });
 }
 for (let k = 0; k < 4; k++) {
-  const c = car(carCols[(k + 2) % carCols.length]);
-  scene.add(c);
   const south = k % 2 === 0, v = (south ? 1 : -1) * 4, lane = 18.95 + (south ? -0.45 : 0.45);
   const z0 = k * 25;
-  c.rotation.y = south ? -Math.PI / 2 : Math.PI / 2;
-  animators.push((t) => { c.position.set(lane, TOP - 0.04, ((z0 + v * t) % 70 + 70) % 70 - 6); });
+  cars.push({ col: carCols[(k + 2) % carCols.length], yaw: south ? -Math.PI / 2 : Math.PI / 2, at: (t, p) => p.set(lane, TOP - 0.04, ((z0 + v * t) % 70 + 70) % 70 - 6) });
+}
+{
+  const instanced = (geo, material, n) => { const m = new THREE.InstancedMesh(geo, material, n); m.castShadow = m.receiveShadow = true; m.frustumCulled = false; scene.add(m); return m; };
+  const body = instanced(new THREE.BoxGeometry(1.5, 0.42, 0.72).translate(0, 0.36, 0), new THREE.MeshStandardMaterial({ color: 0xffffff, flatShading: true, roughness: 0.85 }), cars.length);
+  const cabin = instanced(new THREE.BoxGeometry(0.8, 0.32, 0.66).translate(-0.1, 0.72, 0), mat(0x2b3a55, { roughness: 0.4 }), cars.length);
+  const wheels = instanced(mergeGeometries([-0.48, 0.48].map((x) => new THREE.BoxGeometry(0.3, 0.3, 0.78).translate(x, 0.15, 0))), mat(0x222222), cars.length);
+  const col = new THREE.Color();
+  cars.forEach((c, i) => body.setColorAt(i, col.setHex(c.col)));
+  const p = new THREE.Vector3(), q = new THREE.Quaternion(), one = new THREE.Vector3(1, 1, 1), m4 = new THREE.Matrix4();
+  animators.push((t) => {
+    cars.forEach((c, i) => {
+      m4.compose(c.at(t, p), q.setFromAxisAngle(UP, c.yaw), one);
+      body.setMatrixAt(i, m4); cabin.setMatrixAt(i, m4); wheels.setMatrixAt(i, m4);
+    });
+    body.instanceMatrix.needsUpdate = cabin.instanceMatrix.needsUpdate = wheels.instanceMatrix.needsUpdate = true;
+  });
 }
 
 // clouds
@@ -1540,6 +1585,8 @@ function stepLayers(dt) {
     b.e += (want - b.e) * Math.min(1, dt * 2.5);
     const k = b.e * b.e * (3 - 2 * b.e);
     b.levels.forEach((L, i) => { L.obj.position.y = L.base + i * b.gap * k; });
+    const shut = want === 0 && b.e < 0.002;
+    if (b.closed && b.closed.visible !== shut) { b.closed.visible = shut; b.levels.forEach((L) => { L.obj.visible = !shut; }); }
     const lift = (b.levels.length - 1) * b.gap * k * b.group.scale.y;
     b.island.userData.explodeLift = Math.max(b.island.userData.explodeLift || 0, lift);
   }
