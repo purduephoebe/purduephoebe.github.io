@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-16T12:00:07+08:00",
-  "new_in_latest_scan": 1,
+  "last_updated": "2026-11-17T13:52:17+08:00",
+  "new_in_latest_scan": 0,
   "scope": "All-domain Google AI Overviews / SGE research with multi-label application-domain classification.",
   "papers": [
     {
@@ -24,32 +24,6 @@
       ],
       "topics": [
         "Technical Evaluation"
-      ],
-      "source": "OpenAlex",
-      "first_detected": "2026-11-16"
-    },
-    {
-      "id": "doi-10.5281/zenodo.24190808",
-      "title": "Google's AI Search Revolution: What Minnesota Businesses and Outdoor Brands Need to Know",
-      "authors": [
-        "David Ohnstad"
-      ],
-      "date": "2026-11-13",
-      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
-      "type": "Article",
-      "doi": "10.5281/zenodo.24190808",
-      "record": "https://doi.org/10.5281/zenodo.24190808",
-      "pdf": "",
-      "abstract": "Google's AI Search Revolution: What Minnesota Businesses and Outdoor Brands Need to Know If you run a Minnesota business—especially in outdoor recreation, tourism, or local services—you've probably noticed something shift in how Google Search works over the past year. Google's new generative AI search features, particularly AI Overviews (formerly called SGE, or Search Generative Experience),… Continue reading Google's AI Search Revolution: What Minnesota Businesses and Outdoor Brands Need to Know Full article: https://davidohnstadminnesota.com/googles-new-generative-ai-search/",
-      "levels": [
-        "Content"
-      ],
-      "domains": [
-        "Commerce & Consumer",
-        "Travel, Local & Lifestyle"
-      ],
-      "topics": [
-        "General AIO"
       ],
       "source": "OpenAlex",
       "first_detected": "2026-11-16"
@@ -134,7 +108,7 @@
         "SEO & Publishers"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-16"
+      "first_detected": "2026-11-17"
     },
     {
       "id": "doi-10.17605/osf.io/wjgqp",
@@ -246,7 +220,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-16"
+      "first_detected": "2026-11-17"
     },
     {
       "id": "doi-10.5281/zenodo.24058905",
@@ -391,7 +365,7 @@
         "Platform & Interface"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-16"
+      "first_detected": "2026-11-17"
     },
     {
       "id": "doi-10.5281/zenodo.23991475",
@@ -507,7 +481,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-16"
+      "first_detected": "2026-11-17"
     },
     {
       "id": "doi-10.5281/zenodo.23996526",
@@ -1552,6 +1526,32 @@
       "first_detected": "2026-10-21"
     },
     {
+      "id": "doi-10.5281/zenodo.23411615",
+      "title": "Google's AI Search Revolution: What Minnesota Businesses and Outdoor Brands Need to Know",
+      "authors": [
+        "David Ohnstad"
+      ],
+      "date": "2026-10-16",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Article",
+      "doi": "10.5281/zenodo.23411615",
+      "record": "https://doi.org/10.5281/zenodo.23411615",
+      "pdf": "",
+      "abstract": "Google's AI Search Revolution: What Minnesota Businesses and Outdoor Brands Need to Know If you run a Minnesota business—especially in outdoor recreation, tourism, or local services—you've probably noticed something shift in how Google Search works over the past year. Google's new generative AI search features, particularly AI Overviews (formerly called SGE, or Search Generative Experience),… Continue reading Google's AI Search Revolution: What Minnesota Businesses and Outdoor Brands Need to Know Full article: https://davidohnstadminnesota.com/googles-new-generative-ai-search/",
+      "levels": [
+        "Content"
+      ],
+      "domains": [
+        "Commerce & Consumer",
+        "Travel, Local & Lifestyle"
+      ],
+      "topics": [
+        "General AIO"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-11-17"
+    },
+    {
       "id": "doi-10.5281/zenodo.23405630",
       "title": "What Is Associated with Being Cited in AI Answers? Page, Domain and Query Features on Google AI Overviews, Google AI Mode, Perplexity and Yandex Alice, Russian-Language Queries, October 2026",
       "authors": [
@@ -1987,7 +1987,7 @@
         "User Behavior"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-16"
+      "first_detected": "2026-11-17"
     },
     {
       "id": "doi-10.6084/m9.figshare.34094295",
