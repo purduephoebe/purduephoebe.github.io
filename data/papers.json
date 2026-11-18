@@ -1,8 +1,145 @@
 {
-  "last_updated": "2026-11-17T13:52:17+08:00",
-  "new_in_latest_scan": 0,
+  "last_updated": "2026-11-18T13:19:26+08:00",
+  "new_in_latest_scan": 5,
   "scope": "All-domain Google AI Overviews / SGE research with multi-label application-domain classification.",
   "papers": [
+    {
+      "id": "doi-10.5281/zenodo.24294871",
+      "title": "Perth AI Search Study 2026: AI Recommendations of Local Businesses Across Four AI Systems (Research Summary)",
+      "authors": [
+        "Dorian Menard"
+      ],
+      "date": "2026-11-17",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Report",
+      "doi": "10.5281/zenodo.24294871",
+      "record": "https://doi.org/10.5281/zenodo.24294871",
+      "pdf": "",
+      "abstract": "Research summary of 2,400 answers from Google AI Overviews, Google AI Mode, ChatGPT and Gemini to 200 commercial questions about 20 Perth industries, asked three times between 8 and 10 September 2026. Most recommended businesses sat outside the Google Maps top 20, recommendations changed from day to day, and the businesses recommended repeatedly tended to rank in Google's organic top 10 and carry more Google reviews. Full study and dataset: https://aiseoperth.net.au/research/perth-ai-search-study-2026/ . Research by Search Scope, Perth: https://searchscope.com.au/ Methodology v2.0. Observations collected 8 to 10 September 2026. Published by AI SEO Perth; research conducted by Search Scope, Perth, Western Australia.",
+      "levels": [
+        "Presentation"
+      ],
+      "domains": [
+        "Commerce & Consumer",
+        "Science & Technology"
+      ],
+      "topics": [
+        "SEO & Publishers"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-11-18"
+    },
+    {
+      "id": "doi-10.5281/zenodo.24295237",
+      "title": "The AI Citation-Recommendation Gap: Citations and Business Recommendations in Google AI Mode and AI Overviews, Perth 2026 (Research Summary)",
+      "authors": [
+        "Dorian Menard"
+      ],
+      "date": "2026-11-17",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Report",
+      "doi": "10.5281/zenodo.24295237",
+      "record": "https://doi.org/10.5281/zenodo.24295237",
+      "pdf": "",
+      "abstract": "In 1,942 Google AI answers to 200 questions about 20 Perth industries (9 to 13 November 2026), 91.1% of Google AI Mode business recommendations came with no citation to the business's own website. Being cited and being recommended depended mostly on the type of question, and recommendations changed from day to day. A plain-English summary of how to measure AI visibility properly. Full study and dataset: https://aiseoperth.net.au/research/citation-recommendation-gap-2026/ . Research by Search Scope, Perth: https://searchscope.com.au/ Registered protocol, extractor v1.6. Observations 9 to 13 November 2026. Published by AI SEO Perth; research conducted by Search Scope, Perth, Western Australia.",
+      "levels": [
+        "Citation",
+        "Presentation"
+      ],
+      "domains": [
+        "Commerce & Consumer"
+      ],
+      "topics": [
+        "SEO & Publishers",
+        "Citation & Provenance"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-11-18"
+    },
+    {
+      "id": "doi-10.5281/zenodo.24295201",
+      "title": "What Google AI Overviews Cite for Perth Searches: Citation Sources and Organic Overlap (2026 Research Summary)",
+      "authors": [
+        "Dorian Menard"
+      ],
+      "date": "2026-11-17",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Report",
+      "doi": "10.5281/zenodo.24295201",
+      "record": "https://doi.org/10.5281/zenodo.24295201",
+      "pdf": "",
+      "abstract": "We traced all 2,845 sources Google AI Overviews cited on 200 commercial Perth searches (8 to 10 September 2026) and compared each with the organic results on the same page. 57.6% of citations to ordinary web pages were a page already ranking on page one, 47.9% of citations to business websites went to the homepage, and Reddit reached more searches than any other source. Full study and dataset: https://aiseoperth.net.au/research/google-ai-overviews-perth/ . Research by Search Scope, Perth: https://searchscope.com.au/ Methodology v2.5, derived from the Perth AI Search Study 2026. Observations 8 to 10 September 2026. Published by AI SEO Perth; research conducted by Search Scope, Perth, Western Australia.",
+      "levels": [
+        "Citation",
+        "Presentation"
+      ],
+      "domains": [
+        "General / Cross-domain"
+      ],
+      "topics": [
+        "SEO & Publishers",
+        "Bias & Fairness",
+        "Citation & Provenance",
+        "Technical Evaluation"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-11-18"
+    },
+    {
+      "id": "doi-10.5281/zenodo.24271012",
+      "title": "State of AI Search Visibility for SaaS 2027: how ChatGPT, Gemini, Google AI Mode and AI Overviews recommend software (18,000 AI answers)",
+      "authors": [
+        "Usman Tauqir"
+      ],
+      "date": "2026-11-16",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Dataset",
+      "doi": "10.5281/zenodo.24271012",
+      "record": "https://doi.org/10.5281/zenodo.24271012",
+      "pdf": "",
+      "abstract": "We asked 1,500 real software buying questions, each three times, on four AI answer engines (ChatGPT, Gemini, Google AI Mode and Google AI Overviews): 18,000 answers (17,906 usable) across 20 software categories, collected on 15 November 2026 in fresh browser sessions from a US location. Key findings: All four engines named the same first brand on only 42.3% of prompts. Asked the same question three times, ChatGPT kept the same first brand on 75.6% of prompts, Google AI Overviews 73.5%, Gemini 65.3% and Google AI Mode 63.7%. Google showed an AI Overview on 98.0% of software-buying searches. AI Overviews cited YouTube in 80.5% and Reddit in 52.8% of answers; ChatGPT cited each in 0.4%, and cited review sites (G2, Capterra, TrustRadius and similar) in 25.6%. Of 27,307 domains cited in AI Overviews, 28.1% ranked top 3 and 63.5% top 10 on the same results page; 36.5% were not in the organic results shown. When the buyer described a problem instead of naming the category, the leading brand changed in 7 of 20 categories. Files: the full report (PDF); brand shares by category and engine (CSV); the 1,500 prompts with category, intent and source query (CSV). Interactive version with charts and category explorer: https://topsearchagency.com/ai-search-visibility-study/",
+      "levels": [
+        "Query",
+        "Citation"
+      ],
+      "domains": [
+        "Commerce & Consumer",
+        "Science & Technology"
+      ],
+      "topics": [
+        "User Behavior",
+        "Citation & Provenance"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-11-18"
+    },
+    {
+      "id": "doi-10.17632/6w5rbcxsdk",
+      "title": "Can you track AI visibility with an API? ChatGPT, Gemini and Google AI Mode: website vs API answers to 1,250 prompts (November 2026)",
+      "authors": [
+        "Markuss Titovs"
+      ],
+      "date": "2026-11-16",
+      "venue": "Mendeley Data",
+      "type": "Dataset",
+      "doi": "10.17632/6w5rbcxsdk",
+      "record": "https://doi.org/10.17632/6w5rbcxsdk",
+      "pdf": "",
+      "abstract": "Can an API stand in for the real chatbot websites when you track how AI answers mention brands? We asked ChatGPT, Gemini and Google AI Mode the same 1,250 prompts through their websites (5 times each) and through their APIs (once each), all with web search on: 21,250 answers, collected on 5 and 6 November 2026 by WebGlazer (https://webglazer.com), an AI search visibility platform. Main findings (Jaccard overlap, 1 = identical lists, 0 = nothing shared). Brands named, website vs website (run-to-run noise) against API vs website: ChatGPT 0.50 vs 0.31, Gemini 0.39 vs 0.36, Google AI Mode vs Gemini API 0.38 vs 0.30. Sites cited: ChatGPT 0.35 vs 0.23, Gemini 0.22 vs 0.14, Google AI Mode vs Gemini API 0.47 vs 0.14. - ChatGPT: the API is a poor stand-in for the website. On recommendation prompts its answers are about half as long (median 169 vs 331 words) and name fewer brands (median 5 vs 7). 29% of the brands the API names never appear in any of the 5 website answers. - Gemini: the API is close to the app for brands, but cites different sites. - Google AI Mode has no API, and the Gemini API cites very different sources. - The ChatGPT website searched the web in only 46% of answers even with web search requested; the Gemini app in 70%, AI Mode in 99%. Prompts: 640 real user prompts sampled from lmarena-ai/search-arena-24k (CC BY 4.0) in four types (recommendation, local, informational, branded), plus 610 Baltic prompts: buyer questions in English and the local language, and identity questions about real companies in Estonia, Latvia and Lithuania. Files: prompts.jsonl (the 1,250 prompts), per_prompt.csv (overlap scores per prompt and channel pair), summary.md (all numbers with 95% confidence intervals), answer_shape.csv/.md (answer length and brand counts), channels.csv, truth_by_channel.csv, README.md (method and file guide). Full answer text, citations, extracted brands and the collection and analysis code are in the GitHub repository and on Hugging Face (see related links).",
+      "levels": [
+        "Query",
+        "Citation"
+      ],
+      "domains": [
+        "Commerce & Consumer"
+      ],
+      "topics": [
+        "SEO & Publishers",
+        "Citation & Provenance"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-11-18"
+    },
     {
       "id": "doi-10.5281/zenodo.24191025",
       "title": "Google's Generative AI Search Revolution: What Enterprise Software Companies Must Do Now",
@@ -481,7 +618,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-17"
+      "first_detected": "2026-11-18"
     },
     {
       "id": "doi-10.5281/zenodo.23996526",
@@ -1549,7 +1686,7 @@
         "General AIO"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-17"
+      "first_detected": "2026-11-18"
     },
     {
       "id": "doi-10.5281/zenodo.23405630",
@@ -1987,7 +2124,7 @@
         "User Behavior"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-17"
+      "first_detected": "2026-11-18"
     },
     {
       "id": "doi-10.6084/m9.figshare.34094295",
