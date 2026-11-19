@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-18T13:19:26+08:00",
+  "last_updated": "2026-11-19T13:14:32+08:00",
   "new_in_latest_scan": 5,
   "scope": "All-domain Google AI Overviews / SGE research with multi-label application-domain classification.",
   "papers": [
@@ -27,7 +27,7 @@
         "SEO & Publishers"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-18"
+      "first_detected": "2026-11-19"
     },
     {
       "id": "doi-10.5281/zenodo.24295237",
@@ -54,7 +54,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-18"
+      "first_detected": "2026-11-19"
     },
     {
       "id": "doi-10.5281/zenodo.24295201",
@@ -83,7 +83,98 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-18"
+      "first_detected": "2026-11-19"
+    },
+    {
+      "id": "doi-10.5281/zenodo.24324593",
+      "title": "Qué responden las IA sobre el carnet de manipulador de alimentos: 203 respuestas revisadas a mano (España, octubre de 2026)",
+      "authors": [
+        "Formación Monac"
+      ],
+      "date": "2026-11-17",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Dataset",
+      "doi": "10.5281/zenodo.24324593",
+      "record": "https://doi.org/10.5281/zenodo.24324593",
+      "pdf": "",
+      "abstract": "Revisión a mano de 203 respuestas de 5 asistentes de IA (ChatGPT, Perplexity, Gemini, AI Mode y AI Overviews de Google) a 31 preguntas reales sobre el carnet o certificado de manipulador de alimentos en España, hechas el 12 y el 13 de octubre de 2026. Cada respuesta se marcó con una lista cerrada de 12 errores, comprobados contra AESAN y la normativa (Reglamento (CE) 852/2004, Ley 17/2011, Ley 1/2025, Ley 7/2022 y Reglamento (UE) 1169/2011). 99 de las 203 respuestas tienen algún error; las 44 de ChatGPT, ninguno. Método, reglas y ficheros, en README.md. Estudio completo, con la norma de cada error: manipulador-de-alimentos-curso.com/estudio-respuestas-ia-manipulador-alimentos. Hecho por Formación Monac: manipulador-de-alimentos-curso.com",
+      "levels": [
+        "Content"
+      ],
+      "domains": [
+        "General / Cross-domain"
+      ],
+      "topics": [
+        "General AIO"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-11-19"
+    },
+    {
+      "id": "doi-10.5281/zenodo.24304700",
+      "title": "Research data supporting \"Presentation speed, visible references, and answer credibility in Google AI Overviews\"",
+      "authors": [
+        "Yolanda Casermeiro-Corpas",
+        "Francisco Rejón‐Guardia",
+        "María Vallespín Arán"
+      ],
+      "date": "2026-11-17",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Dataset",
+      "doi": "10.5281/zenodo.24304700",
+      "record": "https://doi.org/10.5281/zenodo.24304700",
+      "pdf": "",
+      "abstract": "This dataset supports the manuscript “Presentation speed, visible references, and answer credibility in Google AI Overviews” by Yolanda Casermeiro-Corpas, Francisco Rejón-Guardia and María Vallespín. The study used a 2 × 2 × 2 between-subjects design manipulating presentation speed, visible source cues and query domain in a simulated Google AI Overviews interface. FILES AND SCOPEThe deposit contains only data.csv and variable_index.csv. data.csv contains 400 analytical cases and 34 numeric variables, with 50 participants per experimental condition. The columns comprise three experimental factors, seven manipulation/perception indicators and 24 questionnaire items used in the seven constructs analysed in the manuscript. The CSV files are UTF-8, comma-delimited. There are no missing values in the released data. INTERPRETATIONvariable_index.csv links neutral variable names to the questionnaire item codes in Appendix A of the accompanying manuscript. Item wording and response anchors must be consulted in that questionnaire; they are not reproduced in these files. The manuscript and questionnaire have not yet been published at the time of this deposit, and their persistent links will be added when available. X01 codes presentation speed (1 = fast, 2 = slow); X02 codes visible source cues (1 = high presence, 2 = low presence); X03 codes query domain (1 = recipes, 2 = health). Q001 uses 0 = No, 1 = Yes, 9 = Not sure; 9 is a valid response, not a missing value. Q002–Q031 use integers 1–7, with item-specific anchors in the questionnaire. SCORINGThe definitive scores are calculated as follows: cue evaluation = mean(Q008–Q010); systematic processing = mean(Q024–Q026); heuristic processing = mean(Q027–Q028); credibility = mean(Q011–Q015); trust = mean(Q016–Q020); usage intention = mean(Q021–Q023); personal innovativeness = sum(Q029–Q031). There are no reverse-scored items. Usage intention contains IN1–IN3 only; the current-use item IN4 is excluded. DATA MINIMISATION AND VERIFICATIONThe extract excludes individual demographics, municipality, year of birth, exact age, income, education, employment, source row indices and variables outside the reported analyses. Row order was randomly permuted. No participant identifiers, free text or linkage table are included. Assignment to the health query does not indicate a diagnosis or medical history. All released response values and record multiplicities were checked against the selected source data. The seven Cronbach alpha coefficients matched the manuscript to three decimal places. This release is not a full rerun of every reported analysis. DISCLOSURE LIMITATIONSThis is a minimised, de-identified extract, not a guarantee of zero re-identification risk. Response patterns are distinct and could potentially be linked by someone with sufficient external knowledge of the responses. Neutral variable names are an indexing convention, not encryption. FUNDINGThe study was supported by Research Group SEJ-567 (Junta de Andalucía), project B3-2023/21 (MP-ECSTIA), project PID2022-137648OB-C22 (Spanish Ministry of Science and Innovation, Spanish State Research Agency and European Regional Development Fund), and a doctoral grant from Fundación José Luis de Oriol-Catalina de Urquijo.",
+      "levels": [
+        "Query",
+        "Citation",
+        "Presentation"
+      ],
+      "domains": [
+        "Health & Medicine",
+        "Education & Academia",
+        "Science & Technology",
+        "Travel, Local & Lifestyle"
+      ],
+      "topics": [
+        "User Behavior",
+        "Citation & Provenance",
+        "Technical Evaluation",
+        "Safety & Risk",
+        "Platform & Interface"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-11-19"
+    },
+    {
+      "id": "doi-10.5281/zenodo.24315337",
+      "title": "Being the Answer: How AI Search Is Changing Discovery for B2B Brands in India",
+      "authors": [
+        "Anita Singh"
+      ],
+      "date": "2026-11-17",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Report",
+      "doi": "10.5281/zenodo.24315337",
+      "record": "https://doi.org/10.5281/zenodo.24315337",
+      "pdf": "",
+      "abstract": "Traditional search engine rankings are no longer sufficient for B2B customer acquisition in India. As enterprise buyers increasingly rely on generative AI platforms—including ChatGPT, Perplexity, Claude, and Google AI Overviews—brands must transition from chasing ten blue links to becoming the cited, authoritative answer. Published by Indian Digitals, this 2026 industry report examines how Generative Engine Optimization (GEO), Answer Engine Optimization (AEO), and Large Language Model Optimization (LLMO) are reshaping B2B brand discovery across Indian markets. Key Topics Covered: The shift from keyword-centric SEO to entity-based AI discovery in Indian B2B sectors. How AI answer engines select, verify, and cite third-party sources. Technical architecture, schema markup, and proprietary data strategies for LLM visibility. About the Publisher: Indian Digitals is a full-service digital marketing and AI search optimization agency operating across Noida, Varanasi, Ahmedabad, and Prayagraj, helping B2B and local brands build durable search visibility.",
+      "levels": [
+        "Citation",
+        "Presentation"
+      ],
+      "domains": [
+        "Finance & Economics",
+        "Commerce & Consumer",
+        "Science & Technology"
+      ],
+      "topics": [
+        "SEO & Publishers",
+        "Citation & Provenance",
+        "Technical Evaluation"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-11-19"
     },
     {
       "id": "doi-10.5281/zenodo.24271012",
@@ -111,7 +202,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-18"
+      "first_detected": "2026-11-19"
     },
     {
       "id": "doi-10.17632/6w5rbcxsdk",
@@ -138,7 +229,64 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-18"
+      "first_detected": "2026-11-19"
+    },
+    {
+      "id": "doi-10.5281/zenodo.24269819",
+      "title": "Getting a Small Napa Winery Approved on Google Shopping: A Napa Reach Case Study",
+      "authors": [
+        "Jonathan Honig"
+      ],
+      "date": "2026-11-16",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Article",
+      "doi": "10.5281/zenodo.24269819",
+      "record": "https://doi.org/10.5281/zenodo.24269819",
+      "pdf": "",
+      "abstract": "Napa Reach publishes research and case studies on search optimization, AI search visibility and Google Shopping for small wineries in Napa Valley and Sonoma County. Our work documents what actually moves a small winery's visibility in Google, Maps and AI answers, using real results from working Napa wineries. Learn more at https://www.napareach.com or email reach@napareach.com.",
+      "levels": [
+        "Content"
+      ],
+      "domains": [
+        "Commerce & Consumer"
+      ],
+      "topics": [
+        "General AIO"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-11-19"
+    },
+    {
+      "id": "doi-10.48550/arxiv.2611.19655",
+      "title": "User First Intelligence: Three Measurements of Search and AI-Answer Analytics (SEO and GEO/AEO), and a Knowledge-Graph Framework for Query Discovery Beyond Search Volume",
+      "authors": [
+        "Venkata Pagadala"
+      ],
+      "date": "2026-11-14",
+      "venue": "arXiv (Cornell University)",
+      "type": "Preprint",
+      "doi": "10.48550/arxiv.2611.19655",
+      "record": "https://doi.org/10.48550/arxiv.2611.19655",
+      "pdf": "",
+      "abstract": "People say what they want to know in many places besides a search box, and the tools that search and AI-answer optimization (SEO and GEO/AEO) rely on see only part of that demand, through models reported as counts. This paper reports three measurements of such instruments and a framework. On the area-code section of a large US telecom provider's site, two commercial analytics platforms differed on estimated monthly visits by 7.5x to 27.1x (8.6x to 29.9x worldwide); across twelve sections of the domain the ratio ran from 0.20x to 7.24x with no detectable relation to section age, while they agreed on which section is larger in 60 of 66 pairs. On 37,193 reviews of 378 telecom stores linked to a 42,994-node keyword taxonomy, review demand and search volume agreed on branches to a varying degree (Spearman 0.47 to 0.75; 0.91 post hoc) and barely on topics (0.18), on links two blind AI annotators judged two-thirds correct; on the 372 area codes, a public count of Wikipedia requests for each code and vendor volume agreed roughly on ranking (0.45 over 240 articles, gone once keywords matched per code are held constant) and not on magnitudes, predictions fixed first. In one vendor's index of AI answers naming or citing the largest companies of each S&P 500 sector, of four predictions written first, one held, one in direction only and two failed; video and community sites took a median 21% of citation incidences on Google's AI Overviews and AI Mode against 0.6% to 9.2% on four other surfaces, in every sector, and in education answers in each of 13 countries read later. Estimates and sources need measuring per instrument and surface. User First Intelligence (UFI), built on that premise, collects what people ask beyond the website, links it to an industry ontology and scores where an organization does not answer; an open implementation is released, its score not evaluated. No causal claim is made.",
+      "levels": [
+        "Query",
+        "Content",
+        "Citation",
+        "Presentation"
+      ],
+      "domains": [
+        "Finance & Economics",
+        "Commerce & Consumer",
+        "Education & Academia"
+      ],
+      "topics": [
+        "SEO & Publishers",
+        "Citation & Provenance",
+        "Technical Evaluation"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-11-19"
     },
     {
       "id": "doi-10.5281/zenodo.24191025",
@@ -245,7 +393,7 @@
         "SEO & Publishers"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-17"
+      "first_detected": "2026-11-19"
     },
     {
       "id": "doi-10.17605/osf.io/wjgqp",
@@ -357,7 +505,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-17"
+      "first_detected": "2026-11-19"
     },
     {
       "id": "doi-10.5281/zenodo.24058905",
@@ -618,7 +766,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-18"
+      "first_detected": "2026-11-19"
     },
     {
       "id": "doi-10.5281/zenodo.23996526",
@@ -1686,7 +1834,7 @@
         "General AIO"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-18"
+      "first_detected": "2026-11-19"
     },
     {
       "id": "doi-10.5281/zenodo.23405630",
