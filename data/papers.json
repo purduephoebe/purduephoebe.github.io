@@ -1,8 +1,35 @@
 {
-  "last_updated": "2026-11-19T13:14:32+08:00",
-  "new_in_latest_scan": 5,
+  "last_updated": "2026-11-20T13:01:39+08:00",
+  "new_in_latest_scan": 1,
   "scope": "All-domain Google AI Overviews / SGE research with multi-label application-domain classification.",
   "papers": [
+    {
+      "id": "doi-10.5281/zenodo.24287370",
+      "title": "The VizzEx Longitudinal B2B AI Citation Study",
+      "authors": [
+        "Carolyn Holzman",
+        "Kim Albee"
+      ],
+      "date": "2026-11-18",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Report",
+      "doi": "10.5281/zenodo.24287370",
+      "record": "https://doi.org/10.5281/zenodo.24287370",
+      "pdf": "",
+      "abstract": "The VizzEx Longitudinal B2B AI Citation Study tracked whether AI answer engines cite B2B companies on the specific questions their buyers ask, whether those citations hold, and what brings them back. Over 12 weekly checks (July–October 2026), it followed 10 company domains on 1,431 tracked questions, most of them buyer questions, across Google AI Overviews, ChatGPT, Claude and Perplexity, and stored all 59,645 answers. Eight sites used or were observed under the VizzEx approach; two famous marketing publishers served as untreated controls. The companies' posts were compared with the pages cited instead on structure, unique information, semantic relationship links, FAQ sections, Google rank and agreement across engines. What the Study Found for the VizzEx Approach Connection over volume: When several connected posts could answer a question, citations held 35 to 57 points more often (median +42), on all 8 study sites. On one site, 128 new, unconnected posts drew 1 of its 179 citations; on another, 9 of 11 new connected posts were cited. On questions several of a company's posts could answer, when an engine dropped one of its posts, it moved to another of that company's posts 79–94% of the time, usually one joined to it by a semantic relationship link (63%, against 33% if the engine had picked at random). This is the VizzEx GEOMesh™ at work. The famous publishers, with no such links, usually lost the citation (79 times in 90). Recovery: Lost citations on the VizzEx sites came back 73% of the time (134 of 184), against 41% for the famous publishers (9 of 22). Structure: VizzEx sites' posts outscored the page they were up against on structural symmetry in 89% of 1,163 head-to-head comparisons. Unique Information Delta: Information only the company could publish (coined terms, named frameworks, client stories) earned citations fastest on every site. One site's coined term was cited nowhere until a glossary entry defining it went live; from then on, ChatGPT cited and named the company at every check. Authority isn't the price of admission: A publisher with 96,060 linking domains got no ChatGPT citations in 12 weekly checks. Naming: On buyer questions, the engines named the company in 337 of 7,304 cited answers (4.6%), and the name appeared when it was in the cited post's own sentences. This record contains the full report (PDF). Learn more about VizzEx at vizzex.ai.",
+      "levels": [
+        "Citation"
+      ],
+      "domains": [
+        "Finance & Economics"
+      ],
+      "topics": [
+        "SEO & Publishers",
+        "Citation & Provenance"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-11-20"
+    },
     {
       "id": "doi-10.5281/zenodo.24294871",
       "title": "Perth AI Search Study 2026: AI Recommendations of Local Businesses Across Four AI Systems (Research Summary)",
@@ -27,7 +54,7 @@
         "SEO & Publishers"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-19"
+      "first_detected": "2026-11-20"
     },
     {
       "id": "doi-10.5281/zenodo.24295237",
@@ -54,7 +81,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-19"
+      "first_detected": "2026-11-20"
     },
     {
       "id": "doi-10.5281/zenodo.24295201",
@@ -83,7 +110,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-19"
+      "first_detected": "2026-11-20"
     },
     {
       "id": "doi-10.5281/zenodo.24324593",
@@ -174,7 +201,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-19"
+      "first_detected": "2026-11-20"
     },
     {
       "id": "doi-10.5281/zenodo.24271012",
@@ -229,7 +256,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-19"
+      "first_detected": "2026-11-20"
     },
     {
       "id": "doi-10.5281/zenodo.24269819",
@@ -254,7 +281,7 @@
         "General AIO"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-19"
+      "first_detected": "2026-11-20"
     },
     {
       "id": "doi-10.48550/arxiv.2611.19655",
@@ -267,7 +294,7 @@
       "type": "Preprint",
       "doi": "10.48550/arxiv.2611.19655",
       "record": "https://doi.org/10.48550/arxiv.2611.19655",
-      "pdf": "",
+      "pdf": "https://arxiv.org/pdf/2611.19655",
       "abstract": "People say what they want to know in many places besides a search box, and the tools that search and AI-answer optimization (SEO and GEO/AEO) rely on see only part of that demand, through models reported as counts. This paper reports three measurements of such instruments and a framework. On the area-code section of a large US telecom provider's site, two commercial analytics platforms differed on estimated monthly visits by 7.5x to 27.1x (8.6x to 29.9x worldwide); across twelve sections of the domain the ratio ran from 0.20x to 7.24x with no detectable relation to section age, while they agreed on which section is larger in 60 of 66 pairs. On 37,193 reviews of 378 telecom stores linked to a 42,994-node keyword taxonomy, review demand and search volume agreed on branches to a varying degree (Spearman 0.47 to 0.75; 0.91 post hoc) and barely on topics (0.18), on links two blind AI annotators judged two-thirds correct; on the 372 area codes, a public count of Wikipedia requests for each code and vendor volume agreed roughly on ranking (0.45 over 240 articles, gone once keywords matched per code are held constant) and not on magnitudes, predictions fixed first. In one vendor's index of AI answers naming or citing the largest companies of each S&P 500 sector, of four predictions written first, one held, one in direction only and two failed; video and community sites took a median 21% of citation incidences on Google's AI Overviews and AI Mode against 0.6% to 9.2% on four other surfaces, in every sector, and in education answers in each of 13 countries read later. Estimates and sources need measuring per instrument and surface. User First Intelligence (UFI), built on that premise, collects what people ask beyond the website, links it to an industry ontology and scores where an organization does not answer; an open implementation is released, its score not evaluated. No causal claim is made.",
       "levels": [
         "Query",
@@ -286,7 +313,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-19"
+      "first_detected": "2026-11-20"
     },
     {
       "id": "doi-10.5281/zenodo.24191025",
@@ -393,7 +420,7 @@
         "SEO & Publishers"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-19"
+      "first_detected": "2026-11-20"
     },
     {
       "id": "doi-10.17605/osf.io/wjgqp",
@@ -766,7 +793,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-19"
+      "first_detected": "2026-11-20"
     },
     {
       "id": "doi-10.5281/zenodo.23996526",
@@ -1834,7 +1861,7 @@
         "General AIO"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-19"
+      "first_detected": "2026-11-20"
     },
     {
       "id": "doi-10.5281/zenodo.23405630",
