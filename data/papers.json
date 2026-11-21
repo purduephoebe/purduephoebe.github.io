@@ -1,8 +1,34 @@
 {
-  "last_updated": "2026-11-20T13:01:39+08:00",
+  "last_updated": "2026-11-21T12:57:13+08:00",
   "new_in_latest_scan": 1,
   "scope": "All-domain Google AI Overviews / SGE research with multi-label application-domain classification.",
   "papers": [
+    {
+      "id": "doi-10.5281/zenodo.24379377",
+      "title": "2026 Multi-Market U.S. Credit Union AI Search Visibility Study: Explicit Geo-Declared \"Money-in-Motion\" Prompts, Cross-Engine Disagreement, and Three-Metro Comparative Omission",
+      "authors": [
+        "Jones Amy"
+      ],
+      "date": "2026-11-19",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Report",
+      "doi": "10.5281/zenodo.24379377",
+      "record": "https://doi.org/10.5281/zenodo.24379377",
+      "pdf": "",
+      "abstract": "EquiSchema AI Empirical Benchmark Report No. 2026-04 evaluates generative AI search visibility, Total Brand Omission, and cross-engine recommendation variance across 12 regional credit unions ($450M to $19B+ in assets) in two distinct U.S. economic corridors: Central Texas (Austin Metro) and the Mid-Atlantic Federal Corridor (Baltimore–Washington). Across 480 total evaluation slots (20 localized and multi-variable \"Money-in-Motion\" financial prompts tested across ChatGPT, Google Gemini, Perplexity, and Claude), regional credit unions suffered an 80.8% Total Brand Omission rate (19.2% aggregate visibility)—even when prompts explicitly declared the borrower’s residential city. Category-level audits revealed a 97.9% omission rate on High-Yield Savings and emergency fund deposit prompts (0.0% visibility on explicit $10,000 emergency fund queries) and a 97.9% primary omission rate on First-Time Homebuyer mortgages, where AI models routed borrowers to out-of-state digital banks, lead-generation aggregators, state housing finance programs, and private mortgage brokers. Cross-engine disagreement averaged 73.0% across all 20 benchmark prompts (peaking at 95.0% on state HELOC inquiries), with stark model-level divergence between Google Gemini (27.5% credit union visibility) and Claude (15.0%). Combining these 480 evaluations with our prior 1,800-evaluation Midwest baseline (Report No. 2026-03) and 2,160 commercial banking and sterile credit union evaluations (Reports No. 2026-01 and 2026-02) brings the EquiSchema AI empirical series to 4,440 total evaluations, demonstrating that unstructured HTML rate tables and legacy PDFs prevent frontier LLMs from verifying multi-variable financial product terms.",
+      "levels": [
+        "Query"
+      ],
+      "domains": [
+        "Finance & Economics",
+        "Commerce & Consumer"
+      ],
+      "topics": [
+        "Technical Evaluation"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-11-21"
+    },
     {
       "id": "doi-10.5281/zenodo.24287370",
       "title": "The VizzEx Longitudinal B2B AI Citation Study",
@@ -54,7 +80,7 @@
         "SEO & Publishers"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-20"
+      "first_detected": "2026-11-21"
     },
     {
       "id": "doi-10.5281/zenodo.24295237",
@@ -81,7 +107,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-20"
+      "first_detected": "2026-11-21"
     },
     {
       "id": "doi-10.5281/zenodo.24295201",
@@ -110,7 +136,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-20"
+      "first_detected": "2026-11-21"
     },
     {
       "id": "doi-10.5281/zenodo.24324593",
@@ -201,7 +227,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-20"
+      "first_detected": "2026-11-21"
     },
     {
       "id": "doi-10.5281/zenodo.24271012",
@@ -281,7 +307,7 @@
         "General AIO"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-20"
+      "first_detected": "2026-11-21"
     },
     {
       "id": "doi-10.48550/arxiv.2611.19655",
@@ -313,7 +339,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-20"
+      "first_detected": "2026-11-21"
     },
     {
       "id": "doi-10.5281/zenodo.24191025",
@@ -420,7 +446,7 @@
         "SEO & Publishers"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-20"
+      "first_detected": "2026-11-21"
     },
     {
       "id": "doi-10.17605/osf.io/wjgqp",
@@ -1861,7 +1887,7 @@
         "General AIO"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-20"
+      "first_detected": "2026-11-21"
     },
     {
       "id": "doi-10.5281/zenodo.23405630",
