@@ -1,8 +1,142 @@
 {
-  "last_updated": "2026-11-23T12:56:30+08:00",
-  "new_in_latest_scan": 0,
+  "last_updated": "2026-11-24T15:44:25+08:00",
+  "new_in_latest_scan": 5,
   "scope": "All-domain Google AI Overviews / SGE research with multi-label application-domain classification.",
   "papers": [
+    {
+      "id": "doi-10.5281/zenodo.24450064",
+      "title": "Invisible Filtering and Apparent Exhaustiveness: Why a Display That Looks Complete Can Leave Things Out",
+      "authors": [
+        "Alexandra Cary"
+      ],
+      "date": "2026-11-22",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Article",
+      "doi": "10.5281/zenodo.24450064",
+      "record": "https://doi.org/10.5281/zenodo.24450064",
+      "pdf": "",
+      "abstract": "This conceptual paper introduces Invisible Filtering and Apparent Exhaustiveness, a mechanism in the Selection and Attention series of On Human Modeling. A filter leaves items out of a display without marking where anything is missing. A reader who expects a friend’s posts to appear may then take the friend’s absence from the feed as evidence that the friend has stopped posting. Every visible post can be accurate while the reader is mistaken about what the feed covers. In a 2015 study, Motahhare Eslami and colleagues interviewed 40 Facebook users. More than half of them expected friends' public posts to appear in their News Feeds. The researchers used FeedVis to show participants which posts their feeds had included and which they had omitted. Seven participants who had assumed that particular friends did not post discovered that those friends had been posting. One participant had thought a friend had deactivated her account. In 2026, publisher Cyrus Shepard opted his site, Zyppy, out of Google’s AI search features. For one example search, he reported that Zyppy still ranked first in the ordinary results while it was absent from the AI features and their citation links. The pictured AI Overview gave no visible notice of the omission. Shepard knew which source was missing because he had chosen to exclude it. What a reader expected the answer to include remains open. The paper considers H. P. Grice’s first maxim of quantity, which relates how much a speaker should say to the purpose of the exchange. A partial list can give a reader the example they need. Using that list to rule out other possibilities requires grounds for expecting those possibilities to appear. The paper asks what the reader expected to see, what the filter left out, and how the omission came to light.",
+      "levels": [
+        "Citation"
+      ],
+      "domains": [
+        "Politics, Government & News"
+      ],
+      "topics": [
+        "SEO & Publishers",
+        "Citation & Provenance"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-11-24"
+    },
+    {
+      "id": "doi-10.5281/zenodo.24432040",
+      "title": "Toward Pedagogically-Aligned AI Retrieval Systems in Higher Education: A Scoping Review",
+      "authors": [
+        "Samal T. Abdrakhmanova"
+      ],
+      "date": "2026-11-22",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Preprint",
+      "doi": "10.5281/zenodo.24432040",
+      "record": "https://doi.org/10.5281/zenodo.24432040",
+      "pdf": "",
+      "abstract": "This scoping review examines the intelligent systems powered by artificial intelligence in education. The review was conducted using data from Scopus, Web of Science, and Google Scholar, in accordance with PRISMA guidelines. The final review corpus consisted of 65 relevant scientific studies meeting the inclusion criteria. Furthermore, articles were categorized by types of AI-driven search: traditional keyword-based search, semantic search, and generative technologies. Research outcomes highlight the dominance of generative search within AI-driven natural language processing (NLP) applications, with semantic systems being secondary, and the role of AI algorithms in improving search relevance. However, crucial limitations, including a lack of pedagogical integration, a fragmented system architecture, and insufficient empirical verification in real-world educational settings, have been identified.",
+      "levels": [
+        "Content"
+      ],
+      "domains": [
+        "Commerce & Consumer",
+        "Education & Academia",
+        "Science & Technology"
+      ],
+      "topics": [
+        "Technical Evaluation"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-11-24"
+    },
+    {
+      "id": "doi-10.5281/zenodo.24446030",
+      "title": "AI Crawlers and Search Bots Reference Database (2026): Robots.txt Rules, Operators, Purposes and Blocking Effects",
+      "authors": [
+        "Ata Yasir"
+      ],
+      "date": "2026-11-22",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Dataset",
+      "doi": "10.5281/zenodo.24446030",
+      "record": "https://doi.org/10.5281/zenodo.24446030",
+      "pdf": "",
+      "abstract": "This dataset provides a structured reference database of 30 AI crawlers, search engine bots, and web agents from major technology companies, including OpenAI, Google, Anthropic, Meta, Microsoft, Perplexity, and others. It documents each bot's operator, primary purpose, category, robots.txt token, robots.txt compliance, and the potential effects of blocking it through robots.txt. The dataset covers several categories, including AI training crawlers, AI search bots, user-initiated AI assistants, traditional search engine crawlers, Google-specific crawlers, and other automated web agents. Key information included: Bot names and their respective operators Primary crawling and processing purposes Robots.txt user-agent tokens Robots.txt compliance information Potential effects of blocking individual bots Official documentation and source URLs Editorial notes and related SEO resources Last-checked dates for reference Methodology: Information is compiled from publicly available vendor documentation and official sources. Descriptions of blocking effects and bot purposes are presented as documented or editorially interpreted information, not as results of independent crawling experiments. Last reviewed: November 22, 2026. Author: Yasir Ata, Organic SEO Specialist at FlowFledge. For additional insights into website crawling, indexing, and technical SEO, explore the professional SEO audit services guide and learn more about organic SEO expertise at FlowFledge.",
+      "levels": [
+        "Citation",
+        "Presentation"
+      ],
+      "domains": [
+        "Commerce & Consumer",
+        "Science & Technology",
+        "Law & Public Policy"
+      ],
+      "topics": [
+        "SEO & Publishers",
+        "Citation & Provenance"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-11-24"
+    },
+    {
+      "id": "doi-10.5281/zenodo.24410472",
+      "title": "AI Search Visibility Signals and Shopify Supplement Brand Snapshot (2026)",
+      "authors": [
+        "RootMention"
+      ],
+      "date": "2026-11-21",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Dataset",
+      "doi": "10.5281/zenodo.24410472",
+      "record": "https://doi.org/10.5281/zenodo.24410472",
+      "pdf": "",
+      "abstract": "A small, sourced open dataset in two parts. (1) A CSV of publicly documented signals that official providers (OpenAI, Anthropic and Google) say affect whether ChatGPT, Claude, Gemini or Google AI features can crawl, use or cite a website. (2) An attributed extract of summary tables from RootMention's public Shopify-supplement AI visibility study (186-brand cohort), retrieved on 20 November 2026. Includes a README and a reusable checklist template. This is not a ranked list of ranking factors, and the study figures are a timestamped observational snapshot, not proof of causation. Published by RootMention (https://rootmention.com).",
+      "levels": [
+        "Citation"
+      ],
+      "domains": [
+        "Commerce & Consumer"
+      ],
+      "topics": [
+        "SEO & Publishers",
+        "Citation & Provenance",
+        "Technical Evaluation"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-11-24"
+    },
+    {
+      "id": "doi-10.5281/zenodo.24426669",
+      "title": "Locked Out? What Google and AI See on Napa and Sonoma Winery Websites",
+      "authors": [
+        "Jonathan Honig"
+      ],
+      "date": "2026-11-21",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Article",
+      "doi": "10.5281/zenodo.24426669",
+      "record": "https://doi.org/10.5281/zenodo.24426669",
+      "pdf": "",
+      "abstract": "Of 50 randomly drawn Napa and Sonoma winery websites, we were able to check 36 for the basic signals Google and AI search tools read before they show a winery to a customer. Only 9 of the 36 (25%) had all four basics in place: structured data, a meta description, a working sitemap and a secure HTTPS redirect. The most common gap was structured data, missing from 67% of homepages and from 78% in Napa County. None of the 30 sites with a readable robots.txt file blocked AI crawlers, so these gaps come from setup left undone, and most can be fixed quickly. The sample was drawn from the federal TTB Wine Producer and Blender Permit List, and all checks ran on November 21, 2026. No winery is named.",
+      "levels": [
+        "Content"
+      ],
+      "domains": [
+        "General / Cross-domain"
+      ],
+      "topics": [
+        "SEO & Publishers"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-11-24"
+    },
     {
       "id": "doi-10.6084/m9.figshare.35076703",
       "title": "Where Do ChatGPT, Google, Perplexity and Gemini Get Their B2B Recommendations? (October 2026 Study)",
@@ -59,7 +193,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-23"
+      "first_detected": "2026-11-24"
     },
     {
       "id": "doi-10.5281/zenodo.24407318",
@@ -90,7 +224,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-23"
+      "first_detected": "2026-11-24"
     },
     {
       "id": "doi-10.6084/m9.figshare.35080753",
@@ -119,7 +253,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-23"
+      "first_detected": "2026-11-24"
     },
     {
       "id": "doi-10.5281/zenodo.24379377",
@@ -198,7 +332,7 @@
         "SEO & Publishers"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-23"
+      "first_detected": "2026-11-24"
     },
     {
       "id": "doi-10.5281/zenodo.24295237",
@@ -225,7 +359,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-23"
+      "first_detected": "2026-11-24"
     },
     {
       "id": "doi-10.5281/zenodo.24295201",
@@ -254,7 +388,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-23"
+      "first_detected": "2026-11-24"
     },
     {
       "id": "doi-10.5281/zenodo.24324593",
@@ -345,7 +479,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-23"
+      "first_detected": "2026-11-24"
     },
     {
       "id": "doi-10.5281/zenodo.24271012",
@@ -425,7 +559,7 @@
         "General AIO"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-23"
+      "first_detected": "2026-11-24"
     },
     {
       "id": "doi-10.48550/arxiv.2611.19655",
@@ -457,7 +591,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-23"
+      "first_detected": "2026-11-24"
     },
     {
       "id": "doi-10.5281/zenodo.24191025",
@@ -2005,7 +2139,7 @@
         "General AIO"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-23"
+      "first_detected": "2026-11-24"
     },
     {
       "id": "doi-10.5281/zenodo.23405630",
