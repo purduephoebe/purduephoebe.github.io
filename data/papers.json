@@ -1,8 +1,86 @@
 {
-  "last_updated": "2026-11-24T15:44:25+08:00",
-  "new_in_latest_scan": 5,
+  "last_updated": "2026-11-25T14:16:56+08:00",
+  "new_in_latest_scan": 3,
   "scope": "All-domain Google AI Overviews / SGE research with multi-label application-domain classification.",
   "papers": [
+    {
+      "id": "doi-10.5281/zenodo.24485664",
+      "title": "Why Businesses Still Need SEO Agencies in the Era of Artificial Intelligence: The Changing Role of SEO in Search, Discovery, and Digital Growth",
+      "authors": [
+        "Roheel Abbas"
+      ],
+      "date": "2026-11-24",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Article",
+      "doi": "10.5281/zenodo.24485664",
+      "record": "https://doi.org/10.5281/zenodo.24485664",
+      "pdf": "",
+      "abstract": "This research paper examines why businesses continue to need professional SEO agencies in the era of artificial intelligence. As AI-powered tools automate keyword research, content generation, competitor analysis, and other SEO activities, businesses are increasingly questioning the value of traditional SEO services. The study explores the evolving relationship between artificial intelligence and professional SEO expertise, focusing on technical SEO, search strategy, content quality, brand authority, competitive intelligence, and visibility across traditional search engines and AI-powered platforms such as Google AI Overviews, ChatGPT, and Gemini. It also examines the limitations of AI-only SEO approaches and discusses how SEO agencies are evolving from conventional ranking-focused service providers into strategic search visibility and digital growth partners. The paper combines a review of published industry guidance and research with practical SEO observations and an anonymised case study involving organic search performance for a B2B training provider. The research highlights the importance of combining AI-assisted workflows with human expertise, technical knowledge, strategic planning, and measurable business objectives. Author: Roheel AbbasProfessional Role: SEO SpecialistWebsite: https://digitechnomad.com/ Publication Year: 2026Document Version: 1.0",
+      "levels": [
+        "Presentation"
+      ],
+      "domains": [
+        "Commerce & Consumer",
+        "Science & Technology"
+      ],
+      "topics": [
+        "SEO & Publishers",
+        "Technical Evaluation"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-11-25"
+    },
+    {
+      "id": "doi-10.5281/zenodo.24459683",
+      "title": "Is SEO Still Worth It in the Age of AI Search?",
+      "authors": [
+        "AiBitSol"
+      ],
+      "date": "2026-11-23",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Article",
+      "doi": "10.5281/zenodo.24459683",
+      "record": "https://doi.org/10.5281/zenodo.24459683",
+      "pdf": "",
+      "abstract": "Every year somebody announces that SEO is dead. Voice search was going to kill it. Then featured snippets. Now it’s ChatGPT, Perplexity, Gemini, Claude and Google’s AI Overviews, and honestly, this time the worry isn’t silly. Clients ask us about it almost every week: “Is SEO still worth paying for?” Short answer: yes. Longer answer: yes, but not the SEO a lot of people were doing in 2018, and not on its own",
+      "levels": [
+        "Presentation"
+      ],
+      "domains": [
+        "General / Cross-domain"
+      ],
+      "topics": [
+        "SEO & Publishers",
+        "Platform & Interface"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-11-25"
+    },
+    {
+      "id": "doi-10.5281/zenodo.24483993",
+      "title": "Sysenko AI-index NL, November 2026: which local businesses ChatGPT and Google AI name per Dutch town",
+      "authors": [
+        "Danil Sysenko"
+      ],
+      "date": "2026-11-23",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Dataset",
+      "doi": "10.5281/zenodo.24483993",
+      "record": "https://doi.org/10.5281/zenodo.24483993",
+      "pdf": "",
+      "abstract": "Counts of business names in the answers of ChatGPT (with web search), Google AI Overview and Google AI Mode to four fixed Dutch questions per town, for 18 trades in the Netherlands. One measurement, November 2026; 3,185 rows. Method and live pages: https://sysenko.com/nl/ai-index/plaats/ . A business that does not want its name included can mail danil@sysenko.com.",
+      "levels": [
+        "Content"
+      ],
+      "domains": [
+        "General / Cross-domain"
+      ],
+      "topics": [
+        "General AIO"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-11-25"
+    },
     {
       "id": "doi-10.5281/zenodo.24450064",
       "title": "Invisible Filtering and Apparent Exhaustiveness: Why a Display That Looks Complete Can Leave Things Out",
@@ -27,7 +105,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-24"
+      "first_detected": "2026-11-25"
     },
     {
       "id": "doi-10.5281/zenodo.24432040",
@@ -83,7 +161,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-24"
+      "first_detected": "2026-11-25"
     },
     {
       "id": "doi-10.5281/zenodo.24410472",
@@ -110,7 +188,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-24"
+      "first_detected": "2026-11-25"
     },
     {
       "id": "doi-10.5281/zenodo.24426669",
@@ -135,7 +213,7 @@
         "SEO & Publishers"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-24"
+      "first_detected": "2026-11-25"
     },
     {
       "id": "doi-10.6084/m9.figshare.35076703",
@@ -193,7 +271,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-24"
+      "first_detected": "2026-11-25"
     },
     {
       "id": "doi-10.5281/zenodo.24407318",
@@ -224,7 +302,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-24"
+      "first_detected": "2026-11-25"
     },
     {
       "id": "doi-10.6084/m9.figshare.35080753",
@@ -253,7 +331,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-24"
+      "first_detected": "2026-11-25"
     },
     {
       "id": "doi-10.5281/zenodo.24379377",
@@ -332,7 +410,7 @@
         "SEO & Publishers"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-24"
+      "first_detected": "2026-11-25"
     },
     {
       "id": "doi-10.5281/zenodo.24295237",
@@ -359,7 +437,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-24"
+      "first_detected": "2026-11-25"
     },
     {
       "id": "doi-10.5281/zenodo.24295201",
@@ -388,7 +466,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-24"
+      "first_detected": "2026-11-25"
     },
     {
       "id": "doi-10.5281/zenodo.24324593",
@@ -479,7 +557,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-24"
+      "first_detected": "2026-11-25"
     },
     {
       "id": "doi-10.5281/zenodo.24271012",
@@ -559,7 +637,7 @@
         "General AIO"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-24"
+      "first_detected": "2026-11-25"
     },
     {
       "id": "doi-10.48550/arxiv.2611.19655",
@@ -568,7 +646,7 @@
         "Venkata Pagadala"
       ],
       "date": "2026-11-14",
-      "venue": "arXiv (Cornell University)",
+      "venue": "arXiv",
       "type": "Preprint",
       "doi": "10.48550/arxiv.2611.19655",
       "record": "https://doi.org/10.48550/arxiv.2611.19655",
@@ -591,7 +669,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-24"
+      "first_detected": "2026-11-25"
     },
     {
       "id": "doi-10.5281/zenodo.24191025",
@@ -923,7 +1001,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-22"
+      "first_detected": "2026-11-25"
     },
     {
       "id": "doi-10.5281/zenodo.23996780",
@@ -1502,7 +1580,7 @@
         "Safety & Risk"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-22"
+      "first_detected": "2026-11-25"
     },
     {
       "id": "arxiv-2610.40164v1",
@@ -1534,7 +1612,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-22"
+      "first_detected": "2026-11-25"
     },
     {
       "id": "doi-10.5281/zenodo.23740428",
@@ -2139,7 +2217,7 @@
         "General AIO"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-24"
+      "first_detected": "2026-11-25"
     },
     {
       "id": "doi-10.5281/zenodo.23405630",
@@ -2945,7 +3023,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-22"
+      "first_detected": "2026-11-25"
     },
     {
       "id": "doi-10.5281/zenodo.23028277",
@@ -3319,7 +3397,7 @@
         "Platform & Interface"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-22"
+      "first_detected": "2026-11-25"
     },
     {
       "id": "doi-10.5281/zenodo.22856034",
@@ -3442,7 +3520,7 @@
         "Platform & Interface"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-22"
+      "first_detected": "2026-11-25"
     },
     {
       "id": "doi-10.5281/zenodo.22707850",
@@ -3529,7 +3607,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-22"
+      "first_detected": "2026-11-25"
     },
     {
       "id": "doi-10.65150/ep-jsshrs/v2e9/2026-04",
@@ -3608,7 +3686,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-22"
+      "first_detected": "2026-11-25"
     },
     {
       "id": "arxiv-2608.29063v1",
@@ -3640,7 +3718,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-22"
+      "first_detected": "2026-11-25"
     },
     {
       "id": "arxiv-2608.18352v1",
@@ -3671,7 +3749,7 @@
         "User Behavior"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-22"
+      "first_detected": "2026-11-25"
     },
     {
       "id": "arxiv-2609.05463v1",
@@ -3699,7 +3777,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-22"
+      "first_detected": "2026-11-25"
     },
     {
       "id": "arxiv-2608.04831v1",
@@ -3730,7 +3808,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-22"
+      "first_detected": "2026-11-25"
     },
     {
       "id": "arxiv-2607.04282v3",
@@ -3758,7 +3836,7 @@
         "User Behavior"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-22"
+      "first_detected": "2026-11-25"
     },
     {
       "id": "arxiv-2607.03421v1",
@@ -3795,7 +3873,7 @@
         "Platform & Interface"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-22"
+      "first_detected": "2026-11-25"
     },
     {
       "id": "arxiv-2606.11337v1",
@@ -3863,7 +3941,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-22"
+      "first_detected": "2026-11-25"
     },
     {
       "id": "pmlr-kakimov26a",
@@ -3923,7 +4001,7 @@
         "Platform & Interface"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-22"
+      "first_detected": "2026-11-25"
     },
     {
       "id": "arxiv-2605.14021v2",
@@ -3953,7 +4031,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-22",
+      "first_detected": "2026-11-25",
       "domains": [
         "Politics, Government & News",
         "Commerce & Consumer"
@@ -4013,7 +4091,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-22"
+      "first_detected": "2026-11-25"
     },
     {
       "id": "arxiv-2604.27790v1",
@@ -4047,7 +4125,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-22"
+      "first_detected": "2026-11-25"
     },
     {
       "id": "arxiv-2604.25707v2",
@@ -4075,7 +4153,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-22"
+      "first_detected": "2026-11-25"
     },
     {
       "id": "arxiv-2603.29071v1",
@@ -4104,7 +4182,7 @@
         "SEO & Publishers"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-22"
+      "first_detected": "2026-11-25"
     },
     {
       "id": "arxiv-2603.16138v2",
@@ -4134,7 +4212,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-22",
+      "first_detected": "2026-11-25",
       "domains": [
         "Politics, Government & News"
       ]
@@ -4168,7 +4246,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-22"
+      "first_detected": "2026-11-25"
     },
     {
       "id": "arxiv-2602.18455v7",
@@ -4195,7 +4273,7 @@
         "SEO & Publishers"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-22"
+      "first_detected": "2026-11-25"
     },
     {
       "id": "arxiv-2601.22493v2",
@@ -4229,7 +4307,7 @@
         "Safety & Risk"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-22"
+      "first_detected": "2026-11-25"
     },
     {
       "id": "arxiv-2602.22221v2",
@@ -4261,7 +4339,7 @@
         "Safety & Risk"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-22"
+      "first_detected": "2026-11-25"
     },
     {
       "id": "arxiv-2512.02665v1",
@@ -4290,7 +4368,7 @@
         "Safety & Risk"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-22"
+      "first_detected": "2026-11-25"
     },
     {
       "id": "arxiv-2511.12920v4",
@@ -4324,7 +4402,7 @@
         "Platform & Interface"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-22",
+      "first_detected": "2026-11-25",
       "domains": [
         "Health & Medicine",
         "Science & Technology"
@@ -4357,7 +4435,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-22"
+      "first_detected": "2026-11-25"
     },
     {
       "id": "doi-10.2196-79961",
@@ -4418,7 +4496,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-22"
+      "first_detected": "2026-11-25"
     },
     {
       "id": "doi-10.3145-thinkepi.2025.e19a08",
