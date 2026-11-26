@@ -1,8 +1,38 @@
 {
-  "last_updated": "2026-11-25T14:16:56+08:00",
-  "new_in_latest_scan": 3,
+  "last_updated": "2026-11-26T14:08:34+08:00",
+  "new_in_latest_scan": 4,
   "scope": "All-domain Google AI Overviews / SGE research with multi-label application-domain classification.",
   "papers": [
+    {
+      "id": "doi-10.5281/zenodo.24514048",
+      "title": "Pre-Registration: A Generative Engine Optimization Framework for Personal Injury Law Firms",
+      "authors": [
+        "Bahzad Hussain"
+      ],
+      "date": "2026-11-25",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Preprint",
+      "doi": "10.5281/zenodo.24514048",
+      "record": "https://doi.org/10.5281/zenodo.24514048",
+      "pdf": "",
+      "abstract": "VERSION 2, amended 25 November 2026, still before any data collection. This revision expands the query design from 8 templates per market to 20, grouped into five practice-area clusters, and adds two hypotheses (H17, H18) that the expanded design makes testable. No data had been collected when the amendment was made, so no result influenced it. Version 1 remains publicly available and unaltered at https://doi.org/10.5281/zenodo.24514050, so the two can be compared directly. Section 10 of the plan records the amendment in full. This is a pre-registration, deposited before data collection. It contains no results. It records the hypotheses, measurement constructs, model specifications, and sample exclusion rules for a planned study of Generative Engine Optimization (GEO) in the US personal injury law vertical: approximately 10,000 law firm websites across 551 Census-derived markets, tested against AI citation outcomes on four separate AI surfaces (ChatGPT, Gemini, Google AI Overview, Google AI Mode). GEO, Answer Engine Optimization (AEO), and LLM Optimization (LLMO) are currently practitioner terms with no agreed definitions and no vertical-specific empirical base. This plan defines the three as distinct measurable constructs, specifies a five-layer framework (machine-readable foundation, entity verification, authority and evidence, brand demand, and citation surfaces), and commits in advance to eighteen directional hypotheses. Five of the eighteen hypotheses predict a null result and one predicts a negative result, each replicating an effect size already published in earlier papers of this series. Predicted nulls include llms.txt presence, declared AI-crawler blocking, Person Knowledge Panel presence, and star rating; Business Panel completeness is predicted to be negative. These predictions are recorded here so they cannot be revised after the data is seen. The query design deliberately over-weights the two highest-value case types in the vertical: the motor-vehicle-accident cluster carries eight templates and the medical-malpractice cluster six, against two for premises liability and three for the remaining personal injury long tail. Each firm therefore carries a practice-area cluster profile, which supports a question the earlier papers could not ask: whether AI citation behaviour differs between firms that surface on accident queries and those that surface on malpractice queries. The deposit also freezes the sampling frame (551 markets derived by rule from the US Census Bureau Vintage 2025 CBSA population estimates), the script that derives it, and the frozen query configuration, because both market tier and practice-area cluster are analysis dimensions in the planned study. The plan states in advance what result would falsify the framework, commits to fitting composite weights on a 60 percent training partition and reporting all predictive performance from an untouched 40 percent holdout, and commits to validating the vendor-reported AI citation instrument against real prompts on a 100-firm subsample and reporting that validation regardless of outcome. The resulting paper will report any deviation from this plan in a numbered deviations section. The author operates a commercial search-marketing practice serving the vertical under study.",
+      "levels": [
+        "Query",
+        "Citation"
+      ],
+      "domains": [
+        "Health & Medicine",
+        "Finance & Economics",
+        "Commerce & Consumer",
+        "Law & Public Policy"
+      ],
+      "topics": [
+        "SEO & Publishers",
+        "Citation & Provenance"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-11-26"
+    },
     {
       "id": "doi-10.5281/zenodo.24485664",
       "title": "Why Businesses Still Need SEO Agencies in the Era of Artificial Intelligence: The Changing Role of SEO in Search, Discovery, and Digital Growth",
@@ -28,7 +58,65 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-25"
+      "first_detected": "2026-11-26"
+    },
+    {
+      "id": "doi-10.14195/2183-5462_49_4",
+      "title": "Algorithmic mediation and AI in news consumption: captive audiences",
+      "authors": [
+        "Natalia Quintas‐Froufe",
+        "Ana González-Neira",
+        "Amparo Huertas Bailén"
+      ],
+      "date": "2026-11-24",
+      "venue": "Media & Jornalismo",
+      "type": "Article",
+      "doi": "10.14195/2183-5462_49_4",
+      "record": "https://doi.org/10.14195/2183-5462_49_4",
+      "pdf": "https://impactum-journals.uc.pt/mj/article/download/18334/13250",
+      "abstract": "The digital-environment has become the primary source of information within the contemporary media ecosystem. This study examines the impact of two Google services (Discover and AI Overviews) on the digital media landscape, with particular attention to their implications for the conceptualisation of the audience. Drawing on a literature review and interviews with audience managers from leading Spanish digital newspapers, the article analyses how these systems reconfigure the relationship between media organizations and the public. The findings point to a structural transformation of the media ecosystem, in which audiences become partially passive and captive. As increasingly widespread “news-find-me” practices (Robertson, 2026) align with an endless mobile scrolling dynamic and the growing integration of artificial intelligence, this form of digital mediation introduces multiple layers of interpretation and may distort individuals’ voluntary capacity to seek information.",
+      "levels": [
+        "Citation"
+      ],
+      "domains": [
+        "Politics, Government & News",
+        "Commerce & Consumer",
+        "Science & Technology"
+      ],
+      "topics": [
+        "Citation & Provenance"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-11-26"
+    },
+    {
+      "id": "doi-10.5281/zenodo.24494697",
+      "title": "AI Adoption in Indian Digital Marketing Agencies: Industry Trends, Survey Findings & Insights (2026)",
+      "authors": [
+        "Matebiz Matebiz Pvt Ltd"
+      ],
+      "date": "2026-11-24",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Report",
+      "doi": "10.5281/zenodo.24494697",
+      "record": "https://doi.org/10.5281/zenodo.24494697",
+      "pdf": "",
+      "abstract": "The AI Adoption in Indian Digital Marketing Agencies: Industry Trends, Survey Findings & Insights (2026) report explores how artificial intelligence is transforming India's digital marketing industry and reshaping the way agencies operate, deliver services, and drive business growth. Based on a 200-response reporting base, this research examines the adoption of AI technologies across digital marketing agencies, highlighting the tools being used, their integration into daily workflows, productivity improvements, business impact, and the emergence of new AI-powered services. The report covers several key areas, including: AI Adoption Trends: Understanding the current level of AI adoption among Indian digital marketing agencies. Popular AI Tools: Exploring the use of ChatGPT, Google Gemini, Claude, Perplexity, Canva AI, and other AI-powered platforms. Productivity and Efficiency: Examining how AI contributes to time savings and operational improvements. Business Growth and Impact: Understanding the reported influence of AI on agency performance and service delivery. AI-Powered Services: Analysing the growing adoption of AI SEO, AI content creation, AI website development, automation, and AI consulting. AI Search Optimization: Exploring how agencies are adapting their SEO strategies to emerging AI-powered search experiences. Adoption Challenges: Identifying concerns related to AI accuracy, data privacy, employee training, implementation costs, and workflow integration. The findings highlight the growing role of artificial intelligence in digital marketing while emphasizing the importance of human expertise, strategic thinking, quality control, and responsible AI implementation. This report is intended for digital marketing professionals, agency owners, business leaders, marketers, researchers, and technology enthusiasts interested in understanding the evolving AI landscape in India's digital marketing industry. Published by: MatebizWebsite: https://www.matebiz.com/Contact: sales@matebiz.comPublication Year: 2026",
+      "levels": [
+        "Content",
+        "Presentation"
+      ],
+      "domains": [
+        "Finance & Economics",
+        "Commerce & Consumer",
+        "Science & Technology"
+      ],
+      "topics": [
+        "SEO & Publishers",
+        "Technical Evaluation"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-11-26"
     },
     {
       "id": "doi-10.5281/zenodo.24459683",
@@ -54,7 +142,7 @@
         "Platform & Interface"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-25"
+      "first_detected": "2026-11-26"
     },
     {
       "id": "doi-10.5281/zenodo.24483993",
@@ -80,6 +168,35 @@
       ],
       "source": "OpenAlex",
       "first_detected": "2026-11-25"
+    },
+    {
+      "id": "doi-10.48550/arxiv.2611.30546",
+      "title": "Fetch, Read, Reuse: How AI Search Agents Bend the Web's Rules",
+      "authors": [
+        "Yixi Chen",
+        "Zafar A. Qazi",
+        "Marco Canini",
+        "Suhaib A. Fahmy"
+      ],
+      "date": "2026-11-23",
+      "venue": "arXiv",
+      "type": "Preprint",
+      "doi": "10.48550/arxiv.2611.30546",
+      "record": "https://doi.org/10.48550/arxiv.2611.30546",
+      "pdf": "",
+      "abstract": "AI search agents form a new and fast-growing class of web traffic. Like a browser, they fetch pages on demand for one user; like a transcoding proxy, they rewrite what they fetch; and like a shared cache, they answer other users' questions from the stored copy. The rules publishers rely on, such as robots.txt, Retry-After, and Cache-Control, were written for more familiar clients, so the agent's vendor decides which of them to follow. We present a black-box measurement study of how these agents fetch, read, and reuse pages, covering the search APIs of OpenAI, Anthropic, xAI, and Google and the consumer apps of ten services. We find that OpenAI and xAI do not honor robots.txt, and no service acts on Retry-After. Services silently read less than the origin served: OpenAI drops some formats, no service reads JavaScript-only content, and xAI reads only the first 0.5 MB of a page. OpenAI, Anthropic, and xAI share fetched pages across users and largely ignore Cache-Control, so answers can reflect outdated pages for 30 minutes to a day or more. Publishers therefore lack effective control: directives are advisory and followed selectively, describe the served page rather than the rewritten copy, and bound how long a copy is reused but not how many answers it serves. We release our code and data.",
+      "levels": [
+        "Citation",
+        "Presentation"
+      ],
+      "domains": [
+        "Commerce & Consumer"
+      ],
+      "topics": [
+        "SEO & Publishers"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-11-26"
     },
     {
       "id": "doi-10.5281/zenodo.24450064",
@@ -161,7 +278,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-25"
+      "first_detected": "2026-11-26"
     },
     {
       "id": "doi-10.5281/zenodo.24410472",
@@ -188,7 +305,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-25"
+      "first_detected": "2026-11-26"
     },
     {
       "id": "doi-10.5281/zenodo.24426669",
@@ -213,7 +330,7 @@
         "SEO & Publishers"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-25"
+      "first_detected": "2026-11-26"
     },
     {
       "id": "doi-10.6084/m9.figshare.35076703",
@@ -271,7 +388,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-25"
+      "first_detected": "2026-11-26"
     },
     {
       "id": "doi-10.5281/zenodo.24407318",
@@ -302,7 +419,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-25"
+      "first_detected": "2026-11-26"
     },
     {
       "id": "doi-10.6084/m9.figshare.35080753",
@@ -331,7 +448,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-25"
+      "first_detected": "2026-11-26"
     },
     {
       "id": "doi-10.5281/zenodo.24379377",
@@ -410,7 +527,7 @@
         "SEO & Publishers"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-25"
+      "first_detected": "2026-11-26"
     },
     {
       "id": "doi-10.5281/zenodo.24295237",
@@ -437,7 +554,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-25"
+      "first_detected": "2026-11-26"
     },
     {
       "id": "doi-10.5281/zenodo.24295201",
@@ -466,7 +583,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-25"
+      "first_detected": "2026-11-26"
     },
     {
       "id": "doi-10.5281/zenodo.24324593",
@@ -557,7 +674,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-25"
+      "first_detected": "2026-11-26"
     },
     {
       "id": "doi-10.5281/zenodo.24271012",
@@ -637,7 +754,7 @@
         "General AIO"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-25"
+      "first_detected": "2026-11-26"
     },
     {
       "id": "doi-10.48550/arxiv.2611.19655",
@@ -669,7 +786,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-25"
+      "first_detected": "2026-11-26"
     },
     {
       "id": "doi-10.5281/zenodo.24191025",
@@ -1001,7 +1118,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-25"
+      "first_detected": "2026-11-26"
     },
     {
       "id": "doi-10.5281/zenodo.23996780",
@@ -1580,7 +1697,7 @@
         "Safety & Risk"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-25"
+      "first_detected": "2026-11-26"
     },
     {
       "id": "arxiv-2610.40164v1",
@@ -1612,7 +1729,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-25"
+      "first_detected": "2026-11-26"
     },
     {
       "id": "doi-10.5281/zenodo.23740428",
@@ -2217,7 +2334,7 @@
         "General AIO"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-25"
+      "first_detected": "2026-11-26"
     },
     {
       "id": "doi-10.5281/zenodo.23405630",
@@ -3023,7 +3140,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-25"
+      "first_detected": "2026-11-26"
     },
     {
       "id": "doi-10.5281/zenodo.23028277",
@@ -3397,7 +3514,7 @@
         "Platform & Interface"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-25"
+      "first_detected": "2026-11-26"
     },
     {
       "id": "doi-10.5281/zenodo.22856034",
@@ -3520,7 +3637,7 @@
         "Platform & Interface"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-25"
+      "first_detected": "2026-11-26"
     },
     {
       "id": "doi-10.5281/zenodo.22707850",
@@ -3607,7 +3724,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-25"
+      "first_detected": "2026-11-26"
     },
     {
       "id": "doi-10.65150/ep-jsshrs/v2e9/2026-04",
@@ -3686,7 +3803,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-25"
+      "first_detected": "2026-11-26"
     },
     {
       "id": "arxiv-2608.29063v1",
@@ -3718,7 +3835,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-25"
+      "first_detected": "2026-11-26"
     },
     {
       "id": "arxiv-2608.18352v1",
@@ -3749,7 +3866,7 @@
         "User Behavior"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-25"
+      "first_detected": "2026-11-26"
     },
     {
       "id": "arxiv-2609.05463v1",
@@ -3777,7 +3894,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-25"
+      "first_detected": "2026-11-26"
     },
     {
       "id": "arxiv-2608.04831v1",
@@ -3808,7 +3925,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-25"
+      "first_detected": "2026-11-26"
     },
     {
       "id": "arxiv-2607.04282v3",
@@ -3836,7 +3953,7 @@
         "User Behavior"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-25"
+      "first_detected": "2026-11-26"
     },
     {
       "id": "arxiv-2607.03421v1",
@@ -3873,7 +3990,7 @@
         "Platform & Interface"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-25"
+      "first_detected": "2026-11-26"
     },
     {
       "id": "arxiv-2606.11337v1",
@@ -3941,7 +4058,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-25"
+      "first_detected": "2026-11-26"
     },
     {
       "id": "pmlr-kakimov26a",
@@ -4001,7 +4118,7 @@
         "Platform & Interface"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-25"
+      "first_detected": "2026-11-26"
     },
     {
       "id": "arxiv-2605.14021v2",
@@ -4031,7 +4148,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-25",
+      "first_detected": "2026-11-26",
       "domains": [
         "Politics, Government & News",
         "Commerce & Consumer"
@@ -4091,7 +4208,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-25"
+      "first_detected": "2026-11-26"
     },
     {
       "id": "arxiv-2604.27790v1",
@@ -4125,7 +4242,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-25"
+      "first_detected": "2026-11-26"
     },
     {
       "id": "arxiv-2604.25707v2",
@@ -4153,7 +4270,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-25"
+      "first_detected": "2026-11-26"
     },
     {
       "id": "arxiv-2603.29071v1",
@@ -4182,7 +4299,7 @@
         "SEO & Publishers"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-25"
+      "first_detected": "2026-11-26"
     },
     {
       "id": "arxiv-2603.16138v2",
@@ -4212,7 +4329,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-25",
+      "first_detected": "2026-11-26",
       "domains": [
         "Politics, Government & News"
       ]
@@ -4246,7 +4363,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-25"
+      "first_detected": "2026-11-26"
     },
     {
       "id": "arxiv-2602.18455v7",
@@ -4273,7 +4390,7 @@
         "SEO & Publishers"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-25"
+      "first_detected": "2026-11-26"
     },
     {
       "id": "arxiv-2601.22493v2",
@@ -4307,7 +4424,7 @@
         "Safety & Risk"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-25"
+      "first_detected": "2026-11-26"
     },
     {
       "id": "arxiv-2602.22221v2",
@@ -4339,7 +4456,7 @@
         "Safety & Risk"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-25"
+      "first_detected": "2026-11-26"
     },
     {
       "id": "arxiv-2512.02665v1",
@@ -4368,7 +4485,7 @@
         "Safety & Risk"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-25"
+      "first_detected": "2026-11-26"
     },
     {
       "id": "arxiv-2511.12920v4",
@@ -4402,7 +4519,7 @@
         "Platform & Interface"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-25",
+      "first_detected": "2026-11-26",
       "domains": [
         "Health & Medicine",
         "Science & Technology"
@@ -4435,7 +4552,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-25"
+      "first_detected": "2026-11-26"
     },
     {
       "id": "doi-10.2196-79961",
@@ -4496,7 +4613,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-25"
+      "first_detected": "2026-11-26"
     },
     {
       "id": "doi-10.3145-thinkepi.2025.e19a08",
