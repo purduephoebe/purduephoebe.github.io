@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-27T13:58:47+08:00",
-  "new_in_latest_scan": 1,
+  "last_updated": "2026-11-28T13:40:42+08:00",
+  "new_in_latest_scan": 3,
   "scope": "All-domain Google AI Overviews / SGE research with multi-label application-domain classification.",
   "papers": [
     {
@@ -31,7 +31,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-27"
+      "first_detected": "2026-11-28"
     },
     {
       "id": "doi-10.5281/zenodo.24541735",
@@ -67,7 +67,38 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-27"
+      "first_detected": "2026-11-28"
+    },
+    {
+      "id": "doi-10.5281/zenodo.24544181",
+      "title": "The Ground Has Shifted: Site-Wide Quality Evaluation and Cross-Departmental Governance in Generative Search",
+      "authors": [
+        "Felix Velasco",
+        "Unearth Works",
+        "Unearth Heritage Foundry"
+      ],
+      "date": "2026-11-25",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Preprint",
+      "doi": "10.5281/zenodo.24544181",
+      "record": "https://doi.org/10.5281/zenodo.24544181",
+      "pdf": "",
+      "abstract": "Corporate search visibility now rests on the conduct of the whole institution. Across commercial domains, site-wide quality classifiers and generated search summaries have ended the era in which a marketing department could secure search placement in isolation. National browsing records confirm that change. When a generated summary appears above standard search links, outbound clicks fall from 15 percent to 8 percent. Google's quality standards, federal endorsement and consumer review regulations, empirical retrieval benchmarks, and earned-media studies explain why high-volume publishing calendars have become domain-wide liabilities. Page volume now depresses entire domains. Durable visibility in generative search aligns editorial operations, independent press coverage, named practitioner expertise, and archive governance under one institutional standard. Keywords: Generative Engine Optimization, Search Engine Optimization, E-E-A-T, Helpful Content System, Scaled Content Abuse, Site Reputation Abuse, AI Overviews, Zero-Click Search, Organizational Silos, Public Relations, Earned Media, Brand Authority, Customer Reviews, FTC Endorsement Guides, FTC Fake Review Rule, Core Web Vitals, Structured Data, JSON-LD, Content Pruning, Archive Governance",
+      "levels": [
+        "Citation",
+        "Presentation"
+      ],
+      "domains": [
+        "Finance & Economics",
+        "Commerce & Consumer",
+        "Law & Public Policy"
+      ],
+      "topics": [
+        "User Behavior",
+        "Technical Evaluation"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-11-28"
     },
     {
       "id": "doi-10.5281/zenodo.24485664",
@@ -94,7 +125,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-27"
+      "first_detected": "2026-11-28"
     },
     {
       "id": "doi-10.14195/2183-5462_49_4",
@@ -123,7 +154,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-27"
+      "first_detected": "2026-11-28"
     },
     {
       "id": "doi-10.5281/zenodo.24494697",
@@ -152,7 +183,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-27"
+      "first_detected": "2026-11-28"
     },
     {
       "id": "doi-10.5281/zenodo.24459683",
@@ -178,7 +209,7 @@
         "Platform & Interface"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-27"
+      "first_detected": "2026-11-28"
     },
     {
       "id": "doi-10.5281/zenodo.24483993",
@@ -232,7 +263,7 @@
         "SEO & Publishers"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-27"
+      "first_detected": "2026-11-28"
     },
     {
       "id": "doi-10.5281/zenodo.24450064",
@@ -314,7 +345,7 @@
         "Citation & Provenance"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-27"
+      "first_detected": "2026-11-28"
     },
     {
       "id": "doi-10.5281/zenodo.24410472",
@@ -341,7 +372,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-27"
+      "first_detected": "2026-11-28"
     },
     {
       "id": "doi-10.5281/zenodo.24426669",
@@ -366,7 +397,7 @@
         "SEO & Publishers"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-27"
+      "first_detected": "2026-11-28"
     },
     {
       "id": "doi-10.6084/m9.figshare.35076703",
@@ -424,7 +455,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-27"
+      "first_detected": "2026-11-28"
     },
     {
       "id": "doi-10.5281/zenodo.24407318",
@@ -455,7 +486,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-27"
+      "first_detected": "2026-11-28"
     },
     {
       "id": "doi-10.6084/m9.figshare.35080753",
@@ -484,7 +515,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-27"
+      "first_detected": "2026-11-28"
     },
     {
       "id": "doi-10.5281/zenodo.24379377",
@@ -822,7 +853,7 @@
         "Technical Evaluation"
       ],
       "source": "OpenAlex",
-      "first_detected": "2026-11-27"
+      "first_detected": "2026-11-28"
     },
     {
       "id": "doi-10.5281/zenodo.24191025",
@@ -1154,7 +1185,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-27"
+      "first_detected": "2026-11-28"
     },
     {
       "id": "doi-10.5281/zenodo.23996780",
@@ -1733,7 +1764,7 @@
         "Safety & Risk"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-27"
+      "first_detected": "2026-11-28"
     },
     {
       "id": "arxiv-2610.40164v1",
@@ -1765,7 +1796,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-27"
+      "first_detected": "2026-11-28"
     },
     {
       "id": "doi-10.5281/zenodo.23740428",
@@ -2347,32 +2378,6 @@
       "first_detected": "2026-10-21"
     },
     {
-      "id": "doi-10.5281/zenodo.23411615",
-      "title": "Google's AI Search Revolution: What Minnesota Businesses and Outdoor Brands Need to Know",
-      "authors": [
-        "David Ohnstad"
-      ],
-      "date": "2026-10-16",
-      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
-      "type": "Article",
-      "doi": "10.5281/zenodo.23411615",
-      "record": "https://doi.org/10.5281/zenodo.23411615",
-      "pdf": "",
-      "abstract": "Google's AI Search Revolution: What Minnesota Businesses and Outdoor Brands Need to Know If you run a Minnesota business—especially in outdoor recreation, tourism, or local services—you've probably noticed something shift in how Google Search works over the past year. Google's new generative AI search features, particularly AI Overviews (formerly called SGE, or Search Generative Experience),… Continue reading Google's AI Search Revolution: What Minnesota Businesses and Outdoor Brands Need to Know Full article: https://davidohnstadminnesota.com/googles-new-generative-ai-search/",
-      "levels": [
-        "Content"
-      ],
-      "domains": [
-        "Commerce & Consumer",
-        "Travel, Local & Lifestyle"
-      ],
-      "topics": [
-        "General AIO"
-      ],
-      "source": "OpenAlex",
-      "first_detected": "2026-11-27"
-    },
-    {
       "id": "doi-10.5281/zenodo.23405630",
       "title": "What Is Associated with Being Cited in AI Answers? Page, Domain and Query Features on Google AI Overviews, Google AI Mode, Perplexity and Yandex Alice, Russian-Language Queries, October 2026",
       "authors": [
@@ -2687,6 +2692,36 @@
       "first_detected": "2026-10-11"
     },
     {
+      "id": "doi-10.2991/978-94-6239-789-7_52",
+      "title": "A Multi-Layered Framework for Visual Search Optimization via Deep Learning-Based Semantic Clustering",
+      "authors": [
+        "Madhulika Singh",
+        "Satender Kumar",
+        "Arun Kumar"
+      ],
+      "date": "2026-10-08",
+      "venue": "Advances in intelligent systems research/Advances in Intelligent Systems Research",
+      "type": "Book-Chapter",
+      "doi": "10.2991/978-94-6239-789-7_52",
+      "record": "https://doi.org/10.2991/978-94-6239-789-7_52",
+      "pdf": "https://www.atlantis-press.com/article/126027930.pdf",
+      "abstract": "Background: As search engine architectures transition from heuristic keyword-matching to AI-driven semantic interpretation, small-scale enterprises in high-competition niches face increasing barriers to visibility. Modern search agents, utilizing Deep Learning models such as BERT and Vision AI, now prioritize ontological depth and cross-domain authority signals. Problem: Existing Search Engine Optimization (SEO) research is predominantly situated within a single-domain paradigm, leaving a significant theoretical and practical gap in how multi-domain networks can be leveraged to satisfy the Expertise, Authoritativeness, and Trustworthiness (E-E-A-T) requirements of AI-driven search ecosystems. Methodology: This research proposes the Network Image Cluster (NIC) model, a tri-layered architectural framework designed to achieve High-density topical coverage through Infrastructural latency optimization, Ontological mapping and contextual embedding, and multi-node graph synthesis. The model was validated through a longitudinal, two-phase quasi-experimental design over a 12-week period. Utilizing a “greenfield” approach to isolate variables, the study deployed the framework across two newly registered educational platforms targeting overlapping semantic clusters in the Indian preschool and primary education sectors. Findings: Empirical results demonstrate the transformative efficacy of the NIC model. Technical optimizations (Layer 1) yielded a +125% increase in Google PageSpeed performance (43 to 97; t ( 10 ) = 8.4 , p < 0.001 ), while semantic clustering (Layer 2) drove a +228% increase in organic sessions ( p < 0.01 ) duration. Crucially, the network strategy (Layer 3) resulted in a +600% growth in visual search clicks and the occupation of 20-40% of first-page SERP real estate, effectively creating a “Defensible architectural authority” that suppressed traditional single-domain competitors. Conclusion/Significance: This study introduces the “Network Content Cluster” as a novel theoretical construct, offering a scalable and cost-effective roadmap for achieving Aggregated network influence in the digital landscape. The findings provide a blueprint for shifting from defensive SEO postures to offensive “Coordinated multi-node optimization,” ensuring resilience against the emerging Search Generative Experience (SGE).",
+      "levels": [
+        "Citation",
+        "Presentation"
+      ],
+      "domains": [
+        "Education & Academia",
+        "Science & Technology"
+      ],
+      "topics": [
+        "SEO & Publishers",
+        "User Behavior"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-11-28"
+    },
+    {
       "id": "doi-10.1016/j.ipm.2026.105211",
       "title": "From search results to generative answers: A mixed-methods study of credibility assessment and trust formation in AI Overviews",
       "authors": [
@@ -2779,36 +2814,6 @@
       ],
       "source": "OpenAlex",
       "first_detected": "2026-10-11"
-    },
-    {
-      "id": "doi-10.2991/978-94-6239-789-7_52",
-      "title": "A Multi-Layered Framework for Visual Search Optimization via Deep Learning-Based Semantic Clustering",
-      "authors": [
-        "Madhulika Singh",
-        "Satender Kumar",
-        "Arun Kumar"
-      ],
-      "date": "2026-10-07",
-      "venue": "Advances in intelligent systems research/Advances in Intelligent Systems Research",
-      "type": "Book-Chapter",
-      "doi": "10.2991/978-94-6239-789-7_52",
-      "record": "https://doi.org/10.2991/978-94-6239-789-7_52",
-      "pdf": "https://www.atlantis-press.com/article/126027930.pdf",
-      "abstract": "Background: As search engine architectures transition from heuristic keyword-matching to AI-driven semantic interpretation, small-scale enterprises in high-competition niches face increasing barriers to visibility.Modern search agents, utilizing Deep Learning models such as BERT and Vision AI, now prioritize ontological depth and cross-domain authority signals.Problem: Existing Search Engine Optimization (SEO) research is predominantly situated within a single-domain paradigm, leaving a significant theoretical and practical gap in how multi-domain networks can be leveraged to satisfy the Expertise, Authoritativeness, and Trustworthiness (E-E-A-T) requirements of AI-driven search ecosystems.Methodology: This research proposes the Network Image Cluster (NIC) model, a tri-layered architectural framework designed to achieve High-density topical coverage through Infrastructural latency optimization, Ontological mapping and contextual embedding, and multi-node graph synthesis.The model was validated through a longitudinal, two-phase quasi-experimental design over a 12-week period.Utilizing a \"greenfield\" approach to isolate variables, the study deployed the framework across two newly registered educational platforms targeting overlapping semantic clusters in the Indian preschool and primary education sectors.Findings: Empirical results demonstrate the transformative efficacy of the NIC model.Technical optimizations (Layer 1) yielded a +125% increase in Google PageSpeed performance (43 to 97; 𝑡(10) = 8.4, 𝑝 < 0.001), while semantic clustering (Layer 2) drove a +228% increase in organic sessions (𝑝 < 0.01) duration.Crucially, the network strategy (Layer 3) resulted in a +600% growth in visual search clicks and the occupation of 20-40% of first-page SERP real estate, effectively creating a \"Defensible architectural authority\" that suppressed traditional single-domain competitors.Conclusion/Significance: This study introduces the \"Network Content Cluster\" as a novel theoretical construct, offering a scalable and cost-effective roadmap for achieving Aggregated network influence in the digital landscape.The findings provide a blueprint for shifting from defensive SEO postures to offensive \"Coordinated multi-node optimization,\" ensuring resilience against the emerging Search Generative Experience (SGE).",
-      "levels": [
-        "Citation",
-        "Presentation"
-      ],
-      "domains": [
-        "Education & Academia",
-        "Science & Technology"
-      ],
-      "topics": [
-        "SEO & Publishers",
-        "User Behavior"
-      ],
-      "source": "OpenAlex",
-      "first_detected": "2026-11-18"
     },
     {
       "id": "doi-10.6084/m9.figshare.34094295",
@@ -3176,7 +3181,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-27"
+      "first_detected": "2026-11-28"
     },
     {
       "id": "doi-10.5281/zenodo.23028277",
@@ -3550,7 +3555,7 @@
         "Platform & Interface"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-27"
+      "first_detected": "2026-11-28"
     },
     {
       "id": "doi-10.5281/zenodo.22856034",
@@ -3673,7 +3678,7 @@
         "Platform & Interface"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-27"
+      "first_detected": "2026-11-28"
     },
     {
       "id": "doi-10.5281/zenodo.22707850",
@@ -3760,7 +3765,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-27"
+      "first_detected": "2026-11-28"
     },
     {
       "id": "doi-10.65150/ep-jsshrs/v2e9/2026-04",
@@ -3839,7 +3844,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-27"
+      "first_detected": "2026-11-28"
     },
     {
       "id": "arxiv-2608.29063v1",
@@ -3871,7 +3876,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-27"
+      "first_detected": "2026-11-28"
     },
     {
       "id": "arxiv-2608.18352v1",
@@ -3902,7 +3907,7 @@
         "User Behavior"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-27"
+      "first_detected": "2026-11-28"
     },
     {
       "id": "arxiv-2609.05463v1",
@@ -3930,7 +3935,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-27"
+      "first_detected": "2026-11-28"
     },
     {
       "id": "arxiv-2608.04831v1",
@@ -3961,7 +3966,58 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-27"
+      "first_detected": "2026-11-28"
+    },
+    {
+      "id": "doi-10.5281/zenodo.21783755",
+      "title": "Google's AI Search Revolution: What Minnesota Businesses and Outdoor Brands Need to Know",
+      "authors": [
+        "David Ohnstad"
+      ],
+      "date": "2026-08-04",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "Article",
+      "doi": "10.5281/zenodo.21783755",
+      "record": "https://doi.org/10.5281/zenodo.21783755",
+      "pdf": "",
+      "abstract": "Google's AI Search Revolution: What Minnesota Businesses and Outdoor Brands Need to Know If you run a Minnesota business—especially in outdoor recreation, tourism, or local services—you've probably noticed something shift in how Google Search works over the past year. Google's new generative AI search features, particularly AI Overviews (formerly called SGE, or Search Generative Experience),… Continue reading Google's AI Search Revolution: What Minnesota Businesses and Outdoor Brands Need to Know Full article: https://davidohnstadminnesota.com/googles-new-generative-ai-search/",
+      "levels": [
+        "Content"
+      ],
+      "domains": [
+        "Commerce & Consumer",
+        "Travel, Local & Lifestyle"
+      ],
+      "topics": [
+        "General AIO"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-11-28"
+    },
+    {
+      "id": "doi-10.24412/2411-0450-2026-4-65-73",
+      "title": "ВЛИЯНИЕ ИСКУССТВЕННОГО ИНТЕЛЛЕКТА НА ПОИСКОВУЮ ВЫДАЧУ GOOGLE: ТРАНСФОРМАЦИЯ ПАТТЕРНОВ ПОТРЕБЛЕНИЯ КОНТЕНТА",
+      "authors": [
+        "Я. Е. Витушкин"
+      ],
+      "date": "2026-07-06",
+      "venue": "cyberleninka.ru",
+      "type": "Article",
+      "doi": "10.24412/2411-0450-2026-4-65-73",
+      "record": "https://doi.org/10.24412/2411-0450-2026-4-65-73",
+      "pdf": "",
+      "abstract": "В статье рассматривается влияние генеративного искусственного интеллекта на поисковую выдачу Google, а также актуальная трансформация паттернов потребления цифрового контента. Цель исследования – описать ключевые технологические и экономические эффекты внедрения SGE и AI Overviews, сопоставив глобальные метрики с кейсом zembaron.ru, что задаёт междисциплинарную новизну работы. Показано, что генеративный поиск ведёт к каннибализации органического трафика, росту «нулевых кликов» и кризису традиционного SEO, требуя перехода к парадигме GEO и усиления роли принципов E-E-A-T. Статья будет полезна исследователям цифровых медиа, специалистам по поисковому маркетингу и владельцам экспертных онлайн-проектов.",
+      "levels": [
+        "Presentation"
+      ],
+      "domains": [
+        "General / Cross-domain"
+      ],
+      "topics": [
+        "SEO & Publishers"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-11-28"
     },
     {
       "id": "arxiv-2607.04282v3",
@@ -3989,7 +4045,7 @@
         "User Behavior"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-27"
+      "first_detected": "2026-11-28"
     },
     {
       "id": "arxiv-2607.03421v1",
@@ -4026,7 +4082,37 @@
         "Platform & Interface"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-27"
+      "first_detected": "2026-11-28"
+    },
+    {
+      "id": "doi-10.67231/jr22cv71",
+      "title": "Generative Engine Optimization: A Three-Layer Semantic Framework for Content Visibility in AI-Powered Search",
+      "authors": [
+        "Guruprasath Sankaran"
+      ],
+      "date": "2026-06-30",
+      "venue": "International Journal of Artificial Intelligence and Agent Systems",
+      "type": "Article",
+      "doi": "10.67231/jr22cv71",
+      "record": "https://doi.org/10.67231/jr22cv71",
+      "pdf": "https://journals.femington.com/ijaias/article/download/845/75",
+      "abstract": "The emergence of generative search engines (GES), including ChatGPT Search, Perplexity AI, and Google SGE, has transformed information retrieval by generating synthesized answers rather than ranked hyperlinks. Consequently, traditional Search Engine Optimization (SEO) is becoming less effective due to declining organic click-through rates and the growth of zero-click searches. This paper introduces Generative Engine Optimization (GEO), a systematic framework for improving content visibility within AI-generated responses. We propose a three-layer semantic visibility model consisting of Semantic Anchoring (clear topical organization), Context Triggering (semantic coverage through synonyms and domain-specific terminology), and Pragmatic Recomposition (modular, extractable content using FAQs, lists, and standalone facts). The framework is implemented using static HTML, Schema.org JSON-LD markup, and a semantic mesh architecture. GEO is evaluated through two real-world case studies: a commercial course review page (SOYA). The study investigates how semantic structuring influences citation visibility, the contribution of each semantic layer, and when GEO outperforms authority-based SEO signals. Results show citation rates increasing from 0% to 77.1% across ChatGPT and Perplexity despite poor traditional search rankings, while SEO rankings alone failed to produce generative citations. Five quantitative metrics are introduced to assess GEO readiness and guide optimization for AI-driven search.",
+      "levels": [
+        "Query",
+        "Citation",
+        "Presentation"
+      ],
+      "domains": [
+        "Commerce & Consumer"
+      ],
+      "topics": [
+        "SEO & Publishers",
+        "User Behavior",
+        "Citation & Provenance",
+        "Technical Evaluation"
+      ],
+      "source": "OpenAlex",
+      "first_detected": "2026-11-28"
     },
     {
       "id": "arxiv-2606.11337v1",
@@ -4094,7 +4180,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-27"
+      "first_detected": "2026-11-28"
     },
     {
       "id": "pmlr-kakimov26a",
@@ -4154,7 +4240,7 @@
         "Platform & Interface"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-27"
+      "first_detected": "2026-11-28"
     },
     {
       "id": "arxiv-2605.14021v2",
@@ -4184,7 +4270,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-27",
+      "first_detected": "2026-11-28",
       "domains": [
         "Politics, Government & News",
         "Commerce & Consumer"
@@ -4244,7 +4330,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-27"
+      "first_detected": "2026-11-28"
     },
     {
       "id": "arxiv-2604.27790v1",
@@ -4278,7 +4364,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-27"
+      "first_detected": "2026-11-28"
     },
     {
       "id": "arxiv-2604.25707v2",
@@ -4306,7 +4392,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-27"
+      "first_detected": "2026-11-28"
     },
     {
       "id": "arxiv-2603.29071v1",
@@ -4335,7 +4421,7 @@
         "SEO & Publishers"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-27"
+      "first_detected": "2026-11-28"
     },
     {
       "id": "arxiv-2603.16138v2",
@@ -4365,7 +4451,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-27",
+      "first_detected": "2026-11-28",
       "domains": [
         "Politics, Government & News"
       ]
@@ -4399,7 +4485,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-27"
+      "first_detected": "2026-11-28"
     },
     {
       "id": "arxiv-2602.18455v7",
@@ -4426,7 +4512,7 @@
         "SEO & Publishers"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-27"
+      "first_detected": "2026-11-28"
     },
     {
       "id": "arxiv-2601.22493v2",
@@ -4460,7 +4546,7 @@
         "Safety & Risk"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-27"
+      "first_detected": "2026-11-28"
     },
     {
       "id": "arxiv-2602.22221v2",
@@ -4492,7 +4578,7 @@
         "Safety & Risk"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-27"
+      "first_detected": "2026-11-28"
     },
     {
       "id": "arxiv-2512.02665v1",
@@ -4521,7 +4607,7 @@
         "Safety & Risk"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-27"
+      "first_detected": "2026-11-28"
     },
     {
       "id": "arxiv-2511.12920v4",
@@ -4555,7 +4641,7 @@
         "Platform & Interface"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-27",
+      "first_detected": "2026-11-28",
       "domains": [
         "Health & Medicine",
         "Science & Technology"
@@ -4588,7 +4674,7 @@
         "Technical Evaluation"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-27"
+      "first_detected": "2026-11-28"
     },
     {
       "id": "doi-10.2196-79961",
@@ -4649,7 +4735,7 @@
         "Citation & Provenance"
       ],
       "source": "arXiv",
-      "first_detected": "2026-11-27"
+      "first_detected": "2026-11-28"
     },
     {
       "id": "doi-10.3145-thinkepi.2025.e19a08",
